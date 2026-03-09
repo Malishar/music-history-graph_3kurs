@@ -1,0 +1,126 @@
+import React from 'react';
+
+const FilterPanel = ({ activeFilters, onFilterChange, onReset }) => {
+  const filterTypes = [
+    { id: 'influence', label: 'Влияние', color: '#ff9ff3' },
+    { id: 'same_era', label: 'Одна эпоха', color: '#feca57' },
+    { id: 'same_genre', label: 'Один жанр', color: '#48dbfb' },
+    { id: 'members', label: 'Общие участники', color: '#9b59b6' }
+  ];
+
+  return (
+    <div style={{
+      position: 'absolute',
+      top: '10px',
+      right: '10px',
+      background: 'rgba(255, 255, 255, 0.95)',
+      padding: '15px',
+      borderRadius: '10px',
+      boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+      zIndex: 1000,
+      minWidth: '200px',
+      border: '2px solid #c41e3a'
+    }}>
+      <h3 style={{ 
+        margin: '0 0 15px 0', 
+        fontSize: '16px',
+        color: '#c41e3a',
+        borderBottom: '2px solid #c41e3a',
+        paddingBottom: '5px',
+        fontWeight: 'bold'
+      }}>
+        ФИЛЬТРЫ СВЯЗЕЙ
+      </h3>
+      
+      {filterTypes.map(filter => (
+        <label key={filter.id} style={{
+          display: 'flex',
+          alignItems: 'center',
+          marginBottom: '12px',
+          cursor: 'pointer',
+          fontSize: '14px',
+          padding: '3px 0'
+        }}>
+          <input
+            type="checkbox"
+            checked={activeFilters[filter.id]}
+            onChange={(e) => onFilterChange(filter.id, e.target.checked)}
+            style={{
+              marginRight: '10px',
+              accentColor: filter.color,
+              width: '16px',
+              height: '16px',
+              cursor: 'pointer'
+            }}
+          />
+          <span style={{
+            display: 'inline-block',
+            width: '14px',
+            height: '14px',
+            backgroundColor: filter.color,
+            borderRadius: '3px',
+            marginRight: '10px'
+          }}></span>
+          <span style={{ flex: 1, fontWeight: activeFilters[filter.id] ? 'bold' : 'normal' }}>
+            {filter.label}
+          </span>
+        </label>
+      ))}
+      
+      <div style={{
+        marginTop: '15px',
+        paddingTop: '10px',
+        borderTop: '1px solid #eee',
+        display: 'flex',
+        justifyContent: 'space-between',
+        gap: '10px'
+      }}>
+        <button 
+          onClick={() => {
+            Object.keys(activeFilters).forEach(key => onFilterChange(key, true));
+          }}
+          style={{
+            background: '#c41e3a',
+            color: 'white',
+            border: 'none',
+            borderRadius: '5px',
+            padding: '8px 12px',
+            fontSize: '13px',
+            cursor: 'pointer',
+            flex: 1,
+            fontWeight: 'bold'
+          }}
+        >
+          ВСЕ
+        </button>
+        <button 
+          onClick={onReset}
+          style={{
+            background: '#666',
+            color: 'white',
+            border: 'none',
+            borderRadius: '5px',
+            padding: '8px 12px',
+            fontSize: '13px',
+            cursor: 'pointer',
+            flex: 1,
+            fontWeight: 'bold'
+          }}
+        >
+          СБРОС
+        </button>
+      </div>
+      
+      <div style={{
+        marginTop: '10px',
+        fontSize: '12px',
+        color: '#666',
+        textAlign: 'center'
+      }}>
+        Активно: {Object.values(activeFilters).filter(Boolean).length} из 4
+      </div>
+    </div>
+  );
+};
+
+export default FilterPanel;
