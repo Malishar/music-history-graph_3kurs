@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FilterPanel = ({ activeFilters, onFilterChange, onReset }) => {
+const FilterPanel = ({ activeFilters, onFilterChange, onClearAll }) => {
   const filterTypes = [
     { id: 'influence', label: 'Влияние', color: '#ff9ff3' },
     { id: 'same_era', label: 'Одна эпоха', color: '#feca57' },
@@ -11,8 +11,8 @@ const FilterPanel = ({ activeFilters, onFilterChange, onReset }) => {
   return (
     <div style={{
       position: 'absolute',
-      top: '10px',
-      right: '10px',
+      bottom: '20px',        // ← было top: '10px', стало bottom: '20px'
+      left: '20px',           // ← было right: '10px', стало left: '20px'
       background: 'rgba(255, 255, 255, 0.95)',
       padding: '15px',
       borderRadius: '10px',
@@ -46,22 +46,17 @@ const FilterPanel = ({ activeFilters, onFilterChange, onReset }) => {
             checked={activeFilters[filter.id]}
             onChange={(e) => onFilterChange(filter.id, e.target.checked)}
             style={{
-              marginRight: '10px',
+              marginRight: '12px',
               accentColor: filter.color,
               width: '16px',
               height: '16px',
               cursor: 'pointer'
             }}
           />
-          <span style={{
-            display: 'inline-block',
-            width: '14px',
-            height: '14px',
-            backgroundColor: filter.color,
-            borderRadius: '3px',
-            marginRight: '10px'
-          }}></span>
-          <span style={{ flex: 1, fontWeight: activeFilters[filter.id] ? 'bold' : 'normal' }}>
+          <span style={{ 
+            color: '#000000',
+            fontWeight: activeFilters[filter.id] ? 'bold' : 'normal'
+          }}>
             {filter.label}
           </span>
         </label>
@@ -94,7 +89,9 @@ const FilterPanel = ({ activeFilters, onFilterChange, onReset }) => {
           ВСЕ
         </button>
         <button 
-          onClick={onReset}
+          onClick={() => {
+            Object.keys(activeFilters).forEach(key => onFilterChange(key, false));
+          }}
           style={{
             background: '#666',
             color: 'white',
