@@ -6,20 +6,19 @@ export const bandsData = {
       { 
         name: "Abbey Road", 
         year: 1969, 
-        cover: "/images/albums/beatles/abbey-road.jpg",
+        cover: "/images/albums/the-beatles/abbey-road.jpg",
         tracks: [
-          "Come Together", "Something", "Maxwell's Silver Hammer", 
-          "Oh! Darling", "Octopus's Garden", "I Want You (She's So Heavy)",
-          "Here Comes the Sun", "Because", "You Never Give Me Your Money",
-          "Sun King", "Mean Mr. Mustard", "Polythene Pam",
-          "She Came In Through the Bathroom Window", "Golden Slumbers",
+          "Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling",
+          "Octopus's Garden", "I Want You (She's So Heavy)", "Here Comes the Sun",
+          "Because", "You Never Give Me Your Money", "Sun King", "Mean Mr. Mustard",
+          "Polythene Pam", "She Came In Through the Bathroom Window", "Golden Slumbers",
           "Carry That Weight", "The End", "Her Majesty"
         ]
       },
       { 
         name: "Sgt. Pepper's Lonely Hearts Club Band", 
         year: 1967, 
-        cover: "/images/albums/beatles/sgt-pepper.jpg",
+        cover: "/images/albums/the-beatles/sgt-pepper.jpg",
         tracks: [
           "Sgt. Pepper's Lonely Hearts Club Band", "With a Little Help from My Friends",
           "Lucy in the Sky with Diamonds", "Getting Better", "Fixing a Hole",
@@ -32,7 +31,7 @@ export const bandsData = {
       { 
         name: "Revolver", 
         year: 1966, 
-        cover: "/images/albums/beatles/revolver.jpg",
+        cover: "/images/albums/the-beatles/revolver.jpg",
         tracks: [
           "Taxman", "Eleanor Rigby", "I'm Only Sleeping", "Love You To",
           "Here, There and Everywhere", "Yellow Submarine", "She Said She Said",
@@ -40,17 +39,43 @@ export const bandsData = {
           "Doctor Robert", "I Want to Tell You", "Got to Get You into My Life",
           "Tomorrow Never Knows"
         ]
+      },
+      { 
+        name: "Rubber Soul", 
+        year: 1965, 
+        cover: "/images/albums/the-beatles/rubber-soul.jpg",
+        tracks: [
+          "Drive My Car", "Norwegian Wood (This Bird Has Flown)", "You Won't See Me",
+          "Nowhere Man", "Think for Yourself", "The Word", "Michelle",
+          "What Goes On", "Girl", "I'm Looking Through You", "In My Life",
+          "Wait", "If I Needed Someone", "Run for Your Life"
+        ]
+      },
+      { 
+        name: "The Beatles (White Album)", 
+        year: 1968, 
+        cover: "/images/albums/the-beatles/white-album.jpg",
+        tracks: [
+          "Back in the U.S.S.R.", "Dear Prudence", "Glass Onion", "Ob-La-Di, Ob-La-Da",
+          "Wild Honey Pie", "The Continuing Story of Bungalow Bill", "While My Guitar Gently Weeps",
+          "Happiness Is a Warm Gun", "Martha My Dear", "I'm So Tired", "Blackbird",
+          "Piggies", "Rocky Raccoon", "Don't Pass Me By", "Why Don't We Do It in the Road?",
+          "I Will", "Julia", "Birthday", "Yer Blues", "Mother Nature's Son",
+          "Everybody's Got Something to Hide Except Me and My Monkey", "Sexy Sadie",
+          "Helter Skelter", "Long, Long, Long", "Revolution 1", "Honey Pie",
+          "Savoy Truffle", "Cry Baby Cry", "Revolution 9", "Good Night"
+        ]
       }
     ],
     members: [
-      { name: "John Lennon", role: "вокал, гитара", years: "1960-1970", current: false },
-      { name: "Paul McCartney", role: "вокал, бас", years: "1960-1970", current: false },
-      { name: "George Harrison", role: "гитара", years: "1960-1970", current: false },
-      { name: "Ringo Starr", role: "ударные", years: "1962-1970", current: false },
-      { name: "Pete Best", role: "ударные", years: "1960-1962", current: false },
-      { name: "Stuart Sutcliffe", role: "бас", years: "1960-1961", current: false }
+      { name: "John Lennon", role: "вокал, гитара, клавишные", years: "1960-1970", current: false, image: "/images/members/the-beatles/john-lennon.jpg" },
+      { name: "Paul McCartney", role: "вокал, бас-гитара, клавишные", years: "1960-1970", current: false, image: "/images/members/the-beatles/paul-mccartney.jpg" },
+      { name: "George Harrison", role: "гитара, вокал, ситар", years: "1960-1970", current: false, image: "/images/members/the-beatles/george-harrison.jpg" },
+      { name: "Ringo Starr", role: "ударные, вокал", years: "1962-1970", current: false, image: "/images/members/the-beatles/ringo-starr.jpg" },
+      { name: "Pete Best", role: "ударные", years: "1960-1962", current: false, image: "/images/members/the-beatles/pete-best.jpg" },
+      { name: "Stuart Sutcliffe", role: "бас-гитара", years: "1960-1961", current: false, image: "/images/members/the-beatles/stuart-sutcliffe.jpg" }
     ],
-    bio: "Легендарная британская рок-группа из Ливерпуля, основанная в 1960 году. Самая успешная группа в истории музыки, оказавшая огромное влияние на развитие рок-культуры."
+    bio: "Легендарная британская рок-группа из Ливерпуля, основанная в 1960 году. The Beatles считаются самой успешной и влиятельной группой в истории музыки. За свою десятилетнюю карьеру они выпустили 13 студийных альбомов, которые изменили представление о популярной музыке. Группа начинала с простых рок-н-ролльных песен в стиле 'бит', но быстро эволюционировала, экспериментируя с различными жанрами: психоделический рок, фолк, индийская музыка, хард-рок. Альбомы Rubber Soul (1965) и Revolver (1966) ознаменовали переход к более сложным текстам и студийным экспериментам. Sgt. Pepper's Lonely Hearts Club Band (1967) считается одним из величайших альбомов всех времён. The Beatles также были пионерами в области видеоклипов и концептуальных альбомов. После распада в 1970 году каждый участник продолжил успешную сольную карьеру. Джон Леннон был убит в 1980 году, Джордж Харрисон умер от рака в 2001. Пол Маккартни и Ринго Старр продолжают выступать и записываться по сей день."
   },
 
   "The Rolling Stones": {
@@ -58,7 +83,7 @@ export const bandsData = {
       { 
         name: "Sticky Fingers", 
         year: 1971, 
-        cover: "/images/albums/rolling-stones/sticky-fingers.jpg",
+        cover: "/images/albums/the-rolling-stones/sticky-fingers.jpg",
         tracks: [
           "Brown Sugar", "Sway", "Wild Horses", "Can't You Hear Me Knocking",
           "You Gotta Move", "Bitch", "I Got the Blues", "Sister Morphine",
@@ -68,7 +93,7 @@ export const bandsData = {
       { 
         name: "Exile on Main St.", 
         year: 1972, 
-        cover: "/images/albums/rolling-stones/exile.jpg",
+        cover: "/images/albums/the-rolling-stones/exile.jpg",
         tracks: [
           "Rocks Off", "Rip This Joint", "Shake Your Hips", "Casino Boogie",
           "Tumbling Dice", "Sweet Virginia", "Torn and Frayed", "Sweet Black Angel",
@@ -76,18 +101,255 @@ export const bandsData = {
           "I Just Want to See His Face", "Let It Loose", "All Down the Line",
           "Stop Breaking Down", "Shine a Light", "Soul Survivor"
         ]
+      },
+      { 
+        name: "Let It Bleed", 
+        year: 1969, 
+        cover: "/images/albums/the-rolling-stones/let-it-bleed.jpg",
+        tracks: [
+          "Gimme Shelter", "Love in Vain", "Country Honk", "Live with Me",
+          "Let It Bleed", "Midnight Rambler", "You Got the Silver", "Monkey Man",
+          "You Can't Always Get What You Want"
+        ]
+      },
+      { 
+        name: "Beggars Banquet", 
+        year: 1968, 
+        cover: "/images/albums/the-rolling-stones/beggars-banquet.jpg",
+        tracks: [
+          "Sympathy for the Devil", "No Expectations", "Dear Doctor", "Parachute Woman",
+          "Jigsaw Puzzle", "Street Fighting Man", "Prodigal Son", "Stray Cat Blues",
+          "Factory Girl", "Salt of the Earth"
+        ]
+      },
+      { 
+        name: "Some Girls", 
+        year: 1978, 
+        cover: "/images/albums/the-rolling-stones/some-girls.jpg",
+        tracks: [
+          "Miss You", "When the Whip Comes Down", "Just My Imagination (Running Away with Me)",
+          "Some Girls", "Lies", "Far Away Eyes", "Respectable", "Before They Make Me Run",
+          "Beast of Burden", "Shattered"
+        ]
       }
     ],
     members: [
-      { name: "Mick Jagger", role: "вокал", years: "1962-наст.", current: true },
-      { name: "Keith Richards", role: "гитара", years: "1962-наст.", current: true },
-      { name: "Ronnie Wood", role: "гитара", years: "1975-наст.", current: true },
-      { name: "Charlie Watts", role: "ударные", years: "1963-2021", current: false },
-      { name: "Bill Wyman", role: "бас", years: "1962-1993", current: false },
-      { name: "Brian Jones", role: "гитара", years: "1962-1969", current: false },
-      { name: "Mick Taylor", role: "гитара", years: "1969-1974", current: false }
+      { name: "Mick Jagger", role: "вокал, губная гармошка", years: "1962-наст.", current: true, image: "/images/members/the-rolling-stones/mick-jagger.jpg" },
+      { name: "Keith Richards", role: "гитара, вокал", years: "1962-наст.", current: true, image: "/images/members/the-rolling-stones/keith-richards.jpg" },
+      { name: "Ronnie Wood", role: "гитара", years: "1975-наст.", current: true, image: "/images/members/the-rolling-stones/ronnie-wood.jpg" },
+      { name: "Charlie Watts", role: "ударные", years: "1963-2021", current: false, image: "/images/members/the-rolling-stones/charlie-watts.jpg" },
+      { name: "Bill Wyman", role: "бас-гитара", years: "1962-1993", current: false, image: "/images/members/the-rolling-stones/bill-wyman.jpg" },
+      { name: "Brian Jones", role: "гитара, губная гармошка", years: "1962-1969", current: false, image: "/images/members/the-rolling-stones/brian-jones.jpg" },
+      { name: "Mick Taylor", role: "гитара", years: "1969-1974", current: false, image: "/images/members/the-rolling-stones/mick-taylor.jpg" },
+      { name: "Ian Stewart", role: "клавишные", years: "1962-1985", current: false, image: "/images/members/the-rolling-stones/ian-stewart.jpg" }
     ],
-    bio: "Британская рок-группа, образованная в 1962 году. Одна из самых успешных и влиятельных групп в истории рок-музыки, соперничавшая с The Beatles за звание лучшей группы мира."
+    bio: "Британская рок-группа, образованная в 1962 году в Лондоне. The Rolling Stones — одна из самых успешных и влиятельных групп в истории рок-музыки, главные соперники The Beatles за звание 'величайшей рок-группы мира'. В отличие от The Beatles, Stones сохранили более сырое, блюзовое звучание и имидж 'плохих парней'. Основанная Брайаном Джонсом, Миком Джаггером и Китом Ричардсом, группа быстро стала лидером британского рока. После смерти Джонса в 1969 году, группа продолжила с гитаристом Миком Тейлором, а затем с Ронни Вудом. Золотая эра Stones пришлась на конец 60-х — начало 70-х с альбомами Beggars Banquet (1968), Let It Bleed (1969), Sticky Fingers (1971) и Exile on Main St. (1972). Группа известна хитами (I Can't Get No) Satisfaction, Paint It Black, Sympathy for the Devil, Gimme Shelter, Angie, Start Me Up и многими другими. The Rolling Stones продолжают выступать и записываться по сей день, несмотря на смерть барабанщика Чарли Уоттса в 2021 году. Они продали более 240 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 1989 году."
+  }, 
+
+  "The Who": {
+    albums: [
+      { 
+        name: "Tommy", 
+        year: 1969, 
+        cover: "/images/albums/the-who/tommy.jpg",
+        tracks: [
+          "Overture", "It's a Boy", "1921", "Amazing Journey", "Sparks",
+          "The Hawker", "Christmas", "Cousin Kevin", "The Acid Queen",
+          "Underture", "Do You Think It's Alright?", "Fiddle About",
+          "Pinball Wizard", "There's a Doctor", "Go to the Mirror!",
+          "Tommy Can You Hear Me?", "Smash the Mirror", "Sensation",
+          "Miracle Cure", "Sally Simpson", "I'm Free", "Welcome",
+          "Tommy's Holiday Camp", "We're Not Gonna Take It"
+        ]
+      },
+      { 
+        name: "Who's Next", 
+        year: 1971, 
+        cover: "/images/albums/the-who/whos-next.jpg",
+        tracks: [
+          "Baba O'Riley", "Bargain", "Love Ain't for Keeping", "My Wife",
+          "The Song Is Over", "Getting in Tune", "Going Mobile", "Behind Blue Eyes",
+          "Won't Get Fooled Again"
+        ]
+      },
+      { 
+        name: "Quadrophenia", 
+        year: 1973, 
+        cover: "/images/albums/the-who/quadrophenia.jpg",
+        tracks: [
+          "I Am the Sea", "The Real Me", "Quadrophenia", "Cut My Hair",
+          "The Punk and the Godfather", "I'm One", "The Dirty Jobs",
+          "Helpless Dancer", "Is It in My Head?", "I've Had Enough",
+          "5:15", "Sea and Sand", "Drowned", "Bell Boy", "Doctor Jimmy",
+          "The Rock", "Love, Reign o'er Me"
+        ]
+      },
+      { 
+        name: "My Generation", 
+        year: 1965, 
+        cover: "/images/albums/the-who/my-generation.jpg",
+        tracks: [
+          "Out in the Street", "I Don't Mind", "The Good's Gone", "La-La-La-Lies",
+          "Much Too Much", "My Generation", "The Kids Are Alright", "Please, Please, Please",
+          "It's Not True", "I'm a Man", "A Legal Matter", "The Ox"
+        ]
+      },
+      { 
+        name: "The Who Sell Out", 
+        year: 1967, 
+        cover: "/images/albums/the-who/sell-out.jpg",
+        tracks: [
+          "Armenia City in the Sky", "Heinz Baked Beans", "Mary Anne with the Shaky Hand",
+          "Odorono", "Tattoo", "Our Love Was", "I Can See for Miles",
+          "I Can't Reach You", "Medac", "Relax", "Silas Stingy", "Sunrise",
+          "Rael", "Track Records"
+        ]
+      }
+    ],
+    members: [
+      { name: "Roger Daltrey", role: "вокал", years: "1964-наст.", current: true, image: "/images/members/the-who/roger-daltrey.jpg" },
+      { name: "Pete Townshend", role: "гитара, клавишные, вокал", years: "1964-наст.", current: true, image: "/images/members/the-who/pete-townshend.jpg" },
+      { name: "John Entwistle", role: "бас-гитара, вокал", years: "1964-2002", current: false, image: "/images/members/the-who/john-entwistle.jpg" },
+      { name: "Keith Moon", role: "ударные", years: "1964-1978", current: false, image: "/images/members/the-who/keith-moon.jpg" },
+      { name: "Kenney Jones", role: "ударные", years: "1978-1988", current: false, image: "/images/members/the-who/kenney-jones.jpg" },
+      { name: "Zak Starkey", role: "ударные", years: "1996-наст.", current: true, image: "/images/members/the-who/zak-starkey.jpg" }
+    ],
+    bio: "Британская рок-группа, образованная в 1964 году в Лондоне. The Who считаются одной из самых влиятельных групп в истории рока, наряду с The Beatles и The Rolling Stones. Они известны своими энергичными выступлениями, разрушением инструментов на сцене (особенно Питом Таунсендом и Китом Муном) и концептуальными альбомами. Группа стала пионером в жанре рок-оперы с альбомом Tommy (1969) и создала один из величайших альбомов всех времён Who's Next (1971) с хитами Baba O'Riley и Won't Get Fooled Again. Их музыка сочетает агрессивный рок, мелодичные вокальные партии Роджера Долтри, виртуозную бас-гитару Джона Энтвисла и безумные ударные Кита Муна. После смерти Муна в 1978 и Энтвисла в 2002, группа продолжает выступать с Роджером Долтри и Питом Таунсендом, а также сессионными музыкантами. The Who продали более 100 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 1990 году."
+  },
+
+  "The Kinks": {
+    albums: [
+      { 
+        name: "The Kinks Are the Village Green Preservation Society", 
+        year: 1968, 
+        cover: "/images/albums/the-kinks/village-green.jpg",
+        tracks: [
+          "The Village Green Preservation Society", "Do You Remember Walter?",
+          "Picture Book", "Johnny Thunder", "Last of the Steam-Powered Trains",
+          "Big Sky", "Sitting by the Riverside", "Animal Farm", "Village Green",
+          "Starstruck", "Phenomenal Cat", "People Take Pictures of Each Other",
+          "Days", "Mr. Songbird", "Polly", "Wonderboy", "Berkeley Mews"
+        ]
+      },
+      { 
+        name: "Something Else by The Kinks", 
+        year: 1967, 
+        cover: "/images/albums/the-kinks/something-else.jpg",
+        tracks: [
+          "David Watts", "Death of a Clown", "Two Sisters", "No Return",
+          "Harry Rag", "Tin Soldier Man", "Situation Vacant", "Love Me Till the Sun Shines",
+          "Lazy Old Sun", "Afternoon Tea", "Funny Face", "End of the Season", "Waterloo Sunset"
+        ]
+      },
+      { 
+        name: "Arthur (Or the Decline and Fall of the British Empire)", 
+        year: 1969, 
+        cover: "/images/albums/the-kinks/arthur.jpg",
+        tracks: [
+          "Victoria", "Yes Sir, No Sir", "Some Mother's Son", "Drivin'",
+          "Brainwashed", "Australia", "Shangri-La", "Mr. Churchill Says",
+          "She's Bought a Hat Like Princess Marina", "Young and Innocent Days",
+          "Nothing to Say", "Arthur"
+        ]
+      },
+      { 
+        name: "Lola Versus Powerman and the Moneygoround, Part One", 
+        year: 1970, 
+        cover: "/images/albums/the-kinks/lola.jpg",
+        tracks: [
+          "The Contenders", "Strangers", "Denmark Street", "Get Back in Line",
+          "Lola", "Top of the Pops", "The Moneygoround", "This Time Tomorrow",
+          "A Long Way from Home", "Rats", "Apeman", "Powerman", "Got to Be Free"
+        ]
+      },
+      { 
+        name: "Muswell Hillbillies", 
+        year: 1971, 
+        cover: "/images/albums/the-kinks/muswell-hillbillies.jpg",
+        tracks: [
+          "20th Century Man", "Acute Schizophrenia Paranoia Blues", "Holiday",
+          "Skin and Bone", "Alcohol", "Complicated Life", "Here Come the People in Grey",
+          "Have a Cuppa Tea", "Holloway Jail", "Oklahoma U.S.A.", "Uncle Son",
+          "Muswell Hillbilly", "Mountain Woman"
+        ]
+      }
+    ],
+    members: [
+      { name: "Ray Davies", role: "вокал, гитара, клавишные", years: "1963-наст.", current: true, image: "/images/members/the-kinks/ray-davies.jpg" },
+      { name: "Dave Davies", role: "гитара, вокал", years: "1963-наст.", current: true, image: "/images/members/the-kinks/dave-davies.jpg" },
+      { name: "Mick Avory", role: "ударные", years: "1964-1984, 2023-наст.", current: true, image: "/images/members/the-kinks/mick-avory.jpg" },
+      { name: "Pete Quaife", role: "бас-гитара", years: "1963-1969", current: false, image: "/images/members/the-kinks/pete-quaife.jpg" },
+      { name: "John Dalton", role: "бас-гитара", years: "1969-1976", current: false, image: "/images/members/the-kinks/john-dalton.jpg" },
+      { name: "John Gosling", role: "клавишные", years: "1970-1978", current: false, image: "/images/members/the-kinks/john-gosling.jpg" },
+      { name: "Andy Pyle", role: "бас-гитара", years: "1976-1978", current: false, image: "/images/members/the-kinks/andy-pyle.jpg" },
+      { name: "Jim Rodford", role: "бас-гитара", years: "1978-1996", current: false, image: "/images/members/the-kinks/jim-rodford.jpg" },
+      { name: "Bob Henrit", role: "ударные", years: "1984-1996", current: false, image: "/images/members/the-kinks/bob-henrit.jpg" },
+      { name: "Ian Gibbons", role: "клавишные", years: "1979-1989, 1993-1996", current: false, image: "/images/members/the-kinks/ian-gibbons.jpg" }
+    ],
+    bio: "Британская рок-группа, образованная в 1963 году в Лондоне братьями Рэем и Дэйвом Дэвисами. The Kinks считаются одной из самых влиятельных групп британского вторжения, наряду с The Beatles, The Rolling Stones и The Who. Они известны своим уникальным звучанием, сочетающим энергичный рок-н-ролл, музыкальные эксперименты и остроумные, часто ироничные тексты Рэя Дэвиса, описывающие британскую жизнь и культуру. Группа стала пионерами хард-рока с риффом из You Really Got Me (1964) и создала один из величайших альбомов всех времён The Kinks Are the Village Green Preservation Society (1968). Их музыка повлияла на развитие глэм-рока, панк-рока и брит-попа. В 70-х группа создала серию концептуальных альбомов и театрализованных шоу. The Kinks продали более 50 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 1990 году. Несмотря на долгие перерывы и напряжённые отношения между братьями, группа продолжает периодически воссоединяться. Их песня Waterloo Sunset считается одной из лучших песен о Лондоне."
+  },
+
+  "The Doors": {
+    albums: [
+      { 
+        name: "The Doors", 
+        year: 1967, 
+        cover: "/images/albums/the-doors/the-doors.jpg",
+        tracks: [
+          "Break On Through (To the Other Side)", "Soul Kitchen", "The Crystal Ship",
+          "Twentieth Century Fox", "Alabama Song (Whisky Bar)", "Light My Fire",
+          "Back Door Man", "I Looked at You", "End of the Night", "Take It as It Comes",
+          "The End"
+        ]
+      },
+      { 
+        name: "Strange Days", 
+        year: 1967, 
+        cover: "/images/albums/the-doors/strange-days.jpg",
+        tracks: [
+          "Strange Days", "You're Lost Little Girl", "Love Me Two Times", "Moonlight Drive",
+          "People Are Strange", "My Eyes Have Seen You", "I Can't See Your Face in My Mind",
+          "When the Music's Over", "Horse Latitudes"
+        ]
+      },
+      { 
+        name: "Waiting for the Sun", 
+        year: 1968, 
+        cover: "/images/albums/the-doors/waiting-for-the-sun.jpg",
+        tracks: [
+          "Hello, I Love You", "Love Street", "Not to Touch the Earth", "Summer's Almost Gone",
+          "Wintertime Love", "The Unknown Soldier", "Spanish Caravan", "My Wild Love",
+          "We Could Be So Good Together", "Yes, the River Knows", "Five to One"
+        ]
+      },
+      { 
+        name: "Morrison Hotel", 
+        year: 1970, 
+        cover: "/images/albums/the-doors/morrison-hotel.jpg",
+        tracks: [
+          "Roadhouse Blues", "Waiting for the Sun", "You Make Me Real", "Peace Frog",
+          "Blue Sunday", "Ship of Fools", "Land Ho!", "The Spy", "Queen of the Highway",
+          "Indian Summer", "Maggie M'Gill"
+        ]
+      },
+      { 
+        name: "L.A. Woman", 
+        year: 1971, 
+        cover: "/images/albums/the-doors/la-woman.jpg",
+        tracks: [
+          "The Changeling", "Love Her Madly", "Been Down So Long", "Cars Hiss by My Window",
+          "L.A. Woman", "L'America", "Hyacinth House", "Crawling King Snake",
+          "The WASP (Texas Radio and the Big Beat)", "Riders on the Storm"
+        ]
+      }
+    ],
+    members: [
+      { name: "Jim Morrison", role: "вокал, поэзия", years: "1965-1971", current: false, image: "/images/members/the-doors/jim-morrison.jpg" },
+      { name: "Ray Manzarek", role: "клавишные", years: "1965-1971", current: false, image: "/images/members/the-doors/ray-manzarek.jpg" },
+      { name: "Robbie Krieger", role: "гитара", years: "1965-1971", current: false, image: "/images/members/the-doors/robbie-krieger.jpg" },
+      { name: "John Densmore", role: "ударные", years: "1965-1971", current: false, image: "/images/members/the-doors/john-densmore.jpg" }
+    ],
+    bio: "Американская рок-группа из Лос-Анджелеса, образованная в 1965 году. The Doors стали одной из самых противоречивых и влиятельных групп эпохи благодаря харизматичному вокалисту Джиму Моррисону, поэтичным текстам и уникальному звучанию без бас-гитары (её заменяли клавишные Рэя Манзарека). Их дебютный альбом The Doors (1967) с хитом Light My Fire принёс им мгновенную славу. Группа известна своими психоделическими, блюзовыми и театральными элементами, а также скандальными выступлениями Моррисона. После смерти Моррисона в 1971 году в возрасте 27 лет, группа выпустила ещё два альбома, но распалась в 1973. The Doors продали более 100 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 1993 году."
   },
 
   "Pink Floyd": {
@@ -97,7 +359,7 @@ export const bandsData = {
         year: 1973, 
         cover: "/images/albums/pink-floyd/dark-side.jpg",
         tracks: [
-          "Speak to Me", "Breathe", "On the Run", "Time", "The Great Gig in the Sky",
+          "Speak to Me", "Breathe (In the Air)", "On the Run", "Time", "The Great Gig in the Sky",
           "Money", "Us and Them", "Any Colour You Like", "Brain Damage", "Eclipse"
         ]
       },
@@ -115,16 +377,423 @@ export const bandsData = {
           "The Show Must Go On", "In the Flesh", "Run Like Hell", "Waiting for the Worms",
           "Stop", "The Trial", "Outside the Wall"
         ]
+      },
+      { 
+        name: "Wish You Were Here", 
+        year: 1975, 
+        cover: "/images/albums/pink-floyd/wish-you-were-here.jpg",
+        tracks: [
+          "Shine On You Crazy Diamond (Parts I-V)", "Welcome to the Machine",
+          "Have a Cigar", "Wish You Were Here", "Shine On You Crazy Diamond (Parts VI-IX)"
+        ]
+      },
+      { 
+        name: "Animals", 
+        year: 1977, 
+        cover: "/images/albums/pink-floyd/animals.jpg",
+        tracks: [
+          "Pigs on the Wing (Part 1)", "Dogs", "Pigs (Three Different Ones)", "Sheep", "Pigs on the Wing (Part 2)"
+        ]
+      },
+      { 
+        name: "The Piper at the Gates of Dawn", 
+        year: 1967, 
+        cover: "/images/albums/pink-floyd/piper.jpg",
+        tracks: [
+          "Astronomy Domine", "Lucifer Sam", "Matilda Mother", "Flaming", "Pow R. Toc H.",
+          "Take Up Thy Stethoscope and Walk", "Interstellar Overdrive", "The Gnome",
+          "Chapter 24", "The Scarecrow", "Bike"
+        ]
       }
     ],
     members: [
-      { name: "Roger Waters", role: "бас, вокал", years: "1965-1985, 2005", current: false },
-      { name: "David Gilmour", role: "гитара, вокал", years: "1967-1995, 2005", current: false },
-      { name: "Nick Mason", role: "ударные", years: "1965-1995, 2005", current: false },
-      { name: "Richard Wright", role: "клавиши", years: "1965-1979, 1987-1995, 2005", current: false },
-      { name: "Syd Barrett", role: "гитара, вокал", years: "1965-1968", current: false }
+      { name: "Roger Waters", role: "бас-гитара, вокал", years: "1965-1985, 2005", current: false, image: "/images/members/pink-floyd/roger-waters.jpg" },
+      { name: "David Gilmour", role: "гитара, вокал", years: "1967-1996, 2005, 2014", current: false, image: "/images/members/pink-floyd/david-gilmour.jpg" },
+      { name: "Nick Mason", role: "ударные", years: "1965-1996, 2005, 2014", current: false, image: "/images/members/pink-floyd/nick-mason.jpg" },
+      { name: "Richard Wright", role: "клавишные", years: "1965-1979, 1987-1996, 2005", current: false, image: "/images/members/pink-floyd/richard-wright.jpg" },
+      { name: "Syd Barrett", role: "гитара, вокал", years: "1965-1968", current: false, image: "/images/members/pink-floyd/syd-barrett.jpg" }
     ],
-    bio: "Британская прогрессив-рок группа, известная своими концептуальными альбомами, философскими текстами и уникальными звуковыми экспериментами."
+    bio: "Британская прогрессив-рок группа, образованная в 1965 году в Кембридже. Pink Floyd считаются одной из самых коммерчески успешных и влиятельных групп в истории рок-музыки. Они известны своими концептуальными альбомами, философскими текстами, сложными музыкальными структурами и уникальными звуковыми экспериментами. Группа начинала с психоделического рока под руководством Сида Барретта, но после его ухода в 1968 году эволюционировала в сторону прогрессив-рока. Альбомы The Dark Side of the Moon (1973), Wish You Were Here (1975) и The Wall (1979) считаются шедеврами жанра. The Dark Side of the Moon провёл в чартах 937 недель (более 18 лет). После ухода Роджера Уотерса в 1985, группа продолжила с Дэвидом Гилмором и выпустила ещё несколько альбомов. Pink Floyd продали более 250 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 1996 году."
+  },
+
+  "The Beach Boys": {
+    albums: [
+      { 
+        name: "Pet Sounds", 
+        year: 1966, 
+        cover: "/images/albums/the-beach-boys/pet-sounds.jpg",
+        tracks: [
+          "Wouldn't It Be Nice", "You Still Believe in Me", "That's Not Me",
+          "Don't Talk (Put Your Head on My Shoulder)", "I'm Waiting for the Day",
+          "Let's Go Away for Awhile", "Sloop John B", "God Only Knows",
+          "I Know There's an Answer", "Here Today", "I Just Wasn't Made for These Times",
+          "Pet Sounds", "Caroline, No"
+        ]
+      },
+      { 
+        name: "Smiley Smile", 
+        year: 1967, 
+        cover: "/images/albums/the-beach-boys/smiley-smile.jpg",
+        tracks: [
+          "Heroes and Villains", "Vegetables", "Fall Breaks and Back to Winter",
+          "She's Goin' Bald", "Little Pad", "Good Vibrations", "With Me Tonight",
+          "Wind Chimes", "Gettin' Hungry", "Wonderful", "Whistle In"
+        ]
+      },
+      { 
+        name: "Surfin' Safari", 
+        year: 1962, 
+        cover: "/images/albums/the-beach-boys/surfin-safari.jpg",
+        tracks: [
+          "Surfin' Safari", "County Fair", "Ten Little Indians", "Chug-A-Lug",
+          "Little Girl (You're My Miss America)", "409", "Surfin'", "Heads You Win, Tails I Lose",
+          "Summertime Blues", "Cuckoo Clock", "The Shift", "Surfin' Safari (alternate)"
+        ]
+      },
+      { 
+        name: "Surfin' U.S.A.", 
+        year: 1963, 
+        cover: "/images/albums/the-beach-boys/surfin-usa.jpg",
+        tracks: [
+          "Surfin' U.S.A.", "Farmer's Daughter", "Misirlou", "Stoked", "Lonely Sea",
+          "Shut Down", "Noble Surfer", "Honky Tonk", "Lana", "Surf Jam", "Let's Go Trippin'"
+        ]
+      },
+      { 
+        name: "Today!", 
+        year: 1965, 
+        cover: "/images/albums/the-beach-boys/today.jpg",
+        tracks: [
+          "Do You Wanna Dance?", "Good to My Baby", "Don't Hurt My Little Sister",
+          "When I Grow Up (To Be a Man)", "Help Me, Rhonda", "Dance, Dance, Dance",
+          "Please Let Me Wonder", "I'm So Young", "Kiss Me, Baby", "She Knows Me Too Well",
+          "In the Back of My Mind", "Bull Session with the 'Big Daddy'"
+        ]
+      }
+    ],
+    members: [
+      { name: "Brian Wilson", role: "бас-гитара, клавишные, вокал", years: "1961-наст.", current: true, image: "/images/members/the-beach-boys/brian-wilson.jpg" },
+      { name: "Dennis Wilson", role: "ударные, вокал", years: "1961-1983", current: false, image: "/images/members/the-beach-boys/dennis-wilson.jpg" },
+      { name: "Carl Wilson", role: "гитара, вокал", years: "1961-1998", current: false, image: "/images/members/the-beach-boys/carl-wilson.jpg" },
+      { name: "Mike Love", role: "вокал", years: "1961-наст.", current: true, image: "/images/members/the-beach-boys/mike-love.jpg" },
+      { name: "Al Jardine", role: "гитара, вокал", years: "1961-наст.", current: true, image: "/images/members/the-beach-boys/al-jardine.jpg" },
+      { name: "David Marks", role: "гитара", years: "1962-1963, 2012-наст.", current: true, image: "/images/members/the-beach-boys/david-marks.jpg" },
+      { name: "Bruce Johnston", role: "клавишные, вокал", years: "1965-наст.", current: true, image: "/images/members/the-beach-boys/bruce-johnston.jpg" }
+    ],
+    bio: "Американская рок-группа, образованная в 1961 году в Калифорнии. The Beach Boys стали одной из самых коммерчески успешных групп 60-х, популяризировав сёрф-рок с трёхголосными гармониями и текстами о пляжах, машинах и девушках. Под руководством гениального композитора и продюсера Брайана Уилсона группа эволюционировала от простых песен о сёрфинге к сложным студийным экспериментам. Альбом Pet Sounds (1966) считается одним из величайших альбомов всех времён и оказал огромное влияние на The Beatles при создании Sgt. Pepper. Песня Good Vibrations стала одним из самых сложных и дорогих синглов своего времени. Трагедии преследовали группу: Деннис Уилсон утонул в 1983, Карл Уилсон умер от рака в 1998, а Брайан Уилсон долгие годы боролся с психическими заболеваниями. The Beach Boys продали более 100 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 1988 году."
+  },
+
+  "The Velvet Underground": {
+    albums: [
+      { 
+        name: "The Velvet Underground & Nico", 
+        year: 1967, 
+        cover: "/images/albums/the-velvet-underground/velvet-underground-nico.jpg",
+        tracks: [
+          "Sunday Morning", "I'm Waiting for the Man", "Femme Fatale", "Venus in Furs",
+          "Run Run Run", "All Tomorrow's Parties", "Heroin", "There She Goes Again",
+          "I'll Be Your Mirror", "The Black Angel's Death Song", "European Son"
+        ]
+      },
+      { 
+        name: "White Light/White Heat", 
+        year: 1968, 
+        cover: "/images/albums/the-velvet-underground/white-light-white-heat.jpg",
+        tracks: [
+          "White Light/White Heat", "The Gift", "Lady Godiva's Operation",
+          "Here She Comes Now", "I Heard Her Call My Name", "Sister Ray"
+        ]
+      },
+      { 
+        name: "The Velvet Underground", 
+        year: 1969, 
+        cover: "/images/albums/the-velvet-underground/velvet-underground.jpg",
+        tracks: [
+          "Candy Says", "What Goes On", "Some Kinda Love", "Pale Blue Eyes",
+          "Jesus", "Beginning to See the Light", "I'm Set Free", "That's the Story of My Life",
+          "The Murder Mystery", "After Hours"
+        ]
+      },
+      { 
+        name: "Loaded", 
+        year: 1970, 
+        cover: "/images/albums/the-velvet-underground/loaded.jpg",
+        tracks: [
+          "Who Loves the Sun", "Sweet Jane", "Rock & Roll", "Cool It Down",
+          "New Age", "Head Held High", "Lonesome Cowboy Bill", "I Found a Reason",
+          "Train Round the Bend", "Oh! Sweet Nuthin'"
+        ]
+      },
+      { 
+        name: "Squeeze", 
+        year: 1973, 
+        cover: "/images/albums/the-velvet-underground/squeeze.jpg",
+        tracks: [
+          "Little Jack", "Crash", "Caroline", "Mean Old Man", "Dopey Joe",
+          "Wordless", "She'll Make You Cry", "Friends", "Send No Letter", "Jack & Jane"
+        ]
+      }
+    ],
+    members: [
+      { name: "Lou Reed", role: "вокал, гитара", years: "1965-1970, 1990-1993", current: false, image: "/images/members/the-velvet-underground/lou-reed.jpg" },
+      { name: "John Cale", role: "бас-гитара, альт, клавишные", years: "1965-1968, 1990-1993", current: false, image: "/images/members/the-velvet-underground/john-cale.jpg" },
+      { name: "Sterling Morrison", role: "гитара", years: "1965-1971", current: false, image: "/images/members/the-velvet-underground/sterling-morrison.jpg" },
+      { name: "Maureen 'Moe' Tucker", role: "ударные", years: "1965-1971, 1990-1993", current: false, image: "/images/members/the-velvet-underground/maureen-tucker.jpg" },
+      { name: "Nico", role: "вокал", years: "1966-1967", current: false, image: "/images/members/the-velvet-underground/nico.jpg" },
+      { name: "Doug Yule", role: "бас-гитара, клавишные, вокал", years: "1968-1971", current: false, image: "/images/members/the-velvet-underground/doug-yule.jpg" }
+    ],
+    bio: "Американская рок-группа из Нью-Йорка, образованная в 1964 году. The Velvet Underground считаются одной из самых влиятельных групп в истории альтернативного рока, хотя при жизни они не имели коммерческого успеха. Под руководством поэта и музыканта Лу Рида и классически образованного мультиинструменталиста Джона Кейла, группа создала звучание, сочетающее гаражный рок, авангардные эксперименты и мрачные, провокационные тексты о наркотиках, садомазохизме и маргиналах общества. Их дебютный альбом The Velvet Underground & Nico (1967), спродюсированный художником Энди Уорхолом и с обложкой с бананом, стал одним из самых влиятельных альбомов в истории. Брайан Ино сказал: 'Первая пластинка Velvet Underground разошлась тиражом всего 30 000 копий, но каждый, кто её купил, создал свою группу'. После ухода Кейла в 1968, группа выпустила ещё три альбома в более мягком стиле, но распалась в 1973. Лу Рид и Джон Кейл продолжили успешные сольные карьеры."
+  },
+
+  "Cream": {
+    albums: [
+      { 
+        name: "Fresh Cream", 
+        year: 1966, 
+        cover: "/images/albums/cream/fresh-cream.jpg",
+        tracks: [
+          "N.S.U.", "Sleepy Time Time", "Dreaming", "Sweet Wine", "Spoonful",
+          "Cat's Squirrel", "Four Until Late", "Rollin' and Tumblin'", "I'm So Glad",
+          "Toad", "The Coffee Song"
+        ]
+      },
+      { 
+        name: "Disraeli Gears", 
+        year: 1967, 
+        cover: "/images/albums/cream/disraeli-gears.jpg",
+        tracks: [
+          "Strange Brew", "Sunshine of Your Love", "World of Pain", "Dance the Night Away",
+          "Blue Condition", "Tales of Brave Ulysses", "SWLABR", "We're Going Wrong",
+          "Outside Woman Blues", "Take It Back", "Mother's Lament"
+        ]
+      },
+      { 
+        name: "Wheels of Fire", 
+        year: 1968, 
+        cover: "/images/albums/cream/wheels-of-fire.jpg",
+        tracks: [
+          "White Room", "Sitting on Top of the World", "Passing the Time", "As You Said",
+          "Pressed Rat and Warthog", "Politician", "Those Were the Days", "Born Under a Bad Sign",
+          "Deserted Cities of the Heart", "Crossroads", "Spoonful", "Traintime", "Toad"
+        ]
+      },
+      { 
+        name: "Goodbye", 
+        year: 1969, 
+        cover: "/images/albums/cream/goodbye.jpg",
+        tracks: [
+          "I'm So Glad", "Politician", "Sitting on Top of the World", "Badge",
+          "Doing That Scrapyard Thing", "What a Bringdown", "Anyone for Tennis"
+        ]
+      },
+      { 
+        name: "Live Cream", 
+        year: 1970, 
+        cover: "/images/albums/cream/live-cream.jpg",
+        tracks: [
+          "N.S.U.", "Sleepy Time Time", "Sweet Wine", "Rollin' and Tumblin'",
+          "Lawdy Mama", "Strange Brew", "Tales of Brave Ulysses"
+        ]
+      }
+    ],
+    members: [
+      { name: "Eric Clapton", role: "гитара, вокал", years: "1966-1968", current: false, image: "/images/members/cream/eric-clapton.jpg" },
+      { name: "Jack Bruce", role: "бас-гитара, вокал", years: "1966-1968", current: false, image: "/images/members/cream/jack-bruce.jpg" },
+      { name: "Ginger Baker", role: "ударные", years: "1966-1968", current: false, image: "/images/members/cream/ginger-baker.jpg" }
+    ],
+    bio: "Британская рок-супергруппа, образованная в 1966 году. Cream стали первой супергруппой в истории рока, объединив трёх виртуозных музыкантов: гитариста Эрика Клэптона (экс-Yardbirds), басиста и вокалиста Джека Брюса (экс-Graham Bond Organisation) и барабанщика Гингера Бейкера (экс-Graham Bond Organisation). Группа считается пионером хард-рока и хэви-метала, сочетая блюз, психоделию и джазовые импровизации. Их мощное, громкое звучание и длинные инструментальные джемы (как в Spoonful или Toad) оказали огромное влияние на развитие рок-музыки. Несмотря на короткую карьеру (всего 2 года), Cream выпустили такие классические хиты, как Sunshine of Your Love, White Room и Badge, и были введены в Зал славы рок-н-ролла в 1993 году. Напряжённые отношения между Брюсом и Бейкером привели к распаду группы в 1968, но они воссоединились для концертов в 2005 и 2011."
+  },
+
+  "Jimi Hendrix Experience": {
+    albums: [
+      { 
+        name: "Are You Experienced", 
+        year: 1967, 
+        cover: "/images/albums/jimi-hendrix/are-you-experienced.jpg",
+        tracks: [
+          "Foxy Lady", "Manic Depression", "Red House", "Can You See Me",
+          "Love or Confusion", "I Don't Live Today", "May This Be Love", "Fire",
+          "Third Stone from the Sun", "Remember", "Are You Experienced?"
+        ]
+      },
+      { 
+        name: "Axis: Bold as Love", 
+        year: 1967, 
+        cover: "/images/albums/jimi-hendrix/axis-bold-as-love.jpg",
+        tracks: [
+          "EXP", "Up from the Skies", "Spanish Castle Magic", "Wait Until Tomorrow",
+          "Ain't No Telling", "Little Wing", "If 6 Was 9", "You Got Me Floatin'",
+          "Castles Made of Sand", "She's So Fine", "One Rainy Wish", "Little Miss Lover",
+          "Bold as Love"
+        ]
+      },
+      { 
+        name: "Electric Ladyland", 
+        year: 1968, 
+        cover: "/images/albums/jimi-hendrix/electric-ladyland.jpg",
+        tracks: [
+          "And the Gods Made Love", "Have You Ever Been (To Electric Ladyland)",
+          "Crosstown Traffic", "Voodoo Chile", "Little Miss Strange", "Long Hot Summer Night",
+          "Come On (Part I)", "Gypsy Eyes", "Burning of the Midnight Lamp", "Rainy Day, Dream Away",
+          "1983... (A Merman I Should Turn to Be)", "Moon, Turn the Tides... Gently Gently Away",
+          "Still Raining, Still Dreaming", "House Burning Down", "All Along the Watchtower",
+          "Voodoo Child (Slight Return)"
+        ]
+      },
+      { 
+        name: "Band of Gypsys", 
+        year: 1970, 
+        cover: "/images/albums/jimi-hendrix/band-of-gypsys.jpg",
+        tracks: [
+          "Who Knows", "Machine Gun", "Changes", "Power to Love", "Message of Love",
+          "We Gotta Live Together"
+        ]
+      },
+      { 
+        name: "First Rays of the New Rising Sun", 
+        year: 1997, 
+        cover: "/images/albums/jimi-hendrix/first-rays.jpg",
+        tracks: [
+          "Freedom", "Izabella", "Night Bird Flying", "Angel", "Room Full of Mirrors",
+          "Dolly Dagger", "Ezy Ryder", "Drifting", "Burning Desire", "Rainy Day Shuffle"
+        ]
+      }
+    ],
+    members: [
+      { name: "Jimi Hendrix", role: "гитара, вокал", years: "1966-1970", current: false, image: "/images/members/jimi-hendrix/jimi-hendrix.jpg" },
+      { name: "Noel Redding", role: "бас-гитара", years: "1966-1969", current: false, image: "/images/members/jimi-hendrix/noel-redding.jpg" },
+      { name: "Mitch Mitchell", role: "ударные", years: "1966-1970", current: false, image: "/images/members/jimi-hendrix/mitch-mitchell.jpg" },
+      { name: "Billy Cox", role: "бас-гитара", years: "1969-1970", current: false, image: "/images/members/jimi-hendrix/billy-cox.jpg" },
+      { name: "Buddy Miles", role: "ударные", years: "1969-1970", current: false, image: "/images/members/jimi-hendrix/buddy-miles.jpg" }
+    ],
+    bio: "Американско-британская рок-группа, образованная в 1966 году в Лондоне. The Jimi Hendrix Experience стала платформой для гениального гитариста Джими Хендрикса, который произвёл революцию в игре на электрогитаре. Его новаторское использование фузза, вау-педали, фидбека и невероятная техника игры изменили представление о возможностях гитары. Вместе с басистом Ноэлом Реддингом и барабанщиком Митчем Митчеллом, Хендрикс создал звучание, сочетающее блюз, рок, психоделию и R&B. Их дебютный альбом Are You Experienced (1967) стал одним из самых влиятельных дебютов в истории рока. За свою короткую карьеру Хендрикс выпустил всего три студийных альбома, но каждый из них стал классикой. Он умер в 1970 году в возрасте 27 лет от асфиксии, оставив после себя огромное количество неизданного материала. The Jimi Hendrix Experience были введены в Зал славы рок-н-ролла в 1992 году."
+  },
+
+  "Led Zeppelin": {
+    albums: [
+      { 
+        name: "Led Zeppelin IV", 
+        year: 1971, 
+        cover: "/images/albums/led-zeppelin/led-zeppelin-iv.jpg",
+        tracks: [
+          "Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven",
+          "Misty Mountain Hop", "Four Sticks", "Going to California", "When the Levee Breaks"
+        ]
+      },
+      { 
+        name: "Led Zeppelin II", 
+        year: 1969, 
+        cover: "/images/albums/led-zeppelin/led-zeppelin-ii.jpg",
+        tracks: [
+          "Whole Lotta Love", "What Is and What Should Never Be", "The Lemon Song",
+          "Thank You", "Heartbreaker", "Living Loving Maid (She's Just a Woman)",
+          "Ramble On", "Moby Dick", "Bring It On Home"
+        ]
+      },
+      { 
+        name: "Led Zeppelin I", 
+        year: 1969, 
+        cover: "/images/albums/led-zeppelin/led-zeppelin-i.jpg",
+        tracks: [
+          "Good Times Bad Times", "Babe I'm Gonna Leave You", "You Shook Me",
+          "Dazed and Confused", "Your Time Is Gonna Come", "Black Mountain Side",
+          "Communication Breakdown", "I Can't Quit You Baby", "How Many More Times"
+        ]
+      },
+      { 
+        name: "Physical Graffiti", 
+        year: 1975, 
+        cover: "/images/albums/led-zeppelin/physical-graffiti.jpg",
+        tracks: [
+          "Custard Pie", "The Rover", "In My Time of Dying", "Houses of the Holy",
+          "Trampled Under Foot", "Kashmir", "In the Light", "Bron-Yr-Aur",
+          "Down by the Seaside", "Ten Years Gone", "Night Flight", "The Wanton Song",
+          "Boogie with Stu", "Black Country Woman", "Sick Again"
+        ]
+      },
+      { 
+        name: "Houses of the Holy", 
+        year: 1973, 
+        cover: "/images/albums/led-zeppelin/houses-of-the-holy.jpg",
+        tracks: [
+          "The Song Remains the Same", "The Rain Song", "Over the Hills and Far Away",
+          "The Crunge", "Dancing Days", "D'yer Mak'er", "No Quarter", "The Ocean"
+        ]
+      }
+    ],
+    members: [
+      { name: "Jimmy Page", role: "гитара", years: "1968-1980", current: false, image: "/images/members/led-zeppelin/jimmy-page.jpg" },
+      { name: "Robert Plant", role: "вокал", years: "1968-1980", current: false, image: "/images/members/led-zeppelin/robert-plant.jpg" },
+      { name: "John Paul Jones", role: "бас-гитара, клавишные", years: "1968-1980", current: false, image: "/images/members/led-zeppelin/john-paul-jones.jpg" },
+      { name: "John Bonham", role: "ударные", years: "1968-1980", current: false, image: "/images/members/led-zeppelin/john-bonham.jpg" }
+    ],
+    bio: "Британская рок-группа, образованная в 1968 году в Лондоне. Led Zeppelin считаются одной из самых успешных и влиятельных групп в истории рока, пионерами хард-рока и хэви-метала. Собравшись из гитариста-виртуоза Джимми Пейджа, харизматичного вокалиста Роберта Планта, виртуозного басиста и клавишника Джона Пола Джонса и мощного барабанщика Джона Бонэма, группа создала уникальное звучание, сочетающее блюз, фолк и тяжёлые гитарные риффы. Их музыка отличалась динамическими контрастами, от акустических баллад до эпических хард-роковых композиций. Led Zeppelin IV (1971) с легендарной Stairway to Heaven считается одним из величайших альбомов всех времён. Группа продала более 300 миллионов альбомов по всему миру. После смерти Бонэма в 1980 году группа распалась, хотя участники периодически воссоединялись для концертов. Led Zeppelin были введены в Зал славы рок-н-ролла в 1995 году."
+  },
+
+  "Deep Purple": {
+    albums: [
+      { 
+        name: "Machine Head", 
+        year: 1972, 
+        cover: "/images/albums/deep-purple/machine-head.jpg",
+        tracks: [
+          "Highway Star", "Maybe I'm a Leo", "Pictures of Home", "Never Before",
+          "Smoke on the Water", "Lazy", "Space Truckin'", "When a Blind Man Cries"
+        ]
+      },
+      { 
+        name: "In Rock", 
+        year: 1970, 
+        cover: "/images/albums/deep-purple/in-rock.jpg",
+        tracks: [
+          "Speed King", "Bloodsucker", "Child in Time", "Flight of the Rat",
+          "Into the Fire", "Living Wreck", "Hard Lovin' Man", "Black Night"
+        ]
+      },
+      { 
+        name: "Burn", 
+        year: 1974, 
+        cover: "/images/albums/deep-purple/burn.jpg",
+        tracks: [
+          "Burn", "Might Just Take Your Life", "Lay Down, Stay Down", "Sail Away",
+          "You Fool No One", "What's Goin' On Here", "Mistreated", "A 200", "Coronarias Redig"
+        ]
+      },
+      { 
+        name: "Stormbringer", 
+        year: 1974, 
+        cover: "/images/albums/deep-purple/stormbringer.jpg",
+        tracks: [
+          "Stormbringer", "Love Don't Mean a Thing", "Holy Man", "Hold On",
+          "Lady Double Dealer", "You Can't Do It Right", "High Ball Shooter",
+          "The Gypsy", "Soldier of Fortune"
+        ]
+      },
+      { 
+        name: "Perfect Strangers", 
+        year: 1984, 
+        cover: "/images/albums/deep-purple/perfect-strangers.jpg",
+        tracks: [
+          "Knocking at Your Back Door", "Under the Gun", "Nobody's Home",
+          "Mean Streak", "Perfect Strangers", "A Gypsy's Kiss", "Wasted Sunsets",
+          "Hungry Daze", "Not Responsible"
+        ]
+      }
+    ],
+    members: [
+      { name: "Ritchie Blackmore", role: "гитара", years: "1968-1975, 1984-1993", current: false, image: "/images/members/deep-purple/ritchie-blackmore.jpg" },
+      { name: "Ian Gillan", role: "вокал", years: "1969-1973, 1984-1989, 1992-наст.", current: true, image: "/images/members/deep-purple/ian-gillan.jpg" },
+      { name: "Roger Glover", role: "бас-гитара", years: "1969-1973, 1984-наст.", current: true, image: "/images/members/deep-purple/roger-glover.jpg" },
+      { name: "Jon Lord", role: "клавишные", years: "1968-1976, 1984-2002", current: false, image: "/images/members/deep-purple/jon-lord.jpg" },
+      { name: "Ian Paice", role: "ударные", years: "1968-1976, 1984-наст.", current: true, image: "/images/members/deep-purple/ian-paice.jpg" },
+      { name: "David Coverdale", role: "вокал", years: "1973-1976", current: false, image: "/images/members/deep-purple/david-coverdale.jpg" },
+      { name: "Glenn Hughes", role: "бас-гитара, вокал", years: "1973-1976", current: false, image: "/images/members/deep-purple/glenn-hughes.jpg" },
+      { name: "Tommy Bolin", role: "гитара", years: "1975-1976", current: false, image: "/images/members/deep-purple/tommy-bolin.jpg" },
+      { name: "Joe Lynn Turner", role: "вокал", years: "1989-1992", current: false, image: "/images/members/deep-purple/joe-lynn-turner.jpg" },
+      { name: "Steve Morse", role: "гитара", years: "1994-2022", current: false, image: "/images/members/deep-purple/steve-morse.jpg" },
+      { name: "Simon McBride", role: "гитара", years: "2022-наст.", current: true, image: "/images/members/deep-purple/simon-mcbride.jpg" }
+    ],
+    bio: "Британская рок-группа, образованная в 1968 году в Хартфорде. Deep Purple считаются одними из пионеров хард-рока и хэви-метала, наряду с Led Zeppelin и Black Sabbath. Группа известна своим мощным звучанием, виртуозными соло и классическим составом Mark II: Иэн Гиллан (вокал), Ричи Блэкмор (гитара), Джон Лорд (клавишные), Роджер Гловер (бас) и Иэн Пейс (ударные). Их альбом Machine Head (1972) с легендарным риффом Smoke on the Water (одним из самых узнаваемых в истории рока) считается классикой жанра. In Rock (1970) и Burn (1974) также вошли в золотой фонд рока. За свою историю группа пережила множество изменений состава (более 15 участников) и несколько распадов, но продолжает выступать и записываться по сей день. Deep Purple продали более 100 миллионов альбомов по всему миру и были введены в Зал славы рок-н-ролла в 2016 году."
   },
 
   // ================= 1970-е =================
