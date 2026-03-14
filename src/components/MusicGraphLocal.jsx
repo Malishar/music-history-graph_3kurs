@@ -3,6 +3,9 @@ import ForceGraph2D from "react-force-graph-2d";
 import FilterPanel from './FilterPanel';
 import ConfirmDialog from './ConfirmDialog';
 import InfoPanel from './InfoPanel';
+import BurgerMenu from './BurgerMenu';
+import SearchDialog from './SearchDialog';
+import QuizDialog from './QuizDialog';
 
 const MusicGraphLocal = () => {
   const [images, setImages] = useState({});
@@ -125,7 +128,6 @@ const MusicGraphLocal = () => {
       { id: "The Black Keys", name: "The Black Keys", year: 2001, genre: "Blues Rock", country: "USA", image: "/images/bands/the-black-keys.jpg" },
       { id: "Queens of the Stone Age", name: "Queens of the Stone Age", year: 1996, genre: "Stoner Rock", country: "USA", image: "/images/bands/queens-of-the-stone-age.jpg" }
     ],
-
 
     links: [
       // ========== ВЛИЯНИЕ (influence) ==========
@@ -596,6 +598,23 @@ const MusicGraphLocal = () => {
   
   const [infoPanelOpen, setInfoPanelOpen] = useState(false);
   const [selectedGroup, setSelectedGroup] = useState(null);
+  
+  const [topGroups] = useState([
+    { id: "The Beatles", score: 9.87 },
+    { id: "Led Zeppelin", score: 9.45 },
+    { id: "Pink Floyd", score: 9.12 },
+    { id: "Queen", score: 8.76 },
+    { id: "Metallica", score: 8.54 },
+    { id: "The Rolling Stones", score: 8.32 },
+    { id: "Black Sabbath", score: 8.11 },
+    { id: "Nirvana", score: 7.89 },
+    { id: "AC/DC", score: 7.65 },
+    { id: "Radiohead", score: 7.43 }
+  ]);
+
+  const [searchDialogOpen, setSearchDialogOpen] = useState(false);
+  const [quizDialogOpen, setQuizDialogOpen] = useState(false);
+
   // Функция для фильтрации связей
   const filterLinks = () => {
     return graphData.links.filter(link => activeFilters[link.type]);
@@ -630,6 +649,161 @@ const MusicGraphLocal = () => {
         nodes: filteredNodes,
         links: filteredLinks
       });
+    }
+  };
+
+    // ========== АЛГОРИТМ "КТО ВСЕХ ПОПУЛЯРНЕЕ" ==========
+  const findMostConnectedGroup = () => {
+    // Считаем связи для каждой группы
+    const connectionCount = {};
+    
+    graphData.nodes.forEach(node => {
+      connectionCount[node.id] = 0;
+    });
+    
+    graphData.links.forEach(link => {
+      connectionCount[link.source] = (connectionCount[link.source] || 0) + 1;
+      connectionCount[link.target] = (connectionCount[link.target] || 0) + 1;
+    });
+    
+    // Находим группу с максимальным количеством связей
+    let maxCount = 0;
+    let mostConnected = null;
+    
+    Object.entries(connectionCount).forEach(([id, count]) => {
+      if (count > maxCount) {
+        maxCount = count;
+        mostConnected = graphData.nodes.find(n => n.id === id);
+      }
+    });
+    
+    return { name: mostConnected?.name, count: maxCount };
+  };
+
+  // ========== АЛГОРИТМ "ГРУППЫ ПО СТИЛЯМ" ==========
+  const showClusters = () => {
+    // Группируем группы по жанрам
+    const clusters = {};
+    
+    graphData.nodes.forEach(node => {
+      const genre = node.genre.split(' ')[0]; // берем основной жанр
+      if (!clusters[genre]) {
+        clusters[genre] = [];
+      }
+      clusters[genre].push(node.name);
+    });
+    
+    // Формируем сообщение
+    let message = '🎸 ГРУППЫ ПО СТИЛЯМ:\n\n';
+    
+    Object.entries(clusters).forEach(([genre, groups]) => {
+      if (groups.length > 3) {
+        message += `${genre}: ${groups.slice(0, 5).join(', ')}`;
+        if (groups.length > 5) message += ` и ещё ${groups.length - 5}`;
+        message += '\n\n';
+      }
+    });
+    
+    alert(message);
+  };
+
+  // ========== АЛГОРИТМ "КАК СВЯЗАНЫ ГРУППЫ" ==========
+  const promptForPath = () => {
+    const start = prompt('Введите название первой группы:');
+    const end = prompt('Введите название второй группы:');
+    
+    if (!start || !end) return;
+    
+    // Поиск кратчайшего пути (BFS)
+    const findPath = (startId, endId) => {
+      const queue = [[startId]];
+      const visited = new Set([startId]);
+      
+      while (queue.length > 0) {
+        const path = queue.shift();
+        const node = path[path.length - 1];
+        
+        const neighbors = graphData.links
+          .filter(link => link.source === node || link.target === node)
+          .map(link => link.source === node ? link.target : link.source);
+        
+        for (const neighbor of neighbors) {
+          if (!visited.has(neighbor)) {
+            visited.add(neighbor);
+            const newPath = [...path, neighbor];
+            
+            if (neighbor === endId) {
+              return newPath;
+            }
+            
+            queue.push(newPath);
+          }
+        }
+      }
+      
+      return null;
+    };
+    
+    const startNode = graphData.nodes.find(n => n.name.toLowerCase() === start.toLowerCase());
+    const endNode = graphData.nodes.find(n => n.name.toLowerCase() === end.toLowerCase());
+    
+    if (!startNode) {
+      alert(`Группа "${start}" не найдена`);
+      return;
+    }
+    
+    if (!endNode) {
+      alert(`Группа "${end}" не найдена`);
+      return;
+    }
+    
+    const path = findPath(startNode.id, endNode.id);
+    
+    if (path) {
+      const pathNames = path.map(id => {
+        const node = graphData.nodes.find(n => n.id === id);
+        return node.name;
+      });
+      alert(`🔗 Путь от ${startNode.name} до ${endNode.name}:\n\n${pathNames.join(' → ')}`);
+    } else {
+      alert(`😕 Путь между ${startNode.name} и ${endNode.name} не найден`);
+    }
+  };
+
+    // ========== ОБРАБОТЧИК ДЛЯ БУРГЕР-МЕНЮ ==========
+  const handleMenuItemClick = (item) => {
+    switch(item) {
+      case 'top10':
+        alert('Топ-10 групп:\n1. The Beatles\n2. Led Zeppelin\n3. Pink Floyd\n4. Queen\n5. Metallica\n6. The Rolling Stones\n7. Black Sabbath\n8. Nirvana\n9. AC/DC\n10. Radiohead');
+        break;
+        
+      case 'search':
+        setSearchDialogOpen(true);
+        break;
+        
+      case 'quiz':
+        setQuizDialogOpen(true);
+        break;
+        
+      case 'mostConnected':  // Кто всех популярнее
+        const mostConnected = findMostConnectedGroup();
+        alert(`🏆 Самая популярная группа: ${mostConnected.name}\nСвязей: ${mostConnected.count}`);
+        break;
+        
+      case 'shortestPath':   // Как связаны группы
+        promptForPath();
+        break;
+        
+      case 'clusters':        // Группы по стилям
+        showClusters();
+        break;
+        
+      case 'about':
+        alert('🎸 ГРАФ МУЗЫКАЛЬНЫХ ГРУПП\n\nВерсия: 2.0\nГрупп: 100+\nДесятилетий: 5\n\n© 2026');
+        break;
+        
+      default:
+        break;
     }
   };
 
@@ -779,12 +953,17 @@ const MusicGraphLocal = () => {
   return (
     <div style={{ 
       width: '100%', 
-      height: '800px',
+      height: 'calc(100vh - 180px)',  // ← 180px = шапка (80px) + подвал (40px) + отступы
       border: '2px solid #e0e0e0',
       borderRadius: '10px',
       background: '#f8f9fa',
       position: 'relative'
     }}>
+
+      <BurgerMenu 
+        topGroups={topGroups}
+        onMenuItemClick={handleMenuItemClick}
+      />
       <FilterPanel 
         activeFilters={activeFilters}
         onFilterChange={(type, value) => 
@@ -797,14 +976,14 @@ const MusicGraphLocal = () => {
         <div style={{
           position: 'absolute',
           top: '10px',
-          left: '10px',
+          right: '10px',  // ← теперь справа
           background: 'white',
           padding: '8px 15px',
           borderRadius: '5px',
           zIndex: 1000,
           fontSize: '14px',
           border: '2px solid #c41e3a',
-          color: '#333',  // чёрный текст
+          color: '#333',
           boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
           display: 'flex',
           alignItems: 'center',
@@ -816,7 +995,10 @@ const MusicGraphLocal = () => {
             onClick={() => {
               setExpandedNode(null);
               setShowOnlyConnected(false);
-              setFilteredData(graphData);
+              setFilteredData({
+                nodes: graphData.nodes,
+                links: filterLinks()
+              });
             }}
             style={{
               background: '#c41e3a',
@@ -875,7 +1057,23 @@ const MusicGraphLocal = () => {
           setSelectedGroup(node);
           setInfoPanelOpen(true);
         }}
+        cooldownTicks={50}
+        minZoom={0.3}
+        maxZoom={4.0}
+        zoomSpeed={0.3}          
+        d3VelocityDecay={0.2}   
+        
+        // Автоподгонка при загрузке
+        onEngineStop={() => {
+          if (fgRef.current) {
+            fgRef.current.zoomToFit(600, 50); 
+          }
+        }}
+        
+        warmupTicks={40}
+        cooldownTime={2000}
       />
+
       <ConfirmDialog 
         isOpen={dialogOpen}
         groupName={clickedGroup?.name}
@@ -892,6 +1090,21 @@ const MusicGraphLocal = () => {
         group={selectedGroup}
         isOpen={infoPanelOpen}
         onClose={() => setInfoPanelOpen(false)}
+      />
+      <SearchDialog 
+        isOpen={searchDialogOpen}
+        onClose={() => setSearchDialogOpen(false)}
+        onGroupSelect={(group) => {
+          // здесь вызываем тот же диалог подтверждения
+          setClickedGroup(group);
+          setDialogOpen(true);
+        }}
+        groups={graphData.nodes}
+      />
+      <QuizDialog 
+        isOpen={quizDialogOpen}
+        onClose={() => setQuizDialogOpen(false)}
+        groups={graphData.nodes} 
       />
     </div>
   );
