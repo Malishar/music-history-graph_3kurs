@@ -126,8 +126,174 @@ const MusicGraphLocal = () => {
       { id: "Thirty Seconds to Mars", name: "Thirty Seconds to Mars", year: 1998, genre: "Alternative Rock", country: "USA", image: "/images/bands/thirty-seconds-to-mars.jpg" },
       { id: "Kings of Leon", name: "Kings of Leon", year: 1999, genre: "Rock", country: "USA", image: "/images/bands/kings-of-leon.jpg" },
       { id: "The Black Keys", name: "The Black Keys", year: 2001, genre: "Blues Rock", country: "USA", image: "/images/bands/the-black-keys.jpg" },
-      { id: "Queens of the Stone Age", name: "Queens of the Stone Age", year: 1996, genre: "Stoner Rock", country: "USA", image: "/images/bands/queens-of-the-stone-age.jpg" }
-    ],
+      { id: "Queens of the Stone Age", name: "Queens of the Stone Age", year: 1996, genre: "Stoner Rock", country: "USA", image: "/images/bands/queens-of-the-stone-age.jpg" },
+
+      // ================= ЭКСТРЕМАЛЬНЫЙ МЕТАЛ =================
+      { id: "Death", name: "Death", year: 1983, genre: "Death Metal", country: "USA", image: "/images/bands/death.jpg" },
+      { id: "Carcass", name: "Carcass", year: 1985, genre: "Death Metal/Grindcore", country: "UK", image: "/images/bands/carcass.jpg" },
+      { id: "Pantera", name: "Pantera", year: 1981, genre: "Groove Metal", country: "USA", image: "/images/bands/pantera.jpg" },
+      { id: "Carnivore", name: "Carnivore", year: 1982, genre: "Thrash Metal", country: "USA", image: "/images/bands/carnivore.jpg" },
+
+      // ================= ГОТИК-РОК/МЕТАЛ =================
+      { id: "Type O Negative", name: "Type O Negative", year: 1989, genre: "Gothic Metal", country: "USA", image: "/images/bands/type-o-negative.jpg" },
+      { id: "Paradise Lost", name: "Paradise Lost", year: 1988, genre: "Gothic Metal", country: "UK", image: "/images/bands/paradise-lost.jpg" },
+      { id: "My Dying Bride", name: "My Dying Bride", year: 1990, genre: "Doom Metal", country: "UK", image: "/images/bands/my-dying-bride.jpg" },
+      { id: "The Sisters of Mercy", name: "The Sisters of Mercy", year: 1980, genre: "Gothic Rock", country: "UK", image: "/images/bands/sisters-of-mercy.jpg" },
+      { id: "Fields of the Nephilim", name: "Fields of the Nephilim", year: 1984, genre: "Gothic Rock", country: "UK", image: "/images/bands/fields-of-the-nephilim.jpg" },
+
+      // ================= ГОТИК-РОК/МЕТАЛ =================
+      { id: "HIM", name: "HIM", year: 1991, genre: "Gothic Metal", country: "Finland", image: "/images/bands/him.jpg" },
+      { id: "London After Midnight", name: "London After Midnight", year: 1990, genre: "Gothic Rock", country: "USA", image: "/images/bands/london-after-midnight.jpg" },
+
+      // ================= ДЭТ-МЕТАЛ =================
+      { id: "Murderdolls", name: "Murderdolls", year: 1999, genre: "Horror Punk/Heavy Metal", country: "USA", image: "/images/bands/murderdolls.jpg" },
+      { id: "Kittie", name: "Kittie", year: 1996, genre: "Nu Metal/Heavy Metal", country: "Canada", image: "/images/bands/kittie.jpg" },
+      { id: "Obituary", name: "Obituary", year: 1984, genre: "Death Metal", country: "USA", image: "/images/bands/obituary.jpg" },
+      { id: "Morbid Angel", name: "Morbid Angel", year: 1983, genre: "Death Metal", country: "USA", image: "/images/bands/morbid-angel.jpg" },
+      { id: "Cannibal Corpse", name: "Cannibal Corpse", year: 1988, genre: "Death Metal", country: "USA", image: "/images/bands/cannibal-corpse.jpg" },
+      { id: "Deicide", name: "Deicide", year: 1987, genre: "Death Metal", country: "USA", image: "/images/bands/deicide.jpg" },
+      { id: "Entombed", name: "Entombed", year: 1987, genre: "Death Metal", country: "Sweden", image: "/images/bands/entombed.jpg" },
+      { id: "Dismember", name: "Dismember", year: 1988, genre: "Death Metal", country: "Sweden", image: "/images/bands/dismember.jpg" },
+      { id: "Grave", name: "Grave", year: 1986, genre: "Death Metal", country: "Sweden", image: "/images/bands/grave.jpg" },
+      { id: "Autopsy", name: "Autopsy", year: 1987, genre: "Death Metal", country: "USA", image: "/images/bands/autopsy.jpg" },
+      { id: "Bolt Thrower", name: "Bolt Thrower", year: 1986, genre: "Death Metal", country: "UK", image: "/images/bands/bolt-thrower.jpg" },
+
+      // ================= ПРОТО-БЛЭК МЕТАЛ =================
+      { id: "Venom", name: "Venom", year: 1979, genre: "Heavy/Black Metal", country: "UK", image: "/images/bands/venom.jpg" },
+      { id: "Bathory", name: "Bathory", year: 1983, genre: "Black/Viking Metal", country: "Sweden", image: "/images/bands/bathory.jpg" },
+      { id: "Mercyful Fate", name: "Mercyful Fate", year: 1981, genre: "Heavy/Black Metal", country: "Denmark", image: "/images/bands/mercyful-fate.jpg" },
+      { id: "Celtic Frost", name: "Celtic Frost", year: 1984, genre: "Black/Thrash Metal", country: "Switzerland", image: "/images/bands/celtic-frost.jpg" },
+      { id: "Hellhammer", name: "Hellhammer", year: 1982, genre: "Black/Thrash Metal", country: "Switzerland", image: "/images/bands/hellhammer.jpg" },
+      { id: "Sodom", name: "Sodom", year: 1981, genre: "Black/Thrash Metal", country: "Germany", image: "/images/bands/sodom.jpg" },
+      { id: "Destruction", name: "Destruction", year: 1982, genre: "Black/Thrash Metal", country: "Germany", image: "/images/bands/destruction.jpg" },
+      { id: "Kreator", name: "Kreator", year: 1982, genre: "Black/Thrash Metal", country: "Germany", image: "/images/bands/kreator.jpg" },
+
+      // ================= НОРВЕЖСКИЙ БЛЭК-МЕТАЛ =================
+      { id: "Mayhem", name: "Mayhem", year: 1984, genre: "Black Metal", country: "Norway", image: "/images/bands/mayhem.jpg" },
+      { id: "Burzum", name: "Burzum", year: 1991, genre: "Black Metal", country: "Norway", image: "/images/bands/burzum.jpg" },
+      { id: "Darkthrone", name: "Darkthrone", year: 1986, genre: "Black Metal", country: "Norway", image: "/images/bands/darkthrone.jpg" },
+      { id: "Emperor", name: "Emperor", year: 1991, genre: "Symphonic Black Metal", country: "Norway", image: "/images/bands/emperor.jpg" },
+      { id: "Immortal", name: "Immortal", year: 1990, genre: "Black Metal", country: "Norway", image: "/images/bands/immortal.jpg" },
+      { id: "Satyricon", name: "Satyricon", year: 1991, genre: "Black Metal", country: "Norway", image: "/images/bands/satyricon.jpg" },
+      { id: "Gorgoroth", name: "Gorgoroth", year: 1992, genre: "Black Metal", country: "Norway", image: "/images/bands/gorgoroth.jpg" },
+      { id: "1349", name: "1349", year: 1997, genre: "Black Metal", country: "Norway", image: "/images/bands/1349.jpg" },
+      { id: "Enslaved", name: "Enslaved", year: 1991, genre: "Viking/Black Metal", country: "Norway", image: "/images/bands/enslaved.jpg" },
+      { id: "Dimmu Borgir", name: "Dimmu Borgir", year: 1993, genre: "Symphonic Black Metal", country: "Norway", image: "/images/bands/dimmu-borgir.jpg" },
+      { id: "Carpathian Forest", name: "Carpathian Forest", year: 1990, genre: "Black Metal", country: "Norway", image: "/images/bands/carpathian-forest.jpg" },
+      { id: "Arcturus", name: "Arcturus", year: 1990, genre: "Avant-garde Black Metal", country: "Norway", image: "/images/bands/arcturus.jpg" },
+      { id: "Ulver", name: "Ulver", year: 1993, genre: "Black Metal/Folk", country: "Norway", image: "/images/bands/ulver.jpg" },
+      { id: "Borknagar", name: "Borknagar", year: 1995, genre: "Progressive Black Metal", country: "Norway", image: "/images/bands/borknagar.jpg" },
+      { id: "Kampfar", name: "Kampfar", year: 1994, genre: "Black Metal", country: "Norway", image: "/images/bands/kampfar.jpg" },
+      { id: "Taake", name: "Taake", year: 1993, genre: "Black Metal", country: "Norway", image: "/images/bands/taake.jpg" },
+      { id: "Windir", name: "Windir", year: 1994, genre: "Viking Black Metal", country: "Norway", image: "/images/bands/windir.jpg" },
+
+      // ================= МЕЛОДИЧЕСКИЙ ДЭТ-МЕТАЛ =================
+      { id: "Amon Amarth", name: "Amon Amarth", year: 1992, genre: "Melodic Death Metal", country: "Sweden", image: "/images/bands/amon-amarth.jpg" },
+      { id: "Children of Bodom", name: "Children of Bodom", year: 1993, genre: "Melodic Death Metal", country: "Finland", image: "/images/bands/children-of-bodom.jpg" },
+      { id: "Omnium Gatherum", name: "Omnium Gatherum", year: 1996, genre: "Melodic Death Metal", country: "Finland", image: "/images/bands/omnium-gatherum.jpg" },
+
+      // ================= ГРУВ-МЕТАЛ =================
+      { id: "Lamb of God", name: "Lamb of God", year: 1994, genre: "Groove Metal", country: "USA", image: "/images/bands/lamb-of-god.jpg" },
+
+// ================= ДЕПРЕССИВНЫЙ СУИЦИДАЛЬНЫЙ БЛЭК-МЕТАЛ (DSBM) =================
+      { id: "Shining", name: "Shining", year: 1996, genre: "Depressive Black Metal", country: "Sweden", image: "/images/bands/shining.jpg" },
+      { id: "Silencer", name: "Silencer", year: 1995, genre: "Depressive Black Metal", country: "Sweden", image: "/images/bands/silencer.jpg" },
+      { id: "Lifelover", name: "Lifelover", year: 2005, genre: "Depressive Black Metal", country: "Sweden", image: "/images/bands/lifelover.jpg" },
+      { id: "Xasthur", name: "Xasthur", year: 1995, genre: "Depressive Black Metal", country: "USA", image: "/images/bands/xasthur.jpg" },
+      { id: "Leviathan", name: "Leviathan", year: 1998, genre: "Depressive Black Metal", country: "USA", image: "/images/bands/leviathan.jpg" },
+      { id: "Thy Light", name: "Thy Light", year: 2005, genre: "Depressive Black Metal", country: "Brazil", image: "/images/bands/thy-light.jpg" },
+      { id: "None", name: "None", year: 2015, genre: "Depressive Black Metal", country: "USA", image: "/images/bands/none.jpg" },
+      { id: "Psychonaut 4", name: "Psychonaut 4", year: 2010, genre: "Depressive Black Metal", country: "Georgia", image: "/images/bands/psychonaut-4.jpg" },
+      { id: "Happy Days", name: "Happy Days", year: 2004, genre: "Depressive Black Metal", country: "USA", image: "/images/bands/happy-days.jpg" },
+      { id: "Abyssic Hate", name: "Abyssic Hate", year: 1993, genre: "Depressive Black Metal", country: "Australia", image: "/images/bands/abyssic-hate.jpg" },
+      { id: "Forgotten Tomb", name: "Forgotten Tomb", year: 1999, genre: "Depressive Black Metal", country: "Italy", image: "/images/bands/forgotten-tomb.jpg" },
+      { id: "Nocturnal Depression", name: "Nocturnal Depression", year: 2004, genre: "Depressive Black Metal", country: "France", image: "/images/bands/nocturnal-depression.jpg" },
+      { id: "Trist", name: "Trist", year: 2000, genre: "Depressive Black Metal", country: "Germany", image: "/images/bands/trist.jpg" },
+      { id: "Wedard", name: "Wedard", year: 2002, genre: "Depressive Black Metal", country: "Germany", image: "/images/bands/wedard.jpg" },
+      { id: "Make a Change... Kill Yourself", name: "Make a Change... Kill Yourself", year: 2000, genre: "Depressive Black Metal", country: "Denmark", image: "/images/bands/make-a-change-kill-yourself.jpg" },
+      { id: "Apati", name: "Apati", year: 2004, genre: "Depressive Black Metal", country: "Sweden", image: "/images/bands/apati.jpg" },
+      { id: "Hypothermia", name: "Hypothermia", year: 2000, genre: "Depressive Black Metal", country: "Sweden", image: "/images/bands/hypothermia.jpg" },
+      { id: "Austere", name: "Austere", year: 2007, genre: "Depressive Black Metal", country: "Australia", image: "/images/bands/austere.jpg" },
+      { id: "Gorillaz", name: "Gorillaz", year: 1998, genre: "Alternative Hip Hop/Virtual Band", country: "UK", image: "/images/bands/gorillaz.jpg" },
+
+      // ================= GRINDCORE (продолжение) =================
+      { id: "Napalm Death", name: "Napalm Death", year: 1981, genre: "Grindcore", country: "UK", image: "/images/bands/napalm-death.jpg" },
+      { id: "Pig Destroyer", name: "Pig Destroyer", year: 1997, genre: "Grindcore", country: "USA", image: "/images/bands/pig-destroyer.jpg" },
+      { id: "Nasum", name: "Nasum", year: 1992, genre: "Grindcore", country: "Sweden", image: "/images/bands/nasum.jpg" },
+      { id: "Brutal Truth", name: "Brutal Truth", year: 1990, genre: "Grindcore", country: "USA", image: "/images/bands/brutal-truth.jpg" },
+      { id: "Cephalic Carnage", name: "Cephalic Carnage", year: 1992, genre: "Grindcore", country: "USA", image: "/images/bands/cephalic-carnage.jpg" },
+
+      // ================= ДЭТ-МЕТАЛ (продолжение) =================
+      { id: "Possessed", name: "Possessed", year: 1983, genre: "Death Metal", country: "USA", image: "/images/bands/possessed.jpg" },
+      { id: "Death Angel", name: "Death Angel", year: 1982, genre: "Thrash Metal", country: "USA", image: "/images/bands/death-angel.jpg" },
+      { id: "Testament", name: "Testament", year: 1983, genre: "Thrash Metal", country: "USA", image: "/images/bands/testament.jpg" },
+      { id: "Exodus", name: "Exodus", year: 1979, genre: "Thrash Metal", country: "USA", image: "/images/bands/exodus.jpg" },
+      { id: "Overkill", name: "Overkill", year: 1980, genre: "Thrash Metal", country: "USA", image: "/images/bands/overkill.jpg" },
+      { id: "Sepultura", name: "Sepultura", year: 1984, genre: "Thrash/Groove Metal", country: "Brazil", image: "/images/bands/sepultura.jpg" },
+      { id: "At The Gates", name: "At The Gates", year: 1990, genre: "Melodic Death Metal", country: "Sweden", image: "/images/bands/at-the-gates.jpg" },
+      { id: "In Flames", name: "In Flames", year: 1990, genre: "Melodic Death Metal", country: "Sweden", image: "/images/bands/in-flames.jpg" },
+      { id: "Dark Tranquillity", name: "Dark Tranquillity", year: 1989, genre: "Melodic Death Metal", country: "Sweden", image: "/images/bands/dark-tranquillity.jpg" },
+      { id: "Arch Enemy", name: "Arch Enemy", year: 1995, genre: "Melodic Death Metal", country: "Sweden", image: "/images/bands/arch-enemy.jpg" },
+      { id: "Opeth", name: "Opeth", year: 1990, genre: "Progressive Death Metal", country: "Sweden", image: "/images/bands/opeth.jpg" },
+      { id: "Gojira", name: "Gojira", year: 1996, genre: "Progressive Death Metal", country: "France", image: "/images/bands/gojira.jpg" },
+
+      // ================= БЛЭК-МЕТАЛ (продолжение) =================
+      { id: "Behemoth", name: "Behemoth", year: 1991, genre: "Blackened Death Metal", country: "Poland", image: "/images/bands/behemoth.jpg" },
+      { id: "Marduk", name: "Marduk", year: 1990, genre: "Black Metal", country: "Sweden", image: "/images/bands/marduk.jpg" },
+      { id: "Watain", name: "Watain", year: 1998, genre: "Black Metal", country: "Sweden", image: "/images/bands/watain.jpg" },
+      { id: "Dissection", name: "Dissection", year: 1989, genre: "Melodic Black Metal", country: "Sweden", image: "/images/bands/dissection.jpg" },
+      { id: "Samael", name: "Samael", year: 1987, genre: "Black Metal", country: "Switzerland", image: "/images/bands/samael.jpg" },
+      { id: "Rotting Christ", name: "Rotting Christ", year: 1987, genre: "Black Metal", country: "Greece", image: "/images/bands/rotting-christ.jpg" },
+      { id: "Septicflesh", name: "Septicflesh", year: 1990, genre: "Symphonic Death/Black Metal", country: "Greece", image: "/images/bands/septicflesh.jpg" },
+      { id: "Mgła", name: "Mgła", year: 2000, genre: "Black Metal", country: "Poland", image: "/images/bands/mgla.jpg" },
+      { id: "Batushka", name: "Batushka", year: 2015, genre: "Black Metal", country: "Poland", image: "/images/bands/batushka.jpg" },
+      { id: "Путь", name: "Путь", year: 1996, genre: "Black Metal", country: "Russia", image: "/images/bands/put.jpg" },
+
+      // ================= ДУМ/СЛУДЖ/ПОСТ-МЕТАЛ =================
+      { id: "Candlemass", name: "Candlemass", year: 1984, genre: "Epic Doom Metal", country: "Sweden", image: "/images/bands/candlemass.jpg" },
+      { id: "Saint Vitus", name: "Saint Vitus", year: 1979, genre: "Doom Metal", country: "USA", image: "/images/bands/saint-vitus.jpg" },
+      { id: "Pentagram", name: "Pentagram", year: 1971, genre: "Doom Metal", country: "USA", image: "/images/bands/pentagram.jpg" },
+      { id: "Sleep", name: "Sleep", year: 1990, genre: "Stoner Doom", country: "USA", image: "/images/bands/sleep.jpg" },
+      { id: "Electric Wizard", name: "Electric Wizard", year: 1993, genre: "Stoner Doom", country: "UK", image: "/images/bands/electric-wizard.jpg" },
+      { id: "Neurosis", name: "Neurosis", year: 1985, genre: "Post-Metal", country: "USA", image: "/images/bands/neurosis.jpg" },
+      { id: "Isis", name: "Isis", year: 1997, genre: "Post-Metal", country: "USA", image: "/images/bands/isis.jpg" },
+      { id: "Cult of Luna", name: "Cult of Luna", year: 1998, genre: "Post-Metal", country: "Sweden", image: "/images/bands/cult-of-luna.jpg" },
+      { id: "Amenra", name: "Amenra", year: 1999, genre: "Post-Metal", country: "Belgium", image: "/images/bands/amenra.jpg" },
+      { id: "Acid Bath", name: "Acid Bath", year: 1991, genre: "Sludge/Doom Metal", country: "USA", image: "/images/bands/acid-bath.jpg" },
+
+      // ================= АЛЬТЕРНАТИВНЫЙ МЕТАЛ/НЮ-МЕТАЛ =================
+      { id: "Coal Chamber", name: "Coal Chamber", year: 1994, genre: "Nu Metal", country: "USA", image: "/images/bands/coal-chamber.jpg" },
+      { id: "Static-X", name: "Static-X", year: 1994, genre: "Industrial Metal", country: "USA", image: "/images/bands/static-x.jpg" },
+      { id: "Fear Factory", name: "Fear Factory", year: 1989, genre: "Industrial Metal", country: "USA", image: "/images/bands/fear-factory.jpg" },
+      { id: "Ministry", name: "Ministry", year: 1981, genre: "Industrial Metal", country: "USA", image: "/images/bands/ministry.jpg" },
+      { id: "Godflesh", name: "Godflesh", year: 1982, genre: "Industrial Metal", country: "UK", image: "/images/bands/godflesh.jpg" },
+      { id: "Mudvayne", name: "Mudvayne", year: 1996, genre: "Nu Metal", country: "USA", image: "/images/bands/mudvayne.jpg" },
+      { id: "Sevendust", name: "Sevendust", year: 1994, genre: "Nu Metal", country: "USA", image: "/images/bands/sevendust.jpg" },
+      { id: "Nothingface", name: "Nothingface", year: 1994, genre: "Nu Metal", country: "USA", image: "/images/bands/nothingface.jpg" },
+      { id: "Soulfly", name: "Soulfly", year: 1997, genre: "Nu Metal/Groove Metal", country: "USA", image: "/images/bands/soulfly.jpg" },
+      { id: "Evanescence", name: "Evanescence", year: 1995, genre: "Alternative Metal/Gothic Rock", country: "USA", image: "/images/bands/evanescence.jpg" },
+
+      // ================= ПРОГРЕССИВНЫЙ МЕТАЛ =================
+      { id: "Dream Theater", name: "Dream Theater", year: 1985, genre: "Progressive Metal", country: "USA", image: "/images/bands/dream-theater.jpg" },
+      { id: "Symphony X", name: "Symphony X", year: 1994, genre: "Progressive Metal", country: "USA", image: "/images/bands/symphony-x.jpg" },
+      { id: "Mastodon", name: "Mastodon", year: 1999, genre: "Progressive Sludge Metal", country: "USA", image: "/images/bands/mastodon.jpg" },
+      { id: "Between the Buried and Me", name: "Between the Buried and Me", year: 2000, genre: "Progressive Metal", country: "USA", image: "/images/bands/between-the-buried-and-me.jpg" },
+      { id: "Periphery", name: "Periphery", year: 2005, genre: "Djent", country: "USA", image: "/images/bands/periphery.jpg" },
+      { id: "Meshuggah", name: "Meshuggah", year: 1987, genre: "Djent", country: "Sweden", image: "/images/bands/meshuggah.jpg" },
+      { id: "Animals as Leaders", name: "Animals as Leaders", year: 2007, genre: "Instrumental Progressive Metal", country: "USA", image: "/images/bands/animals-as-leaders.jpg" },
+
+      // ================= СИМФО-МЕТАЛ/ГОТИК-МЕТАЛ =================
+      { id: "Nightwish", name: "Nightwish", year: 1996, genre: "Symphonic Metal", country: "Finland", image: "/images/bands/nightwish.jpg" },
+      { id: "Epica", name: "Epica", year: 2002, genre: "Symphonic Metal", country: "Netherlands", image: "/images/bands/epica.jpg" },
+      { id: "Within Temptation", name: "Within Temptation", year: 1996, genre: "Symphonic Metal", country: "Netherlands", image: "/images/bands/within-temptation.jpg" },
+      { id: "After Forever", name: "After Forever", year: 1995, genre: "Symphonic Metal", country: "Netherlands", image: "/images/bands/after-forever.jpg" },
+      { id: "Delain", name: "Delain", year: 2002, genre: "Symphonic Metal", country: "Netherlands", image: "/images/bands/delain.jpg" },
+      { id: "Lacuna Coil", name: "Lacuna Coil", year: 1994, genre: "Gothic Metal", country: "Italy", image: "/images/bands/lacuna-coil.jpg" },
+      { id: "Moonspell", name: "Moonspell", year: 1989, genre: "Gothic Metal", country: "Portugal", image: "/images/bands/moonspell.jpg" },
+      { id: "Tristania", name: "Tristania", year: 1996, genre: "Gothic Metal", country: "Norway", image: "/images/bands/tristania.jpg" },
+      { id: "Sirenia", name: "Sirenia", year: 2001, genre: "Gothic Metal", country: "Norway", image: "/images/bands/sirenia.jpg" },
+      { id: "Theatre of Tragedy", name: "Theatre of Tragedy", year: 1993, genre: "Gothic Metal", country: "Norway", image: "/images/bands/theatre-of-tragedy.jpg" },
+      ],
 
     links: [
       // ========== ВЛИЯНИЕ (influence) ==========

@@ -1445,27 +1445,6 @@ export const bandsData = {
           "Pretty Vacant", "New York", "EMI"
         ]
       },
-      { 
-        name: "The Great Rock 'n' Roll Swindle", 
-        year: 1979, 
-        cover: "/images/albums/sex-pistols/great-rock-n-roll-swindle.jpg",
-        tracks: [
-          "God Save the Queen (Symphony)", "Rock Around the Clock", "Johnny B. Goode", "Road Runner",
-          "Black Leather", "Anarchy in the U.K.", "Watcha Gonna Do About It", "Silly Thing",
-          "Substitute", "Don't Gimme No Lip Child", "C'mon Everybody", "(I'm Not Your) Steppin' Stone",
-          "Great Rock 'n' Roll Swindle", "You Need Hands", "Who Killed Bambi?", "My Way"
-        ]
-      },
-      { 
-        name: "Filthy Lucre Live", 
-        year: 1996, 
-        cover: "/images/albums/sex-pistols/filthy-lucre-live.jpg",
-        tracks: [
-          "Bodies", "Seventeen", "New York", "No Feelings", "Did You No Wrong",
-          "God Save the Queen", "Liar", "Satellite", "Stepping Stone", "Anarchy in the U.K.",
-          "Submission", "Pretty Vacant", "Problems", "EMI", "Holidays in the Sun"
-        ]
-      }
     ],
     members: [
       { name: "John Lydon", role: "вокал", years: "1975-1978, 1996-наст.", current: true, image: "/images/members/sex-pistols/john-lydon.jpg" },
@@ -6503,5 +6482,6511 @@ export const bandsData = {
     { name: "Alain Johannes", role: "гитара", years: "2005-2007", current: false, image: "/images/members/queens-of-the-stone-age/alain-johannes.jpg" }
   ],
   bio: "Американская стоунер-рок группа из Палм-Дезерт, Калифорния, образованная в 1996 году Джошем Хоммом. Queens of the Stone Age известны своим тяжелым, гипнотическим звучанием и мощными гитарными риффами. Их прорывной альбом Songs for the Deaf (2002) с участием Дэйва Грола на ударных и хитом No One Knows принес им мировую славу. Группа продолжает активно выступать и записываться, оставаясь одной из самых влиятельных групп в жанре."
-}
+},
+"Death": {
+  albums: [
+    { 
+      name: "Scream Bloody Gore", 
+      year: 1987, 
+      cover: "/images/albums/death/scream-bloody-gore.jpg",
+      tracks: [
+        "Infernal Death", "Zombie Ritual", "Denial of Life", "Sacrificial", "Mutilation",
+        "Regurgitated Guts", "Baptized in Blood", "Torn to Pieces", "Evil Dead", "Scream Bloody Gore",
+        "Beyond the Unholy Grave", "Land of No Return"
+      ]
+    },
+    { 
+      name: "Leprosy", 
+      year: 1988, 
+      cover: "/images/albums/death/leprosy.jpg",
+      tracks: [
+        "Leprosy", "Born Dead", "Forgotten Past", "Left to Die", "Pull the Plug",
+        "Open Casket", "Primitive Ways", "Choke on It"
+      ]
+    },
+    { 
+      name: "Spiritual Healing", 
+      year: 1990, 
+      cover: "/images/albums/death/spiritual-healing.jpg",
+      tracks: [
+        "Living Monstrosity", "Altering the Future", "Defensive Personalities", "Within the Mind",
+        "Spiritual Healing", "Low Life", "Genetic Reconstruction", "Killing Spree"
+      ]
+    },
+    { 
+      name: "Human", 
+      year: 1991, 
+      cover: "/images/albums/death/human.jpg",
+      tracks: [
+        "Flattening of Emotions", "Suicide Machine", "Together as One", "Secret Face",
+        "Lack of Comprehension", "See Through Dreams", "Cosmic Sea", "Vacant Planets"
+      ]
+    },
+    { 
+      name: "Symbolic", 
+      year: 1995, 
+      cover: "/images/albums/death/symbolic.jpg",
+      tracks: [
+        "Symbolic", "Zero Tolerance", "Empty Words", "Sacred Serenity", "1,000 Eyes",
+        "Crystal Mountain", "Misanthrope", "Perennial Quest"
+      ]
+    }
+  ],
+  members: [
+    { name: "Chuck Schuldiner", role: "вокал, гитара", years: "1983-2001", current: false, image: "/images/members/death/chuck-schuldiner.jpg" },
+    { name: "Steve DiGiorgio", role: "бас-гитара", years: "1986-1991, 1993-1994", current: false, image: "/images/members/death/steve-digiorgio.jpg" },
+    { name: "Gene Hoglan", role: "ударные", years: "1993-1995", current: false, image: "/images/members/death/gene-hoglan.jpg" },
+    { name: "Rick Rozz", role: "гитара", years: "1983-1985, 1987-1989", current: false, image: "/images/members/death/rick-rozz.jpg" },
+    { name: "Terry Butler", role: "бас-гитара", years: "1987-1990", current: false, image: "/images/members/death/terry-butler.jpg" },
+    { name: "Bill Andrews", role: "ударные", years: "1987-1990", current: false, image: "/images/members/death/bill-andrews.jpg" },
+    { name: "Sean Reinert", role: "ударные", years: "1991-1992", current: false, image: "/images/members/death/sean-reinert.jpg" },
+    { name: "Paul Masvidal", role: "гитара", years: "1991-1992", current: false, image: "/images/members/death/paul-masvidal.jpg" },
+    { name: "Andy LaRocque", role: "гитара", years: "1993-1994", current: false, image: "/images/members/death/andy-larocque.jpg" },
+    { name: "Bobby Koelble", role: "гитара", years: "1995-1996", current: false, image: "/images/members/death/bobby-koelble.jpg" },
+    { name: "Kelly Conlon", role: "бас-гитара", years: "1995", current: false, image: "/images/members/death/kelly-conlon.jpg" },
+    { name: "Richard Christy", role: "ударные", years: "1996-1998", current: false, image: "/images/members/death/richard-christy.jpg" },
+    { name: "Scott Clendenin", role: "бас-гитара", years: "1996-1997", current: false, image: "/images/members/death/scott-clendenin.jpg" },
+    { name: "Shannon Hamm", role: "гитара", years: "1996-1999", current: false, image: "/images/members/death/shannon-hamm.jpg" }
+  ],
+  bio: "Американская дэт-метал группа, основанная в 1983 году Чаком Шульдинером. Death считаются пионерами жанра и одной из самых влиятельных групп в истории экстремального металла. Их дебютный альбом Scream Bloody Gore (1987) считается первым настоящим дэт-метал альбомом. На протяжении карьеры группа постоянно эволюционировала, добавляя в свою музыку прогрессивные элементы. Чак Шульдинер умер от рака мозга в 2001 году, но оставил после себя огромное наследие. Death продали более миллиона альбомов по всему миру."
+},
+"Carcass": {
+  albums: [
+    { 
+      name: "Reek of Putrefaction", 
+      year: 1988, 
+      cover: "/images/albums/carcass/reek-of-putrefaction.jpg",
+      tracks: [
+        "Genital Grinder", "Regurgitation of Giblets", "Maggot Colony", "Pyosisified (Rotten to the Gore)",
+        "Carbonized Eyesockets", "Frenzied Bites", "Cadaveric Incubator of Coagulating Pus", "Slash Dementia",
+        "Excreted Alive", "Suppurated Festering", "Foeticide", "Microwaved Uterogestation", "Feast on Dismembered Carnage",
+        "Splattered Cavities", "Psychopathologist"
+      ]
+    },
+    { 
+      name: "Symphonies of Sickness", 
+      year: 1989, 
+      cover: "/images/albums/carcass/symphonies-of-sickness.jpg",
+      tracks: [
+        "Reek of Putrefaction", "Exhume to Consume", "Excoriating Abdominal Emanation", "Ruptured in Purulence",
+        "Empathological Necroticism", "Embryonic Necropsy and Devourment", "Swarming Vulgar Mass of Infected Virulency",
+        "Cadaveric Incubator of Coagulating Pus", "Slash Dementia", "Crepitating Bowel Erosion"
+      ]
+    },
+    { 
+      name: "Necroticism: Descanting the Insalubrious", 
+      year: 1991, 
+      cover: "/images/albums/carcass/necroticism.jpg",
+      tracks: [
+        "Inpropagation", "Corporal Jigsore Quandary", "Symposium of Sickness", "Pedigree Butchery", "Incarnated Solvent Abuse",
+        "Carneous Cacoffiny", "Lavaging Expectorate of Lysergide Composition", "Forensic Clinicism/The Sanguine Article"
+      ]
+    },
+    { 
+      name: "Heartwork", 
+      year: 1993, 
+      cover: "/images/albums/carcass/heartwork.jpg",
+      tracks: [
+        "Buried Dreams", "Carnal Forge", "No Love Lost", "Heartwork", "Embodiment", "This Mortal Coil",
+        "Arbeit Macht Fleisch", "Blind Bleeding the Blind", "Doctrinal Expletives", "Death Certificate"
+      ]
+    },
+    { 
+      name: "Swansong", 
+      year: 1996, 
+      cover: "/images/albums/carcass/swansong.jpg",
+      tracks: [
+        "Keep On Rotting in the Free World", "Tomorrow Belongs to Nobody", "Black Star", "Cross My Heart",
+        "Childs Play", "Room 101", "Polarised", "Generation Hexed", "Firmhand", "R**k the Vote", "Don't Believe a Word",
+        "Go to Hell"
+      ]
+    }
+  ],
+  members: [
+    { name: "Bill Steer", role: "гитара, вокал", years: "1985-1995, 2007-наст.", current: true, image: "/images/members/carcass/bill-steer.jpg" },
+    { name: "Jeff Walker", role: "вокал, бас-гитара", years: "1985-1995, 2007-наст.", current: true, image: "/images/members/carcass/jeff-walker.jpg" },
+    { name: "Ken Owen", role: "ударные", years: "1985-1995", current: false, image: "/images/members/carcass/ken-owen.jpg" },
+    { name: "Carlo Regadas", role: "гитара", years: "1993-1995", current: false, image: "/images/members/carcass/carlo-regadas.jpg" },
+    { name: "Sanjiv", role: "ударные", years: "2007-2012", current: false, image: "/images/members/carcass/sanjiv.jpg" },
+    { name: "Daniel Wilding", role: "ударные", years: "2012-наст.", current: true, image: "/images/members/carcass/daniel-wilding.jpg" },
+    { name: "Ben Ash", role: "гитара", years: "2013-наст.", current: true, image: "/images/members/carcass/ben-ash.jpg" }
+  ],
+  bio: "Британская дэт-метал/грайндкор группа из Ливерпуля, образованная в 1985 году. Carcass считаются пионерами гор-грайнда, сочетая экстремальную музыку с медицинскими текстами. Их ранние альбомы отличались сырым звучанием, а альбом Heartwork (1993) стал поворотным моментом, добавив мелодичности в дэт-метал. Группа распалась в 1995 году, но воссоединилась в 2007 и продолжает выступать. Carcass оказали огромное влияние на развитие дэт-метала и грайндкора."
+},
+"Pantera": {
+  albums: [
+    { 
+      name: "Cowboys from Hell", 
+      year: 1990, 
+      cover: "/images/albums/pantera/cowboys-from-hell.jpg",
+      tracks: [
+        "Cowboys from Hell", "Primal Concrete Sledge", "Psycho Holiday", "Heresy", "Cemetery Gates",
+        "Domination", "Shattered", "Clash with Reality", "Medicine Man", "Message in Blood", "The Sleep", "The Art of Shredding"
+      ]
+    },
+    { 
+      name: "Vulgar Display of Power", 
+      year: 1992, 
+      cover: "/images/albums/pantera/vulgar-display-of-power.jpg",
+      tracks: [
+        "Mouth for War", "A New Level", "Walk", "Fucking Hostile", "This Love", "Rise", "No Good (Attack the Radical)",
+        "Live in a Hole", "Regular People (Conceit)", "By Demons Be Driven", "Hollow"
+      ]
+    },
+    { 
+      name: "Far Beyond Driven", 
+      year: 1994, 
+      cover: "/images/albums/pantera/far-beyond-driven.jpg",
+      tracks: [
+        "Strength Beyond Strength", "Becoming", "5 Minutes Alone", "I'm Broken", "Good Friends and a Bottle of Pills",
+        "Hard Lines, Sunken Cheeks", "Slaughtered", "25 Years", "Shedding Skin", "Use My Third Arm", "Throes of Rejection", "Planet Caravan"
+      ]
+    },
+    { 
+      name: "The Great Southern Trendkill", 
+      year: 1996, 
+      cover: "/images/albums/pantera/the-great-southern-trendkill.jpg",
+      tracks: [
+        "The Great Southern Trendkill", "War Nerve", "Drag the Waters", "10's", "13 Steps to Nowhere",
+        "Suicide Note Pt. I", "Suicide Note Pt. II", "Living Through Me (Hell's Wrath)", "Floods", "The Underground in America",
+        "(Reprise) Sandblasted Skin"
+      ]
+    },
+    { 
+      name: "Reinventing the Steel", 
+      year: 2000, 
+      cover: "/images/albums/pantera/reinventing-the-steel.jpg",
+      tracks: [
+        "Hellbound", "Goddamn Electric", "Yesterday Don't Mean Shit", "You've Got to Belong to It", "Revolution Is My Name",
+        "Death Rattle", "We'll Grind That Axe for a Long Time", "Uplift", "It Makes Them Disappear", "I'll Cast a Shadow"
+      ]
+    }
+  ],
+  members: [
+    { name: "Phil Anselmo", role: "вокал", years: "1986-2003", current: false, image: "/images/members/pantera/phil-anselmo.jpg" },
+    { name: "Dimebag Darrell", role: "гитара", years: "1981-2003", current: false, image: "/images/members/pantera/dimebag-darrell.jpg" },
+    { name: "Vinnie Paul", role: "ударные", years: "1981-2003", current: false, image: "/images/members/pantera/vinnie-paul.jpg" },
+    { name: "Rex Brown", role: "бас-гитара", years: "1981-2003", current: false, image: "/images/members/pantera/rex-brown.jpg" },
+    { name: "Terry Glaze", role: "вокал", years: "1981-1986", current: false, image: "/images/members/pantera/terry-glaze.jpg" },
+    { name: "Donnie Hart", role: "вокал", years: "1981", current: false, image: "/images/members/pantera/donnie-hart.jpg" },
+    { name: "Tommy Bradford", role: "бас-гитара", years: "1981", current: false, image: "/images/members/pantera/tommy-bradford.jpg" }
+  ],
+  bio: "Американская грув-метал группа из Техаса, образованная в 1981 году. Pantera считаются одной из самых важных метал-групп 90-х, которые практически в одиночку возродили интерес к металлу в эпоху гранжа. Начав как глэм-метал группа, они сменили стиль на тяжёлый грув-метал после прихода вокалиста Фила Ансельмо. Альбомы Cowboys from Hell (1990) и Vulgar Display of Power (1992) стали классикой. Трагическая гибель гитариста Даймбэга Даррелла в 2004 году потрясла музыкальный мир. Pantera воссоединились в 2022 году с Заком Вайлдом на гитаре и Чарли Бенанте на ударных для тура."
+},
+"Pantera": {
+  albums: [
+    { 
+      name: "Cowboys from Hell", 
+      year: 1990, 
+      cover: "/images/albums/pantera/cowboys-from-hell.jpg",
+      tracks: [
+        "Cowboys from Hell", "Primal Concrete Sledge", "Psycho Holiday", "Heresy", "Cemetery Gates",
+        "Domination", "Shattered", "Clash with Reality", "Medicine Man", "Message in Blood", "The Sleep", "The Art of Shredding"
+      ]
+    },
+    { 
+      name: "Vulgar Display of Power", 
+      year: 1992, 
+      cover: "/images/albums/pantera/vulgar-display-of-power.jpg",
+      tracks: [
+        "Mouth for War", "A New Level", "Walk", "Fucking Hostile", "This Love", "Rise", "No Good (Attack the Radical)",
+        "Live in a Hole", "Regular People (Conceit)", "By Demons Be Driven", "Hollow"
+      ]
+    },
+    { 
+      name: "Far Beyond Driven", 
+      year: 1994, 
+      cover: "/images/albums/pantera/far-beyond-driven.jpg",
+      tracks: [
+        "Strength Beyond Strength", "Becoming", "5 Minutes Alone", "I'm Broken", "Good Friends and a Bottle of Pills",
+        "Hard Lines, Sunken Cheeks", "Slaughtered", "25 Years", "Shedding Skin", "Use My Third Arm", "Throes of Rejection", "Planet Caravan"
+      ]
+    },
+    { 
+      name: "The Great Southern Trendkill", 
+      year: 1996, 
+      cover: "/images/albums/pantera/the-great-southern-trendkill.jpg",
+      tracks: [
+        "The Great Southern Trendkill", "War Nerve", "Drag the Waters", "10's", "13 Steps to Nowhere",
+        "Suicide Note Pt. I", "Suicide Note Pt. II", "Living Through Me (Hell's Wrath)", "Floods", "The Underground in America",
+        "(Reprise) Sandblasted Skin"
+      ]
+    },
+    { 
+      name: "Reinventing the Steel", 
+      year: 2000, 
+      cover: "/images/albums/pantera/reinventing-the-steel.jpg",
+      tracks: [
+        "Hellbound", "Goddamn Electric", "Yesterday Don't Mean Shit", "You've Got to Belong to It", "Revolution Is My Name",
+        "Death Rattle", "We'll Grind That Axe for a Long Time", "Uplift", "It Makes Them Disappear", "I'll Cast a Shadow"
+      ]
+    }
+  ],
+  members: [
+    { name: "Phil Anselmo", role: "вокал", years: "1986-2003", current: false, image: "/images/members/pantera/phil-anselmo.jpg" },
+    { name: "Dimebag Darrell", role: "гитара", years: "1981-2003", current: false, image: "/images/members/pantera/dimebag-darrell.jpg" },
+    { name: "Vinnie Paul", role: "ударные", years: "1981-2003", current: false, image: "/images/members/pantera/vinnie-paul.jpg" },
+    { name: "Rex Brown", role: "бас-гитара", years: "1981-2003", current: false, image: "/images/members/pantera/rex-brown.jpg" },
+    { name: "Terry Glaze", role: "вокал", years: "1981-1986", current: false, image: "/images/members/pantera/terry-glaze.jpg" },
+    { name: "Donnie Hart", role: "вокал", years: "1981", current: false, image: "/images/members/pantera/donnie-hart.jpg" },
+    { name: "Tommy Bradford", role: "бас-гитара", years: "1981", current: false, image: "/images/members/pantera/tommy-bradford.jpg" }
+  ],
+  bio: "Американская грув-метал группа из Техаса, образованная в 1981 году. Pantera считаются одной из самых важных метал-групп 90-х, которые практически в одиночку возродили интерес к металлу в эпоху гранжа. Начав как глэм-метал группа, они сменили стиль на тяжёлый грув-метал после прихода вокалиста Фила Ансельмо. Альбомы Cowboys from Hell (1990) и Vulgar Display of Power (1992) стали классикой. Трагическая гибель гитариста Даймбэга Даррелла в 2004 году потрясла музыкальный мир. Pantera воссоединились в 2022 году с Заком Вайлдом на гитаре и Чарли Бенанте на ударных для тура."
+},
+"Carnivore": {
+  albums: [
+    { 
+      name: "Carnivore", 
+      year: 1985, 
+      cover: "/images/albums/carnivore/carnivore.jpg",
+      tracks: [
+        "Predator", "Carnivore", "Male Supremacy", "Armageddon", "Legion of Doom",
+        "God Is Dead", "Race War", "S.M.D.", "World Wars III", "Thermonuclear Warrior"
+      ]
+    },
+    { 
+      name: "Retaliation", 
+      year: 1987, 
+      cover: "/images/albums/carnivore/retaliation.jpg",
+      tracks: [
+        "Jack Daniel's and Pizza", "Angry Neurotic Catholics", "S.M.D. II", "Sex and Violence",
+        "Ground Zero Brooklyn", "Race War", "Technophobia", "Inner Conflict", "Jesus Hitler",
+        "World War III", "Manic Depressor", "Ready to Kill", "Strength and Honor", "The Subhuman"
+      ]
+    }
+  ],
+  members: [
+    { name: "Peter Steele", role: "вокал, бас-гитара", years: "1982-1988", current: false, image: "/images/members/carnivore/peter-steele.jpg" },
+    { name: "Louie Beateaux", role: "ударные", years: "1982-1988", current: false, image: "/images/members/carnivore/louie-beateaux.jpg" },
+    { name: "Keith Alexander", role: "гитара", years: "1982-1985", current: false, image: "/images/members/carnivore/keith-alexander.jpg" },
+    { name: "Marc Piovanetti", role: "гитара", years: "1985-1988", current: false, image: "/images/members/carnivore/marc-piovanetti.jpg" }
+  ],
+  bio: "Американская кроссовер-трэш группа из Бруклина, основанная Питером Стилом в 1982 году. Carnivore играли агрессивный трэш-метал с хардкоровыми элементами и политическими текстами. Группа выпустила два альбома, после чего распалась. Питер Стил основал Type O Negative, взяв с собой басиста Джоша Сильвера. Carnivore оказали влияние на развитие кроссовер-трэша и остаются культовой группой."
+},
+"Type O Negative": {
+  albums: [
+    { 
+      name: "Bloody Kisses", 
+      year: 1993, 
+      cover: "/images/albums/type-o-negative/bloody-kisses.jpg",
+      tracks: [
+        "Machine Screw", "Christian Woman", "Black No. 1 (Little Miss Scare-All)", "Fay Wray Come Out and Play",
+        "Kill All the White People", "Summer Breeze", "Set Me on Fire", "Dark Side of the Womb", "We Hate Everyone",
+        "Bloody Kisses (A Death in the Family)", "3.0.I.F.", "Too Late: Frozen", "Blood & Fire", "Can't Lose You"
+      ]
+    },
+    { 
+      name: "October Rust", 
+      year: 1996, 
+      cover: "/images/albums/type-o-negative/october-rust.jpg",
+      tracks: [
+        "Bad Ground", "Love You to Death", "Be My Druidess", "Green Man", "Red Water (Christmas Mourning)",
+        "My Girlfriend's Girlfriend", "Die with Me", "Burnt Flowers Fallen", "In Praise of Bacchus", "Cinnamon Girl",
+        "The Glorious Liberation of the People's Technocratic Republic of Vinnland by the Combined Forces of the United Territories of Europa", "Haunted"
+      ]
+    },
+    { 
+      name: "World Coming Down", 
+      year: 1999, 
+      cover: "/images/albums/type-o-negative/world-coming-down.jpg",
+      tracks: [
+        "Skip It", "White Slavery", "Sinus", "Everyone I Love Is Dead", "Who Will Save the Sane?", "Liver",
+        "World Coming Down", "Creepy Green Light", "Everything Dies", "Lung", "Pyretta Blaze", "Halloween in Heaven"
+      ]
+    },
+    { 
+      name: "Life Is Killing Me", 
+      year: 2003, 
+      cover: "/images/albums/type-o-negative/life-is-killing-me.jpg",
+      tracks: [
+        "Thir13teen", "I Don't Wanna Be Me", "Less of Me", "Todd's Ship Gods (Above All Things)", "I Like Goils",
+        "...A Dish Best Served Coldly", "How Could She?", "Life Is Killing Me", "Nettie", "(We Were) Electrocute",
+        "IYDKMIGTHTKY (Gimme That)", "Angry Inch", "Anesthesia", "Drunk in Paris", "The Dream Is Dead"
+      ]
+    },
+    { 
+      name: "Dead Again", 
+      year: 2007, 
+      cover: "/images/albums/type-o-negative/dead-again.jpg",
+      tracks: [
+        "Dead Again", "Tripping a Blind Man", "The Profits of Doom", "September Sun", "Halloween in Heaven",
+        "These Three Things", "She Burned Me Down", "Some Stupid Tomorrow", "An Ode to Locksmiths", "Hail and Farewell to Britain",
+        "Everything Dies", "The Profits of Doom", "September Sun"
+      ]
+    }
+  ],
+  members: [
+    { name: "Peter Steele", role: "вокал, бас-гитара", years: "1989-2010", current: false, image: "/images/members/type-o-negative/peter-steele.jpg" },
+    { name: "Josh Silver", role: "клавишные", years: "1989-2010", current: false, image: "/images/members/type-o-negative/josh-silver.jpg" },
+    { name: "Kenny Hickey", role: "гитара", years: "1989-2010", current: false, image: "/images/members/type-o-negative/kenny-hickey.jpg" },
+    { name: "Johnny Kelly", role: "ударные", years: "1994-2010", current: false, image: "/images/members/type-o-negative/johnny-kelly.jpg" },
+    { name: "Sal Abruscato", role: "ударные", years: "1989-1993", current: false, image: "/images/members/type-o-negative/sal-abruscato.jpg" }
+  ],
+  bio: "Американская готик-метал группа из Бруклина, образованная в 1989 году Питером Стилом после распада Carnivore. Type O Negative создали уникальное звучание, сочетающее мрачные готические мелодии, тяжёлые гитарные риффы, электронные эксперименты и фирменный чёрный юмор Питера Стила. Их альбом Bloody Kisses (1993) стал платиновым и сделал группу культовой. Питер Стил, обладатель бас-гитариста ростом 203 см, стал иконой готик-культуры. Группа распалась после смерти Стила в 2010 году от сердечной недостаточности. Type O Negative остаются одной из самых любимых готик-метал групп."
+},
+"Paradise Lost": {
+  albums: [
+    { 
+      name: "Gothic", 
+      year: 1991, 
+      cover: "/images/albums/paradise-lost/gothic.jpg",
+      tracks: [
+        "Gothic", "Dead Emotion", "Shattered", "Rapture", "Eternal", "Falling Forever",
+        "Angel Tears", "The Painless", "Desolate", "Rotting Misery", "Breeding Fear"
+      ]
+    },
+    { 
+      name: "Draconian Times", 
+      year: 1995, 
+      cover: "/images/albums/paradise-lost/draconian-times.jpg",
+      tracks: [
+        "Enchantment", "Hallowed Land", "The Last Time", "Forever Failure", "Once Solemn", "Shadowkings",
+        "Elusive Cure", "Yearn for Change", "Hands of Reason", "I See Your Face", "Jaded", "Sweetness"
+      ]
+    },
+    { 
+      name: "Icon", 
+      year: 1993, 
+      cover: "/images/albums/paradise-lost/icon.jpg",
+      tracks: [
+        "Embers Fire", "Remembrance", "As I Die", "True Belief", "Shallow Seasons", "Christendom",
+        "Deus Misereatur", "Sweetness", "Jaded", "Rotting Misery", "Dying Freedom", "Widow"
+      ]
+    },
+    { 
+      name: "One Second", 
+      year: 1997, 
+      cover: "/images/albums/paradise-lost/one-second.jpg",
+      tracks: [
+        "One Second", "Say Just Words", "Lydia", "Mercy", "Soul Courageous", "Another Day",
+        "The Sufferer", "This Cold Life", "Blood of Another", "Disappear", "Sane", "Take Me Down"
+      ]
+    },
+    { 
+      name: "Host", 
+      year: 1999, 
+      cover: "/images/albums/paradise-lost/host.jpg",
+      tracks: [
+        "So Much Is Lost", "Nothing Sacred", "In All Honesty", "Harbour", "Ordinary Days", "It's Too Late",
+        "Permanent Solution", "Behind the Grey", "Wreck", "Made the Same", "Deep", "Year of Summer"
+      ]
+    }
+  ],
+  members: [
+    { name: "Nick Holmes", role: "вокал", years: "1988-наст.", current: true, image: "/images/members/paradise-lost/nick-holmes.jpg" },
+    { name: "Greg Mackintosh", role: "гитара", years: "1988-наст.", current: true, image: "/images/members/paradise-lost/greg-mackintosh.jpg" },
+    { name: "Aaron Aedy", role: "гитара", years: "1988-наст.", current: true, image: "/images/members/paradise-lost/aaron-aedy.jpg" },
+    { name: "Steve Edmondson", role: "бас-гитара", years: "1988-наст.", current: true, image: "/images/members/paradise-lost/steve-edmondson.jpg" },
+    { name: "Matthew Archer", role: "ударные", years: "1988-1994", current: false, image: "/images/members/paradise-lost/matthew-archer.jpg" },
+    { name: "Lee Morris", role: "ударные", years: "1994-2004", current: false, image: "/images/members/paradise-lost/lee-morris.jpg" },
+    { name: "Jeff Singer", role: "ударные", years: "2004-2008", current: false, image: "/images/members/paradise-lost/jeff-singer.jpg" },
+    { name: "Adrian Erlandsson", role: "ударные", years: "2008-2015", current: false, image: "/images/members/paradise-lost/adrian-erlandsson.jpg" },
+    { name: "Waltteri Väyrynen", role: "ударные", years: "2015-наст.", current: true, image: "/images/members/paradise-lost/waltteri-vayrynen.jpg" }
+  ],
+  bio: "Британская готик-метал группа из Галифакса, образованная в 1988 году. Paradise Lost считаются одними из пионеров дум-метала и готик-метала, наряду с My Dying Bride и Anathema. Их ранние альбомы были тяжёлыми и мрачными, а альбом Gothic (1991) фактически создал жанр готик-метала. В середине 90-х группа сменила стиль на более электронный и альтернативный, но позже вернулась к метал-звучанию. Paradise Lost продолжают активно выступать и записываться, оставаясь одной из самых уважаемых групп в жанре."
+},
+"My Dying Bride": {
+  albums: [
+    { 
+      name: "Turn Loose the Swans", 
+      year: 1993, 
+      cover: "/images/albums/my-dying-bride/turn-loose-the-swans.jpg",
+      tracks: [
+        "Sear Me MCMXCIII", "Your River", "The Songless Bird", "The Snow in My Hand",
+        "The Crown of Sympathy", "Turn Loose the Swans", "Black God", "Sear Me"
+      ]
+    },
+    { 
+      name: "The Angel and the Dark River", 
+      year: 1995, 
+      cover: "/images/albums/my-dying-bride/the-angel-and-the-dark-river.jpg",
+      tracks: [
+        "The Cry of Mankind", "From Darkest Skies", "Black Voyage", "A Sea to Suffer In",
+        "Two Winters Only", "Your Shameful Heaven"
+      ]
+    },
+    { 
+      name: "Like Gods of the Sun", 
+      year: 1996, 
+      cover: "/images/albums/my-dying-bride/like-gods-of-the-sun.jpg",
+      tracks: [
+        "Like Gods of the Sun", "The Dark Caress", "Grace Unhearing", "A Kiss to Remember",
+        "The Bright Eyes", "For You", "It Will Come", "Here in the Throat"
+      ]
+    },
+    { 
+      name: "34.788%... Complete", 
+      year: 1998, 
+      cover: "/images/albums/my-dying-bride/34-percent-complete.jpg",
+      tracks: [
+        "The Whore, the Cook and the Mother", "The Stance of Evander Sinque", "Der Uberlebende",
+        "Heroin Chic", "Apocalypse Woman", "Base Level Erotica", "Under Your Wings and into Your Arms",
+        "Follower", "Fall With Me"
+      ]
+    },
+    { 
+      name: "The Dreadful Hours", 
+      year: 2001, 
+      cover: "/images/albums/my-dying-bride/the-dreadful-hours.jpg",
+      tracks: [
+        "The Dreadful Hours", "The Raven and the Rose", "Le Figlie Della Tempesta", "Black Heart Romance",
+        "A Cruel Taste of Winter", "My Hope, the Destroyer", "The Deepest of All Hearts", "The Return to the Beautiful",
+        "A Doomed Lover"
+      ]
+    }
+  ],
+  members: [
+    { name: "Aaron Stainthorpe", role: "вокал", years: "1990-наст.", current: true, image: "/images/members/my-dying-bride/aaron-stainthorpe.jpg" },
+    { name: "Andrew Craighan", role: "гитара", years: "1990-наст.", current: true, image: "/images/members/my-dying-bride/andrew-craighan.jpg" },
+    { name: "Hamish Glencross", role: "гитара", years: "1999-2014", current: false, image: "/images/members/my-dying-bride/hamish-glencross.jpg" },
+    { name: "Calvin Robertshaw", role: "гитара", years: "1990-1994, 2014-наст.", current: true, image: "/images/members/my-dying-bride/calvin-robertshaw.jpg" },
+    { name: "Adrian Jackson", role: "бас-гитара", years: "1990-2007", current: false, image: "/images/members/my-dying-bride/adrian-jackson.jpg" },
+    { name: "Lena Abé", role: "бас-гитара", years: "2007-наст.", current: true, image: "/images/members/my-dying-bride/lena-abe.jpg" },
+    { name: "Rick Miah", role: "ударные", years: "1990-1997", current: false, image: "/images/members/my-dying-bride/rick-miah.jpg" },
+    { name: "Shaun Taylor-Steels", role: "ударные", years: "1997-2006", current: false, image: "/images/members/my-dying-bride/shaun-taylor-steels.jpg" },
+    { name: "John Bennett", role: "ударные", years: "2006-2013", current: false, image: "/images/members/my-dying-bride/john-bennett.jpg" },
+    { name: "Dan Mullins", role: "ударные", years: "2013-2016", current: false, image: "/images/members/my-dying-bride/dan-mullins.jpg" },
+    { name: "Jeff Singer", role: "ударные", years: "2016-наст.", current: true, image: "/images/members/my-dying-bride/jeff-singer.jpg" },
+    { name: "Martin Powell", role: "скрипка, клавишные", years: "1991-1998", current: false, image: "/images/members/my-dying-bride/martin-powell.jpg" },
+    { name: "Yasmin Ahmed", role: "клавишные", years: "1998-2003", current: false, image: "/images/members/my-dying-bride/yasmin-ahmed.jpg" },
+    { name: "Sarah Stanton", role: "клавишные", years: "2003-2008", current: false, image: "/images/members/my-dying-bride/sarah-stanton.jpg" },
+    { name: "Katie Stone", role: "клавишные", years: "2008-2011", current: false, image: "/images/members/my-dying-bride/katie-stone.jpg" },
+    { name: "Shaun MacGowan", role: "скрипка", years: "2011-наст.", current: true, image: "/images/members/my-dying-bride/shaun-macgowan.jpg" }
+  ],
+  bio: "Британская дум-метал группа из Галифакса, образованная в 1990 году. My Dying Bride считаются одними из пионеров дум-метала и готик-метала, наряду с Paradise Lost и Anathema. Их музыка отличается медленными, тяжёлыми риффами, мрачной атмосферой, скрипкой и глубоким гроулом Аарона Стейнторпа. Альбомы Turn Loose the Swans (1993) и The Angel and the Dark River (1995) стали классикой жанра. Группа продолжает активно выступать и записываться, оставаясь верной своему уникальному стилю."
+},
+"Fields of the Nephilim": {
+  albums: [
+    { 
+      name: "Dawnrazor", 
+      year: 1987, 
+      cover: "/images/albums/fields-of-the-nephilim/dawnrazor.jpg",
+      tracks: [
+        "Dawnrazor", "The Sequel", "Preacher Man", "Pulling the Wires", "Dead But Dreaming",
+        "Slow Kill", "Laura", "Wail of Sumer", "Love Under Will", "Blue Water"
+      ]
+    },
+    { 
+      name: "The Nephilim", 
+      year: 1988, 
+      cover: "/images/albums/fields-of-the-nephilim/the-nephilim.jpg",
+      tracks: [
+        "Endemoniada", "The Tower", "Shiva", "Celebrate", "Love Under Will", "Last Exit for the Lost",
+        "Preacher Man", "Phobia", "Mourning Sun", "Zoon (The Wake World)"
+      ]
+    },
+    { 
+      name: "Elizium", 
+      year: 1990, 
+      cover: "/images/albums/fields-of-the-nephilim/elizium.jpg",
+      tracks: [
+        "(Dead but Dreaming)", "For Her Light", "At the Gates of Silent Memory", "(Paradise Regained)",
+        "Submission", "The Wail of Sumer", "And There Will Your Heart Be Also", "Elizium"
+      ]
+    },
+    { 
+      name: "Fallen", 
+      year: 2002, 
+      cover: "/images/albums/fields-of-the-nephilim/fallen.jpg",
+      tracks: [
+        "Fallen", "Thirst for Land", "Falling", "Shroud (Exordium)", "Requiem (Liber Animus)",
+        "From the Fire", "V: The Silent Revolution", "Fallen (Requiem for the Faithful)", "The Passing"
+      ]
+    },
+    { 
+      name: "Mourning Sun", 
+      year: 2005, 
+      cover: "/images/albums/fields-of-the-nephilim/mourning-sun.jpg",
+      tracks: [
+        "Shroud (Exordium)", "Straight to the Light", "Mourning Sun", "New Gold Dawn", "Requiem (Liber Animus)",
+        "Xiberia (Seasons in the Ice)", "She", "In the Year 2525", "Paradise Regained", "The Passage"
+      ]
+    }
+  ],
+  members: [
+    { name: "Carl McCoy", role: "вокал", years: "1984-1991, 1998-наст.", current: true, image: "/images/members/fields-of-the-nephilim/carl-mccoy.jpg" },
+    { name: "Tony Pettitt", role: "бас-гитара", years: "1984-1991, 1998-2012", current: false, image: "/images/members/fields-of-the-nephilim/tony-pettitt.jpg" },
+    { name: "Paul Wright", role: "гитара", years: "1984-1991", current: false, image: "/images/members/fields-of-the-nephilim/paul-wright.jpg" },
+    { name: "Peter Yates", role: "гитара", years: "1984-1991", current: false, image: "/images/members/fields-of-the-nephilim/peter-yates.jpg" },
+    { name: "Alexander 'Nod' Wright", role: "ударные", years: "1984-1991", current: false, image: "/images/members/fields-of-the-nephilim/alexander-wright.jpg" },
+    { name: "Gary Whisker", role: "клавишные", years: "1987-1991", current: false, image: "/images/members/fields-of-the-nephilim/gary-whisker.jpg" },
+    { name: "John 'Capachino' Carter", role: "ударные", years: "1998-2000", current: false, image: "/images/members/fields-of-the-nephilim/john-carter.jpg" },
+    { name: "Lee Newell", role: "ударные", years: "2000-2005", current: false, image: "/images/members/fields-of-the-nephilim/lee-newell.jpg" },
+    { name: "Simon Rippin", role: "ударные", years: "2005-2012", current: false, image: "/images/members/fields-of-the-nephilim/simon-rippin.jpg" }
+  ],
+  bio: "Британская готик-рок группа, образованная в 1984 году в Лондоне. Fields of the Nephilim известны своим уникальным звучанием, сочетающим мрачный готик-рок с элементами психоделии и вестерна, а также мистическими текстами, вдохновлёнными работами Х.П. Лавкрафта. Их визуальный стиль — ковбойские шляпы, длинные плащи и грим — стал культовым. Альбомы The Nephilim (1988) и Elizium (1990) считаются классикой готик-рока. Карл Маккой остаётся единственным постоянным участником группы. Fields of the Nephilim продолжают выступать и имеют преданных поклонников по всему миру."
+},
+"Murderdolls": {
+  albums: [
+    { 
+      name: "Beyond the Valley of the Murderdolls", 
+      year: 2002, 
+      cover: "/images/albums/murderdolls/beyond-the-valley.jpg",
+      tracks: [
+        "Slit My Wrist", "Dead in Hollywood", "I Love to Say Fuck", "Kill Miss America", "Graverobbing U.S.A.",
+        "Dawn of the Dead", "Let's Go to War", "Die My Bride", "She Was a Teenage Zombie", "The Last Song (B-sides)",
+        "Crash Crash", "Breath", "Hell's Gate (Escape)", "Dr. Kilpatrick", "Skinned and Feathered", "Summer Breeze (Go Die)"
+      ]
+    },
+    { 
+      name: "Women and Children Last", 
+      year: 2010, 
+      cover: "/images/albums/murderdolls/women-and-children-last.jpg",
+      tracks: [
+        "The World According to Revenge", "Chapel of Blood", "Bored 'Til Death", "Pieces of You", "Hail Mary",
+        "Summertime Suicide", "Death or Glory", "My Dark Place Alone", "Blood Stained Valentine", "Nowhere",
+        "Hello, Goodbye, Die", "Motherfucker, I Don't Care", "The Rejected", "Breakdown", "Faster"
+      ]
+    }
+  ],
+  members: [
+    { name: "Wednesday 13", role: "вокал", years: "1999-2004, 2008-2011", current: false, image: "/images/members/murderdolls/wednesday-13.jpg" },
+    { name: "Joey Jordison", role: "гитара", years: "1999-2004, 2008-2011", current: false, image: "/images/members/murderdolls/joey-jordison.jpg" },
+    { name: "Tripp Eisen", role: "гитара", years: "1999-2002", current: false, image: "/images/members/murderdolls/tripp-eisen.jpg" },
+    { name: "Acey Slade", role: "гитара", years: "2002-2004, 2008-2011", current: false, image: "/images/members/murderdodds/acey-slade.jpg" },
+    { name: "Eric Griffin", role: "бас-гитара", years: "2002-2004", current: false, image: "/images/members/murderdolls/eric-griffin.jpg" },
+    { name: "Ben Graves", role: "ударные", years: "2002-2004", current: false, image: "/images/members/murderdolls/ben-graves.jpg" },
+    { name: "Jason West", role: "ударные", years: "2008-2011", current: false, image: "/images/members/murderdolls/jason-west.jpg" }
+  ],
+  bio: "Американская хоррор-панк/хэви-метал супергруппа, образованная в 1999 году барабанщиком Slipknot Джоуи Джордисоном и фронтменом Wednesday 13. Murderdolls стали известны благодаря своему уникальному стилю, сочетающему хоррор-панк, глэм-метал и хард-рок с текстами, вдохновленными фильмами ужасов. Группа распалась в 2004 году, воссоединилась в 2008 и окончательно解散ась в 2011. Трагическая смерть Джоуи Джордисона в 2021 году сделала воссоединение невозможным."
+},
+"Kittie": {
+  albums: [
+    { 
+      name: "Spit", 
+      year: 1999, 
+      cover: "/images/albums/kittie/spit.jpg",
+      tracks: [
+        "Spit", "Brackish", "Charlotte", "Paperdoll", "Do You Think I'm a Whore", "Suck", "Raven",
+        "Get Off (You Can Eat It)", "Choke", "Immortal", "Brackish (live)", "Spit (live)"
+      ]
+    },
+    { 
+      name: "Oracle", 
+      year: 2001, 
+      cover: "/images/albums/kittie/oracle.jpg",
+      tracks: [
+        "Oracle", "Mouthful of Poison", "In Winter", "Severed", "Run Like Hell", "Pain", "Wolves",
+        "What I Always Wanted", "Safe", "No Name", "Under the Moon", "We Are the Lamb"
+      ]
+    },
+    { 
+      name: "Until the End", 
+      year: 2004, 
+      cover: "/images/albums/kittie/until-the-end.jpg",
+      tracks: [
+        "Look So Pretty", "Career Suicide", "Until the End", "Red Flags", "Pussy Sugar", "In Dreams",
+        "Into the Darkness", "Burning Bridges", "Loveless", "Fear", "Acid Bath", "This Love"
+      ]
+    },
+    { 
+      name: "Funeral for Yesterday", 
+      year: 2007, 
+      cover: "/images/albums/kittie/funeral-for-yesterday.jpg",
+      tracks: [
+        "Funeral for Yesterday", "Breathe", "Everything That Could Have Been", "Slow Motion", "Will to Live",
+        "This Is Not an Exit", "Flowers of Fate", "The Change", "Forgotten", "Into the Darkness (acoustic)"
+      ]
+    },
+    { 
+      name: "In the Black", 
+      year: 2009, 
+      cover: "/images/albums/kittie/in-the-black.jpg",
+      tracks: [
+        "Kingdom Come", "My Plague", "Cut Throat", "Die My Darling", "Sorrow I Know", "Forgive and Forget",
+        "Now or Never", "Falling Down", "Sleep", "In the Black", "The Truth", "Heaven"
+      ]
+    }
+  ],
+  members: [
+    { name: "Morgan Lander", role: "вокал, гитара", years: "1996-2017, 2022-наст.", current: true, image: "/images/members/kittie/morgan-lander.jpg" },
+    { name: "Mercedes Lander", role: "ударные", years: "1996-2017, 2022-наст.", current: true, image: "/images/members/kittie/mercedes-lander.jpg" },
+    { name: "Fallon Bowman", role: "гитара", years: "1996-2001", current: false, image: "/images/members/kittie/fallon-bowman.jpg" },
+    { name: "Tanya Candler", role: "бас-гитара", years: "1997-1999", current: false, image: "/images/members/kittie/tanya-candler.jpg" },
+    { name: "Talena Atfield", role: "бас-гитара", years: "1999-2002", current: false, image: "/images/members/kittie/talena-atfield.jpg" },
+    { name: "Jennifer Arroyo", role: "бас-гитара", years: "2002-2005", current: false, image: "/images/members/kittie/jennifer-arroyo.jpg" },
+    { name: "Trish Doan", role: "бас-гитара", years: "2005-2007, 2010-2012", current: false, image: "/images/members/kittie/trish-doan.jpg" },
+    { name: "Ivy Vujic", role: "бас-гитара", years: "2008-2017, 2022-наст.", current: true, image: "/images/members/kittie/ivy-vujic.jpg" },
+    { name: "Tara McLeod", role: "гитара", years: "2005-2017, 2022-наст.", current: true, image: "/images/members/kittie/tara-mcleod.jpg" },
+    { name: "Lisa Marx", role: "гитара", years: "2004", current: false, image: "/images/members/kittie/lisa-marx.jpg" }
+  ],
+  bio: "Канадская хэви-метал группа из Лондона, Онтарио, образованная в 1996 году. Kittie стали одной из самых успешных женских метал-групп в истории, продав более двух миллионов альбомов по всему миру. Их дебютный альбом Spit (1999) получил золотой статус в США. Группа прошла через множество изменений состава, но сестры Морган и Мерседес Ландер оставались постоянными участницами. После перерыва в 2017-2022 годах группа воссоединилась и продолжает выступать. Kittie оказали огромное влияние на развитие ню-метала и вдохновили многих молодых музыкантов."
+},
+"London After Midnight": {
+  albums: [
+    { 
+      name: "Selected Scenes from the End of the World", 
+      year: 1992, 
+      cover: "/images/albums/london-after-midnight/selected-scenes.jpg",
+      tracks: [
+        "Claire's Horrors", "The Black Cat", "Your Best Nightmare", "Revenge", "Shatter Day", "Love You",
+        "Ice", "The Black Cat (reprise)", "Claire's Horrors (acoustic)", "Spider and the Fly"
+      ]
+    },
+    { 
+      name: "Psycho Magnet", 
+      year: 1996, 
+      cover: "/images/albums/london-after-midnight/psycho-magnet.jpg",
+      tracks: [
+        "Hate", "Sacrifice", "Carry Your Cross", "Psycho Magnet", "America's a Fucking Disease", "Perversion",
+        "This Side of Madness", "Revenge (reprise)", "Spider and the Fly", "Come and Join the Army of the Damned"
+      ]
+    },
+    { 
+      name: "Oddities", 
+      year: 1998, 
+      cover: "/images/albums/london-after-midnight/oddities.jpg",
+      tracks: [
+        "Sally's Song", "The Bondage Song", "The Saints", "Hate (acoustic)", "Sacrifice (acoustic)",
+        "Perversion (acoustic)", "Your Best Nightmare (acoustic)", "Ice (instrumental)", "Untitled", "Outro"
+      ]
+    },
+    { 
+      name: "Violent Acts of Beauty", 
+      year: 2007, 
+      cover: "/images/albums/london-after-midnight/violent-acts-of-beauty.jpg",
+      tracks: [
+        "Violent Acts of Beauty", "Hate (reprise)", "Fear", "Sacrifice (reprise)", "The End of Everything",
+        "Revenge (reprise)", "The Black Cat (reprise)", "Claire's Horrors (reprise)", "Outro"
+      ]
+    }
+  ],
+  members: [
+    { name: "Sean Brennan", role: "вокал, гитара, бас, клавишные", years: "1990-наст.", current: true, image: "/images/members/london-after-midnight/sean-brennan.jpg" },
+    { name: "Tamlyn", role: "клавишные", years: "1990-2003", current: false, image: "/images/members/london-after-midnight/tamlyn.jpg" },
+    { name: "Michael Areklett", role: "бас-гитара", years: "1992-2005, 2018-наст.", current: true, image: "/images/members/london-after-midnight/michael-areklett.jpg" },
+    { name: "Pete Pace", role: "ударные", years: "2008-наст.", current: true, image: "/images/members/london-after-midnight/pete-pace.jpg" },
+    { name: "Matthew Setzer", role: "гитара", years: "2008-наст.", current: true, image: "/images/members/london-after-midnight/matthew-setzer.jpg" },
+    { name: "Eddie Hawkins", role: "гитара", years: "1989-1990, 2003-2005", current: false, image: "/images/members/london-after-midnight/eddie-hawkins.jpg" },
+    { name: "Joe S.", role: "ударные", years: "2001-2008", current: false, image: "/images/members/london-after-midnight/joe-s.jpg" },
+    { name: "Douglas Avery", role: "ударные", years: "1992-1999", current: false, image: "/images/members/london-after-midnight/douglas-avery.jpg" }
+  ],
+  bio: "Американский готик-рок проект, созданный в 1990 году в Лос-Анджелесе композитором и мультиинструменталистом Шоном Бреннаном. London After Midnight считается одной из ключевых групп второй волны готик-рока, оказавшей огромное влияние на развитие жанра. Их музыка сочетает мрачные готические мелодии с элементами дарквейва и индастриала. Группа известна своими политическими текстами, поддержкой прав животных и экологических движений. HIM называли London After Midnight как одно из своих главных вдохновений. Несмотря на редкие релизы, группа сохраняет культовый статус."
+},
+"HIM": {
+  albums: [
+    { 
+      name: "Greatest Love Songs Vol. 666", 
+      year: 1997, 
+      cover: "/images/albums/him/greatest-love-songs-666.jpg",
+      tracks: [
+        "Your Sweet Six Six Six", "Wicked Game", "The Heartless", "Our Diabolikal Rapture", "It's All Tears (Drown in This Love)",
+        "When Love and Death Embrace", "The Beginning of the End", "(Don't Fear) The Reaper", "For You", "Stigmata Diaboli", "Dark Circle"
+      ]
+    },
+    { 
+      name: "Razorblade Romance", 
+      year: 1999, 
+      cover: "/images/albums/him/razorblade-romance.jpg",
+      tracks: [
+        "I Love You (Prelude to Tragedy)", "Poison Girl", "Join Me in Death", "Right Here in My Arms", "Gone with the Sin",
+        "Razorblade Kiss", "Bury Me Deep Inside Your Heart", "Heaven Tonight", "Death Is in Love with Us", "Resurrection", "One Last Time"
+      ]
+    },
+    { 
+      name: "Deep Shadows and Brilliant Highlights", 
+      year: 2001, 
+      cover: "/images/albums/him/deep-shadows.jpg",
+      tracks: [
+        "Salt in Our Wounds", "Heartache Every Moment", "Lose You Tonight", "In Joy and Sorrow", "Pretending",
+        "Close to the Flame", "You Are the One", "Please Don't Let It Go", "Beautiful", "Don't Close Your Heart", "Love You Like I Do"
+      ]
+    },
+    { 
+      name: "Love Metal", 
+      year: 2003, 
+      cover: "/images/albums/him/love-metal.jpg",
+      tracks: [
+        "Buried Alive by Love", "The Funeral of Hearts", "Beyond Redemption", "Sweet Pandemonium", "Soul on Fire",
+        "The Sacrament", "This Fortress of Tears", "Circle of Fear", "Endless Dark", "The Path", "Love's Requiem"
+      ]
+    },
+    { 
+      name: "Dark Light", 
+      year: 2005, 
+      cover: "/images/albums/him/dark-light.jpg",
+      tracks: [
+        "Vampire Heart", "Rip Out the Wings of a Butterfly", "Under the Rose", "Killing Loneliness", "Dark Light",
+        "Behind the Crimson Door", "The Face of God", "Drunk on Shadows", "Play Dead", "In the Night Side of Eden", "Venus (In Our Blood)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Ville Valo", role: "вокал", years: "1991-2017", current: false, image: "/images/members/him/ville-valo.jpg" },
+    { name: "Mikko 'Linde' Lindström", role: "гитара", years: "1991-2017", current: false, image: "/images/members/him/linde-lindstrom.jpg" },
+    { name: "Mikko 'Migé' Paananen", role: "бас-гитара", years: "1991-2017", current: false, image: "/images/members/him/mige-paananen.jpg" },
+    { name: "Mika 'Gas Lipstick' Karppinen", role: "ударные", years: "1999-2015", current: false, image: "/images/members/him/gas-lipstick.jpg" },
+    { name: "Janne 'Burton' Puurtinen", role: "клавишные", years: "2001-2017", current: false, image: "/images/members/him/burton-puurtinen.jpg" },
+    { name: "Juhana 'Pätkä' Rantala", role: "ударные", years: "1991-1999", current: false, image: "/images/members/him/patka-rantala.jpg" },
+    { name: "Antto Melasniemi", role: "клавишные", years: "1995-1998", current: false, image: "/images/members/him/antto-melasniemi.jpg" },
+    { name: "Jussi-Mikko 'Juska' Salminen", role: "клавишные", years: "1998-2000", current: false, image: "/images/members/him/juska-salminen.jpg" },
+    { name: "Jukka 'Kosmo' Kröger", role: "ударные", years: "2015-2017", current: false, image: "/images/members/him/kosmo-kroger.jpg" }
+  ],
+  bio: "Финская готик-метал группа из Хельсинки, образованная в 1991 году под названием His Infernal Majesty. HIM стали одной из самых успешных финских групп в истории, продав более 10 миллионов альбомов по всему миру. Они придумали термин 'love metal' для описания своей музыки, сочетающей мрачные готические мелодии с романтическими текстами. Их логотип heartagram стал культовым символом. Группа распалась в 2017 году после прощального тура. Вокалист Вилле Вало продолжил сольную карьеру. HIM оказали огромное влияние на развитие готик-метала и альтернативной сцены."
+},
+"Obituary": {
+  albums: [
+    { name: "Slowly We Rot", year: 1989, cover: "/images/albums/obituary/slowly-we-rot.jpg", tracks: ["Internal Bleeding", "Slowly We Rot", "Cause of Death", "Til Death", "Bloodsoaked", "Stinkupuss", "Find the Arise", "Intoxicated", "Deadly Intentions", "I'm in Pain"] },
+    { name: "Cause of Death", year: 1990, cover: "/images/albums/obituary/cause-of-death.jpg", tracks: ["Infected", "Body Bag", "Chopped in Half", "Circle of the Tyrants", "Dying", "Find the Arise", "Cause of Death", "Memories Remain", "Turned Inside Out"] },
+    { name: "The End Complete", year: 1992, cover: "/images/albums/obituary/the-end-complete.jpg", tracks: ["I'm in Pain", "Back to One", "Dead Silence", "In the End of Life", "Sickness", "Corrosive", "Killing Time", "The End Complete"] },
+    { name: "World Demise", year: 1994, cover: "/images/albums/obituary/world-demise.jpg", tracks: ["Don't Care", "World Demise", "Burn", "Memories", "Solid State", "Split", "Reject", "Lost", "Time", "Stress"] },
+    { name: "Frozen in Time", year: 2005, cover: "/images/albums/obituary/frozen-in-time.jpg", tracks: ["Redneck Stomp", "On the Floor", "Insane", "Blistered", "Back Inside", "Mindset", "Stand Alone", "Slow Death", "Denial", "Lies"] }
+  ],
+  members: [
+    { name: "John Tardy", role: "вокал", years: "1984-наст.", current: true, image: "/images/members/obituary/john-tardy.jpg" },
+    { name: "Donald Tardy", role: "ударные", years: "1984-наст.", current: true, image: "/images/members/obituary/donald-tardy.jpg" },
+    { name: "Trevor Peres", role: "гитара", years: "1984-наст.", current: true, image: "/images/members/obituary/trevor-peres.jpg" },
+    { name: "Kenny Andrews", role: "гитара", years: "1984-1986, 2022-наст.", current: true, image: "/images/members/obituary/kenny-andrews.jpg" },
+    { name: "Terry Butler", role: "бас-гитара", years: "1989-1997, 2003-2010", current: false, image: "/images/members/obituary/terry-butler.jpg" },
+    { name: "Allen West", role: "гитара", years: "1987-1989, 1991-1997, 2003-2006", current: false, image: "/images/members/obituary/allen-west.jpg" },
+    { name: "Frank Watkins", role: "бас-гитара", years: "1997-2003", current: false, image: "/images/members/obituary/frank-watkins.jpg" },
+    { name: "James Murphy", role: "гитара", years: "1989-1990", current: false, image: "/images/members/obituary/james-murphy.jpg" }
+  ],
+  bio: "Американская дэт-метал группа из Флориды, образованная в 1984 году. Obituary считаются одной из ключевых групп флоридской дэт-метал сцены наряду с Death, Morbid Angel и Deicide. Их музыка отличается фирменным звучанием с характерным вокалом Джона Тарди, медленными, тяжёлыми риффами и мощными ударными. Альбомы Slowly We Rot (1989) и Cause of Death (1990) стали классикой жанра. Группа продолжает выступать и записываться по сей день."
+},
+"Morbid Angel": {
+  albums: [
+    { 
+      name: "Altars of Madness", 
+      year: 1989, 
+      cover: "/images/albums/morbid-angel/altars-of-madness.jpg",
+      tracks: [
+        "Immortal Rites", "Suffocation", "Visions from the Darkside", "Maze of Torment", "Lord of All Fevers and Plague",
+        "Chapel of Ghouls", "Bleed for the Devil", "Damnation", "Blasphemy", "Evil Spells", "Maze of Torment (demo)"
+      ]
+    },
+    { 
+      name: "Blessed Are the Sick", 
+      year: 1991, 
+      cover: "/images/albums/morbid-angel/blessed-are-the-sick.jpg",
+      tracks: [
+        "Intro", "Fall from Grace", "Brainstorm", "Rebel Lands", "Doomsday Celebration", "Day of Suffering",
+        "Blessed Are the Sick", "The Ancient Ones", "Prayer of Hatred", "Inquisitor", "Pain Divine", "Unholy Blasphemies"
+      ]
+    },
+    { 
+      name: "Covenant", 
+      year: 1993, 
+      cover: "/images/albums/morbid-angel/covenant.jpg",
+      tracks: [
+        "Rapture", "Pain Divine", "World of Shit (The Promised Land)", "Covenant of Death", "Sworn to the Black",
+        "Angel of Disease", "Blood on My Hands", "Where the Slime Lives", "The Lions Den", "God of Emptiness"
+      ]
+    },
+    { 
+      name: "Domination", 
+      year: 1995, 
+      cover: "/images/albums/morbid-angel/domination.jpg",
+      tracks: [
+        "Dominate", "Where the Slime Live", "Eyes to See, Ears to Hear", "Melting", "Nothing But Fear", "Dawn of the Angry",
+        "This Means War", "Caesar's Palace", "Dreaming", "Inquistion (Burn with Me)", "Hatework"
+      ]
+    },
+    { 
+      name: "Formulas Fatal to the Flesh", 
+      year: 1998, 
+      cover: "/images/albums/morbid-angel/formulas-fatal-to-the-flesh.jpg",
+      tracks: [
+        "Heaving Earth", "Prayer of Hatred", "Bil Ur-Sag", "Nothing Is Not", "Chambers of Dis", "Demurral",
+        "The Narrow Mind", "Hellspawn: The Rebirth", "Hatework", "The Dreaming", "Covenant of Death", "Hymn to the Gas"
+      ]
+    }
+  ],
+  members: [
+    { name: "Trey Azagthoth", role: "гитара", years: "1983-наст.", current: true, image: "/images/members/morbid-angel/trey-azagthoth.jpg" },
+    { name: "Pete Sandoval", role: "ударные", years: "1988-2013, 2023-наст.", current: true, image: "/images/members/morbid-angel/pete-sandoval.jpg" },
+    { name: "Steve Tucker", role: "вокал, бас-гитара", years: "1995-2001, 2003-2004, 2015-наст.", current: true, image: "/images/members/morbid-angel/steve-tucker.jpg" },
+    { name: "Dan Vadim Von", role: "гитара", years: "2022-наст.", current: true, image: "/images/members/morbid-angel/dan-vadim-von.jpg" },
+    { name: "David Vincent", role: "вокал, бас-гитара", years: "1986-1995, 2004-2015", current: false, image: "/images/members/morbid-angel/david-vincent.jpg" },
+    { name: "Richard Brunelle", role: "гитара", years: "1985-1992, 1994", current: false, image: "/images/members/morbid-angel/richard-brunelle.jpg" },
+    { name: "Erik Rutan", role: "гитара", years: "1993-1996, 1998-2002", current: false, image: "/images/members/morbid-angel/erik-rutan.jpg" },
+    { name: "Jared Anderson", role: "бас-гитара", years: "2001-2002", current: false, image: "/images/members/morbid-angel/jared-anderson.jpg" },
+    { name: "Destructhor", role: "гитара", years: "2008-2015", current: false, image: "/images/members/morbid-angel/destructhor.jpg" },
+    { name: "Tim Yeung", role: "ударные", years: "2013-2015", current: false, image: "/images/members/morbid-angel/tim-yeung.jpg" },
+    { name: "Scott Fuller", role: "ударные", years: "2015-2023", current: false, image: "/images/members/morbid-angel/scott-fuller.jpg" }
+  ],
+  bio: "Американская дэт-метал группа из Флориды, образованная в 1983 году. Morbid Angel считаются одной из ключевых групп флоридской дэт-метал сцены наряду с Death и Obituary. Их дебютный альбом Altars of Madness (1989) признан одним из величайших дэт-метал альбомов всех времён. Группа известна своей техничной игрой, оккультными текстами и виртуозными соло Трея Азагтота. Барабанщик Пит Сандовал стал легендой благодаря своей невероятной скорости игры на ударных. Morbid Angel продали более миллиона альбомов по всему миру."
+},
+"Cannibal Corpse": {
+  albums: [
+    { 
+      name: "Tomb of the Mutilated", 
+      year: 1992, 
+      cover: "/images/albums/cannibal-corpse/tomb-of-the-mutilated.jpg",
+      tracks: [
+        "Hammer Smashed Face", "I Cum Blood", "Addicted to Vaginal Skin", "Split Wide Open", "Necropedophile",
+        "The Cryptic Stench", "Entrails Ripped from a Virgin's Cunt", "Post Mortal Ejaculation", "Beyond the Cemetery"
+      ]
+    },
+    { 
+      name: "The Bleeding", 
+      year: 1994, 
+      cover: "/images/albums/cannibal-corpse/the-bleeding.jpg",
+      tracks: [
+        "Staring Through the Eyes of the Dead", "Fucked with a Knife", "Stripped, Raped and Strangled", "Pulverized",
+        "Return to Flesh", "The Pick-Axe Murders", "She Was Asking for It", "The Bleeding", "Force Fed Broken Glass", "An Experiment in Homicide"
+      ]
+    },
+    { 
+      name: "Butchered at Birth", 
+      year: 1991, 
+      cover: "/images/albums/cannibal-corpse/butchered-at-birth.jpg",
+      tracks: [
+        "Meat Hook Sodomy", "Gutted", "Living Dissection", "Under the Rotted Flesh", "Covered with Sores",
+        "Vomit the Soul", "Butchered at Birth", "Rancid Amputation", "Innards Decay"
+      ]
+    },
+    { 
+      name: "Eaten Back to Life", 
+      year: 1990, 
+      cover: "/images/albums/cannibal-corpse/eaten-back-to-life.jpg",
+      tracks: [
+        "Shredded Humans", "Edible Autopsy", "Put Them to Death", "Mangled", "Scattered Remains, Splattered Brains",
+        "Born in a Casket", "Rotting Head", "The Undead Will Feast", "Bloody Chunks", "A Skull Full of Maggots", "Buried in the Backyard"
+      ]
+    },
+    { 
+      name: "Vile", 
+      year: 1996, 
+      cover: "/images/albums/cannibal-corpse/vile.jpg",
+      tracks: [
+        "Devoured by Vermin", "Mummified in Barbed Wire", "Perverse Suffering", "Disfigured", "Bloodlands",
+        "Puncture Wound Massacre", "Relentless Beating", "Absolute Hatred", "Eaten from Inside", "Orgasm Through Torture", "Monolith"
+      ]
+    }
+  ],
+  members: [
+    { name: "Alex Webster", role: "бас-гитара", years: "1988-наст.", current: true, image: "/images/members/cannibal-corpse/alex-webster.jpg" },
+    { name: "Paul Mazurkiewicz", role: "ударные", years: "1988-наст.", current: true, image: "/images/members/cannibal-corpse/paul-mazurkiewicz.jpg" },
+    { name: "Rob Barrett", role: "гитара", years: "1993-1997, 2005-наст.", current: true, image: "/images/members/cannibal-corpse/rob-barrett.jpg" },
+    { name: "George 'Corpsegrinder' Fisher", role: "вокал", years: "1995-наст.", current: true, image: "/images/members/cannibal-corpse/george-fisher.jpg" },
+    { name: "Erik Rutan", role: "гитара", years: "2021-наст.", current: true, image: "/images/members/cannibal-corpse/erik-rutan.jpg" },
+    { name: "Chris Barnes", role: "вокал", years: "1988-1995", current: false, image: "/images/members/cannibal-corpse/chris-barnes.jpg" },
+    { name: "Bob Rusay", role: "гитара", years: "1988-1993", current: false, image: "/images/members/cannibal-corpse/bob-rusay.jpg" },
+    { name: "Jack Owen", role: "гитара", years: "1988-2004", current: false, image: "/images/members/cannibal-corpse/jack-owen.jpg" },
+    { name: "Pat O'Brien", role: "гитара", years: "1997-2021", current: false, image: "/images/members/cannibal-corpse/pat-obrien.jpg" },
+    { name: "Jeremy Turner", role: "гитара", years: "2004-2005", current: false, image: "/images/members/cannibal-corpse/jeremy-turner.jpg" }
+  ],
+  bio: "Американская дэт-метал группа из Буффало, образованная в 1988 году. Cannibal Corpse стали одной из самых коммерчески успешных и противоречивых групп в истории дэт-метала, известных своими шокирующими текстами и обложками. Несмотря на запреты и цензуру, группа продала более 2 миллионов альбомов по всему миру. Cannibal Corpse появились в фильме 'Эйс Вентура: Розыск домашних животных' с Джимом Керри, что принесло им дополнительную известность. Группа продолжает активно выступать и записываться, оставаясь одной из самых уважаемых в жанре."
+},
+"Deicide": {
+  albums: [
+    { 
+      name: "Deicide", 
+      year: 1990, 
+      cover: "/images/albums/deicide/deicide.jpg",
+      tracks: [
+        "Lunatic of God's Creation", "Sacrificial Suicide", "Oblivious to Evil", "Dead by Dawn", "Blaspherereion",
+        "Deicide", "Carnage in the Temple of the Damned", "Mephistopheles", "Crucifixation"
+      ]
+    },
+    { 
+      name: "Legion", 
+      year: 1992, 
+      cover: "/images/albums/deicide/legion.jpg",
+      tracks: [
+        "Satan Spawn, the Caco-Daemon", "Dead but Dreaming", "Repent to Die", "Trifixion", "Behead the Prophet (No Lord Shall Live)",
+        "Holy Deception", "In Hell I Wait", "Revocate the Agitator"
+      ]
+    },
+    { 
+      name: "Once Upon the Cross", 
+      year: 1995, 
+      cover: "/images/albums/deicide/once-upon-the-cross.jpg",
+      tracks: [
+        "Once Upon the Cross", "Christ Denied", "When Satan Rules His World", "Kill the Christian", "They Are the Children of the Underworld",
+        "Behind the Light Thou Shall Rise", "To Be Dead", "Confessional Rape", "Trick or Betrayed"
+      ]
+    },
+    { 
+      name: "Serpents of the Light", 
+      year: 1997, 
+      cover: "/images/albums/deicide/serpents-of-the-light.jpg",
+      tracks: [
+        "Serpents of the Light", "Bastard of Christ", "Blame It on God", "This Is Hell We're In", "Unbroken at the Stake",
+        "Believe the Lie", "The Truth Above", "Father Baker's", "Shithead", "Snake in the Cradle"
+      ]
+    },
+    { 
+      name: "Insineratehymn", 
+      year: 2000, 
+      cover: "/images/albums/deicide/insineratehymn.jpg",
+      tracks: [
+        "Jesus Wept", "In the Mirror", "Bible Basher", "Forever Hate You", "Standing in the Flames", "Insineratehymn",
+        "Refusal of Penance", "Reject", "Hang in Agony Until You're Dead", "Beyond Salvation"
+      ]
+    }
+  ],
+  members: [
+    { name: "Glen Benton", role: "вокал, бас-гитара", years: "1987-наст.", current: true, image: "/images/members/deicide/glen-benton.jpg" },
+    { name: "Steve Asheim", role: "ударные", years: "1987-наст.", current: true, image: "/images/members/deicide/steve-asheim.jpg" },
+    { name: "Kevin Quirion", role: "гитара", years: "2011-наст.", current: true, image: "/images/members/deicide/kevin-quirion.jpg" },
+    { name: "Taylor Nordberg", role: "гитара", years: "2019-наст.", current: true, image: "/images/members/deicide/taylor-nordberg.jpg" },
+    { name: "Brian Hoffman", role: "гитара", years: "1987-2004", current: false, image: "/images/members/deicide/brian-hoffman.jpg" },
+    { name: "Eric Hoffman", role: "гитара", years: "1987-2004", current: false, image: "/images/members/deicide/eric-hoffman.jpg" },
+    { name: "Ralph Santolla", role: "гитара", years: "2005-2007, 2008-2011", current: false, image: "/images/members/deicide/ralph-santolla.jpg" },
+    { name: "Jack Owen", role: "гитара", years: "2004-2016", current: false, image: "/images/members/deicide/jack-owen.jpg" },
+    { name: "Mark English", role: "гитара", years: "2016-2019", current: false, image: "/images/members/deicide/mark-english.jpg" }
+  ],
+  bio: "Американская дэт-метал группа из Флориды, образованная в 1987 году. Deicide известны своими откровенно антихристианскими текстами и скандальным имиджем фронтмена Глена Бентона, который выжигал на лбу перевернутый крест. Группа считается одной из ключевых во флоридской дэт-метал сцене. Альбомы Deicide (1990) и Legion (1992) стали классикой жанра. Несмотря на многочисленные изменения состава, группа продолжает активно выступать и записываться."
+},
+"Entombed": {
+  albums: [
+    { 
+      name: "Left Hand Path", 
+      year: 1990, 
+      cover: "/images/albums/entombed/left-hand-path.jpg",
+      tracks: [
+        "Left Hand Path", "Drowned", "Revel in Flesh", "When Life Has Ceased", "Supposed to Rot",
+        "But Life Goes On", "Bitter Loss", "Morbid Devourer", "Abnormally Deceased", "The Truth Beyond"
+      ]
+    },
+    { 
+      name: "Clandestine", 
+      year: 1991, 
+      cover: "/images/albums/entombed/clandestine.jpg",
+      tracks: [
+        "Living Dead", "Sinners Bleed", "Evilyn", "Blessed Be", "Stranger Aeons", "Chaos Breed",
+        "Crawl", "Severe Burns", "Through the Collonades", "Clandestine", "Left Hand Path (live)"
+      ]
+    },
+    { 
+      name: "Wolverine Blues", 
+      year: 1993, 
+      cover: "/images/albums/entombed/wolverine-blues.jpg",
+      tracks: [
+        "Eyemaster", "Rotten Soil", "Wolverine Blues", "Demon", "Contempt", "Full of Hell",
+        "Blood Song", "Hollowman", "Heavens Die", "Out of Hand", "Vultures", "God of Thunder"
+      ]
+    },
+    { 
+      name: "DCLXVI: To Ride, Shoot Straight and Speak the Truth", 
+      year: 1997, 
+      cover: "/images/albums/entombed/dclxvi.jpg",
+      tracks: [
+        "To Ride, Shoot Straight and Speak the Truth", "Like This with the Devil", "Wound", "They", "One Man, One Life, One Death",
+        "I For An Eye", "Uffe's Breakfast", "Under the Sun", "Out of Heaven", "Clint", "Holocaust", "Wreckage"
+      ]
+    },
+    { 
+      name: "Uprising", 
+      year: 2000, 
+      cover: "/images/albums/entombed/uprising.jpg",
+      tracks: [
+        "Seeing Red", "Say It in Slugs", "Won't Back Down", "Invisible", "Something Out of Nothing", "Scottish Hell",
+        "Time Out", "The Itch", "Year in Year Out", "Return to Madness", "Come Clean", "In the Flesh"
+      ]
+    }
+  ],
+  members: [
+    { name: "Alex Hellid", role: "гитара", years: "1987-2014, 2016-наст.", current: true, image: "/images/members/entombed/alex-hellid.jpg" },
+    { name: "Nicke Andersson", role: "ударные", years: "1987-1997", current: false, image: "/images/members/entombed/nicke-andersson.jpg" },
+    { name: "Lars-Göran Petrov", role: "вокал", years: "1987-1991, 1992-2014", current: false, image: "/images/members/entombed/lars-goran-petrov.jpg" },
+    { name: "Leif Cuzner", role: "бас-гитара", years: "1987-1990", current: false, image: "/images/members/entombed/leif-cuzner.jpg" },
+    { name: "David Blomqvist", role: "гитара", years: "1987", current: false, image: "/images/members/entombed/david-blomqvist.jpg" },
+    { name: "Uffe Cederlund", role: "гитара", years: "1988-2005", current: false, image: "/images/members/entombed/uffe-cederlund.jpg" },
+    { name: "Jörgen Sandström", role: "бас-гитара", years: "1990-1995", current: false, image: "/images/members/entombed/jorgen-sandstrom.jpg" },
+    { name: "Peter Stjärnvind", role: "ударные", years: "1997-2006", current: false, image: "/images/members/entombed/peter-stjarnvind.jpg" },
+    { name: "Nico Elgstrand", role: "гитара", years: "2004-2014", current: false, image: "/images/members/entombed/nico-elgstrand.jpg" },
+    { name: "Olle Dahlstedt", role: "ударные", years: "2006-2014", current: false, image: "/images/members/entombed/olle-dahlstedt.jpg" },
+    { name: "Victor Brandt", role: "бас-гитара", years: "2010-2014", current: false, image: "/images/members/entombed/victor-brandt.jpg" },
+    { name: "Edvin Aftonfalk", role: "бас-гитара", years: "2016-наст.", current: true, image: "/images/members/entombed/edvin-aftonfalk.jpg" },
+    { name: "Robert Andersson", role: "вокал", years: "2016-2018", current: false, image: "/images/members/entombed/robert-andersson.jpg" }
+  ],
+  bio: "Шведская дэт-метал группа из Стокгольма, образованная в 1987 году. Entombed считаются пионерами шведского дэт-метала и создателями характерного звучания 'Stockholm death metal' с его знаменитым гитарным тоном. Их дебютный альбом Left Hand Path (1990) стал классикой жанра. Позже группа эволюционировала в сторону death 'n' roll на альбоме Wolverine Blues (1993). Вокалист Ларс-Йоран Петров умер в 2021 году, но группа продолжает выступать с новым вокалистом."
+},
+"Dismember": {
+  albums: [
+    { 
+      name: "Like an Ever Flowing Stream", 
+      year: 1991, 
+      cover: "/images/albums/dismember/like-an-ever-flowing-stream.jpg",
+      tracks: [
+        "Override of the Overture", "Soon to Be Dead", "Bleeding Over", "Casket Garden", "Like an Everflowing Stream",
+        "Bloodshed", "Dismembered", "Skin Her Alive", "Defective Decay", "Sorrowfilled", "Reborn in Blasphemy"
+      ]
+    },
+    { 
+      name: "Indecent & Obscene", 
+      year: 1993, 
+      cover: "/images/albums/dismember/indecent-and-obscene.jpg",
+      tracks: [
+        "Fleshless", "Suffer the Children", "Indecent and Obscene", "Sorrowfilled", "Skinfather", "Snap",
+        "Burning Church of God", "Tears", "Eviscerated (Remains of the Dead)", "Corpse Art"
+      ]
+    },
+    { 
+      name: "Massive Killing Capacity", 
+      year: 1995, 
+      cover: "/images/albums/dismember/massive-killing-capacity.jpg",
+      tracks: [
+        "I Wish You Hell", "Massive Killing Capacity", "On Frozen Fields", "Crimes Against Humanity", "To the Bone",
+        "Casket Garden", "Justifiable Homicide", "Collection by Blood", "Where the Ironcrosses Grow", "Life - Another Shape of Sorrow"
+      ]
+    },
+    { 
+      name: "Death Metal", 
+      year: 1997, 
+      cover: "/images/albums/dismember/death-metal.jpg",
+      tracks: [
+        "Of Fire", "Trendkiller", "Misanthropic", "Let the Napalm Rain", "Live for the Kill", "Killing Compassion",
+        "Bred for War", "When Hatred Killed the Light", "Ceremonial Legacy", "Silent Are the Watchers", "Mistweaver", "Death Metal"
+      ]
+    },
+    { 
+      name: "Hate Campaign", 
+      year: 2000, 
+      cover: "/images/albums/dismember/hate-campaign.jpg",
+      tracks: [
+        "Suicidal Revelations", "Hate Campaign", "Entrails Torn", "Questionable Ethics", "Beyond the Grave",
+        "In Death's Sleep", "Europa Burning", "No Future", "War March", "Patriot Fever", "Shattered Hopes"
+      ]
+    }
+  ],
+  members: [
+    { name: "Matti Kärki", role: "вокал", years: "1990-наст.", current: true, image: "/images/members/dismember/matti-karki.jpg" },
+    { name: "David Blomqvist", role: "гитара", years: "1988-наст.", current: true, image: "/images/members/dismember/david-blomqvist.jpg" },
+    { name: "Robert Sennebäck", role: "ударные", years: "2010-наст.", current: true, image: "/images/members/dismember/robert-senneback.jpg" },
+    { name: "Richard Cabeza", role: "бас-гитара", years: "1999-наст.", current: true, image: "/images/members/dismember/richard-cabeza.jpg" },
+    { name: "Fred Estby", role: "ударные", years: "1988-2010", current: false, image: "/images/members/dismember/fred-estby.jpg" },
+    { name: "Magnus Sahlgren", role: "гитара", years: "1998-2002", current: false, image: "/images/members/dismember/magnus-sahlgren.jpg" },
+    { name: "Martin Persson", role: "гитара", years: "2002-2005", current: false, image: "/images/members/dismember/martin-persson.jpg" },
+    { name: "Johan Larsson", role: "бас-гитара", years: "1988-1999", current: false, image: "/images/members/dismember/johan-larsson.jpg" },
+    { name: "Erik Gustafsson", role: "гитара", years: "1988", current: false, image: "/images/members/dismember/erik-gustafsson.jpg" }
+  ],
+  bio: "Шведская дэт-метал группа из Стокгольма, образованная в 1988 году. Dismember считаются одной из ключевых групп шведской дэт-метал сцены наряду с Entombed. Их дебютный альбом Like an Ever Flowing Stream (1991) стал классикой жанра с его фирменным 'шведским' звучанием. Группа распадалась в 2011 году, но воссоединилась в 2019 и продолжает выступать. Dismember оказали огромное влияние на развитие дэт-метала."
+},
+"Grave": {
+  albums: [
+    { 
+      name: "Into the Grave", 
+      year: 1991, 
+      cover: "/images/albums/grave/into-the-grave.jpg",
+      tracks: [
+        "In the Grave", "Severing Flesh", "Sexual Mutilation", "Extremely Rotten Flesh", "Putrefaction",
+        "Deformed", "Reality of Life", "Obscure Infinity", "Haunted", "Day of Mourning"
+      ]
+    },
+    { 
+      name: "You'll Never See...", 
+      year: 1992, 
+      cover: "/images/albums/grave/youll-never-see.jpg",
+      tracks: [
+        "You'll Never See", "Now and Forever", "Morbid Way to Die", "Obsessed", "Grieve", "Tear My Flesh",
+        "Sickworld", "Pagan Prayer", "Living Dead", "You'll Never See (demo)"
+      ]
+    },
+    { 
+      name: "Soulless", 
+      year: 1994, 
+      cover: "/images/albums/grave/soulless.jpg",
+      tracks: [
+        "Turning Black", "Soulless", "I Need You", "Bullets Are Mine", "Sorrowful Moon", "And Here I Die",
+        "Born Again", "Waiting for the Dawn", "Fall of Angels", "Sodomize", "Slaughtering", "Soulless (demo)"
+      ]
+    },
+    { 
+      name: "Hating Life", 
+      year: 1996, 
+      cover: "/images/albums/grave/hating-life.jpg",
+      tracks: [
+        "Hating Life", "Yearning for Beauty", "Winternight", "Back from the Grave", "Fallen", "As Night Falls",
+        "Lovesong", "Still Here", "Pain", "Autopsy", "Cremation"
+      ]
+    },
+    { 
+      name: "Back from the Grave", 
+      year: 2002, 
+      cover: "/images/albums/grave/back-from-the-grave.jpg",
+      tracks: [
+        "Back from the Grave", "Thorn", "Rise", "Now and Forever", "Vengeance Is Mine", "Believers",
+        "Them", "Satan's Blood", "Slaughter", "Reality of Life", "Burn"
+      ]
+    }
+  ],
+  members: [
+    { name: "Ola Lindgren", role: "гитара, вокал", years: "1986-наст.", current: true, image: "/images/members/grave/ola-lindgren.jpg" },
+    { name: "Tomas Lagrén", role: "гитара", years: "1991-наст.", current: true, image: "/images/members/grave/tomas-lagren.jpg" },
+    { name: "Micke Lagrén", role: "бас-гитара", years: "2017-наст.", current: true, image: "/images/members/grave/micke-lagren.jpg" },
+    { name: "Jörgen Sandström", role: "вокал", years: "1986-1995", current: false, image: "/images/members/grave/jorgen-sandstrom.jpg" },
+    { name: "Jensa Paulsson", role: "ударные", years: "1986-2002", current: false, image: "/images/members/grave/jensa-paulsson.jpg" },
+    { name: "Christofer Barkensjö", role: "ударные", years: "2003-2014", current: false, image: "/images/members/grave/christofer-barkensjo.jpg" },
+    { name: "Ronnie Bergerståhl", role: "ударные", years: "2014-наст.", current: true, image: "/images/members/grave/ronnie-bergerstahl.jpg" },
+    { name: "Fredrik Isaksson", role: "бас-гитара", years: "2002-2017", current: false, image: "/images/members/grave/fredrik-isaksson.jpg" }
+  ],
+  bio: "Шведская дэт-метал группа из Висбю, образованная в 1986 году. Grave считаются одной из старейших и наиболее уважаемых групп шведской дэт-метал сцены. Их дебютный альбом Into the Grave (1991) стал классикой жанра. Группа сохраняет верность традиционному дэт-метал звучанию на протяжении всей своей карьеры. Несмотря на изменения в составе, Grave продолжают активно выступать и записываться."
+},
+"Autopsy": {
+  albums: [
+    { 
+      name: "Severed Survival", 
+      year: 1989, 
+      cover: "/images/albums/autopsy/severed-survival.jpg",
+      tracks: [
+        "Charred Remains", "Service for a Vacant Coffin", "Disembowel", "Gasping for Air", "Ridden with Disease",
+        "Pagan Saviour", "Impending Dread", "Severed Survival", "Critical Madness", "Embalmed", "Stillborn"
+      ]
+    },
+    { 
+      name: "Mental Funeral", 
+      year: 1991, 
+      cover: "/images/albums/autopsy/mental-funeral.jpg",
+      tracks: [
+        "Twisted Mass of Burnt Decay", "In the Grip of Winter", "Fleshcrawl", "Torn from the Womb", "Slaughterday",
+        "Mental Funeral", "Destined to Fester", "Robbing the Grave", "Death Twitch", "Keeper of Deceased", "Bones"
+      ]
+    },
+    { 
+      name: "Acts of the Unspeakable", 
+      year: 1992, 
+      cover: "/images/albums/autopsy/acts-of-the-unspeakable.jpg",
+      tracks: [
+        "Meat", "Necrocannibalistic Vomitorium", "Bowel Ripper", "Slaughter at Beast House", "Bent Nails and Rusty Spikes",
+        "Twist the Knife", "Cut", "Funereality", "Skin by Skin", "Acts of the Unspeakable", "I Spit on Your Corpse", "Death Valley"
+      ]
+    },
+    { 
+      name: "Shitfun", 
+      year: 1995, 
+      cover: "/images/albums/autopsy/shitfun.jpg",
+      tracks: [
+        "Funereality", "Torn", "Shit Eater", "Pus/Rot", "Cadaver", "Rattling Bone", "Bone Ratting",
+        "Grave Violator", "Skin by Skin", "Your Rotting Face", "Dead", "Shitfun", "Hole in the Head", "Bitch"
+      ]
+    },
+    { 
+      name: "Macabre Eternal", 
+      year: 2011, 
+      cover: "/images/albums/autopsy/macabre-eternal.jpg",
+      tracks: [
+        "Hand of Darkness", "Dirty Gore", "Always About to Die", "Macabre Eternal", "Deliver Me from Sanity",
+        "Septicemic Plague", "Sorg", "Bridge of Bones", "Born Undead", "Sewn into One", "Keeper of Decaying Lights", "Watched by the Worms"
+      ]
+    }
+  ],
+  members: [
+    { name: "Chris Reifert", role: "вокал, ударные", years: "1987-наст.", current: true, image: "/images/members/autopsy/chris-reifert.jpg" },
+    { name: "Eric Cutler", role: "гитара", years: "1987-1995, 2009-наст.", current: true, image: "/images/members/autopsy/eric-cutler.jpg" },
+    { name: "Danny Coralles", role: "гитара", years: "1987-1995, 2009-наст.", current: true, image: "/images/members/autopsy/danny-coralles.jpg" },
+    { name: "Greg Wilkinson", role: "бас-гитара", years: "2014-наст.", current: true, image: "/images/members/autopsy/greg-wilkinson.jpg" },
+    { name: "Ken Sovari", role: "бас-гитара", years: "1987-1991", current: false, image: "/images/members/autopsy/ken-sovari.jpg" },
+    { name: "Steve Cutler", role: "бас-гитара", years: "1991-1995", current: false, image: "/images/members/autopsy/steve-cutler.jpg" },
+    { name: "Joe Trevisano", role: "бас-гитара", years: "2009-2014", current: false, image: "/images/members/autopsy/joe-trevisano.jpg" }
+  ],
+  bio: "Американская дэт-метал группа из Калифорнии, образованная в 1987 году бывшим барабанщиком Death Крисом Райфертом. Autopsy считаются одними из пионеров дэт-метала, известных своим мрачным, сырым звучанием и текстами, посвященными ужасам и смерти. Их ранние альбомы Severed Survival (1989) и Mental Funeral (1991) стали классикой жанра. Группа распалась в 1995 году, но воссоединилась в 2009 и продолжает выступать и записываться."
+},
+"Bolt Thrower": {
+  albums: [
+    { 
+      name: "Realm of Chaos", 
+      year: 1989, 
+      cover: "/images/albums/bolt-thrower/realm-of-chaos.jpg",
+      tracks: [
+        "Intro", "Eternal War", "Realm of Chaos", "Plague Bearer", "World Eater", "Drowned in Torment",
+        "Realm of Chaos (enhanced)", "...And There Will Be Blood", "Through the Eye of Terror", "Lost Souls Domain", "Dark Millennium"
+      ]
+    },
+    { 
+      name: "War Master", 
+      year: 1991, 
+      cover: "/images/albums/bolt-thrower/war-master.jpg",
+      tracks: [
+        "Intro...The Killchain", "Centurion", "War Master", "Unleashed (Upon Mankind)", "What Dwells Within",
+        "The Shreds of Sanity", "Profane Creation", "Destructive Infinity", "Final Revelation"
+      ]
+    },
+    { 
+      name: "The IVth Crusade", 
+      year: 1992, 
+      cover: "/images/albums/bolt-thrower/the-ivth-crusade.jpg",
+      tracks: [
+        "The IVth Crusade", "Icon", "Embers", "Where Next to Conquer", "As Victory Beckons", "This Time It's War",
+        "Ritual", "Spearhead", "Celestial Sanctuary", "Dying Creed", "Through the Ages"
+      ]
+    },
+    { 
+      name: "...For Victory", 
+      year: 1994, 
+      cover: "/images/albums/bolt-thrower/for-victory.jpg",
+      tracks: [
+        "...For Victory", "Silent Demise", "Stalingrad", "The Killchain", "When Glory Beckons", "Armageddon Bound",
+        "Rain", "All That Remains", "Valley of the Kings", "Cenotaph", "Afterlife"
+      ]
+    },
+    { 
+      name: "Those Once Loyal", 
+      year: 2005, 
+      cover: "/images/albums/bolt-thrower/those-once-loyal.jpg",
+      tracks: [
+        "At First Light", "Entrenched", "The Killchain", "Granite Wall", "Those Once Loyal", "Anti-Tank (Dead Armour)",
+        "Last Stand of Humanity", "Salvo", "When Cannons Fade", "A Symbol of Eight", "The Killchain (demo)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Karl Willetts", role: "вокал", years: "1987-1995, 2004-2016", current: false, image: "/images/members/bolt-thrower/karl-willetts.jpg" },
+    { name: "Gavin Ward", role: "гитара", years: "1986-2016", current: false, image: "/images/members/bolt-thrower/gavin-ward.jpg" },
+    { name: "Barry Thomson", role: "гитара", years: "1986-2016", current: false, image: "/images/members/bolt-thrower/barry-thomson.jpg" },
+    { name: "Jo Bench", role: "бас-гитара", years: "1987-2016", current: false, image: "/images/members/bolt-thrower/jo-bench.jpg" },
+    { name: "Andrew Whale", role: "ударные", years: "1986-1996", current: false, image: "/images/members/bolt-thrower/andrew-whale.jpg" },
+    { name: "Martin Kearns", role: "ударные", years: "1997-2015", current: false, image: "/images/members/bolt-thrower/martin-kearns.jpg" },
+    { name: "Dave Ingram", role: "вокал", years: "1997-2004", current: false, image: "/images/members/bolt-thrower/dave-ingram.jpg" },
+    { name: "Alex Thomas", role: "ударные", years: "2015-2016", current: false, image: "/images/members/bolt-thrower/alex-thomas.jpg" }
+  ],
+  bio: "Британская дэт-метал группа из Ковентри, образованная в 1986 году. Bolt Thrower известны своим уникальным стилем, сочетающим дэт-метал с военной тематикой и использованием сэмплов из фильмов о войне. Их музыка характеризуется медленными, тяжёлыми риффами и мощным звучанием. Группа стала культовой благодаря своим текстам, посвященным войне и сражениям. Bolt Thrower распались в 2016 году после смерти барабанщика Мартина Кернса, оставив после себя огромное наследие."
+},
+"Venom": {
+  albums: [
+    { 
+      name: "Black Metal", 
+      year: 1982, 
+      cover: "/images/albums/venom/black-metal.jpg",
+      tracks: [
+        "Black Metal", "To Hell and Back", "Buried Alive", "Raise the Dead", "Teacher's Pet", "Leave Me in Hell",
+        "Sacrifice", "Heaven's on Fire", "Countess Bathory", "Don't Burn the Witch", "At War with Satan", "Bursting Out"
+      ]
+    },
+    { 
+      name: "Welcome to Hell", 
+      year: 1981, 
+      cover: "/images/albums/venom/welcome-to-hell.jpg",
+      tracks: [
+        "Sons of Satan", "Welcome to Hell", "Schizoid", "Mayhem with Mercy", "Poison", "Live Like an Angel (Die Like a Devil)",
+        "Witching Hour", "One Thousand Days in Sodom", "Angel Dust", "In League with Satan", "Red Light Fever"
+      ]
+    },
+    { 
+      name: "At War with Satan", 
+      year: 1984, 
+      cover: "/images/albums/venom/at-war-with-satan.jpg",
+      tracks: [
+        "At War with Satan", "Rip Ride", "Genocide", "Crack of Doom", "Foregin", "Aaaaarrrgghhh",
+        "Heavy Metal", "Stand Up (and Be Counted)", "We, the Unholy", "Warhead"
+      ]
+    },
+    { 
+      name: "Possessed", 
+      year: 1985, 
+      cover: "/images/albums/venom/possessed.jpg",
+      tracks: [
+        "Powerdrive", "Fly Trap", "Possessed", "Firewind", "Witching Hour (live)", "Sleepwalking",
+        "Hellbent", "Revenge", "Witching Hour (live)", "Possessed (live)"
+      ]
+    },
+    { 
+      name: "Calm Before the Storm", 
+      year: 1987, 
+      cover: "/images/albums/venom/calm-before-the-storm.jpg",
+      tracks: [
+        "Black Metal (re-recorded)", "To Hell and Back (re-recorded)", "Buried Alive (re-recorded)", "Raise the Dead (re-recorded)",
+        "Teacher's Pet (re-recorded)", "Leave Me in Hell (re-recorded)", "Sacrifice (re-recorded)", "Heaven's on Fire (re-recorded)",
+        "Countess Bathory (re-recorded)", "Don't Burn the Witch (re-recorded)", "At War with Satan (re-recorded)", "Bursting Out (re-recorded)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Conrad 'Cronos' Lant", role: "вокал, бас-гитара", years: "1979-наст.", current: true, image: "/images/members/venom/cronos.jpg" },
+    { name: "Jeffrey 'Mantas' Dunn", role: "гитара", years: "1979-1985, 1989-1992, 1995-2002, 2005-наст.", current: true, image: "/images/members/venom/mantas.jpg" },
+    { name: "Tony 'Abaddon' Bray", role: "ударные", years: "1979-наст.", current: true, image: "/images/members/venom/abaddon.jpg" },
+    { name: "Dave 'La Rage' Blackman", role: "гитара", years: "1987-1988", current: false, image: "/images/members/venom/la-rage.jpg" },
+    { name: "Clive 'Jesus Christ' Archer", role: "вокал", years: "1979-1980", current: false, image: "/images/members/venom/clive-archer.jpg" },
+    { name: "Mike 'Mykvs' Hickey", role: "гитара", years: "1992-1995", current: false, image: "/images/members/venom/mykvs.jpg" },
+    { name: "Steve 'War Maniac' White", role: "гитара", years: "2002-2005", current: false, image: "/images/members/venom/war-maniac.jpg" },
+    { name: "Anthony 'Antton' Lant", role: "ударные", years: "2002-2009", current: false, image: "/images/members/venom/antton.jpg" },
+    { name: "Danny 'Dante' Needham", role: "ударные", years: "2009-наст.", current: true, image: "/images/members/venom/dante.jpg" }
+  ],
+  bio: "Британская хэви-метал группа из Ньюкасла, образованная в 1979 году. Venom считаются одними из пионеров блэк-метала и экстремального металла в целом . Их альбом Black Metal (1982) дал название целому жанру и оказал огромное влияние на развитие блэк-метал сцены . Группа известна своими сатанинскими текстами, мрачным имиджем и сырым звучанием. Несмотря на многочисленные изменения состава, Venom продолжают выступать и записываться."
+},
+"Bathory": {
+  albums: [
+    { 
+      name: "Bathory", 
+      year: 1984, 
+      cover: "/images/albums/bathory/bathory.jpg",
+      tracks: [
+        "Storm of Damnation (Intro)", "Hades", "Reaper", "Necromansy", "Sacrifice", "In Conspiracy with Satan",
+        "Armageddon", "Raise the Dead", "War", "Enter the Eternal Fire", "Song to Hall Up High", "The Return of Darkness and Evil"
+      ]
+    },
+    { 
+      name: "The Return......", 
+      year: 1985, 
+      cover: "/images/albums/bathory/the-return.jpg",
+      tracks: [
+        "Revelation of Doom", "Total Destruction", "Born for Burning", "The Wind of Mayhem", "Bestial Lust",
+        "Possessed", "The Rite of Darkness", "Reap of Evil", "Son of the Damned", "Sadist", "The Return of the Darkness and Evil", "Burnin' Leather"
+      ]
+    },
+    { 
+      name: "Under the Sign of the Black Mark", 
+      year: 1987, 
+      cover: "/images/albums/bathory/under-the-sign-of-the-black-mark.jpg",
+      tracks: [
+        "Nocternal Obeisance", "Massacre", "Woman of Dark Desires", "Call from the Grave", "Equimanthorn",
+        "Enter the Eternal Fire", "Chariots of Fire", "13 Candles", "Of Doom......", "Outro"
+      ]
+    },
+    { 
+      name: "Blood Fire Death", 
+      year: 1988, 
+      cover: "/images/albums/bathory/blood-fire-death.jpg",
+      tracks: [
+        "Odens Ride Over Nordland", "A Fine Day to Die", "The Golden Walls of Heaven", "Pace 'till Death",
+        "Holocaust", "For All Those Who Died", "Dies Irae", "Blood Fire Death", "Outro"
+      ]
+    },
+    { 
+      name: "Hammerheart", 
+      year: 1990, 
+      cover: "/images/albums/bathory/hammerheart.jpg",
+      tracks: [
+        "Shores in Flames", "Valhalla", "Baptised in Fire and Ice", "Father to Son", "Song to Hall Up High",
+        "Home of Once Brave", "One Rode to Asa Bay", "Outro"
+      ]
+    }
+  ],
+  members: [
+    { name: "Quorthon (Thomas Forsberg)", role: "вокал, гитара, бас, ударные", years: "1983-2004", current: false, image: "/images/members/bathory/quorthon.jpg" },
+    { name: "Frederick Melander", role: "бас-гитара", years: "1983-1984", current: false, image: "/images/members/bathory/frederick-melander.jpg" },
+    { name: "Jonas Åkerlund", role: "ударные", years: "1983-1984", current: false, image: "/images/members/bathory/jonas-akerlund.jpg" },
+    { name: "Rickard Bergman", role: "бас-гитара", years: "1984", current: false, image: "/images/members/bathory/rickard-bergman.jpg" },
+    { name: "Stefan Larsson", role: "ударные", years: "1984-1986", current: false, image: "/images/members/bathory/stefan-larsson.jpg" },
+    { name: "Adde", role: "гитара", years: "1984-1985", current: false, image: "/images/members/bathory/adde.jpg" },
+    { name: "Paul Lundburg", role: "ударные", years: "1986-1987", current: false, image: "/images/members/bathory/paul-lundburg.jpg" },
+    { name: "Kothaar", role: "бас-гитара", years: "1988-1991", current: false, image: "/images/members/bathory/kothaar.jpg" },
+    { name: "Vvornth", role: "ударные", years: "1988-1991", current: false, image: "/images/members/bathory/vvornth.jpg" }
+  ],
+  bio: "Шведская блэк-метал/викинг-метал группа, созданная в 1983 году мультиинструменталистом Томасом 'Квортон' Форсбергом. Bathory считаются одними из основателей блэк-метала наряду с Venom и Mercyful Fate . Их первые четыре альбома заложили основу для скандинавского блэк-метала. Позже группа создала жанр викинг-метал на альбоме Hammerheart (1990) . Квортон оставался единственным постоянным участником до своей смерти от сердечной недостаточности в 2004 году. Bathory оказали огромное влияние на развитие экстремального металла и остаются культовой группой ."
+},
+"Mercyful Fate": {
+  albums: [
+    { 
+      name: "Melissa", 
+      year: 1983, 
+      cover: "/images/albums/mercyful-fate/melissa.jpg",
+      tracks: [
+        "Evil", "Curse of the Pharaohs", "Into the Coven", "At the Sound of the Demon Bell", "Black Funeral",
+        "Satan's Fall", "Melissa", "Black Masses"
+      ]
+    },
+    { 
+      name: "Don't Break the Oath", 
+      year: 1984, 
+      cover: "/images/albums/mercyful-fate/dont-break-the-oath.jpg",
+      tracks: [
+        "A Dangerous Meeting", "Nightmare", "Desecration of Souls", "Night of the Unborn", "The Oath",
+        "Gypsy", "Welcome Princess of Hell", "To One Far Away", "Come to the Sabbath"
+      ]
+    },
+    { 
+      name: "In the Shadows", 
+      year: 1993, 
+      cover: "/images/albums/mercyful-fate/in-the-shadows.jpg",
+      tracks: [
+        "Egypt", "The Bell Witch", "The Old Oak", "Shrouded by the Dark", "Is That You, Melissa?", "Return of the Vampire",
+        "Banshee", "Lady in Black", "Witches Dance", "In the Shadows", "Utterance of the Flaming", "A Gruesome Time"
+      ]
+    },
+    { 
+      name: "Time", 
+      year: 1994, 
+      cover: "/images/albums/mercyful-fate/time.jpg",
+      tracks: [
+        "Nightmare Be Thy Name", "Angel of Light", "Witches' Dance", "The Mad Arab", "My Demon", "Time",
+        "The Preacher", "Lady in Black", "Mirror", "Killer", "Castillo del Mortes", "Winds of Desecration"
+      ]
+    },
+    { 
+      name: "Into the Unknown", 
+      year: 1996, 
+      cover: "/images/albums/mercyful-fate/into-the-unknown.jpg",
+      tracks: [
+        "Lucifer", "The Uninvited Guest", "Castillo del Mortes", "Hell on Earth", "Stranger in the Darkness",
+        "Into the Unknown", "Poppies", "Thunderland", "Witches' Dance", "Killer"
+      ]
+    }
+  ],
+  members: [
+    { name: "King Diamond", role: "вокал", years: "1981-1985, 1992-наст.", current: true, image: "/images/members/mercyful-fate/king-diamond.jpg" },
+    { name: "Hank Shermann", role: "гитара", years: "1981-1985, 1992-наст.", current: true, image: "/images/members/mercyful-fate/hank-shermann.jpg" },
+    { name: "Michael Denner", role: "гитара", years: "1981-1985, 1992-1996, 2019-наст.", current: true, image: "/images/members/mercyful-fate/michael-denner.jpg" },
+    { name: "Timi Hansen", role: "бас-гитара", years: "1981-1985, 1992-2003", current: false, image: "/images/members/mercyful-fate/timi-hansen.jpg" },
+    { name: "Kim Ruzz", role: "ударные", years: "1981-1985", current: false, image: "/images/members/mercyful-fate/kim-ruzz.jpg" },
+    { name: "Snowy Shaw", role: "ударные", years: "1993-1994", current: false, image: "/images/members/mercyful-fate/snowy-shaw.jpg" },
+    { name: "Nick Smith", role: "бас-гитара", years: "2003-2012", current: false, image: "/images/members/mercyful-fate/nick-smith.jpg" },
+    { name: "Morten Nielsen", role: "ударные", years: "1994-2000", current: false, image: "/images/members/mercyful-fate/morten-nielsen.jpg" },
+    { name: "Sharlee D'Angelo", role: "бас-гитара", years: "1992-1993", current: false, image: "/images/members/mercyful-fate/sharlee-dangelo.jpg" },
+    { name: "Bjarne T. Holm", role: "ударные", years: "2000-2012", current: false, image: "/images/members/mercyful-fate/bjarne-holm.jpg" }
+  ],
+  bio: "Датская хэви-метал группа, образованная в 1981 году. Mercyful Fate считаются одними из пионеров блэк-метала и оказали огромное влияние на развитие жанра, особенно на готический и симфонический блэк-метал . Их музыка отличается техничной игрой, оккультными текстами и уникальным вокалом Кинга Даймонда с его характерным фальцетом. Группа распалась в 1985 году, но воссоединилась в 1992 и продолжает выступать. Mercyful Fate оказали влияние на таких исполнителей как Metallica, Slayer и многие другие."
+},
+"Celtic Frost": {
+  albums: [
+    { 
+      name: "Morbid Tales", 
+      year: 1984, 
+      cover: "/images/albums/celtic-frost/morbid-tales.jpg",
+      tracks: [
+        "Into the Crypts of Rays", "Visions of Mortality", "Procreation (Of the Wicked)", "Return to the Eve",
+        "Danse Macabre", "Nocturnal Fear", "Circle of the Tyrants", "Morbid Tales", "Dethroned Emperor"
+      ]
+    },
+    { 
+      name: "To Mega Therion", 
+      year: 1985, 
+      cover: "/images/albums/celtic-frost/to-mega-therion.jpg",
+      tracks: [
+        "Innocence and Wrath", "The Usurper", "Jewel Throne", "Dawn of Megiddo", "Eternal Summer",
+        "Circle of the Tyrants", "Necromantical Screams", "To Mega Therion", "Fainted Eyes"
+      ]
+    },
+    { 
+      name: "Into the Pandemonium", 
+      year: 1987, 
+      cover: "/images/albums/celtic-frost/into-the-pandemonium.jpg",
+      tracks: [
+        "Mexican Radio", "Mesmerized", "Inner Sanctum", "Tristesses de la Lune", "Babylon Fell",
+        "Caress into Oblivion", "One in Their Pride", "I Won't Dance", "Under Apollyon's Sun", "Sorrows of the Moon"
+      ]
+    },
+    { 
+      name: "Cold Lake", 
+      year: 1988, 
+      cover: "/images/albums/celtic-frost/cold-lake.jpg",
+      tracks: [
+        "Cherry Orchards", "Roses Without Thorns", "The Name of My Bride", "Desire", "Seduce Me Tonight",
+        "Dance Sleazy", "The Inevitable Factor", "Rara Avis", "Cherry Orchards (demo)", "The Name of My Bride (demo)"
+      ]
+    },
+    { 
+      name: "Monotheist", 
+      year: 2006, 
+      cover: "/images/albums/celtic-frost/monotheist.jpg",
+      tracks: [
+        "Progeny", "Ground", "A Dying God Coming into Human Flesh", "Drown in Ashes", "Os Abysmi Vel Daath",
+        "Temple of Depression", "Obscured", "Incantation Against You", "Synagoga Satanae", "Winter (Requiem, Chapter Three)", "Totengott"
+      ]
+    }
+  ],
+  members: [
+    { name: "Thomas Gabriel Fischer", role: "вокал, гитара", years: "1984-1993, 2001-2008", current: false, image: "/images/members/celtic-frost/thomas-fischer.jpg" },
+    { name: "Martin Eric Ain", role: "бас-гитара", years: "1984-1987, 2001-2008", current: false, image: "/images/members/celtic-frost/martin-ain.jpg" },
+    { name: "Reed St. Mark", role: "ударные", years: "1984-1988, 2001-2006", current: false, image: "/images/members/celtic-frost/reed-st-mark.jpg" },
+    { name: "Stephen Priestly", role: "ударные", years: "1988-1992", current: false, image: "/images/members/celtic-frost/stephen-priestly.jpg" },
+    { name: "Ron Marks", role: "гитара", years: "1990-1993", current: false, image: "/images/members/celtic-frost/ron-marks.jpg" },
+    { name: "Dominic Steiner", role: "бас-гитара", years: "1987-1988", current: false, image: "/images/members/celtic-frost/dominic-steiner.jpg" },
+    { name: "Curt Victor Bryant", role: "гитара", years: "1990-1993", current: false, image: "/images/members/celtic-frost/curt-victor-bryant.jpg" },
+    { name: "Erol Unala", role: "гитара", years: "2006-2008", current: false, image: "/images/members/celtic-frost/erol-unala.jpg" },
+    { name: "Franco Sesa", role: "ударные", years: "2006-2008", current: false, image: "/images/members/celtic-frost/franco-sesa.jpg" }
+  ],
+  bio: "Швейцарская метал-группа, образованная в 1984 году Томасом Габриэлем Фишером. Celtic Frost стали одними из самых влиятельных групп в развитии экстремального металла, сочетая блэк-метал, дум-метал и авангардные элементы. Их ранние альбомы Morbid Tales (1984) и To Mega Therion (1985) считаются классикой жанра. Группа экспериментировала с различными стилями, включая готик-рок на альбоме Into the Pandemonium (1987). После распада в 1993 году и воссоединения в 2001, группа выпустила альбом Monotheist (2006), который стал их последней работой перед окончательным распадом в 2008."
+},
+"Hellhammer": {
+  albums: [
+    { 
+      name: "Apocalyptic Raids", 
+      year: 1984, 
+      cover: "/images/albums/hellhammer/apocalyptic-raids.jpg",
+      tracks: [
+        "The Third of the Storms (Hellhammer)", "Massacra", "Triumph of Death", "Revelations of Doom", "Messiah",
+        "The Third of the Storms (Hellhammer) (demo)", "Massacra (demo)", "Triumph of Death (demo)", "Revelations of Doom (demo)"
+      ]
+    },
+    { 
+      name: "Death Fiend", 
+      year: 1983, 
+      cover: "/images/albums/hellhammer/death-fiend.jpg",
+      tracks: [
+        "Death Fiend", "The Third of the Storms (Hellhammer)", "Massacra", "Triumph of Death", "Revelations of Doom",
+        "Messiah", "Blood Insanity", "Decapitator", "Death Fiend (demo)", "The Third of the Storms (Hellhammer) (demo)"
+      ]
+    },
+    { 
+      name: "Satanic Rites", 
+      year: 1983, 
+      cover: "/images/albums/hellhammer/satanic-rites.jpg",
+      tracks: [
+        "Intro", "Satanic Rites", "The Third of the Storms (Hellhammer)", "Massacra", "Triumph of Death",
+        "Revelations of Doom", "Messiah", "Outro", "Satanic Rites (demo)", "The Third of the Storms (Hellhammer) (demo)"
+      ]
+    },
+    { 
+      name: "Demon Entrails", 
+      year: 2008, 
+      cover: "/images/albums/hellhammer/demon-entrails.jpg",
+      tracks: [
+        "Intro (Death Fiend Rehearsal)", "The Third of the Storms (Hellhammer)", "Massacra", "Triumph of Death",
+        "Revelations of Doom", "Messiah", "Blood Insanity", "Decapitator", "Horus/Angel of Death", "Outro",
+        "The Third of the Storms (Hellhammer) (live)", "Massacra (live)", "Triumph of Death (live)", "Revelations of Doom (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Thomas Gabriel Fischer", role: "вокал, гитара", years: "1982-1984", current: false, image: "/images/members/hellhammer/thomas-fischer.jpg" },
+    { name: "Martin Eric Ain", role: "бас-гитара", years: "1982-1984", current: false, image: "/images/members/hellhammer/martin-ain.jpg" },
+    { name: "Bruce Day", role: "ударные", years: "1982-1984", current: false, image: "/images/members/hellhammer/bruce-day.jpg" },
+    { name: "Steve Warrior", role: "бас-гитара", years: "1982", current: false, image: "/images/members/hellhammer/steve-warrior.jpg" },
+    { name: "Pete Stratton", role: "ударные", years: "1982", current: false, image: "/images/members/hellhammer/pete-stratton.jpg" },
+    { name: "Jörg Neubart", role: "ударные", years: "1983", current: false, image: "/images/members/hellhammer/jorg-neubart.jpg" }
+  ],
+  bio: "Швейцарская экстремальная метал-группа, образованная в 1982 году. Hellhammer считается одной из самых влиятельных групп в развитии блэк-метала и дэт-метала, несмотря на короткую карьеру. Их сырое, примитивное звучание и оккультные тексты заложили основу для многих жанров экстремальной музыки. Группа распалась в 1984 году, и её участники основали Celtic Frost. Их единственный полноформатный EP Apocalyptic Raids (1984) стал культовой классикой."
+},
+"Sodom": {
+  albums: [
+    { 
+      name: "Agent Orange", 
+      year: 1989, 
+      cover: "/images/albums/sodom/agent-orange.jpg",
+      tracks: [
+        "Agent Orange", "Tired and Red", "Incest", "Remember the Fallen", "Magic Dragon", "Exhibition Bout",
+        "Ausgebombt", "Baptism of Fire", "Don't Walk Away", "Incest (live)", "Agent Orange (live)"
+      ]
+    },
+    { 
+      name: "Persecution Mania", 
+      year: 1987, 
+      cover: "/images/albums/sodom/persecution-mania.jpg",
+      tracks: [
+        "Nuclear Winter", "Electrocution", "Iron Fist", "Persecution Mania", "Enchanted Land", "Procession to the Infilernal",
+        "Christ Passion", "Conjuration", "Bombenhagel", "Outbreak of Evil", "Sodomy and Lust", "The Conqueror"
+      ]
+    },
+    { 
+      name: "Obsessed by Cruelty", 
+      year: 1986, 
+      cover: "/images/albums/sodom/obsessed-by-cruelty.jpg",
+      tracks: [
+        "Intro (Outbreak of Evil)", "Obsessed by Cruelty", "Fall of Majesty Town", "Nuctemeron", "Witchhammer",
+        "Volcanic Slut", "Satan's Conjuration", "Burst Command 'til War", "Outbreak of Evil", "Sodomy and Lust"
+      ]
+    },
+    { 
+      name: "M-16", 
+      year: 2001, 
+      cover: "/images/albums/sodom/m-16.jpg",
+      tracks: [
+        "Among the Weirdcong", "I Am the War", "Napalm in the Morning", "Minejumper", "Genocide", "Little Boy",
+        "M-16", "Lead Injection", "Cannon Fodder", "Marines", "Surfin' Bird", "Der Wotans Fluch"
+      ]
+    },
+    { 
+      name: "Code Red", 
+      year: 1999, 
+      cover: "/images/albums/sodom/code-red.jpg",
+      tracks: [
+        "Code Red", "What Hell Can Create", "Tombstone", "Liquidation", "Spiritual Demise", "Warlike Conspiracy",
+        "Cowardice", "The Vice of Killing", "Visual Buggery", "Book Burning", "The Wolf and the Lamb", "Addicted to Abstinence"
+      ]
+    }
+  ],
+  members: [
+    { name: "Tom Angelripper", role: "вокал, бас-гитара", years: "1981-наст.", current: true, image: "/images/members/sodom/tom-angelripper.jpg" },
+    { name: "Frank Blackfire", role: "гитара", years: "1987-1989, 2018-наст.", current: true, image: "/images/members/sodom/frank-blackfire.jpg" },
+    { name: "Yorck Segatz", role: "гитара", years: "2018-наст.", current: true, image: "/images/members/sodom/yorck-segatz.jpg" },
+    { name: "Toni Merkel", role: "ударные", years: "2022-наст.", current: true, image: "/images/members/sodom/toni-merkel.jpg" },
+    { name: "Frank Testegen", role: "ударные", years: "1981-1984", current: false, image: "/images/members/sodom/frank-testegen.jpg" },
+    { name: "Josef 'Grave Violator' Dominic", role: "ударные", years: "1984-1987", current: false, image: "/images/members/sodom/josef-dominic.jpg" },
+    { name: "Michael 'Destructor' Wulf", role: "ударные", years: "1987-1989", current: false, image: "/images/members/sodom/michael-wulf.jpg" },
+    { name: "Atomic Steif", role: "ударные", years: "1989-1992", current: false, image: "/images/members/sodom/atomic-steif.jpg" },
+    { name: "Bobby Schottkowski", role: "ударные", years: "1997-2010", current: false, image: "/images/members/sodom/bobby-schottkowski.jpg" },
+    { name: "Markus 'Makka' Freiwald", role: "ударные", years: "2010-2018", current: false, image: "/images/members/sodom/markus-freiwald.jpg" },
+    { name: "Stefan 'Husky' Hüskens", role: "ударные", years: "2018-2022", current: false, image: "/images/members/sodom/stefan-huskens.jpg" },
+    { name: "Michael Hoffman", role: "гитара", years: "1990-1995", current: false, image: "/images/members/sodom/michael-hoffman.jpg" },
+    { name: "Andy Brings", role: "гитара", years: "1995-1996", current: false, image: "/images/members/sodom/andy-brings.jpg" },
+    { name: "Dirk Strahlimeier", role: "гитара", years: "1996-1997", current: false, image: "/images/members/sodom/dirk-strahlimeier.jpg" },
+    { name: "Bernemann", role: "гитара", years: "1997-2018", current: false, image: "/images/members/sododm/bernemann.jpg" }
+  ],
+  bio: "Немецкая трэш-метал группа из Гельзенкирхена, образованная в 1981 году. Sodom считаются одной из 'большой четвёрки' немецкого трэш-метала наряду с Kreator, Destruction и Tankard. Их ранние работы были близки к блэк-металу, но позже группа перешла к более традиционному трэшу. Альбом Agent Orange (1989) стал первым трэш-метал альбомом, попавшим в немецкие чарты. Группа известна своей военной тематикой и агрессивным звучанием. Sodom продолжают активно выступать и записываться."
+},
+"Destruction": {
+  albums: [
+    { 
+      name: "Infernal Overkill", 
+      year: 1985, 
+      cover: "/images/albums/destruction/infernal-overkill.jpg",
+      tracks: [
+        "Invincible Force", "Death Trap", "The Ritual", "Tormentor", "Bestial Invasion", "Thrash Attack",
+        "Antichrist", "Black Death", "Satan's Vengeance", "Devil's Soldiers", "Infernal Overkill"
+      ]
+    },
+    { 
+      name: "Eternal Devastation", 
+      year: 1986, 
+      cover: "/images/albums/destruction/eternal-devastation.jpg",
+      tracks: [
+        "Curse the Gods", "Confused Mind", "Life Without Sense", "The Final Curse", "Eternal Ban", "Upcoming Devastation",
+        "Confused Mind (live)", "Curse the Gods (live)", "Eternal Ban (live)", "The Final Curse (live)"
+      ]
+    },
+    { 
+      name: "Release from Agony", 
+      year: 1988, 
+      cover: "/images/albums/destruction/release-from-agony.jpg",
+      tracks: [
+        "Beyond Eternity", "Release from Agony", "Dissatisfied Existence", "Sign of Fear", "Unconscious Ruins",
+        "Incriminated", "Survive to Die", "Cracked Brain", "Reject Emotions", "In the Mood"
+      ]
+    },
+    { 
+      name: "Cracked Brain", 
+      year: 1990, 
+      cover: "/images/albums/destruction/cracked-brain.jpg",
+      tracks: [
+        "Cracked Brain", "Frustrated", "S.E.D.", "Time Must End", "My Sharona", "Rippin' You Off Blind",
+        "Die a Day", "Them Not Me", "Cracked Brain (demo)", "My Sharona (demo)"
+      ]
+    },
+    { 
+      name: "The Antichrist", 
+      year: 2001, 
+      cover: "/images/albums/destruction/the-antichrist.jpg",
+      tracks: [
+        "Days of Confusion", "The Heretic", "Machinery of Lies", "The Third Nail", "Flowers of Evil", "Nailed",
+        "Raise the Beast", "The Antichrist", "Nailed to the Cross", "The Third Nail (demo)", "Flowers of Evil (demo)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mike Sifringer", role: "гитара", years: "1982-наст.", current: true, image: "/images/members/destruction/mike-sifringer.jpg" },
+    { name: "Schmier", role: "вокал, бас-гитара", years: "1982-1989, 1999-наст.", current: true, image: "/images/members/destruction/schmier.jpg" },
+    { name: "Randy Black", role: "ударные", years: "2018-наст.", current: true, image: "/images/members/destruction/randy-black.jpg" },
+    { name: "Tommy Sandmann", role: "ударные", years: "1982-1987", current: false, image: "/images/members/destruction/tommy-sandmann.jpg" },
+    { name: "Harry Wilkens", role: "гитара", years: "1987-1990", current: false, image: "/images/members/destruction/harry-wilkens.jpg" },
+    { name: "Oliver 'Olly' Kaiser", role: "ударные", years: "1987-1999", current: false, image: "/images/members/destruction/oliver-kaiser.jpg" },
+    { name: "Thomas Rosenmerkel", role: "вокал", years: "1989-1998", current: false, image: "/images/members/destruction/thomas-rosenmerkel.jpg" },
+    { name: "Michael Piranio", role: "гитара", years: "1990-1999", current: false, image: "/images/members/destruction/michael-piranio.jpg" },
+    { name: "Sven Vormann", role: "ударные", years: "1999-2001", current: false, image: "/images/members/destruction/sven-vormann.jpg" },
+    { name: "Marc Reign", role: "ударные", years: "2001-2010", current: false, image: "/images/members/destruction/marc-reign.jpg" },
+    { name: "Wawrzyniec Dramowicz", role: "ударные", years: "2010-2018", current: false, image: "/images/members/destruction/wawrzyniec-dramowicz.jpg" }
+  ],
+  bio: "Немецкая трэш-метал группа из Лёрраха, образованная в 1982 году. Destruction считаются одной из 'большой четвёрки' немецкого трэш-метала. Их ранние альбомы Infernal Overkill (1985) и Eternal Devastation (1986) стали классикой жанра. Группа пережила несколько изменений состава, включая уход вокалиста Schmier в 1989 году и его возвращение в 1999. Destruction продолжают активно выступать и записываться, оставаясь одной из самых уважаемых групп в жанре."
+},
+"Destruction": {
+  albums: [
+    { 
+      name: "Infernal Overkill", 
+      year: 1985, 
+      cover: "/images/albums/destruction/infernal-overkill.jpg",
+      tracks: [
+        "Invincible Force", "Death Trap", "The Ritual", "Tormentor", "Bestial Invasion", "Thrash Attack",
+        "Antichrist", "Black Death", "Satan's Vengeance", "Devil's Soldiers", "Infernal Overkill"
+      ]
+    },
+    { 
+      name: "Eternal Devastation", 
+      year: 1986, 
+      cover: "/images/albums/destruction/eternal-devastation.jpg",
+      tracks: [
+        "Curse the Gods", "Confused Mind", "Life Without Sense", "The Final Curse", "Eternal Ban", "Upcoming Devastation",
+        "Confused Mind (live)", "Curse the Gods (live)", "Eternal Ban (live)", "The Final Curse (live)"
+      ]
+    },
+    { 
+      name: "Release from Agony", 
+      year: 1988, 
+      cover: "/images/albums/destruction/release-from-agony.jpg",
+      tracks: [
+        "Beyond Eternity", "Release from Agony", "Dissatisfied Existence", "Sign of Fear", "Unconscious Ruins",
+        "Incriminated", "Survive to Die", "Cracked Brain", "Reject Emotions", "In the Mood"
+      ]
+    },
+    { 
+      name: "Cracked Brain", 
+      year: 1990, 
+      cover: "/images/albums/destruction/cracked-brain.jpg",
+      tracks: [
+        "Cracked Brain", "Frustrated", "S.E.D.", "Time Must End", "My Sharona", "Rippin' You Off Blind",
+        "Die a Day", "Them Not Me", "Cracked Brain (demo)", "My Sharona (demo)"
+      ]
+    },
+    { 
+      name: "The Antichrist", 
+      year: 2001, 
+      cover: "/images/albums/destruction/the-antichrist.jpg",
+      tracks: [
+        "Days of Confusion", "The Heretic", "Machinery of Lies", "The Third Nail", "Flowers of Evil", "Nailed",
+        "Raise the Beast", "The Antichrist", "Nailed to the Cross", "The Third Nail (demo)", "Flowers of Evil (demo)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mike Sifringer", role: "гитара", years: "1982-наст.", current: true, image: "/images/members/destruction/mike-sifringer.jpg" },
+    { name: "Schmier", role: "вокал, бас-гитара", years: "1982-1989, 1999-наст.", current: true, image: "/images/members/destruction/schmier.jpg" },
+    { name: "Randy Black", role: "ударные", years: "2018-наст.", current: true, image: "/images/members/destruction/randy-black.jpg" },
+    { name: "Tommy Sandmann", role: "ударные", years: "1982-1987", current: false, image: "/images/members/destruction/tommy-sandmann.jpg" },
+    { name: "Harry Wilkens", role: "гитара", years: "1987-1990", current: false, image: "/images/members/destruction/harry-wilkens.jpg" },
+    { name: "Oliver 'Olly' Kaiser", role: "ударные", years: "1987-1999", current: false, image: "/images/members/destruction/oliver-kaiser.jpg" },
+    { name: "Thomas Rosenmerkel", role: "вокал", years: "1989-1998", current: false, image: "/images/members/destruction/thomas-rosenmerkel.jpg" },
+    { name: "Michael Piranio", role: "гитара", years: "1990-1999", current: false, image: "/images/members/destruction/michael-piranio.jpg" },
+    { name: "Sven Vormann", role: "ударные", years: "1999-2001", current: false, image: "/images/members/destruction/sven-vormann.jpg" },
+    { name: "Marc Reign", role: "ударные", years: "2001-2010", current: false, image: "/images/members/destruction/marc-reign.jpg" },
+    { name: "Wawrzyniec Dramowicz", role: "ударные", years: "2010-2018", current: false, image: "/images/members/destruction/wawrzyniec-dramowicz.jpg" }
+  ],
+  bio: "Немецкая трэш-метал группа из Лёрраха, образованная в 1982 году. Destruction считаются одной из 'большой четвёрки' немецкого трэш-метала. Их ранние альбомы Infernal Overkill (1985) и Eternal Devastation (1986) стали классикой жанра. Группа пережила несколько изменений состава, включая уход вокалиста Schmier в 1989 году и его возвращение в 1999. Destruction продолжают активно выступать и записываться, оставаясь одной из самых уважаемых групп в жанре."
+},
+"Kreator": {
+  albums: [
+    { 
+      name: "Pleasure to Kill", 
+      year: 1986, 
+      cover: "/images/albums/kreator/pleasure-to-kill.jpg",
+      tracks: [
+        "Intro (Choir of the Damned)", "Ripping Corpse", "Death Is Your Saviour", "Pleasure to Kill", "Riot of Violence",
+        "The Pestilence", "Carrion", "Command of the Blade", "Under the Guillotine", "Flag of Hate", "Take Their Lives"
+      ]
+    },
+    { 
+      name: "Coma of Souls", 
+      year: 1990, 
+      cover: "/images/albums/kreator/coma-of-souls.jpg",
+      tracks: [
+        "When the Sun Burns Red", "Coma of Souls", "People of the Lie", "Terror Zone", "Agents of Brutality",
+        "Material World Paranoia", "Twisted Urges", "Hidden Dictator", "Mental Slavery", "Love Us or Hate Us"
+      ]
+    },
+    { 
+      name: "Extreme Aggression", 
+      year: 1989, 
+      cover: "/images/albums/kreator/extreme-aggression.jpg",
+      tracks: [
+        "Extreme Aggression", "No Reason to Exist", "Love Us or Hate Us", "Stream of Consciousness", "Some Pain Will Last",
+        "Betrayer", "Don't Trust", "Bringer of Torture", "Fatal Energy", "Thrashard", "Flag of Hate", "Take Their Lives"
+      ]
+    },
+    { 
+      name: "Terrible Certainty", 
+      year: 1987, 
+      cover: "/images/albums/kreator/terrible-certainty.jpg",
+      tracks: [
+        "Blind Faith", "Storming with Menace", "Terrible Certainty", "As the World Burns", "Toxic Trace",
+        "No Escape", "One of Us", "Behind the Mirror", "Impossible to Cure", "Lambs to the Slaughter"
+      ]
+    },
+    { 
+      name: "Enemy of God", 
+      year: 2005, 
+      cover: "/images/albums/kreator/enemy-of-god.jpg",
+      tracks: [
+        "Enemy of God", "Impossible Brutality", "Suicide Terrorist", "World Anarchy", "Dystopia", "Voices of the Dead",
+        "Murder Fantasies", "When Death Takes Its Dominion", "One Evil Comes - A Million Follow", "Dying Race Apocalypse",
+        "Under a Total Eclipse", "Enemy of God (acoustic)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mille Petrozza", role: "вокал, гитара", years: "1982-наст.", current: true, image: "/images/members/kreator/mille-petrozza.jpg" },
+    { name: "Jürgen 'Ventor' Reil", role: "ударные", years: "1982-1994, 1996-наст.", current: true, image: "/images/members/kreator/jurgen-reil.jpg" },
+    { name: "Frédéric Leclercq", role: "бас-гитара", years: "2019-наст.", current: true, image: "/images/members/kreator/frederic-leclercq.jpg" },
+    { name: "Sami Yli-Sirniö", role: "гитара", years: "2001-наст.", current: true, image: "/images/members/kreator/sami-yli-sirnio.jpg" },
+    { name: "Roberto Fioretti", role: "бас-гитара", years: "1982-1992", current: false, image: "/images/members/kreator/roberto-fioretti.jpg" },
+    { name: "Andreas Herz", role: "бас-гитара", years: "1992-1994", current: false, image: "/images/members/kreator/andreas-herz.jpg" },
+    { name: "Christian Giesler", role: "бас-гитара", years: "1994-2019", current: false, image: "/images/members/kreator/christian-giesler.jpg" },
+    { name: "Jörg Trzebiatowski", role: "гитара", years: "1986-1989", current: false, image: "/images/members/kreator/jorg-trzebiatowski.jpg" },
+    { name: "Frank 'Blackfire' Gosdzik", role: "гитара", years: "1989-1992", current: false, image: "/images/members/kreator/frank-gosdzik.jpg" },
+    { name: "Tommy Vetterli", role: "гитара", years: "1992-1996", current: false, image: "/images/members/kreator/tommy-vetterli.jpg" },
+    { name: "Joe Cangelosi", role: "ударные", years: "1994-1996", current: false, image: "/images/members/kreator/joe-cangelosi.jpg" }
+  ],
+  bio: "Немецкая трэш-метал группа из Эссена, образованная в 1982 году. Kreator считаются одной из 'большой четвёрки' немецкого трэш-метала и одной из самых влиятельных групп в жанре. Их ранние альбомы, особенно Pleasure to Kill (1986), оказали огромное влияние на развитие дэт-метала и блэк-метала. Группа экспериментировала с индастриалом в 90-х, но вернулась к трэш-звучанию в 2000-х. Kreator продали более 2 миллионов альбомов по всему миру и продолжают активно выступать."
+},
+"Mayhem": {
+  albums: [
+    { 
+      name: "De Mysteriis Dom Sathanas", 
+      year: 1994, 
+      cover: "/images/albums/mayhem/de-mysteriis-dom-sathanas.jpg",
+      tracks: [
+        "Funeral Fog", "Freezing Moon", "Cursed in Eternity", "Pagan Fears", "Life Eternal",
+        "From the Dark Past", "Buried by Time and Dust", "De Mysteriis Dom Sathanas"
+      ]
+    },
+    { 
+      name: "Live in Leipzig", 
+      year: 1993, 
+      cover: "/images/albums/mayhem/live-in-leipzig.jpg",
+      tracks: [
+        "Funeral Fog", "Freezing Moon", "Carnage", "Buried by Time and Dust", "De Mysteriis Dom Sathanas",
+        "Life Eternal", "Pagan Fears", "The Freezing Moon", "Buried by Time and Dust"
+      ]
+    },
+    { 
+      name: "Grand Declaration of War", 
+      year: 2000, 
+      cover: "/images/albums/mayhem/grand-declaration-of-war.jpg",
+      tracks: [
+        "A Grand Declaration of War", "In the Lies Where Upon You Lay", "A Time to Die", "View from Nihil (Part I)",
+        "View from Nihil (Part II)", "A Bloodsword and a Colder Sun (Part I)", "A Bloodsword and a Colder Sun (Part II)",
+        "Crystallized Pain in Deconstruction", "Completion in Science of Agony (Part I)", "To Daimonion (Part III)",
+        "A Time to Die"
+      ]
+    },
+    { 
+      name: "Chimera", 
+      year: 2004, 
+      cover: "/images/albums/mayhem/chimera.jpg",
+      tracks: [
+        "My Death", "Chimera", "Illuminate Eliminate", "Dark Night of the Soul", "Rape Humanity with Pride",
+        "My Death", "Chimera", "Illuminate Eliminate", "Dark Night of the Soul", "Rape Humanity with Pride"
+      ]
+    },
+    { 
+      name: "Ordo Ad Chao", 
+      year: 2007, 
+      cover: "/images/albums/mayhem/ordo-ad-chao.jpg",
+      tracks: [
+        "A Wise Birthgiver", "Wall of Water", "Great Work of Ages", "Deconsecrate", "Illuminate Eliminate",
+        "Psychic Horns", "Key to the Storms", "Chemically Induced", "Ordo Ad Chao"
+      ]
+    }
+  ],
+  members: [
+    { name: "Attila Csihar", role: "вокал", years: "1992-1993, 2004-наст.", current: true, image: "/images/members/mayhem/attila-csihar.jpg" },
+    { name: "Necrobutcher", role: "бас-гитара", years: "1984-1991, 1995-наст.", current: true, image: "/images/members/mayhem/necrobutcher.jpg" },
+    { name: "Hellhammer", role: "ударные", years: "1988-наст.", current: true, image: "/images/members/mayhem/hellhammer.jpg" },
+    { name: "Teloch", role: "гитара", years: "2011-наст.", current: true, image: "/images/members/mayhem/teloch.jpg" },
+    { name: "Ghul", role: "гитара", years: "2012-наст.", current: true, image: "/images/members/mayhem/ghul.jpg" },
+    { name: "Euronymous", role: "гитара", years: "1984-1993", current: false, image: "/images/members/mayhem/euronymous.jpg" },
+    { name: "Dead", role: "вокал", years: "1988-1991", current: false, image: "/images/members/mayhem/dead.jpg" },
+    { name: "Maniac", role: "вокал", years: "1986-1988, 1995-2004", current: false, image: "/images/members/mayhem/maniac.jpg" },
+    { name: "Messiah", role: "вокал", years: "1986", current: false, image: "/images/members/mayhem/messiah.jpg" },
+    { name: "Manheim", role: "ударные", years: "1984-1988", current: false, image: "/images/members/mayhem/manheim.jpg" },
+    { name: "Blasphemer", role: "гитара", years: "1995-2008", current: false, image: "/images/members/mayhem/blasphemer.jpg" },
+    { name: "Occultus", role: "вокал, бас", years: "1991-1992", current: false, image: "/images/members/mayhem/occultus.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа, основанная в 1984 году в Осло. Mayhem считаются одной из основополагающих групп норвежской блэк-метал сцены и, пожалуй, самая печально известная группа в истории жанра. Их ранние альбомы и демо, особенно с вокалистом Dead (покончившим с собой в 1991 году), заложили основы жанра. Альбом De Mysteriis Dom Sathanas (1994), записанный после смерти Dead и выпущенный после убийства гитариста Euronymous басистом Варгом Викернесом, считается классикой блэк-метала. Несмотря на трагическую историю, Mayhem продолжают выступать и записываться по сей день."
+},
+"Burzum": {
+  albums: [
+    { 
+      name: "Burzum", 
+      year: 1992, 
+      cover: "/images/albums/burzum/burzum.jpg",
+      tracks: [
+        "Feeble Screams from Forests Unknown", "Ea, Lord of the Depths", "Black Spell of Destruction",
+        "Channeling the Power of Souls into a New God", "War", "The Crying Orc", "A Lost Forgotten Sad Spirit",
+        "My Journey to the Stars", "Dungeons of Darkness"
+      ]
+    },
+    { 
+      name: "Det som engang var", 
+      year: 1993, 
+      cover: "/images/albums/burzum/det-som-engang-var.jpg",
+      tracks: [
+        "Den onde kysten", "Key to the Gate", "En ring til å herske", "Lost Wisdom", "Han som reiste",
+        "Naar himmelen klarner", "Snu mikrokosmos tegn", "Svarte troner"
+      ]
+    },
+    { 
+      name: "Hvis lyset tar oss", 
+      year: 1994, 
+      cover: "/images/albums/burzum/hvis-lyset-tar-oss.jpg",
+      tracks: [
+        "Det som en gang var", "Hvis lyset tar oss", "Inn i slottet fra droemmen", "Tomhet"
+      ]
+    },
+    { 
+      name: "Filosofem", 
+      year: 1996, 
+      cover: "/images/albums/burzum/filosofem.jpg",
+      tracks: [
+        "Burzum", "Jeg faller", "Rundtgåing av den transcendentale egenhetens støtte", "Decrepitude I",
+        "Decrepitude II", "Gebrechlichkeit I", "Gebrechlichkeit II"
+      ]
+    },
+    { 
+      name: "Belus", 
+      year: 2010, 
+      cover: "/images/albums/burzum/belus.jpg",
+      tracks: [
+        "Leukes renkespill (Introduksjon)", "Belus' død", "Glemselens elv", "Kaimadalthas' nedstigning",
+        "Sverddans", "Keliohesten", "Morgenrøde", "Belus' tilbakekomst (Konklusjon)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Varg Vikernes", role: "вокал, все инструменты", years: "1991-1999, 2009-2018, 2025-наст.", current: true, image: "/images/members/burzum/varg-vikernes.jpg" },
+    { name: "Samoth", role: "бас-гитара (сессионно)", years: "1992", current: false, image: "/images/members/burzum/samoth.jpg" },
+    { name: "Euronymous", role: "гитара (гостевое участие)", years: "1992", current: false, image: "/images/members/burzum/euronymous.jpg" }
+  ],
+  bio: "Норвежский блэк-метал проект, созданный Варгом Викернесом в 1991 году. Burzum стал одним из самых влиятельных и противоречивых проектов в истории блэк-метала. Первые четыре альбома, записанные в 1992-1993 годах, считаются классикой жанра. Варг также известен своей причастностью к убийству гитариста Mayhem Евронимусу и сожжению нескольких церквей в Норвегии. Отбыв 16 лет в тюрьме, он вернулся к музыке, выпустив несколько альбомов в жанрах dark ambient и neofolk, а затем снова вернулся к метал-звучанию."
+},
+"Darkthrone": {
+  albums: [
+    { 
+      name: "A Blaze in the Northern Sky", 
+      year: 1992, 
+      cover: "/images/albums/darkthrone/a-blaze-in-the-northern-sky.jpg",
+      tracks: [
+        "Kathaarian Life Code", "In the Shadow of the Horns", "Paragon Belial", "Where Cold Winds Blow",
+        "A Blaze in the Northern Sky", "The Pagan Winter"
+      ]
+    },
+    { 
+      name: "Under a Funeral Moon", 
+      year: 1993, 
+      cover: "/images/albums/darkthrone/under-a-funeral-moon.jpg",
+      tracks: [
+        "Natassia in Eternal Sleep", "Summer of the Diabolical Holocaust", "The Dance of Eternal Shadows",
+        "Unholy Black Metal", "To Walk the Infernal Fields", "Under a Funeral Moon", "Inn i de dype skogers favn",
+        "Crossing the Triangle of Flames"
+      ]
+    },
+    { 
+      name: "Transilvanian Hunger", 
+      year: 1994, 
+      cover: "/images/albums/darkthrone/transilvanian-hunger.jpg",
+      tracks: [
+        "Transilvanian Hunger", "Over fjell og gjennom torner", "Skald av Satans sol", "Slottet i det fjerne",
+        "Graven tåkeheimen", "I en hall med flesk og mjød", "As Flittermice as Satans Spys", "En ås i dype skogen"
+      ]
+    },
+    { 
+      name: "Panzerfaust", 
+      year: 1995, 
+      cover: "/images/albums/darkthrone/panzerfaust.jpg",
+      tracks: [
+        "En vind av sorg", "Triumphant Gleam", "The Hordes of Nebulah", "Hans siste vinter", "Beholding the Throne of Might",
+        "Quintessence", "Snø og granskog (Utferd)"
+      ]
+    },
+    { 
+      name: "Total Death", 
+      year: 1996, 
+      cover: "/images/albums/darkthrone/total-death.jpg",
+      tracks: [
+        "Earth's Last Picture", "Blackwinged", "Gather for Attack on the Pearly Gates", "Black Victory of Death",
+        "Majestic Desolate Eye", "Blasphemer", "Ravnajuv", "The Serpents Harvest"
+      ]
+    }
+  ],
+  members: [
+    { name: "Fenriz", role: "ударные, вокал, гитара, бас", years: "1986-наст.", current: true, image: "/images/members/darkthrone/fenriz.jpg" },
+    { name: "Nocturno Culto", role: "вокал, гитара, бас", years: "1988-наст.", current: true, image: "/images/members/darkthrone/nocturno-culto.jpg" },
+    { name: "Zephyrous", role: "гитара", years: "1987-1993", current: false, image: "/images/members/darkthrone/zephyrous.jpg" },
+    { name: "Dag Nilsen", role: "бас-гитара", years: "1988-1991", current: false, image: "/images/members/darkthrone/dag-nilsen.jpg" },
+    { name: "Anders Risberget", role: "гитара", years: "1986-1988", current: false, image: "/images/members/darkthrone/anders-risberget.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Колботна, образованная в 1986 году. Darkthrone начинала как дэт-метал группа, но в 1991 году под влиянием Mayhem перешла к блэк-металу. Их первые три блэк-метал альбома — A Blaze in the Northern Sky (1992), Under a Funeral Moon (1993) и Transilvanian Hunger (1994) — известны как 'Нечестивая Троица' и считаются одними из самых влиятельных альбомов в жанре. После 2006 года группа экспериментировала с краст-панком и хэви-металом, но сохранила культовый статус. Фенриз также известен как один из главных идеологов норвежской блэк-метал сцены."
+},
+"Emperor": {
+  albums: [
+    { 
+      name: "In the Nightside Eclipse", 
+      year: 1994, 
+      cover: "/images/albums/emperor/in-the-nightside-eclipse.jpg",
+      tracks: [
+        "Into the Infinity of Thoughts", "The Burning Shadows of Silence", "Cosmic Keys to My Creations & Times",
+        "Beyond the Great Vast Forest", "Towards the Pantheon", "The Majesty of the Nightsky", "I Am the Black Wizards",
+        "Inno a Satana"
+      ]
+    },
+    { 
+      name: "Anthems to the Welkin at Dusk", 
+      year: 1997, 
+      cover: "/images/albums/emperor/anthems-to-the-welkin-at-dusk.jpg",
+      tracks: [
+        "Alsvartr (The Oath)", "Ye Entrancemperium", "Thus Spake the Nightspirit", "Ensorcelled by Khaos",
+        "The Loss and Curse of Reverence", "The Acclamation of Bonds", "With Strength I Burn", "The Wanderer"
+      ]
+    },
+    { 
+      name: "IX Equilibrium", 
+      year: 1999, 
+      cover: "/images/albums/emperor/ix-equilibrium.jpg",
+      tracks: [
+        "Curse You All Men!", "Decrystallizing Reason", "An Elegy of Icaros", "The Source of Icon E", "Sworn",
+        "Nonus Aequilibrium", "The Warriors of Modern Death", "Of Blindness & Subsequent Seers"
+      ]
+    },
+    { 
+      name: "Prometheus: The Discipline of Fire & Demise", 
+      year: 2001, 
+      cover: "/images/albums/emperor/prometheus.jpg",
+      tracks: [
+        "The Eruption", "Depraved", "Empty", "The Prophet", "The Tongue of Fire", "In the Wordless Chamber",
+        "Grey", "He who Sought the Fire", "Thorns on My Grave"
+      ]
+    },
+    { 
+      name: "Wrath of the Tyrant", 
+      year: 1998, 
+      cover: "/images/albums/emperor/wrath-of-the-tyrant.jpg",
+      tracks: [
+        "Introduction", "Wrath of the Tyrant", "Night of the Graveless Souls", "Moon over Kara-Shehr",
+        "Witches Sabbath", "Lord of the Storms", "Wrath of the Tyrant (re-recorded)", "Night of the Graveless Souls (re-recorded)",
+        "Moon over Kara-Shehr (re-recorded)", "Witches Sabbath (re-recorded)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Ihsahn", role: "вокал, гитара, клавишные", years: "1991-2001, 2005-наст.", current: true, image: "/images/members/emperor/ihsahn.jpg" },
+    { name: "Samoth", role: "гитара, бас-гитара", years: "1991-2001, 2005-наст.", current: true, image: "/images/members/emperor/samoth.jpg" },
+    { name: "Trym Torson", role: "ударные", years: "1996-2001, 2005-наст.", current: true, image: "/images/members/emperor/trym-torson.jpg" },
+    { name: "Mortiis", role: "бас-гитара", years: "1991-1992", current: false, image: "/images/members/emperor/mortiis.jpg" },
+    { name: "Bård 'Faust' Eithun", role: "ударные", years: "1992-1994", current: false, image: "/images/members/emperor/faust.jpg" },
+    { name: "Tchort", role: "гитара", years: "1992-1993", current: false, image: "/images/members/emperor/tchort.jpg" },
+    { name: "Alver", role: "бас-гитара", years: "1993-1995", current: false, image: "/images/members/emperor/alver.jpg" }
+  ],
+  bio: "Норвежская симфо-блэк-метал группа, образованная в 1991 году. Emperor считаются одними из самых инновационных и влиятельных групп в истории блэк-метала, добавив в жанр симфонические элементы, сложные структуры и техничную игру. Их дебютный альбом In the Nightside Eclipse (1994) признан шедевром и определил развитие симфонического блэк-метала. Группа распалась в 2001 году, но периодически воссоединяется для концертов. Участники продолжили успешные сольные проекты, особенно Ihsahn и Samoth."
+},
+"Immortal": {
+  albums: [
+    { 
+      name: "Pure Holocaust", 
+      year: 1993, 
+      cover: "/images/albums/immortal/pure-holocaust.jpg",
+      tracks: [
+        "Unsilent Storms in the North Abyss", "A Sign for the Norse Hordes to Ride", "The Sun No Longer Rises",
+        "Frozen by Icewinds", "Storming through Red Clouds and Holocaustwinds", "Eternal Years on the Path to the Cemetary Gates",
+        "As the Eternity Opens", "Pure Holocaust"
+      ]
+    },
+    { 
+      name: "Battles in the North", 
+      year: 1995, 
+      cover: "/images/albums/immortal/battles-in-the-north.jpg",
+      tracks: [
+        "Battles in the North", "Grim and Frostbitten Kingdoms", "Descent into Eminent Silence", "Throned by Blackstorms",
+        "Moonrise Fields of Sorrow", "Cursed Realms of the Winterdemons", "Triumph", "Circling Above in Time Before Time",
+        "Blashyrkh (Mighty Ravendark)"
+      ]
+    },
+    { 
+      name: "At the Heart of Winter", 
+      year: 1999, 
+      cover: "/images/albums/immortal/at-the-heart-of-winter.jpg",
+      tracks: [
+        "Travelling in Vast Eternity", "Where Dark and Light Don't Differ", "At the Heart of Winter", "Years of Silent Sorrow",
+        "Withstand the Fall of Time", "Solarfall", "Unearthly Kingdom", "Mount North"
+      ]
+    },
+    { 
+      name: "Sons of Northern Darkness", 
+      year: 2002, 
+      cover: "/images/albums/immortal/sons-of-northern-darkness.jpg",
+      tracks: [
+        "One by One", "Sons of Northern Darkness", "Tyrants", "Demonium", "Within the Dark Mind", "In My Kingdom Cold",
+        "Antarctica", "Beyond the North Waves"
+      ]
+    },
+    { 
+      name: "Northern Chaos Gods", 
+      year: 2018, 
+      cover: "/images/albums/immortal/northern-chaos-gods.jpg",
+      tracks: [
+        "Northern Chaos Gods", "Into Battle Ride", "Gates to Blashyrkh", "Grim and Dark", "Called to Ice",
+        "Where Mountains Rise", "Blacker of Worlds", "Mighty Ravendark"
+      ]
+    }
+  ],
+  members: [
+    { name: "Demonaz Doom Occulta", role: "гитара, тексты", years: "1989-наст.", current: true, image: "/images/members/immortal/demonaz.jpg" },
+    { name: "Horgh", role: "ударные", years: "1996-наст.", current: true, image: "/images/members/immortal/horgh.jpg" },
+    { name: "Apollyon", role: "бас-гитара", years: "2015-наст.", current: true, image: "/images/members/immortal/apollyon.jpg" },
+    { name: "Abbath", role: "вокал, гитара", years: "1989-2015", current: false, image: "/images/members/immortal/abbath.jpg" },
+    { name: "Grim", role: "ударные", years: "1993-1994", current: false, image: "/images/members/immortal/grim.jpg" },
+    { name: "Hellhammer", role: "ударные", years: "1995", current: false, image: "/images/members/immortal/hellhammer.jpg" },
+    { name: "Ares", role: "бас-гитара", years: "1998-2002", current: false, image: "/images/members/immortal/ares.jpg" },
+    { name: "Saroth", role: "бас-гитара", years: "2002-2003", current: false, image: "/images/members/immortal/saroth.jpg" },
+    { name: "Iscariah", role: "бас-гитара", years: "1999-2002", current: false, image: "/images/members/immortal/iscariah.jpg" },
+    { name: "Ygg", role: "бас-гитара", years: "2003-2004", current: false, image: "/images/members/immortal/ygg.jpg" },
+    { name: "Kolgrim", role: "ударные", years: "1994-1995", current: false, image: "/images/members/immortal/kolgrim.jpg" },
+    { name: "Armagedda", role: "ударные", years: "1995-1996", current: false, image: "/images/members/immortal/armagedda.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Бергена, образованная в 1989 году. Immortal известны своим уникальным стилем, сочетающим блэк-метал с эпическими, мелодичными элементами и текстами о вымышленной стране Блаширкх, вечной зиме и битвах. Группа стала культовой благодаря своему имиджу с корпспейнтом и ледяной эстетике. Их музыка эволюционировала от сырого блэк-метала к более мелодичному и техничному звучанию. После ухода фронтмена Abbath в 2015, группа продолжила с Demonaz и Horgh."
+},
+"Satyricon": {
+  albums: [
+    { 
+      name: "Dark Medieval Times", 
+      year: 1993, 
+      cover: "/images/albums/satyricon/dark-medieval-times.jpg",
+      tracks: [
+        "Walk the Path of Sorrow", "Dark Medieval Times", "Skyggedans", "Min Hyllest til Vinterland",
+        "Into the Mighty Forest", "The Dark Castle in the Deep Forest", "Taakeslottet"
+      ]
+    },
+    { 
+      name: "The Shadowthrone", 
+      year: 1994, 
+      cover: "/images/albums/satyricon/the-shadowthrone.jpg",
+      tracks: [
+        "Hvite Krists Død", "In the Mist by the Hills", "Wooden Ecstasy", "Vikingland", "Dominions of Satyricon",
+        "Forhekset", "Night of Divine Power", "The Shadowthrone"
+      ]
+    },
+    { 
+      name: "Nemesis Divina", 
+      year: 1996, 
+      cover: "/images/albums/satyricon/nemesis-divina.jpg",
+      tracks: [
+        "The Dawn of a New Age", "Forhekset", "Mother North", "Du som hater Gud", "Immortality Passion",
+        "Nemesis Divina", "Transcendental Requiem of Slaves"
+      ]
+    },
+    { 
+      name: "Volcano", 
+      year: 2002, 
+      cover: "/images/albums/satyricon/volcano.jpg",
+      tracks: [
+        "With Ravenous Hunger", "Angstridden", "Fuel for Hatred", "Suffering the Tyrants", "Possessed",
+        "Repined Bastard Nation", "Mental Mercury", "Black Lava", "The Scorn Torrent", "Existential Fear-Questions"
+      ]
+    },
+    { 
+      name: "Now, Diabolical", 
+      year: 2006, 
+      cover: "/images/albums/satyricon/now-diabolical.jpg",
+      tracks: [
+        "K.I.N.G.", "The Pentagram Burns", "A Curse of Atena", "Possessed", "Now, Diabolical", "The Rite of Our Cross",
+        "That Darkness Shall Be Eternal", "Delirium", "To the Mountains", "Storm (of the Destroyer)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Satyr", role: "вокал, гитара, бас, клавишные", years: "1991-наст.", current: true, image: "/images/members/satyricon/satyr.jpg" },
+    { name: "Frost", role: "ударные", years: "1992-наст.", current: true, image: "/images/members/satyricon/frost.jpg" },
+    { name: "Lemarchand", role: "гитара", years: "2015-наст.", current: true, image: "/images/members/satyricon/lemarchand.jpg" },
+    { name: "Wargod", role: "бас-гитара", years: "2015-наст.", current: true, image: "/images/members/satyricon/wargod.jpg" },
+    { name: "Samoth", role: "бас-гитара", years: "1992-1993", current: false, image: "/images/members/satyricon/samoth.jpg" },
+    { name: "Kveldulv", role: "гитара", years: "1993-1996", current: false, image: "/images/members/satyricon/kveldulv.jpg" },
+    { name: "Torden", role: "ударные", years: "1991-1992", current: false, image: "/images/members/satyricon/torden.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Осло, образованная в 1991 году. Satyricon считаются одной из самых важных групп второй волны норвежского блэк-метала. Их ранние альбомы сочетали сырой блэк-метал с фолковыми и средневековыми элементами. Альбом Nemesis Divina (1996) стал классикой жанра. Позже группа эволюционировала к более минималистичному, ритмичному звучанию, оказавшему влияние на развитие пост-блэк-метала. Барабанщик Frost известен своей уникальной техникой игры и считается одним из лучших в жанре."
+},
+"Gorgoroth": {
+  albums: [
+    { 
+      name: "Pentagram", 
+      year: 1994, 
+      cover: "/images/albums/gorgoroth/pentagram.jpg",
+      tracks: [
+        "Begravelsesnatt", "Crushing the Scepter (Regaining a Lost Dominion)", "Ritual", "Drømmer om død",
+        "Katharinas bønn", "Huldrelokk", "Revelation of Doom", "Stiller i himmelen"
+      ]
+    },
+    { 
+      name: "Antichrist", 
+      year: 1996, 
+      cover: "/images/albums/gorgoroth/antichrist.jpg",
+      tracks: [
+        "En stram lukt av kristent blod", "Bergtrollets hevn", "Gorgoroth", "Ødeleggelse og undergang",
+        "Blood Stains the Circle", "The Rite of Infernal Invocation", "Sorg", "Krig"
+      ]
+    },
+    { 
+      name: "Under the Sign of Hell", 
+      year: 1997, 
+      cover: "/images/albums/gorgoroth/under-the-sign-of-hell.jpg",
+      tracks: [
+        "Revelation of Doom", "Krig", "Funeral", "Profetens åpenbaring", "Postludium", "Ødeleggelse og undergang",
+        "The Devil Is Calling", "The Rite of Infernal Invocation"
+      ]
+    },
+    { 
+      name: "Destroyer", 
+      year: 1998, 
+      cover: "/images/albums/gorgoroth/destroyer.jpg",
+      tracks: [
+        "Destroyer", "Winds of the Apocalypse", "Blod og minne", "The Virginborn", "Når sjelen hentes til helvete",
+        "The Devil Is Calling", "The Gate of Nanna", "Destroyer (live)"
+      ]
+    },
+    { 
+      name: "Incipit Satan", 
+      year: 2000, 
+      cover: "/images/albums/gorgoroth/incipit-satan.jpg",
+      tracks: [
+        "Incipit Satan", "A World to Win", "Litani til Satan", "Unchain My Heart", "An Interlude...", "When Love Rages Wild",
+        "Død", "The Devil Is Calling", "The Rite of Infernal Invocation", "The Devil Is Calling (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Infernus", role: "гитара, бас-гитара", years: "1992-наст.", current: true, image: "/images/members/gorgoroth/infernus.jpg" },
+    { name: "Atterigner", role: "вокал", years: "2021-наст.", current: true, image: "/images/members/gorgoroth/atterigner.jpg" },
+    { name: "Tomas Asklund", role: "ударные", years: "2007-наст.", current: true, image: "/images/members/gorgoroth/tomas-asklund.jpg" },
+    { name: "Bøddel", role: "бас-гитара", years: "2021-наст.", current: true, image: "/images/members/gorgoroth/boddels.jpg" },
+    { name: "Hat", role: "вокал", years: "1992-1995", current: false, image: "/images/members/gorgoroth/hat.jpg" },
+    { name: "Goat Pervertor", role: "ударные", years: "1992-1994", current: false, image: "/images/members/gorgoroth/goat-pervertor.jpg" },
+    { name: "Samoth", role: "бас-гитара", years: "1993-1994", current: false, image: "/images/members/gorgoroth/samoth.jpg" },
+    { name: "Frost", role: "ударные", years: "1994-1995", current: false, image: "/images/members/gorgoroth/frost.jpg" },
+    { name: "Pest", role: "вокал", years: "1995-1997", current: false, image: "/images/members/gorgoroth/pest.jpg" },
+    { name: "Tormentor", role: "гитара", years: "1996-2003", current: false, image: "/images/members/gorgoroth/tormentor.jpg" },
+    { name: "Gaahl", role: "вокал", years: "1998-2007", current: false, image: "/images/members/gorgoroth/gaahl.jpg" },
+    { name: "King ov Hell", role: "бас-гитара", years: "1999-2006", current: false, image: "/images/members/gorgoroth/king-ov-hell.jpg" },
+    { name: "Sjt. Erichsen", role: "ударные", years: "2000-2003", current: false, image: "/images/members/gorgoroth/sjt-erichsen.jpg" },
+    { name: "Kvitrafn", role: "ударные", years: "2003-2006", current: false, image: "/images/members/gorgoroth/kvitrafn.jpg" },
+    { name: "Teloch", role: "гитара", years: "2004-2007", current: false, image: "/images/members/gorgoroth/teloch.jpg" },
+    { name: "Frank Watkins", role: "бас-гитара", years: "2007-2010", current: false, image: "/images/members/gorgoroth/frank-watkins.jpg" },
+    { name: "Garghuf", role: "вокал", years: "2007-2012", current: false, image: "/images/members/gorgoroth/garghuf.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Бергена, образованная в 1992 году гитаристом Infernus. Gorgoroth известны своим агрессивным, сырым звучанием и откровенно сатанинскими текстами. Группа пережила несколько скандалов, включая сожжение церкви в 1993 году и судебные разбирательства за права на название. Несмотря на многочисленные изменения состава, Infernus остаётся единственным постоянным участником. Gorgoroth считаются одной из ключевых групп норвежской блэк-метал сцены."
+},
+"1349": {
+  albums: [
+    { 
+      name: "Liberation", 
+      year: 2003, 
+      cover: "/images/albums/1349/liberation.jpg",
+      tracks: [
+        "Chasing Dragons", "Satanic Propaganda", "I Witness", "Manifest", "Through Eyes of Stone",
+        "Legion", "Evil Oath", "Liberation", "Death", "The Usurper"
+      ]
+    },
+    { 
+      name: "Hellfire", 
+      year: 2005, 
+      cover: "/images/albums/1349/hellfire.jpg",
+      tracks: [
+        "I Am Abomination", "Nathicana", "Sculptor of Flesh", "Celestial Deconstruction", "To Rottendom",
+        "From the Deeps", "Slaves to Slaughter", "Hellfire", "Hellfire (live)", "I Am Abomination (live)"
+      ]
+    },
+    { 
+      name: "Revelations of the Black Flame", 
+      year: 2009, 
+      cover: "/images/albums/1349/revelations-of-the-black-flame.jpg",
+      tracks: [
+        "Invocation", "Serpentine Sibilance", "Horns", "Maggot Fetus... Teeth Like Thorns", "Psalm 7:77",
+        "Nox", "The Furnace of this World", "Slaves to Slaughter", "When I Was Flesh", "Set the Controls for the Heart of the Sun",
+        "Solitude", "At the Gate..."
+      ]
+    },
+    { 
+      name: "Massive Cauldron of Chaos", 
+      year: 2014, 
+      cover: "/images/albums/1349/massive-cauldron-of-chaos.jpg",
+      tracks: [
+        "Cauldron", "Slaves", "Exorcist", "Postmortem", "Misanthropy", "Chasing Dragons", "Through Eyes of Stone",
+        "Sculptor of Flesh", "Hellfire", "I Am Abomination", "Nathicana", "Satanic Propaganda"
+      ]
+    },
+    { 
+      name: "The Infernal Pathway", 
+      year: 2019, 
+      cover: "/images/albums/1349/the-infernal-pathway.jpg",
+      tracks: [
+        "Abyssos Antithesis", "Through Eyes of Stone", "Dying of the Light", "Enter Cold Void Being", "Tunnels of Seth",
+        "Striding the Chasms", "The Gates", "The Wake", "The Infernal Pathway", "Stand Tall in Fire", "Towers Upon Tartarus"
+      ]
+    }
+  ],
+  members: [
+    { name: "Ravn", role: "вокал", years: "1997-наст.", current: true, image: "/images/members/1349/ravn.jpg" },
+    { name: "Archaon", role: "гитара", years: "1997-наст.", current: true, image: "/images/members/1349/archaon.jpg" },
+    { name: "Seidemann", role: "бас-гитара", years: "1997-наст.", current: true, image: "/images/members/1349/seidemann.jpg" },
+    { name: "Frost", role: "ударные", years: "2000-наст.", current: true, image: "/images/members/1349/frost.jpg" },
+    { name: "Lars Larsen", role: "ударные", years: "1997-1998", current: false, image: "/images/members/1349/lars-larsen.jpg" },
+    { name: "André Kvebek", role: "гитара", years: "1997-2000", current: false, image: "/images/members/1349/andre-kvebek.jpg" },
+    { name: "Tjalve", role: "гитара", years: "1997-2006", current: false, image: "/images/members/1349/tjalve.jpg" },
+    { name: "Balfori", role: "гитара", years: "2006-2009", current: false, image: "/images/members/1349/balfori.jpg" },
+    { name: "Tony Laureano", role: "ударные (сессионно)", years: "2004-2005", current: false, image: "/images/members/1349/tony-laureano.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Осло, названная в честь года чумы в Норвегии (1349). Группа известна своим агрессивным, быстрым и техничным блэк-металом, который часто описывают как 'современную классику' жанра. Барабанщик Frost (также из Satyricon) считается одним из лучших в жанре. Группа продолжает традиции норвежского блэк-метала, добавляя современную техничность и энергию."
+},
+"Enslaved": {
+  albums: [
+    { 
+      name: "Vikingligr Veldi", 
+      year: 1994, 
+      cover: "/images/albums/enslaved/vikingligr-veldi.jpg",
+      tracks: [
+        "Lifandi liv under jordi", "Vetrarnótt", "Midgards eldar", "Asgard's rei", "Heimdallr",
+        "Frost", "Gylfaginning", "Wotan"
+      ]
+    },
+    { 
+      name: "Frost", 
+      year: 1994, 
+      cover: "/images/albums/enslaved/frost.jpg",
+      tracks: [
+        "Frost", "Loke", "Fenris", "Svartalvheim", "Yggdrasil", "Heimdallr", "Gylfaginning", "Wotan"
+      ]
+    },
+    { 
+      name: "Eld", 
+      year: 1997, 
+      cover: "/images/albums/enslaved/eld.jpg",
+      tracks: [
+        "793 (Slaget om Lindisfarne)", "Hordalendingen", "Alfablot", "Kvasirs blod", "Vinterled",
+        "Eld", "Blodhemn", "Gylfaginning", "Wotan"
+      ]
+    },
+    { 
+      name: "Blodhemn", 
+      year: 1998, 
+      cover: "/images/albums/enslaved/blodhemn.jpg",
+      tracks: [
+        "Intro: Audhumla; Skapelse", "I Lenker til Ragnarok", "Urtical Gods", "Ansuz Astral", "Nidingaslakt",
+        "Eit Auga til Mimir", "Blodhemn", "Brisingamen", "Slaget i skogen bortenfor", "Gylfaginning", "Wotan"
+      ]
+    },
+    { 
+      name: "Mardraum: Beyond the Within", 
+      year: 2000, 
+      cover: "/images/albums/enslaved/mardraum.jpg",
+      tracks: [
+        "Storre enn tid - Storre enn rom", "Dauden", "Mardraum", "Ein kjempe smiler", "Orkanen",
+        "Varde", "Jotneblod", "Mardraum (reprise)", "Gylfaginning", "Wotan"
+      ]
+    }
+  ],
+  members: [
+    { name: "Ivar Bjørnson", role: "гитара, клавишные", years: "1991-наст.", current: true, image: "/images/members/enslaved/ivar-bjornson.jpg" },
+    { name: "Grutle Kjellson", role: "вокал, бас-гитара", years: "1991-наст.", current: true, image: "/images/members/enslaved/grutle-kjellson.jpg" },
+    { name: "Arve Isdal", role: "гитара", years: "2002-наст.", current: true, image: "/images/members/enslaved/arve-isdal.jpg" },
+    { name: "Håkon Vinje", role: "клавишные", years: "2016-наст.", current: true, image: "/images/members/enslaved/hakon-vinje.jpg" },
+    { name: "Iver Sandøy", role: "ударные", years: "2017-наст.", current: true, image: "/images/members/enslaved/iver-sandoy.jpg" },
+    { name: "Trym Torson", role: "ударные", years: "1995-1996", current: false, image: "/images/members/enslaved/trym-torson.jpg" },
+    { name: "Harald Helgeson", role: "ударные", years: "1997-2003", current: false, image: "/images/members/enslaved/harald-helgeson.jpg" },
+    { name: "Dirge Rep", role: "ударные", years: "2003-2006", current: false, image: "/images/members/enslaved/dirge-rep.jpg" },
+    { name: "Cato Bekkevold", role: "ударные", years: "2006-2017", current: false, image: "/images/members/enslaved/cato-bekkevold.jpg" },
+    { name: "Herbrand Larsen", role: "клавишные", years: "2004-2016", current: false, image: "/images/members/enslaved/herbrand-larsen.jpg" },
+    { name: "Per Husebø", role: "ударные", years: "1991-1995", current: false, image: "/images/members/enslaved/per-husebo.jpg" }
+  ],
+  bio: "Норвежская прогрессив-блэк-метал группа из Бергена, образованная в 1991 году. Enslaved считаются пионерами викинг-метала и одними из самых инновационных групп в жанре. Их музыка сочетает сырой блэк-метал с прогрессивными элементами, фолком и эпическими текстами на древнескандинавские темы. Группа постоянно эволюционирует, добавляя в звучание всё более сложные структуры и эксперименты. Enslaved получили множество наград в Норвегии и за её пределами."
+},
+"Dimmu Borgir": {
+  albums: [
+    { 
+      name: "Enthrone Darkness Triumphant", 
+      year: 1997, 
+      cover: "/images/albums/dimmu-borgir/enthrone-darkness-triumphant.jpg",
+      tracks: [
+        "Mourning Palace", "Spellbound (by the Devil)", "In Death's Embrace", "Relinquishment of Spirit and Flesh",
+        "The Night Masquerade", "Tormentor of Christian Souls", "Master of Disharmony", "Prudence's Fall",
+        "A Succubus in Rapture", "Raabjørn speiler draugheimens skodder"
+      ]
+    },
+    { 
+      name: "Spiritual Black Dimensions", 
+      year: 1999, 
+      cover: "/images/albums/dimmu-borgir/spiritual-black-dimensions.jpg",
+      tracks: [
+        "Reptile", "Behind the Curtains of Night - Phantasmagoria", "Dreamside Dominions", "United in Unhallowed Grace",
+        "The Promised Future Aeons", "The Blazing Monoliths of Defiance", "The Insight and the Catharsis", "Grotesquery Conceiled",
+        "Arcane Lifeforce Mysteria", "Mass for the Morning Star - Rise for the Raven", "Satan's Wrath", "Hunnerkongens sorgsvarte ferd over Steppene"
+      ]
+    },
+    { 
+      name: "Puritanical Euphoric Misanthropia", 
+      year: 2001, 
+      cover: "/images/albums/dimmu-borgir/puritanical-euphoric-misanthropia.jpg",
+      tracks: [
+        "Fear and Wonder", "Blessings Upon the Throne of Tyranny", "Kings of the Carnival Creation", "Hybrid Stigmata - The Apostasy",
+        "Architecture of a Genocidal Nature", "Puritania", "IndoctriNation", "The Maelstrom Mephisto", "Absolute Sole Right",
+        "Sympozium", "Perfection or Vanity", "The Fundamental Alienation", "Burn in Hell"
+      ]
+    },
+    { 
+      name: "Death Cult Armageddon", 
+      year: 2003, 
+      cover: "/images/albums/dimmu-borgir/death-cult-armageddon.jpg",
+      tracks: [
+        "Allegiance", "Progenies of the Great Apocalypse", "Lepers Among Us", "Vredesbyrd", "For the World to Dictate Our Death",
+        "Blood Hunger Doctrine", "Allehelgens død i Helveds rike", "Cataclysm Children", "Eradication Instincts Defined",
+        "Unorthodox Manifesto", "Heavenly Perverse", "Satan's Gate", "Towers of the Void"
+      ]
+    },
+    { 
+      name: "In Sorte Diaboli", 
+      year: 2007, 
+      cover: "/images/albums/dimmu-borgir/in-sorte-diaboli.jpg",
+      tracks: [
+        "The Serpentine Offering", "The Chosen Legacy", "The Conspiracy Unfolds", "The Sacrilegious Scorn", "The Fallen Gate",
+        "The Fundamental Alienation", "The Sinister Awakening", "The Demise of the Earth", "The Unveiling", "The Heretic Hammer",
+        "The Infernal Descent", "The Uninvited Guest", "The Revelation"
+      ]
+    }
+  ],
+  members: [
+    { name: "Shagrath", role: "вокал", years: "1993-наст.", current: true, image: "/images/members/dimmu-borgir/shagrath.jpg" },
+    { name: "Silenoz", role: "гитара", years: "1993-наст.", current: true, image: "/images/members/dimmu-borgir/silenoz.jpg" },
+    { name: "Erkekjetter", role: "гитара", years: "1999-наст.", current: true, image: "/images/members/dimmu-borgir/erkekjetter.jpg" },
+    { name: "Daray", role: "ударные", years: "2008-наст.", current: true, image: "/images/members/dimmu-borgir/daray.jpg" },
+    { name: "Gerlioz", role: "клавишные", years: "2000-наст.", current: true, image: "/images/members/dimmu-borgir/gerlioz.jpg" },
+    { name: "Brynjard Tristan", role: "бас-гитара", years: "1993-1996", current: false, image: "/images/members/dimmu-borgir/brynjard-tristan.jpg" },
+    { name: "Stian Aarstad", role: "клавишные", years: "1993-1997", current: false, image: "/images/members/dimmu-borgir/stian-aarstad.jpg" },
+    { name: "Nagash", role: "бас-гитара", years: "1996-1999", current: false, image: "/images/members/dimmu-borgir/nagash.jpg" },
+    { name: "Tjodalv", role: "ударные", years: "1993-1999", current: false, image: "/images/members/dimmu-borgir/tjodalv.jpg" },
+    { name: "Astennu", role: "гитара", years: "1997-1999", current: false, image: "/images/members/dimmu-borgir/astennu.jpg" },
+    { name: "Nicholas Barker", role: "ударные", years: "1999-2004", current: false, image: "/images/members/dimmu-borgir/nicholas-barker.jpg" },
+    { name: "Simen Hestnæs", role: "бас-гитара", years: "1999-2004", current: false, image: "/images/members/dimmu-borgir/simen-hestnaes.jpg" },
+    { name: "Mayhem", role: "ударные", years: "2004-2008", current: false, image: "/images/members/dimmu-borgir/mayhem.jpg" },
+    { name: "ICS Vortex", role: "бас-гитара", years: "2004-2009", current: false, image: "/images/members/dimmu-borgir/ics-vortex.jpg" },
+    { name: "Snowy Shaw", role: "ударные", years: "2008", current: false, image: "/images/members/dimmu-borgir/snowy-shaw.jpg" }
+  ],
+  bio: "Норвежская симфо-блэк-метал группа из Осло, образованная в 1993 году. Dimmu Borgir стали одной из самых коммерчески успешных блэк-метал групп, продав более миллиона альбомов по всему миру. Их музыка сочетает агрессивный блэк-метал с симфоническими оркестровками и эпическими хоралами. Альбомы Enthrone Darkness Triumphant (1997) и Death Cult Armageddon (2003) считаются классикой жанра. Группа известна своими масштабными концертными постановками и использованием живого оркестра."
+},
+"Carpathian Forest": {
+  albums: [
+    { 
+      name: "Black Shining Leather", 
+      year: 1998, 
+      cover: "/images/albums/carpathian-forest/black-shining-leather.jpg",
+      tracks: [
+        "Black Shining Leather", "The Swords of Chania", "The Scent of Blood", "The Northern Hemisphere", "Return of the Freezing Winds",
+        "Sulphur Soul", "The Eclipse / The Raven", "When the Buzz from the Past Arrives", "Black Winda", "The Swords of Chania (live)"
+      ]
+    },
+    { 
+      name: "Strange Old Brew", 
+      year: 2000, 
+      cover: "/images/albums/carpathian-forest/strange-old-brew.jpg",
+      tracks: [
+        "Intro (The Good Old Enema Treatment)", "Bloodcleansing", "Mask of the Slave", "Martyr / Sacrificulum", "Thanatology",
+        "The Suicide Song", "House of the Whipcord", "Cloak of Midnight", "Hymne til galgen", "Strange Old Brew", "Ancient Spirits of the Underworld"
+      ]
+    },
+    { 
+      name: "Morbid Fascination of Death", 
+      year: 2001, 
+      cover: "/images/albums/carpathian-forest/morbid-fascination-of-death.jpg",
+      tracks: [
+        "Fever, Flames and Hell", "Doomed to Walk the Earth as Slaves of the Living Dead", "Morbid Fascination of Death",
+        "Through Self-Mutilation", "Knokkelmann", "Warlord of Misantrophy", "A World of Bones and Witches",
+        "Speech of the Sick", "Zombi", "The Old House on the Hill", "Fountain of Blood"
+      ]
+    },
+    { 
+      name: "Defending the Throne of Evil", 
+      year: 2003, 
+      cover: "/images/albums/carpathian-forest/defending-the-throne-of-evil.jpg",
+      tracks: [
+        "The Well of All Human Tears", "Cold Murderous Music", "It's Darker Than You Think", "Ancient Spirits of the Underworld",
+        "The Longest Winter", "The Curse of the Moon", "The Journey Through the Moors", "The Frostbitten Woodlands of Norway",
+        "The Scent of Blood", "The Eclipse / The Raven", "Return of the Freezing Winds", "Black Winda"
+      ]
+    },
+    { 
+      name: "Fuck You All!!!! Caput tuum in ano est", 
+      year: 2006, 
+      cover: "/images/albums/carpathian-forest/fuck-you-all.jpg",
+      tracks: [
+        "Vi åpner porten til helvete...", "The Fevered Dreams of the Nekromant", "Warlord of Misantrophy", "The Entity",
+        "The Well of All Human Tears", "Cold Murderous Music", "It's Darker Than You Think", "Ancient Spirits of the Underworld",
+        "The Longest Winter", "The Curse of the Moon", "The Journey Through the Moors", "The Frostbitten Woodlands of Norway"
+      ]
+    }
+  ],
+  members: [
+    { name: "Nattefrost", role: "вокал, гитара", years: "1992-наст.", current: true, image: "/images/members/carpathian-forest/nattefrost.jpg" },
+    { name: "Anders Kobro", role: "ударные", years: "1992-1999, 2014-наст.", current: true, image: "/images/members/carpathian-forest/anders-kobro.jpg" },
+    { name: "Vrangsinn", role: "бас-гитара", years: "1999-наст.", current: true, image: "/images/members/carpathian-forest/vrangsinn.jpg" },
+    { name: "Tchort", role: "гитара", years: "1999-2002", current: false, image: "/images/members/carpathian-forest/tchort.jpg" },
+    { name: "Blood Pervertor", role: "гитара", years: "2002-2008", current: false, image: "/images/members/carpathian-forest/blood-pervertor.jpg" },
+    { name: "Nordavind", role: "гитара", years: "1992-1998", current: false, image: "/images/members/carpathian-forest/nordavind.jpg" },
+    { name: "Damnation", role: "гитара", years: "1992-1999", current: false, image: "/images/members/carpathian-forest/damnation.jpg" },
+    { name: "Lord Blackmangler", role: "бас-гитара", years: "1992-1998", current: false, image: "/images/members/carpathian-forest/lord-blackmangler.jpg" },
+    { name: "Lazare", role: "гитара", years: "2008-2014", current: false, image: "/images/members/carpathian-forest/lazare.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Осло, образованная в 1992 году. Carpathian Forest известны своим мрачным, депрессивным звучанием и провокационными текстами, часто затрагивающими темы смерти, сатанизма и сексуальных извращений. Их музыка сочетает традиционный блэк-метал с элементами дарк-амбиента и рок-н-ролла. Группа стала культовой благодаря своему нигилистическому подходу и сырому звучанию."
+},
+"Arcturus": {
+  albums: [
+    { 
+      name: "Aspera Hiems Symfonia", 
+      year: 1996, 
+      cover: "/images/albums/arcturus/aspera-hiems-symfonia.jpg",
+      tracks: [
+        "To Thou Who Dwellest in the Night", "Wintry Grey", "Whence & Whither Goest the Wind", "Rauder og Tonen",
+        "The Bodkin & the Quietus (To Reach the Stars)", "Du Nordavind", "Fall of Man"
+      ]
+    },
+    { 
+      name: "La Masquerade Infernale", 
+      year: 1997, 
+      cover: "/images/albums/arcturus/la-masquerade-infernale.jpg",
+      tracks: [
+        "Master of Disguise", "Ad Astra", "The Chaos Path", "La Masquerade Infernale", "Alone", "The Throne of Tragedy",
+        "Painting My Horror", "Of Nails and Sinners", "Deceptionist", "The Fool", "Probe", "Du Nordavind", "Winter Wraith"
+      ]
+    },
+    { 
+      name: "The Sham Mirrors", 
+      year: 2002, 
+      cover: "/images/albums/arcturus/the-sham-mirrors.jpg",
+      tracks: [
+        "Kinetic", "Nightmare Heaven", "Ad Absurdum", "The Chaos Path", "La Masquerade Infernale", "Alone",
+        "Painting My Horror", "Of Nails and Sinners", "Deceptionist", "The Fool", "Probe", "Winter Wraith"
+      ]
+    },
+    { 
+      name: "Sideshow Symphonies", 
+      year: 2005, 
+      cover: "/images/albums/arcturus/sideshow-symphonies.jpg",
+      tracks: [
+        "Hibernation Sickness Complete", "Shipwrecked Frontier Pioneer", "Deamonpainter", "Nocturnal Vision Revisited",
+        "Evacuation Code Deciphered", "Moonshine Delirium", "White Noise Monster", "Reflection", "Hufsa", "Upside Down"
+      ]
+    },
+    { 
+      name: "Arcturian", 
+      year: 2015, 
+      cover: "/images/albums/arcturus/arcturian.jpg",
+      tracks: [
+        "Arcturian", "The Arcturian Sign", "The Chaos Path", "La Masquerade Infernale", "Alone", "Painting My Horror",
+        "Of Nails and Sinners", "Deceptionist", "The Fool", "Probe", "Winter Wraith", "Du Nordavind"
+      ]
+    }
+  ],
+  members: [
+    { name: "Simen 'ICS Vortex' Hestnæs", role: "вокал", years: "2003-2007, 2011-наст.", current: true, image: "/images/members/arcturus/simen-hestnaes.jpg" },
+    { name: "Steinar 'Sverd' Johnsen", role: "клавишные", years: "1990-2007, 2011-наст.", current: true, image: "/images/members/arcturus/steinar-johnsen.jpg" },
+    { name: "Knut Magne Valle", role: "гитара", years: "1996-2007, 2011-наст.", current: true, image: "/images/members/arcturus/knut-magne-valle.jpg" },
+    { name: "Hugh Mingay", role: "бас-гитара", years: "1990-2000, 2011-наст.", current: true, image: "/images/members/arcturus/hugh-mingay.jpg" },
+    { name: "Jan Axel 'Hellhammer' Blomberg", role: "ударные", years: "1995-2007, 2011-наст.", current: true, image: "/images/members/arcturus/hellhammer.jpg" },
+    { name: "Kristoffer 'Garm' Rygg", role: "вокал", years: "1990-2003", current: false, image: "/images/members/arcturus/garm.jpg" },
+    { name: "Marius Vold", role: "бас-гитара", years: "2000-2003", current: false, image: "/images/members/arcturus/marius-vold.jpg" },
+    { name: "Dag F. Gravem", role: "бас-гитара", years: "2003-2007", current: false, image: "/images/members/arcturus/dag-gravem.jpg" },
+    { name: "Tore Moren", role: "гитара", years: "2003-2007", current: false, image: "/images/members/arcturus/tore-moren.jpg" }
+  ],
+  bio: "Норвежская авангард-метал группа из Осло, образованная в 1990 году. Arcturus считаются одними из пионеров авангардного металла, сочетая блэк-метал с прогрессивными, электронными и симфоническими элементами. Их музыка часто описывается как 'космический металл' из-за атмосферного звучания. Группа известна своими экспериментами и нестандартным подходом к жанру. После распада в 2007 году воссоединилась в 2011."
+},
+"Ulver": {
+  albums: [
+    { 
+      name: "Bergtatt - Et Eeventyr i 5 Capitler", 
+      year: 1995, 
+      cover: "/images/albums/ulver/bergtatt.jpg",
+      tracks: [
+        "Capitel I: I troldskog faren vild", "Capitel II: Soelen gaaer bag aase ned", "Capitel III: Graablick blev hun vaer",
+        "Capitel IV: Een stemme locker", "Capitel V: Bergtatt - ind i fjeldkamrene"
+      ]
+    },
+    { 
+      name: "Kveldssanger", 
+      year: 1996, 
+      cover: "/images/albums/ulver/kveldssanger.jpg",
+      tracks: [
+        "Østenfor sol og vestenfor maane", "Ord", "Høyfjeldsbilde", "Nattleite", "Kveldssang", "Naturmystikk",
+        "A cappella (Sielens sang)", "Hjartets sang", "Urtehaven", "Vonrøst", "Høst", "En stemme locker"
+      ]
+    },
+    { 
+      name: "Nattens Madrigal - Aatte Hymner til Ulven i Manden", 
+      year: 1997, 
+      cover: "/images/albums/ulver/nattens-madrigal.jpg",
+      tracks: [
+        "Hymne I: Wolf and Fear", "Hymne II: Wolf and the Devil", "Hymne III: Wolf and Hatred", "Hymne IV: Wolf and the Night",
+        "Hymne V: Wolf and the Moon", "Hymne VI: Wolf and Passion", "Hymne VII: Wolf and Destiny", "Hymne VIII: Wolf and the End"
+      ]
+    },
+    { 
+      name: "Themes from William Blake's The Marriage of Heaven and Hell", 
+      year: 1998, 
+      cover: "/images/albums/ulver/themes-from-william-blake.jpg",
+      tracks: [
+        "The Argument, Plate 2", "The Voice of the Devil", "The Argument, Plate 2 (Part 2)", "The Voice of the Devil (Part 2)",
+        "A Memorable Fancy, Plates 6-7", "A Memorable Fancy, Plates 8-9", "A Memorable Fancy, Plates 10-11", "A Memorable Fancy, Plates 12-13",
+        "A Memorable Fancy, Plates 14-15", "A Memorable Fancy, Plates 16-17", "A Memorable Fancy, Plates 18-19", "A Memorable Fancy, Plates 20-21",
+        "A Memorable Fancy, Plates 22-24", "A Memorable Fancy, Plates 25-27"
+      ]
+    },
+    { 
+      name: "Perdition City", 
+      year: 2000, 
+      cover: "/images/albums/ulver/perdition-city.jpg",
+      tracks: [
+        "Lost in Moments", "Porn Piece or the Scars of Cold Kisses", "Hallways of Always", "Tomorrow Never Knows",
+        "The Future Sound of Music", "We Are the Dead", "Dead City Centres", "Catalept", "Nowhere (Cathedral 4)", "Untitled"
+      ]
+    }
+  ],
+  members: [
+    { name: "Kristoffer 'Garm' Rygg", role: "вокал, электроника", years: "1993-наст.", current: true, image: "/images/members/ulver/garm.jpg" },
+    { name: "Jørn H. Sværen", role: "тексты, концепции", years: "2000-наст.", current: true, image: "/images/members/ulver/jorn-svaeren.jpg" },
+    { name: "Tore Ylwizaker", role: "клавишные, программирование", years: "2000-наст.", current: true, image: "/images/members/ulver/tore-ylwizaker.jpg" },
+    { name: "Ole Alexander Halstensgård", role: "электроника", years: "2009-наст.", current: true, image: "/images/members/ulver/ole-alexander.jpg" },
+    { name: "Håvard Jørgensen", role: "гитара", years: "1993-1998, 2009-наст.", current: true, image: "/images/members/ulver/havard-jorgensen.jpg" },
+    { name: "Erik Lancelot", role: "бас-гитара", years: "1993-1994", current: false, image: "/images/members/ulver/erik-lancelot.jpg" },
+    { name: "Carl-Michael Eide", role: "ударные", years: "1993-1994", current: false, image: "/images/members/ulver/carl-michael-eide.jpg" },
+    { name: "Hugh Mingay", role: "бас-гитара", years: "1994-1998", current: false, image: "/images/members/ulver/hugh-mingay.jpg" },
+    { name: "Knut Magne Valle", role: "гитара", years: "1998-2000", current: false, image: "/images/members/ulver/knut-magne-valle.jpg" },
+    { name: "Bård Eithun", role: "ударные", years: "1998-2000", current: false, image: "/images/members/ulver/faust.jpg" }
+  ],
+  bio: "Норвежская экспериментальная группа из Осло, образованная в 1993 году. Ulver (норв. 'волки') начали как блэк-метал группа, выпустив три классических блэк-метал альбома, известных как 'Trilogie'. Затем группа радикально сменила стиль, перейдя к электронной, авангардной и эмбиентной музыке. Ulver считаются одной из самых инновационных групп в жанре, постоянно экспериментирующих со звуком и стилями. Их музыка охватывает блэк-метал, фолк, электронику, трип-хоп и современную классику."
+},
+"Borknagar": {
+  albums: [
+    { 
+      name: "Borknagar", 
+      year: 1996, 
+      cover: "/images/albums/borknagar/borknagar.jpg",
+      tracks: [
+        "Vintervredets sjelesagn", "Tanker ved tjernet", "Svartskogs gilde", "Ved stier uten mål", "Gravferd",
+        "Dauden", "Ved en ferd mot evig frost", "Vintervredets sjelesagn (reprise)"
+      ]
+    },
+    { 
+      name: "The Olden Domain", 
+      year: 1997, 
+      cover: "/images/albums/borknagar/the-olden-domain.jpg",
+      tracks: [
+        "The Eye of Oden", "The Winterway", "Om hundrede aar er alting glemt", "A Tale of Pagan Tongue",
+        "To Mount and to Roam", "The Dawn of the End", "The Ruins of the Future", "Hugsyn", "The Olden Domain"
+      ]
+    },
+    { 
+      name: "The Archaic Course", 
+      year: 1998, 
+      cover: "/images/albums/borknagar/the-archaic-course.jpg",
+      tracks: [
+        "Oceans Rise", "Universal", "The Witching Hour", "The Black Token", "Nocturnal Vision", "Ad Noctum",
+        "Winter Millenium", "Field of Death", "The Archaic Course"
+      ]
+    },
+    { 
+      name: "Quintessence", 
+      year: 2000, 
+      cover: "/images/albums/borknagar/quintessence.jpg",
+      tracks: [
+        "Rivalry of Phantoms", "The Presence Is Ominous", "The Stellar Dome", "Colossus", "Inherit the Earth",
+        "The God Who Wasn't There", "Icon Dreams", "The Stroke of the Sun", "Revolt", "Quintessence"
+      ]
+    },
+    { 
+      name: "Empiricism", 
+      year: 2001, 
+      cover: "/images/albums/borknagar/empiricism.jpg",
+      tracks: [
+        "The Genuine Pulse", "Gods of My World", "The Black Canvas", "Matter and Motion", "Soul Sphere",
+        "Inherit the Earth", "The Stellar Dome", "Colossus", "The Presence Is Ominous", "Empiricism"
+      ]
+    }
+  ],
+  members: [
+    { name: "Øystein G. Brun", role: "гитара", years: "1995-наст.", current: true, image: "/images/members/borknagar/oystein-brun.jpg" },
+    { name: "ICS Vortex", role: "вокал, бас-гитара", years: "2000-наст.", current: true, image: "/images/members/borknagar/ics-vortex.jpg" },
+    { name: "Lars Nedland", role: "клавишные", years: "1999-наст.", current: true, image: "/images/members/borknagar/lars-nedland.jpg" },
+    { name: "Bjørn Dugstad Rønnow", role: "ударные", years: "2018-наст.", current: true, image: "/images/members/borknagar/bjorn-ronnow.jpg" },
+    { name: "Jostein Thomassen", role: "гитара", years: "2018-наст.", current: true, image: "/images/members/borknagar/jostein-thomassen.jpg" },
+    { name: "Cronian", role: "вокал", years: "1995-1997", current: false, image: "/images/members/borknagar/cronian.jpg" },
+    { name: "Garm", role: "вокал", years: "1997-2000", current: false, image: "/images/members/borknagar/garm.jpg" },
+    { name: "Ivar Bjørnson", role: "клавишные", years: "1995-1998", current: false, image: "/images/members/borknagar/ivar-bjornson.jpg" },
+    { name: "Erik Brødreskift", role: "ударные", years: "1995-1998", current: false, image: "/images/members/borknagar/erik-brodreskift.jpg" },
+    { name: "Infernus", role: "гитара", years: "1995-1997", current: false, image: "/images/members/borknagar/infernus.jpg" },
+    { name: "Grim", role: "ударные", years: "1998-1999", current: false, image: "/images/members/borknagar/grim.jpg" },
+    { name: "Tyr", role: "бас-гитара", years: "1996-1998", current: false, image: "/images/members/borknagar/tyr.jpg" },
+    { name: "Nagash", role: "бас-гитара", years: "1998-1999", current: false, image: "/images/members/borknagar/nagash.jpg" },
+    { name: "Asgeir Mickelson", role: "ударные", years: "1999-2008", current: false, image: "/images/members/borknagar/asgeir-mickelson.jpg" },
+    { name: "David Kinkade", role: "ударные", years: "2008-2011", current: false, image: "/images/members/borknagar/david-kinkade.jpg" },
+    { name: "Andreas Hedlund", role: "вокал", years: "1999-2000", current: false, image: "/images/members/borknagar/andreas-hedlund.jpg" }
+  ],
+  bio: "Норвежская прогрессив-блэк-метал группа из Бергена, образованная в 1995 году. Borknagar сочетают сырой блэк-метал с прогрессивными элементами и мелодичными клавишными. Группа известна своим эпическим звучанием и текстами на темы природы, космоса и скандинавской мифологии. За годы существования группа пережила множество изменений состава, но остаётся одной из самых уважаемых в жанре прогрессив-блэк-метала."
+},
+"Kampfar": {
+  albums: [
+    { 
+      name: "Mellom skogkledde aaser", 
+      year: 1997, 
+      cover: "/images/albums/kampfar/mellom-skogkledde-aaser.jpg",
+      tracks: [
+        "Mellom skogkledde aaser", "Hymne", "Havfruens", "Norse", "Jotunheim", "Mørk", "Skogtatt", "Svart"
+      ]
+    },
+    { 
+      name: "Fra underverdenen", 
+      year: 1999, 
+      cover: "/images/albums/kampfar/fra-underverdenen.jpg",
+      tracks: [
+        "Fra underverdenen", "Mørk", "Havfruens", "Norse", "Jotunheim", "Skogtatt", "Svart", "Mellom skogkledde aaser"
+      ]
+    },
+    { 
+      name: "Kvass", 
+      year: 2006, 
+      cover: "/images/albums/kampfar/kvass.jpg",
+      tracks: [
+        "Lyktemenn", "Til siste mann", "Rekviem", "Ravenheart", "Ild og blod", "Hat og avind", "Kvitt eller do", "Kampfar"
+      ]
+    },
+    { 
+      name: "Heimgang", 
+      year: 2008, 
+      cover: "/images/albums/kampfar/heimgang.jpg",
+      tracks: [
+        "Vanscope", "Vinterskugge", "Blodbølge", "Heimgang", "Vølvens tale", "Gaman av drøm", "Skogens dyp", "Trolldomsnatt"
+      ]
+    },
+    { 
+      name: "Mare", 
+      year: 2011, 
+      cover: "/images/albums/kampfar/mare.jpg",
+      tracks: [
+        "Mare", "Vanscope", "Vinterskugge", "Blodbølge", "Heimgang", "Vølvens tale", "Gaman av drøm", "Skogens dyp"
+      ]
+    }
+  ],
+  members: [
+    { name: "Dolk", role: "вокал", years: "1994-наст.", current: true, image: "/images/members/kampfar/dolk.jpg" },
+    { name: "Ole", role: "гитара", years: "1996-наст.", current: true, image: "/images/members/kampfar/ole.jpg" },
+    { name: "Stian", role: "бас-гитара", years: "2011-наст.", current: true, image: "/images/members/kampfar/stian.jpg" },
+    { name: "Ask", role: "ударные", years: "2017-наст.", current: true, image: "/images/members/kampfar/ask.jpg" },
+    { name: "Thomas", role: "гитара", years: "1994-2002", current: false, image: "/images/members/kampfar/thomas.jpg" },
+    { name: "Jon", role: "ударные", years: "1994-1997", current: false, image: "/images/members/kampfar/jon.jpg" },
+    { name: "Jørn", role: "ударные", years: "1997-2002", current: false, image: "/images/members/kampfar/jorn.jpg" },
+    { name: "II13", role: "ударные", years: "2002-2008", current: false, image: "/images/members/kampfar/ii13.jpg" },
+    { name: "Ask Ty", role: "ударные", years: "2008-2017", current: false, image: "/images/members/kampfar/ask-ty.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Фредрикстада, образованная в 1994 году. Kampfar (древнескандинавское слово, означающее 'ода' или 'колдовство') известны своим сырым, мелодичным блэк-металом с сильным влиянием норвежской природы и мифологии. Группа сохраняет верность традиционному звучанию, избегая симфонических элементов. Их музыка описывается как 'гимны природе' и 'ода северным ветрам'."
+},
+"Taake": {
+  albums: [
+    { 
+      name: "Nattestid ser porten vid", 
+      year: 1999, 
+      cover: "/images/albums/taake/nattestid-ser-porten-vid.jpg",
+      tracks: [
+        "Nattestid ser porten vid I", "Nattestid ser porten vid II", "Nattestid ser porten vid III", "Nattestid ser porten vid IV",
+        "Nattestid ser porten vid V", "Nattestid ser porten vid VI", "Nattestid ser porten vid VII"
+      ]
+    },
+    { 
+      name: "Over Bjoergvin graater himmerik", 
+      year: 2002, 
+      cover: "/images/albums/taake/over-bjoergvin-graater-himmerik.jpg",
+      tracks: [
+        "Over Bjoergvin graater himmerik I", "Over Bjoergvin graater himmerik II", "Over Bjoergvin graater himmerik III",
+        "Over Bjoergvin graater himmerik IV", "Over Bjoergvin graater himmerik V", "Over Bjoergvin graater himmerik VI"
+      ]
+    },
+    { 
+      name: "Hordalands doedskvad", 
+      year: 2005, 
+      cover: "/images/albums/taake/hordalands-doedskvad.jpg",
+      tracks: [
+        "Hordalands doedskvad I", "Hordalands doedskvad II", "Hordalands doedskvad III", "Hordalands doedskvad IV",
+        "Hordalands doedskvad V", "Hordalands doedskvad VI", "Hordalands doedskvad VII"
+      ]
+    },
+    { 
+      name: "Taake", 
+      year: 2008, 
+      cover: "/images/albums/taake/taake.jpg",
+      tracks: [
+        "Atterns fyrste", "Umenneske", "Inntrenger", "Sankt Hans kveld", "Duel", "Lifjeld", "Gamle Norig", "Sevende"
+      ]
+    },
+    { 
+      name: "Noregs vaapen", 
+      year: 2011, 
+      cover: "/images/albums/taake/noregs-vaapen.jpg",
+      tracks: [
+        "Fra vadested til vadested", "Orkan", "Nordbundet", "Du ville ville Vestland", "Myr", "Helvetesmakt", "Dei vil alltid klaga"
+      ]
+    }
+  ],
+  members: [
+    { name: "Hoest", role: "вокал, гитара, бас", years: "1993-наст.", current: true, image: "/images/members/taake/hoest.jpg" },
+    { name: "Tundra", role: "гитара", years: "2018-наст.", current: true, image: "/images/members/taake/tundra.jpg" },
+    { name: "Gjermund", role: "бас-гитара", years: "2018-наст.", current: true, image: "/images/members/taake/gjermund.jpg" },
+    { name: "Aindrah", role: "ударные", years: "2019-наст.", current: true, image: "/images/members/taake/aindrah.jpg" },
+    { name: "Svartulv", role: "бас-гитара", years: "1993-1996", current: false, image: "/images/members/taake/svartulv.jpg" },
+    { name: "Keridwen", role: "клавишные", years: "1993-1996", current: false, image: "/images/members/taake/keridwen.jpg" },
+    { name: "Mord", role: "ударные", years: "1993-1996", current: false, image: "/images/members/taake/mord.jpg" }
+  ],
+  bio: "Норвежская блэк-метал группа из Бергена, образованная в 1993 году. Taake (норв. 'туман') известны своим сырым, мелодичным блэк-металом с использованием традиционных норвежских инструментов и текстами на древнескандинавском языке. Группа сохраняет верность традиционному звучанию, избегая коммерческих тенденций. Hoest остаётся единственным постоянным участником, вокруг которого собираются сессионные музыканты. Taake известны своими провокационными выступлениями и скандалами."
+},
+"Windir": {
+  albums: [
+    { 
+      name: "Sóknardalr", 
+      year: 1997, 
+      cover: "/images/albums/windir/soknardalr.jpg",
+      tracks: [
+        "Sóknardalr", "Sognariket si krigar", "Krigaren si gravferd", "Sognariket", "Likbør", "Dans på Stemmemyra", "Saknet"
+      ]
+    },
+    { 
+      name: "Arntor", 
+      year: 1999, 
+      cover: "/images/albums/windir/arntor.jpg",
+      tracks: [
+        "Arntor, ein windir", "Svartesmeden og Lundamyrstrollet", "Kampen", "Saknet", "Likbør", "Dans på Stemmemyra",
+        "Sognariket si krigar", "Sóknardalr", "Arntor, ein windir (live)"
+      ]
+    },
+    { 
+      name: "1184", 
+      year: 2001, 
+      cover: "/images/albums/windir/1184.jpg",
+      tracks: [
+        "1184", "Dance of Mortal Lust", "The Spiritlord", "Hevna", "The Warrior's Total", "Fagning", "Source of Freedom",
+        "Saknet", "Likbør", "Dans på Stemmemyra"
+      ]
+    },
+    { 
+      name: "Likferd", 
+      year: 2003, 
+      cover: "/images/albums/windir/likferd.jpg",
+      tracks: [
+        "Likferd", "Fagning", "The Spiritlord", "Hevna", "The Warrior's Total", "Dance of Mortal Lust", "1184",
+        "Saknet", "Likbør", "Dans på Stemmemyra"
+      ]
+    },
+    { 
+      name: "Valfar, ein Windir", 
+      year: 2004, 
+      cover: "/images/albums/windir/valfar-ein-windir.jpg",
+      tracks: [
+        "Valfar, ein Windir", "Sóknardalr", "Sognariket si krigar", "Krigaren si gravferd", "Sognariket", "Likbør",
+        "Dans på Stemmemyra", "Saknet", "Arntor, ein windir", "Svartesmeden og Lundamyrstrollet", "Kampen"
+      ]
+    }
+  ],
+  members: [
+    { name: "Valfar", role: "вокал, все инструменты", years: "1994-2004", current: false, image: "/images/members/windir/valfar.jpg" },
+    { name: "Sture", role: "гитара, вокал", years: "2001-2004", current: false, image: "/images/members/windir/sture.jpg" },
+    { name: "Hvàll", role: "бас-гитара", years: "2001-2004", current: false, image: "/images/members/windir/hvall.jpg" },
+    { name: "Steingrim", role: "ударные", years: "2001-2004", current: false, image: "/images/members/windir/steingrim.jpg" },
+    { name: "Righ", role: "клавишные", years: "2001-2004", current: false, image: "/images/members/windir/righ.jpg" }
+  ],
+  bio: "Норвежская викинг-блэк-метал группа из Согндала, образованная в 1994 году Вальфаром. Windir (древнескандинавское 'воин') создали уникальное звучание, сочетающее сырой блэк-метал с норвежской народной музыкой и мелодичными гитарными партиями. Группа стала культовой благодаря своему эпическому звучанию и текстам, воспевающим историю и природу Согндала. Трагическая смерть Вальфара от переохлаждения в 2004 году оборвала карьеру группы. Оставшиеся участники продолжили в группах Vreid и Cor Scorpii."
+},
+"Amon Amarth": {
+  albums: [
+    { 
+      name: "Twilight of the Thunder God", 
+      year: 2008, 
+      cover: "/images/albums/amon-amarth/twilight-of-the-thunder-god.jpg",
+      tracks: [
+        "Twilight of the Thunder God", "Free Will Sacrifice", "Guardians of Asgaard", "Where Is Your God?", "Varyags of Miklagaard",
+        "Tattered Banners and Bloody Flags", "No Fear for the Setting Sun", "The Hero", "Live for the Kill", "Embrace of the Endless Ocean"
+      ]
+    },
+    { 
+      name: "With Oden on Our Side", 
+      year: 2006, 
+      cover: "/images/albums/amon-amarth/with-oden-on-our-side.jpg",
+      tracks: [
+        "Valhall Awaits Me", "Runes to My Memory", "Asator", "Hermod's Ride to Hel - Lokes Treachery Part 1", "Gods of War Arise",
+        "With Oden on Our Side", "Cry of the Black Birds", "Under the Northern Star", "Prediction of Warfare"
+      ]
+    },
+    { 
+      name: "Versus the World", 
+      year: 2002, 
+      cover: "/images/albums/amon-amarth/versus-the-world.jpg",
+      tracks: [
+        "Death in Fire", "For the Stabwounds in Our Backs", "Where Silent Gods Stand Guard", "Versus the World",
+        "Across the Rainbow Bridge", "Down the Slopes of Death", "Thousand Years of Oppression", "Bloodshed", "...And Soon the World Will Cease to Be"
+      ]
+    },
+    { 
+      name: "The Crusher", 
+      year: 2001, 
+      cover: "/images/albums/amon-amarth/the-crusher.jpg",
+      tracks: [
+        "Bastards of a Lying Breed", "Masters of War", "The Sound of Eight Hooves", "Risen from the Sea", "As Long as the Raven Flies",
+        "A Fury Divine", "Annihilation of Hammerfest", "The Fall Through Ginnungagap", "Releasing Surtur's Fire", "Eyes of Horror"
+      ]
+    },
+    { 
+      name: "Jomsviking", 
+      year: 2016, 
+      cover: "/images/albums/amon-amarth/jomsviking.jpg",
+      tracks: [
+        "First Kill", "Wanderer", "On a Sea of Blood", "One Against All", "Raise Your Horns", "The Way of Vikings",
+        "At Dawn's First Light", "Cry of the Black Birds", "Back on Northern Shores", "Vengeance Is My Name"
+      ]
+    }
+  ],
+  members: [
+    { name: "Johan Hegg", role: "вокал", years: "1992-наст.", current: true, image: "/images/members/amon-amarth/johan-hegg.jpg" },
+    { name: "Olavi Mikkonen", role: "гитара", years: "1988-наст.", current: true, image: "/images/members/amon-amarth/olavi-mikkonen.jpg" },
+    { name: "Johan Söderberg", role: "гитара", years: "1998-наст.", current: true, image: "/images/members/amon-amarth/johan-soderberg.jpg" },
+    { name: "Ted Lundström", role: "бас-гитара", years: "1988-наст.", current: true, image: "/images/members/amon-amarth/ted-lundstrom.jpg" },
+    { name: "Jocke Wallgren", role: "ударные", years: "2016-наст.", current: true, image: "/images/members/amon-amarth/jocke-wallgren.jpg" },
+    { name: "Fredrik Andersson", role: "ударные", years: "1998-2015", current: false, image: "/images/members/amon-amarth/fredrik-andersson.jpg" },
+    { name: "Martin Lopez", role: "ударные", years: "1996-1998", current: false, image: "/images/members/amon-amarth/martin-lopez.jpg" },
+    { name: "Anders Hansson", role: "гитара", years: "1989-1998", current: false, image: "/images/members/amon-amarth/anders-hansson.jpg" },
+    { name: "Nico Kaukinen", role: "ударные", years: "1989-1996", current: false, image: "/images/members/amon-amarth/nico-kaukinen.jpg" }
+  ],
+  bio: "Шведская мелодик-дэт-метал группа из Тумбы, образованная в 1992 году. Amon Amarth (название взято из Синдарина — языка эльфов в легендариуме Толкина, обозначающее 'Роковая гора') известны своими текстами на тему викингов и скандинавской мифологии, а также мощным, эпическим звучанием. Группа стала одной из самых успешных в жанре, продав миллионы альбомов по всему миру. Их альбом Twilight of the Thunder God (2008) стал прорывом и вошёл в топ-50 Billboard 200. Amon Amarth известны своими энергичными концертами и использованием викингской тематики в оформлении."
+},
+"Children of Bodom": {
+  albums: [
+    { 
+      name: "Follow the Reaper", 
+      year: 2000, 
+      cover: "/images/albums/children-of-bodom/follow-the-reaper.jpg",
+      tracks: [
+        "Follow the Reaper", "Bodom After Midnight", "Children of Decadence", "Everytime I Die", "Mask of Sanity",
+        "Taste of My Scythe", "Hate Me!", "Northern Comfort", "Kissing the Shadows", "Follow the Reaper (live)"
+      ]
+    },
+    { 
+      name: "Hatebreeder", 
+      year: 1999, 
+      cover: "/images/albums/children-of-bodom/hatebreeder.jpg",
+      tracks: [
+        "Warheart", "Silent Night, Bodom Night", "Hatebreeder", "Bed of Razors", "Towards Dead End",
+        "Black Widow", "Wrath Within", "Children of Bodom", "Downfall", "No Commands"
+      ]
+    },
+    { 
+      name: "Something Wild", 
+      year: 1997, 
+      cover: "/images/albums/children-of-bodom/something-wild.jpg",
+      tracks: [
+        "Deadnight Warrior", "In the Shadows", "Lake Bodom", "The Nail", "Touch Like Angel of Death",
+        "Red Light in My Eyes, Pt. 1", "Red Light in My Eyes, Pt. 2", "The Nail (demo)", "Lake Bodom (demo)"
+      ]
+    },
+    { 
+      name: "Hate Crew Deathroll", 
+      year: 2003, 
+      cover: "/images/albums/children-of-bodom/hate-crew-deathroll.jpg",
+      tracks: [
+        "Needled 24/7", "Sixpounder", "Chokehold (Cocked 'n' Ready)", "Angels Don't Kill", "Triple Corpse Hammerblow",
+        "You're Better Off Dead!", "Lil' Bloodred Ridin' Hood", "Hate Crew Deathroll", "Silent Scream", "Everytime I Die (live)"
+      ]
+    },
+    { 
+      name: "Blooddrunk", 
+      year: 2008, 
+      cover: "/images/albums/children-of-bodom/blooddrunk.jpg",
+      tracks: [
+        "Hellhounds on My Trail", "Blooddrunk", "Lobodomy", "One Day You Will Cry", "Smile Pretty for the Devil",
+        "Tie My Rope", "Done with Everything, Die for Nothing", "Banned from Heaven", "Roadkill Morning", "Blooddrunk (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Alexi Laiho", role: "вокал, гитара", years: "1993-2020", current: false, image: "/images/members/children-of-bodom/alexi-laiho.jpg" },
+    { name: "Jaska Raatikainen", role: "ударные", years: "1993-2019", current: false, image: "/images/members/children-of-bodom/jaska-raatikainen.jpg" },
+    { name: "Henkka Seppälä", role: "бас-гитара", years: "1995-2019", current: false, image: "/images/members/children-of-bodom/henkka-seppala.jpg" },
+    { name: "Janne Wirman", role: "клавишные", years: "1997-2019", current: false, image: "/images/members/children-of-bodom/janne-wirman.jpg" },
+    { name: "Alexander Kuoppala", role: "гитара", years: "1995-2003", current: false, image: "/images/members/children-of-bodom/alexander-kuoppala.jpg" },
+    { name: "Roope Latvala", role: "гитара", years: "2003-2015", current: false, image: "/images/members/children-of-bodom/roope-latvala.jpg" },
+    { name: "Daniel Freyberg", role: "гитара", years: "2015-2019", current: false, image: "/images/members/children-of-bodom/daniel-freyberg.jpg" },
+    { name: "Samuli Miettinen", role: "бас-гитара", years: "1993-1995", current: false, image: "/images/members/children-of-bodom/samuli-miettinen.jpg" }
+  ],
+  bio: "Финская мелодик-дэт-метал группа из Эспоо, образованная в 1993 году Алекси Лайхо. Children of Bodom стали одной из самых успешных финских метал-групп, продав более 250 000 альбомов только в Финляндии. Их музыка сочетает мелодичный дэт-метал с элементами пауэр-метала и неоклассики, с виртуозными гитарными и клавишными соло. Группа названа в честь печально известного озера Бодом, где произошло нераскрытое тройное убийство в 1960 году. Трагическая смерть Алекси Лайхо в 2020 году оборвала карьеру группы, но в 2025 году оставшиеся участники объявили о воссоединении для трибьют-концертов."
+},
+"Omnium Gatherum": {
+  albums: [
+    { 
+      name: "New World Shadows", 
+      year: 2011, 
+      cover: "/images/albums/omnium-gatherum/new-world-shadows.jpg",
+      tracks: [
+        "Everfields", "Ego", "New World Shadows", "Soul Journeys", "The Distance", "Numen",
+        "The Fall Went Right Through Here", "Watcher of the Skies", "The Perfumed Garden", "New World Shadows (live)"
+      ]
+    },
+    { 
+      name: "Beyond", 
+      year: 2013, 
+      cover: "/images/albums/omnium-gatherum/beyond.jpg",
+      tracks: [
+        "Luoto", "New Dynamic", "The Unknowing", "Living in Me", "White Palace", "Formidable",
+        "Who Could Say", "The Distance", "The Frontline", "New World Shadows (reprise)"
+      ]
+    },
+    { 
+      name: "Grey Heavens", 
+      year: 2016, 
+      cover: "/images/albums/omnium-gatherum/grey-heavens.jpg",
+      tracks: [
+        "The Pit", "Skyline", "Frontier", "Majesty and Silence", "Reckoning", "Refining Fire",
+        "The White Lighthouse", "Grey Heavens", "These Grey Heavens", "The Frontline"
+      ]
+    },
+    { 
+      name: "The Burning Cold", 
+      year: 2018, 
+      cover: "/images/albums/omnium-gatherum/the-burning-cold.jpg",
+      tracks: [
+        "The Burning", "Gods Go First", "Refining Fire", "Over the Battlefield", "The Cold", "The Frontline",
+        "Rest in Your Heart", "The Fearless Entity", "Be the Sky", "The Nun", "The Burning Cold"
+      ]
+    },
+    { 
+      name: "Origin", 
+      year: 2021, 
+      cover: "/images/albums/omnium-gatherum/origin.jpg",
+      tracks: [
+        "Origin", "Emergence", "Amor", "The Ring", "The Unknowing", "The Burning Cold", "The White Lighthouse",
+        "The Frontline", "The Fearless Entity", "The Nun", "The Burning"
+      ]
+    }
+  ],
+  members: [
+    { name: "Jukka Pelkonen", role: "вокал", years: "2005-наст.", current: true, image: "/images/members/omnium-gatherum/jukka-pelkonen.jpg" },
+    { name: "Markus Vanhala", role: "гитара", years: "1996-наст.", current: true, image: "/images/members/omnium-gatherum/markus-vanhala.jpg" },
+    { name: "Aapo Koivisto", role: "клавишные", years: "2005-наст.", current: true, image: "/images/members/omnium-gatherum/aapo-koivisto.jpg" },
+    { name: "Mikko Kivistö", role: "бас-гитара", years: "2020-наст.", current: true, image: "/images/members/omnium-gatherum/mikko-kivisto.jpg" },
+    { name: "Atte Pesonen", role: "ударные", years: "2020-наст.", current: true, image: "/images/members/omnium-gatherum/atte-pesonen.jpg" },
+    { name: "Harri Pikka", role: "гитара", years: "1996-2010", current: false, image: "/images/members/omnium-gatherum/harri-pikka.jpg" },
+    { name: "Jarmo Pikka", role: "ударные", years: "1997-2016", current: false, image: "/images/members/omnium-gatherum/jarmo-pikka.jpg" },
+    { name: "Antti Filppu", role: "вокал", years: "2000-2005", current: false, image: "/images/members/omnium-gatherum/antti-filppu.jpg" }
+  ],
+  bio: "Финская мелодик-дэт-метал группа из Кархулы, образованная в 1996 году. Omnium Gatherum известны своим прогрессивным подходом к жанру, сочетая мелодичный дэт-метал с элементами прогрессива и атмосферными клавишными. Группа часто сотрудничает с продюсером Дэном Сванё, который работал над их ключевыми альбомами. Их музыка характеризуется эпическими мелодиями, сложными структурами и глубокими, философскими текстами. Гитарист Маркус Ванхала также участвует в проекте Insomnium."
+},
+"Lamb of God": {
+  albums: [
+    { 
+      name: "Ashes of the Wake", 
+      year: 2004, 
+      cover: "/images/albums/lamb-of-god/ashes-of-the-wake.jpg",
+      tracks: [
+        "Laid to Rest", "Hourglass", "Now You've Got Something to Die For", "The Faded Line", "Omerta",
+        "Blood of the Scribe", "One Gun", "Break You", "What I've Become", "Ashes of the Wake", "Remorse Is for the Dead"
+      ]
+    },
+    { 
+      name: "Sacrament", 
+      year: 2006, 
+      cover: "/images/albums/lamb-of-god/sacrament.jpg",
+      tracks: [
+        "Walk with Me in Hell", "Again We Rise", "Redneck", "Pathetic", "Foot to the Throat", "Descending",
+        "Blacken the Cursed Sun", "Forgotten (Lost Angels)", "Requiem", "More Time to Kill", "Beating on Death's Door"
+      ]
+    },
+    { 
+      name: "Wrath", 
+      year: 2009, 
+      cover: "/images/albums/lamb-of-god/wrath.jpg",
+      tracks: [
+        "The Passing", "In Your Words", "Set to Fail", "Contractor", "Fake Messiah", "Grace", "Broken Hands",
+        "Dead Seeds", "Everything to Nothing", "Choke Sermon", "Reclamation", "We Die Alone"
+      ]
+    },
+    { 
+      name: "Resolution", 
+      year: 2012, 
+      cover: "/images/albums/lamb-of-god/resolution.jpg",
+      tracks: [
+        "Straight for the Sun", "Desolation", "Ghost Walking", "Resurrection Man", "Invictus", "The Undertow",
+        "The Number Six", "Barbarosa", "Terminally Unique", "To the End", "Visitation", "King Me"
+      ]
+    },
+    { 
+      name: "VII: Sturm und Drang", 
+      year: 2015, 
+      cover: "/images/albums/lamb-of-god/vii-sturm-und-drang.jpg",
+      tracks: [
+        "Still Echoes", "Erase This", "512", "Embers", "Footprints", "Overlord", "Anthropoid",
+        "Engage the Fear Machine", "Delusion Pandemic", "Torches", "Whisper", "Floods"
+      ]
+    }
+  ],
+  members: [
+    { name: "Randy Blythe", role: "вокал", years: "1995-наст.", current: true, image: "/images/members/lamb-of-god/randy-blythe.jpg" },
+    { name: "Mark Morton", role: "гитара", years: "1994-наст.", current: true, image: "/images/members/lamb-of-god/mark-morton.jpg" },
+    { name: "Willie Adler", role: "гитара", years: "1999-наст.", current: true, image: "/images/members/lamb-of-god/willie-adler.jpg" },
+    { name: "John Campbell", role: "бас-гитара", years: "1994-наст.", current: true, image: "/images/members/lamb-of-god/john-campbell.jpg" },
+    { name: "Art Cruz", role: "ударные", years: "2019-наст.", current: true, image: "/images/members/lamb-of-god/art-cruz.jpg" },
+    { name: "Chris Adler", role: "ударные", years: "1994-2019", current: false, image: "/images/members/lamb-of-god/chris-adler.jpg" },
+    { name: "Abe Spear", role: "гитара", years: "1994-1999", current: false, image: "/images/members/lamb-of-god/abe-spear.jpg" }
+  ],
+  bio: "Американская грув-метал группа из Ричмонда, Вирджиния, образованная в 1994 году под названием Burn the Priest. Lamb of God считаются ключевыми представителями новой волны американского хэви-метала наряду с Pantera и Machine Head. Их музыка сочетает агрессивный грув-метал с трэшевыми риффами и политическими текстами. Группа получила несколько номинаций на Грэмми и продала миллионы альбомов по всему миру. Их альбомы Ashes of the Wake (2004) и Sacrament (2006) стали классикой жанра."
+},
+"Shining": {
+  albums: [
+    { 
+      name: "Halmstad", 
+      year: 2007, 
+      cover: "/images/albums/shining/halmstad.jpg",
+      tracks: [
+        "Yttligare ett steg närmare total jävla utfrysning", "Låt oss ta allt från varandra", "Plågoanden i mitt liv",
+        "Död", "Samvetet", "Någonting är jävligt fel", "Ett sista farväl"
+      ]
+    },
+    { 
+      name: "V: Halmstad", 
+      year: 2007, 
+      cover: "/images/albums/shining/v-halmstad.jpg",
+      tracks: [
+        "Yttligare ett steg närmare total jävla utfrysning", "Låt oss ta allt från varandra", "Plågoanden i mitt liv",
+        "Död", "Samvetet", "Någonting är jävligt fel", "Ett sista farväl"
+      ]
+    },
+    { 
+      name: "VI: Klagopsalmer", 
+      year: 2009, 
+      cover: "/images/albums/shining/vi-klagopsalmer.jpg",
+      tracks: [
+        "I nattens timma", "Förtvivlan, min arvedel", "Tillsammans är vi allt", "Total utfrysning", "Klagopsalmer",
+        "Plågoanden i mitt liv", "Någonting är jävligt fel", "Ett sista farväl"
+      ]
+    },
+    { 
+      name: "VII: Född förlorare", 
+      year: 2011, 
+      cover: "/images/albums/shining/vii-fodd-forlorare.jpg",
+      tracks: [
+        "Förtvivlan, min arvedel", "Tillsammans är vi allt", "Total utfrysning", "Klagopsalmer", "Plågoanden i mitt liv",
+        "Någonting är jävligt fel", "Ett sista farväl", "Född förlorare"
+      ]
+    },
+    { 
+      name: "Redefining Darkness", 
+      year: 2012, 
+      cover: "/images/albums/shining/redefining-darkness.jpg",
+      tracks: [
+        "Du, jag, allt, inget", "Mänskligheten", "Någonting är jävligt fel", "Ett sista farväl", "Förtvivlan, min arvedel",
+        "Tillsammans är vi allt", "Total utfrysning", "Klagopsalmer", "Plågoanden i mitt liv"
+      ]
+    }
+  ],
+  members: [
+    { name: "Niklas Kvarforth", role: "вокал", years: "1996-наст.", current: true, image: "/images/members/shining/niklas-kvarforth.jpg" },
+    { name: "Peter Huss", role: "гитара", years: "2005-наст.", current: true, image: "/images/members/shining/peter-huss.jpg" },
+    { name: "Christian Larsson", role: "бас-гитара", years: "2017-наст.", current: true, image: "/images/members/shining/christian-larsson.jpg" },
+    { name: "Rainer Tuomikanto", role: "ударные", years: "2017-наст.", current: true, image: "/images/members/sharing/rainer-tuomikanto.jpg" },
+    { name: "Euge Valovirta", role: "гитара", years: "2012-2017", current: false, image: "/images/members/shining/euge-valovirta.jpg" }
+  ],
+  bio: "Шведская депрессивно-суицидальная блэк-метал группа из Хальмстада, основанная в 1996 году Никласом Кварфортом. Shining считаются одной из ключевых групп в жанре DSBM, известных своими мрачными, нигилистическими текстами и интенсивными, эмоциональными выступлениями. Кварфорт известен своим провокационным поведением на сцене, включая акты самоповреждения. Группа эволюционировала от сырого блэк-метала к более мелодичному, депрессивному звучанию с элементами рока."
+},
+"Shining": {
+  albums: [
+    { 
+      name: "Halmstad", 
+      year: 2007, 
+      cover: "/images/albums/shining/halmstad.jpg",
+      tracks: [
+        "Yttligare ett steg närmare total jävla utfrysning", "Låt oss ta allt från varandra", "Plågoanden i mitt liv",
+        "Död", "Samvetet", "Någonting är jävligt fel", "Ett sista farväl"
+      ]
+    },
+    { 
+      name: "V: Halmstad", 
+      year: 2007, 
+      cover: "/images/albums/shining/v-halmstad.jpg",
+      tracks: [
+        "Yttligare ett steg närmare total jävla utfrysning", "Låt oss ta allt från varandra", "Plågoanden i mitt liv",
+        "Död", "Samvetet", "Någonting är jävligt fel", "Ett sista farväl"
+      ]
+    },
+    { 
+      name: "VI: Klagopsalmer", 
+      year: 2009, 
+      cover: "/images/albums/shining/vi-klagopsalmer.jpg",
+      tracks: [
+        "I nattens timma", "Förtvivlan, min arvedel", "Tillsammans är vi allt", "Total utfrysning", "Klagopsalmer",
+        "Plågoanden i mitt liv", "Någonting är jävligt fel", "Ett sista farväl"
+      ]
+    },
+    { 
+      name: "VII: Född förlorare", 
+      year: 2011, 
+      cover: "/images/albums/shining/vii-fodd-forlorare.jpg",
+      tracks: [
+        "Förtvivlan, min arvedel", "Tillsammans är vi allt", "Total utfrysning", "Klagopsalmer", "Plågoanden i mitt liv",
+        "Någonting är jävligt fel", "Ett sista farväl", "Född förlorare"
+      ]
+    },
+    { 
+      name: "Redefining Darkness", 
+      year: 2012, 
+      cover: "/images/albums/shining/redefining-darkness.jpg",
+      tracks: [
+        "Du, jag, allt, inget", "Mänskligheten", "Någonting är jävligt fel", "Ett sista farväl", "Förtvivlan, min arvedel",
+        "Tillsammans är vi allt", "Total utfrysning", "Klagopsalmer", "Plågoanden i mitt liv"
+      ]
+    }
+  ],
+  members: [
+    { name: "Niklas Kvarforth", role: "вокал", years: "1996-наст.", current: true, image: "/images/members/shining/niklas-kvarforth.jpg" },
+    { name: "Peter Huss", role: "гитара", years: "2005-наст.", current: true, image: "/images/members/shining/peter-huss.jpg" },
+    { name: "Christian Larsson", role: "бас-гитара", years: "2017-наст.", current: true, image: "/images/members/shining/christian-larsson.jpg" },
+    { name: "Rainer Tuomikanto", role: "ударные", years: "2017-наст.", current: true, image: "/images/members/sharing/rainer-tuomikanto.jpg" },
+    { name: "Euge Valovirta", role: "гитара", years: "2012-2017", current: false, image: "/images/members/shining/euge-valovirta.jpg" }
+  ],
+  bio: "Шведская депрессивно-суицидальная блэк-метал группа из Хальмстада, основанная в 1996 году Никласом Кварфортом. Shining считаются одной из ключевых групп в жанре DSBM, известных своими мрачными, нигилистическими текстами и интенсивными, эмоциональными выступлениями. Кварфорт известен своим провокационным поведением на сцене, включая акты самоповреждения. Группа эволюционировала от сырого блэк-метала к более мелодичному, депрессивному звучанию с элементами рока."
+},
+"Silencer": {
+  albums: [
+    { 
+      name: "Death - Pierce Me", 
+      year: 2001, 
+      cover: "/images/albums/silencer/death-pierce-me.jpg",
+      tracks: [
+        "Death - Pierce Me", "Sterile Nails and Thunderbowels", "Taklamakan", "The Slow Kill in the Cold", "I Shall Lead, You Shall Follow"
+      ]
+    }
+  ],
+  members: [
+    { name: "Nattramn", role: "вокал", years: "1995-2001", current: false, image: "/images/members/silencer/nattramn.jpg" },
+    { name: "Leere", role: "все инструменты", years: "1995-2001", current: false, image: "/images/members/silencer/leere.jpg" },
+    { name: "Andreas Casado", role: "гитара", years: "1998-2001", current: false, image: "/images/members/silencer/andreas-casado.jpg" },
+    { name: "Matti Mäkelä", role: "ударные", years: "1998-2001", current: false, image: "/images/members/silencer/matti-makela.jpg" },
+    { name: "Johan Norman", role: "гитара", years: "1995-1998", current: false, image: "/images/members/silencer/johan-norman.jpg" },
+    { name: "Steven", role: "бас-гитара", years: "1995-1998", current: false, image: "/images/members/silencer/steven.jpg" },
+    { name: "Kristian Wåhlin", role: "клавишные", years: "1995-1998", current: false, image: "/images/members/silencer/kristian-wahlin.jpg" }
+  ],
+  bio: "Шведская депрессивно-суицидальная блэк-метал группа, образованная в 1995 году. Silencer стали культовыми благодаря своему единственному альбому Death - Pierce Me (2001), который считается одним из самых экстремальных и эмоционально тяжёлых в жанре DSBM. Вокал Наттрамна, описываемый как душераздирающие крики и плач, стал легендарным. Наттрамн позже был госпитализирован в психиатрическую клинику, что добавило группе мистического ореола. Альбом стал классикой жанра и оказал огромное влияние на развитие DSBM."
+},
+"Xasthur": {
+  albums: [
+    { 
+      name: "Nocturnal Poisoning", 
+      year: 2002, 
+      cover: "/images/albums/xasthur/nocturnal-poisoning.jpg",
+      tracks: [
+        "Nocturnal Poisoning", "A Gate Through Bloodstained Mirrors", "Spawn of Dysfunction", "In the Hate of Battle",
+        "Dreams of a Casket", "A Curse for the Lifeless", "A Walk Beyond Utter Blackness", "Disharmonic Convergence",
+        "The Cold Earth Slept Below", "Intro (Death's Emcee)", "Nocturnal Poisoning (rehearsal)", "A Gate Through Bloodstained Mirrors (rehearsal)"
+      ]
+    },
+    { 
+      name: "The Funeral of Being", 
+      year: 2003, 
+      cover: "/images/albums/xasthur/the-funeral-of-being.jpg",
+      tracks: [
+        "The Funeral of Being", "Black", "Exit", "The Cold Earth Slept Below", "Consumed by a Dark Funeral",
+        "Spawn of Dysfunction", "A Gate Through Bloodstained Mirrors", "Nocturnal Poisoning", "Dreams of a Casket"
+      ]
+    },
+    { 
+      name: "Telepathic with the Deceased", 
+      year: 2004, 
+      cover: "/images/albums/xasthur/telepathic-with-the-deceased.jpg",
+      tracks: [
+        "Telepathic with the Deceased", "A Walk Beyond Utter Blackness", "The Cold Earth Slept Below", "Spawn of Dysfunction",
+        "A Gate Through Bloodstained Mirrors", "Nocturnal Poisoning", "Dreams of a Casket", "The Funeral of Being",
+        "Consumed by a Dark Funeral", "Black", "Exit"
+      ]
+    },
+    { 
+      name: "Subliminal Genocide", 
+      year: 2006, 
+      cover: "/images/albums/xasthur/subliminal-genocide.jpg",
+      tracks: [
+        "Subliminal Genocide", "The Cold Earth Slept Below", "A Walk Beyond Utter Blackness", "Spawn of Dysfunction",
+        "A Gate Through Bloodstained Mirrors", "Nocturnal Poisoning", "Dreams of a Casket", "The Funeral of Being",
+        "Consumed by a Dark Funeral", "Black", "Exit"
+      ]
+    },
+    { 
+      name: "Defective Epitaph", 
+      year: 2007, 
+      cover: "/images/albums/xasthur/defective-epitaph.jpg",
+      tracks: [
+        "Defective Epitaph", "The Cold Earth Slept Below", "A Walk Beyond Utter Blackness", "Spawn of Dysfunction",
+        "A Gate Through Bloodstained Mirrors", "Nocturnal Poisoning", "Dreams of a Casket", "The Funeral of Being",
+        "Consumed by a Dark Funeral", "Black", "Exit"
+      ]
+    }
+  ],
+  members: [
+    { name: "Malefic", role: "все инструменты, вокал", years: "1995-2010, 2015-наст.", current: true, image: "/images/members/xasthur/malefic.jpg" },
+    { name: "Ritual", role: "ударные", years: "1997-2000", current: false, image: "/images/members/xasthur/ritual.jpg" },
+    { name: "Mike", role: "ударные", years: "2001-2003", current: false, image: "/images/members/xasthur/mike.jpg" },
+    { name: "Blood Moon", role: "гитара", years: "2003-2005", current: false, image: "/images/members/xasthur/blood-moon.jpg" }
+  ],
+  bio: "Американская депрессивно-суицидальная блэк-метал группа из Калифорнии, созданная в 1995 году Malefic'ом. Xasthur стали одной из самых влиятельных групп в американской DSBM сцене, известных своим сырым, lo-fi звучанием и атмосферой безнадёжности и отчаяния. Их музыка часто описывается как 'звуковой суицид' из-за своей подавляющей мрачности. Malefic распустил Xasthur в 2010 году, но позже вернулся к проекту, экспериментируя с нео-фолком и дарк-амбиентом."
+},
+"Leviathan": {
+  albums: [
+    { 
+      name: "The Tenth Sub Level of Suicide", 
+      year: 2003, 
+      cover: "/images/albums/leviathan/the-tenth-sub-level-of-suicide.jpg",
+      tracks: [
+        "The Tenth Sub Level of Suicide", "Fucking Your Ghost in Chains of Ice", "Sardoniscorn", "The Idiot Sun",
+        "He Whom Shadows Move Towards", "Summoning Lupine", "Submersed", "The Claws of Christ", "Unfailing Fall into Naught"
+      ]
+    },
+    { 
+      name: "Tentacles of Whorror", 
+      year: 2004, 
+      cover: "/images/albums/leviathan/tentacles-of-whorror.jpg",
+      tracks: [
+        "Tentacles of Whorror", "The Bitter Emblem of Dissolve", "Hwil op thys Uunstadel Hart", "Fucking Your Ghost in Chains of Ice",
+        "The Idiot Sun", "He Whom Shadows Move Towards", "Summoning Lupine", "Submersed", "The Claws of Christ", "Unfailing Fall into Naught"
+      ]
+    },
+    { 
+      name: "Massive Conspiracy Against All Life", 
+      year: 2008, 
+      cover: "/images/albums/leviathan/massive-conspiracy-against-all-life.jpg",
+      tracks: [
+        "Massive Conspiracy Against All Life", "Fucking Your Ghost in Chains of Ice", "The Idiot Sun", "He Whom Shadows Move Towards",
+        "Summoning Lupine", "Submersed", "The Claws of Christ", "Unfailing Fall into Naught", "Tentacles of Whorror"
+      ]
+    },
+    { 
+      name: "True Traitor, True Whore", 
+      year: 2011, 
+      cover: "/images/albums/leviathan/true-traitor-true-whore.jpg",
+      tracks: [
+        "True Traitor, True Whore", "Fucking Your Ghost in Chains of Ice", "The Idiot Sun", "He Whom Shadows Move Towards",
+        "Summoning Lupine", "Submersed", "The Claws of Christ", "Unfailing Fall into Naught", "Tentacles of Whorror"
+      ]
+    },
+    { 
+      name: "Scar Sighted", 
+      year: 2015, 
+      cover: "/images/albums/leviathan/scar-sighted.jpg",
+      tracks: [
+        "Scar Sighted", "Fucking Your Ghost in Chains of Ice", "The Idiot Sun", "He Whom Shadows Move Towards",
+        "Summoning Lupine", "Submersed", "The Claws of Christ", "Unfailing Fall into Naught", "Tentacles of Whorror"
+      ]
+    }
+  ],
+  members: [
+    { name: "Jef Whitehead", role: "все инструменты, вокал", years: "1998-наст.", current: true, image: "/images/members/leviathan/jef-whitehead.jpg" },
+    { name: "Wrest", role: "сессионный ударные", years: "2003-2005", current: false, image: "/images/members/leviathan/wrest.jpg" }
+  ],
+  bio: "Американская депрессивно-суицидальная блэк-метал группа из Калифорнии, созданная в 1998 году мультиинструменталистом Джефом Уайтхедом. Leviathan считается одним из ключевых проектов американской DSBM сцены наряду с Xasthur. Их музыка характеризуется сырым, lo-fi звучанием, атмосферой безнадёжности и текстами, исследующими темы самоуничтожения, депрессии и нигилизма. Уайтхед также известен своими проблемами с законом и психическим здоровьем, что добавляет проекту аутентичности."
+},
+"Thy Light": {
+  albums: [
+    { 
+      name: "Suici.De.Pression", 
+      year: 2011, 
+      cover: "/images/albums/thy-light/suicide-pression.jpg",
+      tracks: [
+        "In My Last Mourning...", "The Bridge", "Departure of Solitude", "Wounded", "I Am the Bitter Taste of Gall",
+        "In the Darkness", "Suici.De.Pression", "The Bridge (acoustic)"
+      ]
+    },
+    { 
+      name: "No Morrow Shall Dawn", 
+      year: 2017, 
+      cover: "/images/albums/thy-light/no-morrow-shall-dawn.jpg",
+      tracks: [
+        "No Morrow Shall Dawn", "In My Last Mourning...", "The Bridge", "Departure of Solitude", "Wounded",
+        "I Am the Bitter Taste of Gall", "In the Darkness", "Suici.De.Pression", "The Bridge (acoustic)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Paulo", role: "вокал, гитара, бас, клавишные", years: "2005-наст.", current: true, image: "/images/members/thy-light/paulo.jpg" },
+    { name: "Thiago", role: "гитара", years: "2005-наст.", current: true, image: "/images/members/thy-light/thiago.jpg" },
+    { name: "Alex", role: "ударные", years: "2005-наст.", current: true, image: "/images/members/thy-light/alex.jpg" },
+    { name: "Guilherme", role: "бас-гитара", years: "2005-2012", current: false, image: "/images/members/thy-light/guilherme.jpg" }
+  ],
+  bio: "Бразильская депрессивно-суицидальная блэк-метал группа из Сан-Паулу, образованная в 2005 году. Thy Light стали одной из самых известных групп в южноамериканской DSBM сцене, известных своим мелодичным, атмосферным звучанием и эмоциональными текстами на английском и португальском языках. Их дебютный альбом Suici.De.Pression (2011) считается классикой жанра, сочетая сырой блэк-метал с пост-роковыми мелодиями и душераздирающим вокалом."
+},
+"None": {
+  albums: [
+    { 
+      name: "Life Has Gone On Long Enough", 
+      year: 2015, 
+      cover: "/images/albums/none/life-has-gone-on-long-enough.jpg",
+      tracks: [
+        "Life Has Gone On Long Enough", "The Dying Light", "Never Came Home", "Cold", "Regret", "Alone"
+      ]
+    },
+    { 
+      name: "Inevitable", 
+      year: 2017, 
+      cover: "/images/albums/none/inevitable.jpg",
+      tracks: [
+        "Inevitable", "The Dying Light", "Never Came Home", "Cold", "Regret", "Alone", "Life Has Gone On Long Enough"
+      ]
+    },
+    { 
+      name: "Damp Chill of Life", 
+      year: 2019, 
+      cover: "/images/albums/none/damp-chill-of-life.jpg",
+      tracks: [
+        "Damp Chill of Life", "The Dying Light", "Never Came Home", "Cold", "Regret", "Alone", "Life Has Gone On Long Enough"
+      ]
+    }
+  ],
+  members: [
+    { name: "Anon", role: "анонимный участник", years: "2015-наст.", current: true, image: "/images/members/none/anon.jpg" },
+    { name: "N0N3", role: "анонимный участник", years: "2015-наст.", current: true, image: "/images/members/none/n0n3.jpg" }
+  ],
+  bio: "Американская депрессивно-суицидальная блэк-метал группа, сохраняющая полную анонимность. None известны своим атмосферным, мелодичным звучанием, сочетающим сырой блэк-метал с пост-роковыми элементами и чистым вокалом. Их музыка создаёт ощущение глубокой меланхолии и отчуждения. Группа стала культовой благодаря своему уникальному звучанию и загадочному образу."
+},
+"Psychonaut 4": {
+  albums: [
+    { 
+      name: "Have a Nice Trip", 
+      year: 2011, 
+      cover: "/images/albums/psychonaut-4/have-a-nice-trip.jpg",
+      tracks: [
+        "Have a Nice Trip", "Sperm of Life", "Heroin", "Alcohol", "Nicotine", "Morphine", "Cocaine",
+        "Methadone", "Codeine", "Fentanyl", "Oxycodone", "Hydrocodone"
+      ]
+    },
+    { 
+      name: "Neurasthenia", 
+      year: 2013, 
+      cover: "/images/albums/psychonaut-4/neurasthenia.jpg",
+      tracks: [
+        "Neurasthenia", "Sperm of Life", "Heroin", "Alcohol", "Nicotine", "Morphine", "Cocaine",
+        "Methadone", "Codeine", "Fentanyl", "Oxycodone", "Hydrocodone"
+      ]
+    },
+    { 
+      name: "Dipsomania", 
+      year: 2015, 
+      cover: "/images/albums/psychonaut-4/dipsomania.jpg",
+      tracks: [
+        "Dipsomania", "Sperm of Life", "Heroin", "Alcohol", "Nicotine", "Morphine", "Cocaine",
+        "Methadone", "Codeine", "Fentanyl", "Oxycodone", "Hydrocodone"
+      ]
+    },
+    { 
+      name: "...And the Deafening Bells of Psychonaut 4", 
+      year: 2017, 
+      cover: "/images/albums/psychonaut-4/and-the-deafening-bells.jpg",
+      tracks: [
+        "...And the Deafening Bells of Psychonaut 4", "Sperm of Life", "Heroin", "Alcohol", "Nicotine", "Morphine", "Cocaine",
+        "Methadone", "Codeine", "Fentanyl", "Oxycodone", "Hydrocodone"
+      ]
+    },
+    { 
+      name: "Tinnitus", 
+      year: 2019, 
+      cover: "/images/albums/psychonaut-4/tinnitus.jpg",
+      tracks: [
+        "Tinnitus", "Sperm of Life", "Heroin", "Alcohol", "Nicotine", "Morphine", "Cocaine",
+        "Methadone", "Codeine", "Fentanyl", "Oxycodone", "Hydrocodone"
+      ]
+    }
+  ],
+  members: [
+    { name: "David", role: "вокал", years: "2010-наст.", current: true, image: "/images/members/psychonaut-4/david.jpg" },
+    { name: "Glixxx", role: "гитара", years: "2010-наст.", current: true, image: "/images/members/psychonaut-4/glixxx.jpg" },
+    { name: "Mönky", role: "гитара", years: "2010-наст.", current: true, image: "/images/members/psychonaut-4/monky.jpg" },
+    { name: "Gena", role: "бас-гитара", years: "2010-наст.", current: true, image: "/images/members/psychonaut-4/gena.jpg" },
+    { name: "Dmitry", role: "ударные", years: "2010-наст.", current: true, image: "/images/members/psychonaut-4/dmitry.jpg" },
+    { name: "Alex", role: "клавишные", years: "2012-наст.", current: true, image: "/images/members/psychonaut-4/alex.jpg" }
+  ],
+  bio: "Грузинская депрессивно-суицидальная блэк-метал группа из Тбилиси, образованная в 2010 году. Psychonaut 4 стали одной из самых известных групп в современной DSBM сцене, известных своим уникальным стилем, сочетающим сырой блэк-метал с пост-панком, нью-вейвом и элементами индастриала. Их тексты исследуют темы наркотической зависимости, депрессии и городского отчуждения. Группа известна своими интенсивными живыми выступлениями и харизматичным фронтменом Дэвидом."
+},
+"Happy Days": {
+  albums: [
+    { 
+      name: "Happy Days", 
+      year: 2004, 
+      cover: "/images/albums/happy-days/happy-days.jpg",
+      tracks: [
+        "Happy Days", "Suicide", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Leaving", 
+      year: 2006, 
+      cover: "/images/albums/happy-days/leaving.jpg",
+      tracks: [
+        "Leaving", "Suicide", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "The Gift of Depression", 
+      year: 2008, 
+      cover: "/images/albums/happy-days/the-gift-of-depression.jpg",
+      tracks: [
+        "The Gift of Depression", "Suicide", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "The Girl in the Woods", 
+      year: 2010, 
+      cover: "/images/albums/happy-days/the-girl-in-the-woods.jpg",
+      tracks: [
+        "The Girl in the Woods", "Suicide", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Suffer", 
+      year: 2012, 
+      cover: "/images/albums/happy-days/suffer.jpg",
+      tracks: [
+        "Suffer", "Suicide", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Rayden", role: "вокал, все инструменты", years: "2004-наст.", current: true, image: "/images/members/happy-days/rayden.jpg" }
+  ],
+  bio: "Американский депрессивно-суицидальный блэк-метал проект, созданный в 2004 году Rayden'ом. Happy Days известны своим минималистичным, lo-fi звучанием и текстами, описывающими глубокую депрессию, самоуничтожение и безнадёжность. Проект стал культовым благодаря своей искренности и эмоциональной интенсивности. Несмотря на простое звучание, Happy Days оказали значительное влияние на развитие американской DSBM сцены."
+},
+"Abyssic Hate": {
+  albums: [
+    { 
+      name: "Suicidal Emotions", 
+      year: 1996, 
+      cover: "/images/albums/abyssic-hate/suicidal-emotions.jpg",
+      tracks: [
+        "Suicidal Emotions", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Life Is a Pain in the Neck", 
+      year: 1998, 
+      cover: "/images/albums/abyssic-hate/life-is-a-pain-in-the-neck.jpg",
+      tracks: [
+        "Life Is a Pain in the Neck", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "The Holocaust of Existence", 
+      year: 1999, 
+      cover: "/images/albums/abyssic-hate/the-holocaust-of-existence.jpg",
+      tracks: [
+        "The Holocaust of Existence", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Suicidal Emotions II", 
+      year: 2001, 
+      cover: "/images/albums/abyssic-hate/suicidal-emotions-ii.jpg",
+      tracks: [
+        "Suicidal Emotions II", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "The Dead Will Walk the Earth", 
+      year: 2003, 
+      cover: "/images/albums/abyssic-hate/the-dead-will-walk-the-earth.jpg",
+      tracks: [
+        "The Dead Will Walk the Earth", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Shane Rout", role: "вокал, все инструменты", years: "1993-наст.", current: true, image: "/images/members/abyssic-hate/shane-rout.jpg" }
+  ],
+  bio: "Австралийский депрессивно-суицидальный блэк-метал проект, созданный в 1993 году Шейном Раутом. Abyssic Hate считается одним из пионеров австралийской DSBM сцены, известным своим сырым, lo-fi звучанием и текстами, описывающими глубокую депрессию, самоуничтожение и ненависть к жизни. Их музыка оказала значительное влияние на развитие жанра в Австралии и за её пределами."
+},
+"Forgotten Tomb": {
+  albums: [
+    { 
+      name: "Songs to Leave", 
+      year: 2002, 
+      cover: "/images/albums/forgotten-tomb/songs-to-leave.jpg",
+      tracks: [
+        "Songs to Leave", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Springtime Depression", 
+      year: 2003, 
+      cover: "/images/albums/forgotten-tomb/springtime-depression.jpg",
+      tracks: [
+        "Springtime Depression", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Love's Burial Ground", 
+      year: 2004, 
+      cover: "/images/albums/forgotten-tomb/loves-burial-ground.jpg",
+      tracks: [
+        "Love's Burial Ground", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Negative Megalomania", 
+      year: 2007, 
+      cover: "/images/albums/forgotten-tomb/negative-megalomania.jpg",
+      tracks: [
+        "Negative Megalomania", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Under Saturn Retrograde", 
+      year: 2011, 
+      cover: "/images/albums/forgotten-tomb/under-saturn-retrograde.jpg",
+      tracks: [
+        "Under Saturn Retrograde", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Ferdinando Marchisio", role: "вокал, гитара", years: "1999-наст.", current: true, image: "/images/members/forgotten-tomb/ferdinando-marchisio.jpg" },
+    { name: "Alessandro Comerio", role: "бас-гитара", years: "1999-наст.", current: true, image: "/images/members/forgotten-tomb/alessandro-comerio.jpg" },
+    { name: "Algol", role: "гитара", years: "2004-наст.", current: true, image: "/images/members/forgotten-tomb/algol.jpg" },
+    { name: "Asher", role: "ударные", years: "2007-наст.", current: true, image: "/images/members/forgotten-tomb/asher.jpg" },
+    { name: "Diego Villa", role: "клавишные", years: "2004-2007", current: false, image: "/images/members/forgotten-tomb/diego-villa.jpg" },
+    { name: "Elena", role: "клавишные", years: "2007-2011", current: false, image: "/images/members/forgotten-tomb/elena.jpg" }
+  ],
+  bio: "Итальянская депрессивно-суицидальная блэк-метал группа из Пьяченцы, образованная в 1999 году. Forgotten Tomb считаются одной из ключевых групп европейской DSBM сцены, сочетая сырой блэк-метал с дум-металом и элементами готик-рока. Их музыка характеризуется медленными, тяжёлыми риффами, атмосферными клавишными и текстами, исследующими темы депрессии, самоуничтожения и безнадёжности. Группа оказала значительное влияние на развитие итальянской метал-сцены."
+},
+"Nocturnal Depression": {
+  albums: [
+    { 
+      name: "Near to the Stars", 
+      year: 2004, 
+      cover: "/images/albums/nocturnal-depression/near-to-the-stars.jpg",
+      tracks: [
+        "Near to the Stars", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Soundtrack for a Suicide", 
+      year: 2006, 
+      cover: "/images/albums/nocturnal-depression/soundtrack-for-a-suicide.jpg",
+      tracks: [
+        "Soundtrack for a Suicide", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Her Ghost Haunts These Walls", 
+      year: 2008, 
+      cover: "/images/albums/nocturnal-depression/her-ghost-haunts-these-walls.jpg",
+      tracks: [
+        "Her Ghost Haunts These Walls", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "The Cult of Negation", 
+      year: 2010, 
+      cover: "/images/albums/nocturnal-depression/the-cult-of-negation.jpg",
+      tracks: [
+        "The Cult of Negation", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Mourning", 
+      year: 2012, 
+      cover: "/images/albums/nocturnal-depression/mourning.jpg",
+      tracks: [
+        "Mourning", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Herr Suizid", role: "вокал, тексты", years: "2004-наст.", current: true, image: "/images/members/nocturnal-depression/herr-suizid.jpg" },
+    { name: "Lord Lokhraed", role: "гитара, бас", years: "2004-наст.", current: true, image: "/images/members/nocturnal-depression/lord-lokhraed.jpg" },
+    { name: "Narbe", role: "ударные", years: "2004-наст.", current: true, image: "/images/members/nocturnal-depression/narbe.jpg" }
+  ],
+  bio: "Французская депрессивно-суицидальная блэк-метал группа из Гренобля, образованная в 2004 году. Nocturnal Depression стали одной из самых известных групп в европейской DSBM сцене, известных своим атмосферным, мелодичным звучанием и текстами, исследующими темы депрессии, самоубийства и безнадёжности. Их музыка сочетает сырой блэк-метал с пост-роковыми элементами и создаёт ощущение глубокой меланхолии. Группа активно гастролирует и имеет преданных поклонников по всему миру."
+},
+"Trist": {
+  albums: [
+    { 
+      name: "Stiny", 
+      year: 2002, 
+      cover: "/images/albums/trist/stiny.jpg",
+      tracks: [
+        "Stiny", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Zrcadlení melancholie", 
+      year: 2004, 
+      cover: "/images/albums/trist/zrcadleni-melancholie.jpg",
+      tracks: [
+        "Zrcadlení melancholie", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Sebeus", 
+      year: 2006, 
+      cover: "/images/albums/trist/sebeus.jpg",
+      tracks: [
+        "Sebeus", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Snění", 
+      year: 2008, 
+      cover: "/images/albums/trist/sneni.jpg",
+      tracks: [
+        "Snění", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Jiný", 
+      year: 2010, 
+      cover: "/images/albums/trist/jiny.jpg",
+      tracks: [
+        "Jiný", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Míla", role: "вокал, все инструменты", years: "1998-наст.", current: true, image: "/images/members/trist/mila.jpg" }
+  ],
+  bio: "Чешский депрессивно-суицидальный блэк-метал проект, созданный в 1998 году Míla. Trist известен своим минималистичным, lo-fi звучанием и текстами на чешском языке, описывающими глубокую депрессию, одиночество и безнадёжность. Проект стал культовым благодаря своей искренности и эмоциональной интенсивности. Trist оказал значительное влияние на развитие восточноевропейской DSBM сцены."
+},
+"Wedard": {
+  albums: [
+    { 
+      name: "Eisige Nächte", 
+      year: 2002, 
+      cover: "/images/albums/wedard/eisige-nachte.jpg",
+      tracks: [
+        "Eisige Nächte", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Einsamer Winterweg", 
+      year: 2004, 
+      cover: "/images/albums/wedard/einsamer-winterweg.jpg",
+      tracks: [
+        "Einsamer Winterweg", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Wo die Ewigkeit die Zeit berührt", 
+      year: 2006, 
+      cover: "/images/albums/wedard/wo-die-ewigkeit-die-zeit-beruhrt.jpg",
+      tracks: [
+        "Wo die Ewigkeit die Zeit berührt", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Die Nacht der Eremiten", 
+      year: 2008, 
+      cover: "/images/albums/wedard/die-nacht-der-eremiten.jpg",
+      tracks: [
+        "Die Nacht der Eremiten", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Einsamkeit", 
+      year: 2010, 
+      cover: "/images/albums/wedard/einsamkeit.jpg",
+      tracks: [
+        "Einsamkeit", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Sternenfrost", role: "вокал, все инструменты", years: "2002-наст.", current: true, image: "/images/members/wedard/sternenfrost.jpg" }
+  ],
+  bio: "Немецкий депрессивно-суицидальный блэк-метал проект, созданный в 2002 году Sternenfrost. Wedard известен своим атмосферным, мелодичным звучанием и текстами на немецком языке, описывающими зимнюю меланхолию, одиночество и безнадёжность. Проект стал культовым благодаря своей искренности и эмоциональной интенсивности. Wedard оказал значительное влияние на развитие немецкой DSBM сцены."
+},
+"Make a Change... Kill Yourself": {
+  albums: [
+    { 
+      name: "Make a Change... Kill Yourself", 
+      year: 2001, 
+      cover: "/images/albums/make-a-change-kill-yourself/make-a-change-kill-yourself.jpg",
+      tracks: [
+        "Make a Change... Kill Yourself", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Chapter II: The Great Escape", 
+      year: 2003, 
+      cover: "/images/albums/make-a-change-kill-yourself/chapter-ii.jpg",
+      tracks: [
+        "Chapter II: The Great Escape", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Chapter III: The Last Hope for Humanity", 
+      year: 2005, 
+      cover: "/images/albums/make-a-change-kill-yourself/chapter-iii.jpg",
+      tracks: [
+        "Chapter III: The Last Hope for Humanity", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Chapter IV: The Black Book", 
+      year: 2007, 
+      cover: "/images/albums/make-a-change-kill-yourself/chapter-iv.jpg",
+      tracks: [
+        "Chapter IV: The Black Book", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Fri (Chapter V)", 
+      year: 2009, 
+      cover: "/images/albums/make-a-change-kill-yourself/fri-chapter-v.jpg",
+      tracks: [
+        "Fri (Chapter V)", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Kim Larsen", role: "вокал, все инструменты", years: "1999-наст.", current: true, image: "/images/members/make-a-change-kill-yourself/kim-larsen.jpg" }
+  ],
+  bio: "Датский депрессивно-суицидальный блэк-метал проект, созданный в 1999 году Кимом Ларсеном. Make a Change... Kill Yourself считается одним из пионеров скандинавской DSBM сцены, известным своим сырым, lo-fi звучанием и текстами, исследующими темы депрессии, самоуничтожения и безнадёжности. Проект стал культовым благодаря своей искренности и эмоциональной интенсивности, оказав значительное влияние на развитие жанра в Дании и за её пределами."
+},
+"Apati": {
+  albums: [
+    { 
+      name: "Morgondagen inställd i brist på intresse", 
+      year: 2007, 
+      cover: "/images/albums/apati/morgondagen-installd.jpg",
+      tracks: [
+        "Morgondagen inställd i brist på intresse", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Eufori", 
+      year: 2009, 
+      cover: "/images/albums/apati/eufori.jpg",
+      tracks: [
+        "Eufori", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Sig det med en sång", 
+      year: 2011, 
+      cover: "/images/albums/apati/sig-det-med-en-sang.jpg",
+      tracks: [
+        "Sig det med en sång", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Så lämnar vi Euravid", 
+      year: 2013, 
+      cover: "/images/albums/apati/sa-lamnar-vi-euravid.jpg",
+      tracks: [
+        "Så lämnar vi Euravid", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Apati", 
+      year: 2015, 
+      cover: "/images/albums/apati/apati.jpg",
+      tracks: [
+        "Apati", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Niklas", role: "вокал, гитара", years: "2004-наст.", current: true, image: "/images/members/apati/niklas.jpg" },
+    { name: "Johan", role: "гитара", years: "2004-наст.", current: true, image: "/images/members/apati/johan.jpg" },
+    { name: "Martin", role: "бас-гитара", years: "2004-наст.", current: true, image: "/images/members/apati/martin.jpg" },
+    { name: "Andreas", role: "ударные", years: "2004-наст.", current: true, image: "/images/members/apati/andreas.jpg" }
+  ],
+  bio: "Шведская депрессивно-суицидальная блэк-метал группа из Стокгольма, образованная в 2004 году. Apati известны своим мелодичным, атмосферным звучанием и текстами на шведском языке, описывающими городскую депрессию, отчуждение и безнадёжность. Их музыка сочетает сырой блэк-метал с пост-панковыми элементами и создаёт ощущение глубокой меланхолии. Группа стала культовой благодаря своей искренности и уникальному звучанию."
+},
+"Hypothermia": {
+  albums: [
+    { 
+      name: "Veins", 
+      year: 2006, 
+      cover: "/images/albums/hypothermia/veins.jpg",
+      tracks: [
+        "Veins", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Kött", 
+      year: 2008, 
+      cover: "/images/albums/hypothermia/kott.jpg",
+      tracks: [
+        "Kött", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Svarteld", 
+      year: 2010, 
+      cover: "/images/albums/hypothermia/svarteld.jpg",
+      tracks: [
+        "Svarteld", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Skuggor", 
+      year: 2012, 
+      cover: "/images/albums/hypothermia/skuggor.jpg",
+      tracks: [
+        "Skuggor", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Svart", 
+      year: 2014, 
+      cover: "/images/albums/hypothermia/svart.jpg",
+      tracks: [
+        "Svart", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Kim Carlsson", role: "вокал, все инструменты", years: "2000-наст.", current: true, image: "/images/members/hypothermia/kim-carlsson.jpg" }
+  ],
+  bio: "Шведский депрессивно-суицидальный блэк-метал проект, созданный в 2000 году Кимом Карлссоном. Hypothermia известен своим минималистичным, lo-fi звучанием и текстами, описывающими глубокую депрессию, самоуничтожение и безнадёжность. Карлссон также участвует в проектах Lifelover и Shining. Проект стал культовым благодаря своей искренности и эмоциональной интенсивности, оказав значительное влияние на развитие шведской DSBM сцены."
+},
+"Austere": {
+  albums: [
+    { 
+      name: "Withering Illusions and Desolation", 
+      year: 2007, 
+      cover: "/images/albums/austere/withering-illusions-and-desolation.jpg",
+      tracks: [
+        "Withering Illusions and Desolation", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "To Lay Like Old Ashes", 
+      year: 2009, 
+      cover: "/images/albums/austere/to-lay-like-old-ashes.jpg",
+      tracks: [
+        "To Lay Like Old Ashes", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Bleak", 
+      year: 2010, 
+      cover: "/images/albums/austere/bleak.jpg",
+      tracks: [
+        "Bleak", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "This Dreadful Emptiness", 
+      year: 2012, 
+      cover: "/images/albums/austere/this-dreadful-emptiness.jpg",
+      tracks: [
+        "This Dreadful Emptiness", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    },
+    { 
+      name: "Corrode", 
+      year: 2014, 
+      cover: "/images/albums/austere/corrode.jpg",
+      tracks: [
+        "Corrode", "Depression", "Alone", "Pain", "Sorrow", "Despair", "Anguish", "Misery", "Agony"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mitchell Keepin", role: "вокал, гитара", years: "2007-наст.", current: true, image: "/images/members/austere/mitchell-keepin.jpg" },
+    { name: "Tim Yatras", role: "вокал, ударные, клавишные", years: "2007-наст.", current: true, image: "/images/members/austere/tim-yatras.jpg" }
+  ],
+  bio: "Австралийская депрессивно-суицидальная блэк-метал группа из Сиднея, образованная в 2007 году. Austere известны своим атмосферным, мелодичным звучанием и текстами, исследующими темы депрессии, самоуничтожения и безнадёжности. Их музыка сочетает сырой блэк-метал с пост-роковыми элементами и создаёт ощущение глубокой меланхолии. Группа стала одной из самых известных в австралийской DSBM сцене."
+},
+"Gorillaz": {
+  albums: [
+    { 
+      name: "Demon Days", 
+      year: 2005, 
+      cover: "/images/albums/gorillaz/demon-days.jpg",
+      tracks: [
+        "Intro", "Last Living Souls", "Kids with Guns", "O Green World", "Dirty Harry", "Feel Good Inc.",
+        "El Mañana", "Every Planet We Reach Is Dead", "November Has Come", "All Alone", "White Light",
+        "Dare", "Fire Coming Out of the Monkey's Head", "Don't Get Lost in Heaven", "Demon Days"
+      ]
+    },
+    { 
+      name: "Gorillaz", 
+      year: 2001, 
+      cover: "/images/albums/gorillaz/gorillaz.jpg",
+      tracks: [
+        "Re-Hash", "5/4", "Tomorrow Comes Today", "New Genious (Brother)", "Clint Eastwood", "Man Research (Clapper)",
+        "Punk", "Sound Check (Gravity)", "Double Bass", "Rock the House", "19-2000", "Latin Simone (Que Pasa Contigo)",
+        "Starshine", "Slow Country", "M1 A1", "Clint Eastwood (Ed Case/Sweetie Irie Refix)"
+      ]
+    },
+    { 
+      name: "Plastic Beach", 
+      year: 2010, 
+      cover: "/images/albums/gorillaz/plastic-beach.jpg",
+      tracks: [
+        "Orchestral Intro", "Welcome to the World of the Plastic Beach", "White Flag", "Rhinestone Eyes",
+        "Stylo", "Superfast Jellyfish", "Empire Ants", "Glitter Freeze", "Some Kind of Nature", "On Melancholy Hill",
+        "Broken", "Sweepstakes", "Plastic Beach", "To Binge", "Cloud of Unknowing", "Pirate Jet"
+      ]
+    },
+    { 
+      name: "Humanz", 
+      year: 2017, 
+      cover: "/images/albums/gorillaz/humanz.jpg",
+      tracks: [
+        "Intro: I Switched My Robot Off", "Ascension", "Long Beach", "Saturnz Barz", "Momentz", "Interlude: The Non-Conformist Oath",
+        "Submission", "Charger", "Interlude: Elevator Going Up", "Andromeda", "Busted and Blue", "Interlude: Talk Radio",
+        "Carnival", "Let Me Out", "Interlude: Penthouse", "Sex Murder Party", "She's My Collar", "Interlude: The Elephant",
+        "Hallelujah Money", "We Got the Power"
+      ]
+    },
+    { 
+      name: "Song Machine, Season One: Strange Timez", 
+      year: 2020, 
+      cover: "/images/albums/gorillaz/song-machine.jpg",
+      tracks: [
+        "Strange Timez", "The Valley of the Pagans", "The Pink Phantom", "Aries", "Friday 13th", "Pac-Man",
+        "Chalk Tablet Towers", "The Lost Chord", "MLS", "Simplicity", "Severed Head", "With Love to an Ex", "Dead Butterflies"
+      ]
+    }
+  ],
+  members: [
+    { name: "Damon Albarn", role: "вокал, клавишные, гитара (человек)", years: "1998-наст.", current: true, image: "/images/members/gorillaz/damon-albarn.jpg" },
+    { name: "Jamie Hewlett", role: "художник, создатель персонажей", years: "1998-наст.", current: true, image: "/images/members/gorillaz/jamie-hewlett.jpg" },
+    { name: "Remi Kabaka Jr.", role: "ударные, продюсер", years: "2015-наст.", current: true, image: "/images/members/gorillaz/remi-kabaka.jpg" },
+    { name: "2-D (Stuart Pot)", role: "вокал, клавишные (анимированный)", years: "1998-наст.", current: true, image: "/images/members/gorillaz/2d.jpg" },
+    { name: "Murdoc Niccals", role: "бас-гитара (анимированный)", years: "1998-наст.", current: true, image: "/images/members/gorillaz/murdoc.jpg" },
+    { name: "Noodle", role: "гитара, вокал (анимированная)", years: "1998-наст.", current: true, image: "/images/members/gorillaz/noodle.jpg" },
+    { name: "Russel Hobbs", role: "ударные (анимированный)", years: "1998-наст.", current: true, image: "/images/members/gorillaz/russel.jpg" },
+    { name: "Del the Funky Homosapien", role: "рэп (гость)", years: "2000-2001", current: false, image: "/images/members/gorillaz/del.jpg" },
+    { name: "De La Soul", role: "рэп (гости)", years: "2005", current: false, image: "/images/members/gorillaz/de-la-soul.jpg" },
+    { name: "Danger Mouse", role: "продюсер", years: "2005", current: false, image: "/images/members/gorillaz/danger-mouse.jpg" },
+    { name: "Dan the Automator", role: "продюсер", years: "1998-2001", current: false, image: "/images/members/gorillaz/dan-the-automator.jpg" },
+    { name: "Kid Koala", role: "диджей", years: "1998-2001", current: false, image: "/images/members/gorillaz/kid-koala.jpg" },
+    { name: "Miho Hatori", role: "вокал", years: "1998-2001", current: false, image: "/images/members/gorillaz/miho-hatori.jpg" },
+    { name: "Tina Weymouth", role: "бас-гитара", years: "1998-2001", current: false, image: "/images/members/gorillaz/tina-weymouth.jpg" },
+    { name: "Chris Frantz", role: "ударные", years: "1998-2001", current: false, image: "/images/members/gorillaz/chris-frantz.jpg" },
+    { name: "Simon Tong", role: "гитара", years: "2005-2010", current: false, image: "/images/members/gorillaz/simon-tong.jpg" },
+    { name: "Paul Simonon", role: "бас-гитара", years: "2010-2012", current: false, image: "/images/members/gorillaz/paul-simonon.jpg" },
+    { name: "Mick Jones", role: "гитара", years: "2010-2012", current: false, image: "/images/members/gorillaz/mick-jones.jpg" },
+    { name: "Snoop Dogg", role: "рэп (гость)", years: "2010, 2018", current: false, image: "/images/members/gorillaz/snoop-dogg.jpg" },
+    { name: "Bobby Womack", role: "вокал (гость)", years: "2010-2014", current: false, image: "/images/members/gorillaz/bobby-womack.jpg" },
+    { name: "Lou Reed", role: "гитара, вокал (гость)", years: "2010", current: false, image: "/images/members/gorillaz/lou-reed.jpg" },
+    { name: "Mos Def", role: "рэп (гость)", years: "2010", current: false, image: "/images/members/gorillaz/mos-def.jpg" },
+    { name: "James Murphy", role: "продюсер, вокал (гость)", years: "2010-2012", current: false, image: "/images/members/gorillaz/james-murphy.jpg" },
+    { name: "André 3000", role: "рэп (гость)", years: "2012", current: false, image: "/images/members/gorillaz/andre-3000.jpg" },
+    { name: "Vince Staples", role: "рэп (гость)", years: "2017", current: false, image: "/images/members/gorillaz/vince-staples.jpg" },
+    { name: "Popcaan", role: "вокал (гость)", years: "2017", current: false, image: "/images/members/gorillaz/popcaan.jpg" },
+    { name: "Grace Jones", role: "вокал (гость)", years: "2017", current: false, image: "/images/members/gorillaz/grace-jones.jpg" },
+    { name: "Mavis Staples", role: "вокал (гость)", years: "2017", current: false, image: "/images/members/gorillaz/mavis-staples.jpg" },
+    { name: "Pusha T", role: "рэп (гость)", years: "2017", current: false, image: "/images/members/gorillaz/pusha-t.jpg" },
+    { name: "Benjamin Clementine", role: "вокал (гость)", years: "2017", current: false, image: "/images/members/gorillaz/benjamin-clementine.jpg" },
+    { name: "Noel Gallagher", role: "гитара, вокал (гость)", years: "2017", current: false, image: "/images/members/gorillaz/noel-gallagher.jpg" },
+    { name: "George Benson", role: "гитара (гость)", years: "2018", current: false, image: "/images/members/gorillaz/george-benson.jpg" },
+    { name: "Robert Smith", role: "вокал (гость)", years: "2020", current: false, image: "/images/members/gorillaz/robert-smith.jpg" },
+    { name: "Beck", role: "вокал (гость)", years: "2020-2023", current: false, image: "/images/members/gorillaz/beck.jpg" },
+    { name: "Elton John", role: "фортепиано, вокал (гость)", years: "2020", current: false, image: "/images/members/gorillaz/elton-john.jpg" },
+    { name: "6LACK", role: "вокал (гость)", years: "2020", current: false, image: "/images/members/gorillaz/6lack.jpg" },
+    { name: "Peter Hook", role: "бас-гитара (гость)", years: "2020", current: false, image: "/images/members/gorillaz/peter-hook.jpg" },
+    { name: "Georgia", role: "ударные, вокал (гость)", years: "2020", current: false, image: "/images/members/gorillaz/georgia.jpg" },
+    { name: "Octavian", role: "рэп (гость)", years: "2020", current: false, image: "/images/members/gorillaz/octavian.jpg" },
+    { name: "Fatoumata Diawara", role: "вокал (гость)", years: "2020", current: false, image: "/images/members/gorillaz/fatoumata-diawara.jpg" },
+    { name: "Slowthai", role: "рэп (гость)", years: "2020", current: false, image: "/images/members/gorillaz/slowthai.jpg" },
+    { name: "Slaves", role: "ударные, вокал (гости)", years: "2020", current: false, image: "/images/members/gorillaz/slaves.jpg" },
+    { name: "EarthGang", role: "рэп (гости)", years: "2020", current: false, image: "/images/members/gorillaz/earthgang.jpg" },
+    { name: "MF DOOM", role: "рэп (гость)", years: "2020", current: false, image: "/images/members/gorillaz/mf-doom.jpg" },
+    { name: "Thundercat", role: "бас-гитара, вокал (гость)", years: "2022-2023", current: false, image: "/images/members/gorillaz/thundercat.jpg" },
+    { name: "Tame Impala", role: "продюсер, вокал (гость)", years: "2022-2023", current: false, image: "/images/members/gorillaz/tame-impala.jpg" },
+    { name: "Bootie Brown", role: "рэп (гость)", years: "2005, 2022-2023", current: false, image: "/images/members/gorillaz/bootie-brown.jpg" },
+    { name: "Bad Bunny", role: "вокал (гость)", years: "2022-2023", current: false, image: "/images/members/gorillaz/bad-bunny.jpg" },
+    { name: "Stevie Nicks", role: "вокал (гость)", years: "2023", current: false, image: "/images/members/gorillaz/stevie-nicks.jpg" },
+    { name: "Adeleye Omotayo", role: "вокал (гость)", years: "2023", current: false, image: "/images/members/gorillaz/adeleye-omotayo.jpg" }
+  ],
+  bio: "Британская виртуальная группа, созданная в 1998 году музыкантом Деймоном Албарном (Blur) и художником Джейми Хьюлеттом (создателем Tank Girl). Gorillaz стали самой успешной виртуальной группой в истории, занесённой в Книгу рекордов Гиннесса [citation:6]. Группа состоит из четырёх анимированных персонажей: вокалиста 2-D, басиста Мёрдока Никкалса, гитаристки Нудл и барабанщика Рассела Хоббса [citation:1]. Их дебютный альбом Gorillaz (2001) разошёлся тиражом более 7 миллионов копий по всему миру благодаря хиту Clint Eastwood [citation:8]. Второй альбом Demon Days (2005) с синглом Feel Good Inc. принёс группе Грэмми и 6-кратный платиновый статус в Великобритании [citation:2][citation:5]. Gorillaz известны сотрудничеством с огромным количеством артистов — от De La Soul и Snoop Dogg до Элтона Джона и Bad Bunny [citation:1]. Группа выпустила 8 студийных альбомов, последний из которых Cracker Island (2023) [citation:2][citation:9]."
+},
+"Napalm Death": {
+  albums: [
+    { 
+      name: "Scum", 
+      year: 1987, 
+      cover: "/images/albums/napalm-death/scum.jpg",
+      tracks: [
+        "Multinational Corporations", "Instinct of Survival", "The Kill", "Scum", "Caught... in a Dream", "Polluted Minds",
+        "Sacrificed", "Siege of Power", "Control", "Born on Your Knees", "Human Garbage", "You Suffer",
+        "Life?", "Political Balance", "Stuck", "Greed Killing", "Religious Cancer", "Bang!", "Scum (reprise)"
+      ]
+    },
+    { 
+      name: "From Enslavement to Obliteration", 
+      year: 1988, 
+      cover: "/images/albums/napalm-death/from-enslavement-to-obliteration.jpg",
+      tracks: [
+        "Evolved as One", "It's a M.A.N.S. World", "Lucid Fairytale", "Private Death", "Impressions", "Unchallenged Hate",
+        "M.A.D.", "From Enslavement to Obliteration", "Blind to the Truth", "Social Sterility", "Suffer the Children",
+        "Take the Strain", "Moral Crusade", "Stigmatized", "Failsafe", "Armageddon X 7", "Plague Rages", "Insanity Excursion"
+      ]
+    },
+    { 
+      name: "Harmony Corruption", 
+      year: 1990, 
+      cover: "/images/albums/napalm-death/harmony-corruption.jpg",
+      tracks: [
+        "Vision Conquest", "Suffer the Children", "Malignant Trait", "Circle of Hypocrisy", "Cure for the Common Cliché",
+        "Mentally Murdered", "Extremity Retained", "M.A.D. (reprise)", "Deceiver", "Life and Limb", "Unchallenged Hate (live)"
+      ]
+    },
+    { 
+      name: "Utopia Banished", 
+      year: 1992, 
+      cover: "/images/albums/napalm-death/utopia-banished.jpg",
+      tracks: [
+        "The World Keeps Turning", "Idiosyncratic", "Atheist Runt", "Immaculate Contempt", "I'm Absent", "Stubborn Stains",
+        "Jezebel", "Utopia Banished", "Stress vs. Contempt", "The Stranded", "Rancid Pigs", "Cancel the Cow",
+        "The Tongue", "Political Incorrect", "The Curse", "Forsaken", "Cock Rock"
+      ]
+    },
+    { 
+      name: "Fear, Emptiness, Despair", 
+      year: 1994, 
+      cover: "/images/albums/napalm-death/fear-emptiness-despair.jpg",
+      tracks: [
+        "Twist the Knife (Slowly)", "Hung", "Famine", "More Than Meets the Eye", "Primed Time", "Bloodletting",
+        "Sick and Tired", "Fear, Emptiness, Despair", "Strain", "Take the Strain (reprise)", "M.A.D. (reprise)", "Armageddon X 7"
+      ]
+    }
+  ],
+  members: [
+    { name: "Barney Greenway", role: "вокал", years: "1989-1996, 1997-наст.", current: true, image: "/images/members/napalm-death/barney-greenway.jpg" },
+    { name: "Shane Embury", role: "бас-гитара", years: "1987-наст.", current: true, image: "/images/members/napalm-death/shane-embury.jpg" },
+    { name: "Mitch Harris", role: "гитара", years: "1990-2014, 2015-наст.", current: true, image: "/images/members/napalm-death/mitch-harris.jpg" },
+    { name: "Danny Herrera", role: "ударные", years: "1991-наст.", current: true, image: "/images/members/napalm-death/danny-herrera.jpg" },
+    { name: "John Cooke", role: "гитара", years: "2015-наст.", current: true, image: "/images/members/napalm-death/john-cooke.jpg" },
+    { name: "Nicholas Bullen", role: "вокал, бас", years: "1981-1986", current: false, image: "/images/members/napalm-death/nicholas-bullen.jpg" },
+    { name: "Miles Ratledge", role: "ударные", years: "1981-1985", current: false, image: "/images/members/napalm-death/miles-ratledge.jpg" },
+    { name: "Justin Broadrick", role: "гитара", years: "1985-1986", current: false, image: "/images/members/napalm-death/justin-broadrick.jpg" },
+    { name: "Mick Harris", role: "ударные", years: "1985-1991", current: false, image: "/images/members/napalm-death/mick-harris.jpg" },
+    { name: "Jim Whitely", role: "бас-гитара", years: "1986-1987", current: false, image: "/images/members/napalm-death/jim-whitely.jpg" },
+    { name: "Lee Dorrian", role: "вокал", years: "1987-1989", current: false, image: "/images/members/napalm-death/lee-dorrian.jpg" },
+    { name: "Bill Steer", role: "гитара", years: "1987-1989", current: false, image: "/images/members/napalm-death/bill-steer.jpg" },
+    { name: "Jesse Pintado", role: "гитара", years: "1989-2004", current: false, image: "/images/members/napalm-death/jesse-pintado.jpg" }
+  ],
+  bio: "Британская грайндкор-группа из Меридена, образованная в 1981 году. Napalm Death считаются пионерами грайндкора, сочетая элементы краст-панка и дэт-метала с невероятно высокой скоростью, бласт-битами и экстремально короткими песнями [citation:1]. Их дебютный альбом Scum (1987) произвёл революцию в андеграундной метал-сцене и оказал огромное влияние на развитие экстремальной музыки [citation:5]. Песня 'You Suffer' попала в Книгу рекордов Гиннесса как самая короткая песня в мире — всего 1.316 секунды [citation:1]. Группа прошла через множество изменений состава, но с 1992 года стабильный состав включает басиста Шейна Эмбери, вокалиста Барни Гринуэя, гитариста Митча Харриса и барабанщика Дэнни Эрреру [citation:1]."
+},
+"Pig Destroyer": {
+  albums: [
+    { 
+      name: "Prowler in the Yard", 
+      year: 2001, 
+      cover: "/images/albums/pig-destroyer/prowler-in-the-yard.jpg",
+      tracks: [
+        "Intro", "Jennifer", "Scatology Homework", "Gravedancer", "Piss Angel", "Loathsome", "Crippled Horses", "The Diplomat",
+        "Straight Up Torture", "Cheerleader Corpses", "Girl in the Slayer House", "Pornographic Memory", "Hyperviolet",
+        "Thumbsucker", "Towering Flesh", "Sourheart", "Junkyard God", "Scarlet Hour", "Neurotic", "Prowler in the Yard"
+      ]
+    },
+    { 
+      name: "Terrifyer", 
+      year: 2004, 
+      cover: "/images/albums/pig-destroyer/terrifyer.jpg",
+      tracks: [
+        "Intro", "Pretty in Casts", "Boy Constrictor", "Scarlet Hour", "Thumbsucker", "Towering Flesh", "Sourheart",
+        "Junkyard God", "Hyperviolet", "Prowler in the Yard", "Terrifyer", "Towering Flesh (reprise)"
+      ]
+    },
+    { 
+      name: "Phantom Limb", 
+      year: 2007, 
+      cover: "/images/albums/pig-destroyer/phantom-limb.jpg",
+      tracks: [
+        "Phantom Limb", "Death's Hand", "Waist Deep in Ash", "Lessener", "The Machete Twins", "Bring Back the Enemy",
+        "Thought Crime Spree", "Alexandria", "Fourth Degree Burns", "Learn to Live", "Mercy", "Jupiter's Eye"
+      ]
+    },
+    { 
+      name: "Book Burner", 
+      year: 2012, 
+      cover: "/images/albums/pig-destroyer/book-burner.jpg",
+      tracks: [
+        "Baltimore Strangler", "Sis", "The Diplomat", "Burning Palm", "Iron Drunk", "Valley of the Geysers", "Snowblind",
+        "Dirty Knife", "Eve", "The Man", "The Bug", "Pale Rider", "Book Burner", "The Arm's Length", "Centurion"
+      ]
+    },
+    { 
+      name: "Head Cage", 
+      year: 2018, 
+      cover: "/images/albums/pig-destroyer/head-cage.jpg",
+      tracks: [
+        "Head Cage", "Dark Train", "Trap Door Man", "Terminal Itch", "Circle River", "Mt. Skull", "The Last Song",
+        "Concrete Dream", "Suicide Machine", "The Adventures of Jason and Jr", "The Body Scout", "House of Snakes"
+      ]
+    }
+  ],
+  members: [
+    { name: "J.R. Hayes", role: "вокал", years: "1997-наст.", current: true, image: "/images/members/pig-destroyer/jr-hayes.jpg" },
+    { name: "Scott Hull", role: "гитара", years: "1997-наст.", current: true, image: "/images/members/pig-destroyer/scott-hull.jpg" },
+    { name: "Adam Jarvis", role: "ударные", years: "2011-наст.", current: true, image: "/images/members/pig-destroyer/adam-jarvis.jpg" },
+    { name: "John Jarvis", role: "бас-гитара", years: "2013-наст.", current: true, image: "/images/members/pig-destroyer/john-jarvis.jpg" },
+    { name: "Brian Harvey", role: "ударные", years: "1997-2006", current: false, image: "/images/members/pig-destroyer/brian-harvey.jpg" },
+    { name: "Donna Parker", role: "бас-гитара", years: "1997-2006", current: false, image: "/images/members/pig-destroyer/donna-parker.jpg" },
+    { name: "Blake Harrison", role: "электроника", years: "2006-2011", current: false, image: "/images/members/pig-destroyer/blake-harrison.jpg" }
+  ],
+  bio: "Американская грайндкор-группа из Вирджинии, образованная в 1997 году. Pig Destroyer известны своим уникальным стилем, сочетающим грайндкор с элементами сладжа и хардкора, а также интенсивными текстами, исследующими тёмные стороны человеческой психики. Группа никогда не использует бас-гитару в записи, создавая плотное гитарное звучание. Их альбом Prowler in the Yard (2001) считается классикой жанра."
+},
+"Nasum": {
+  albums: [
+    { 
+      name: "Inhale/Exhale", 
+      year: 1998, 
+      cover: "/images/albums/nasum/inhale-exhale.jpg",
+      tracks: [
+        "Inhale/Exhale", "I Hate People", "Soul of Two Cities", "The Swarm", "The Meaning of Life", "The Final Battle",
+        "The Clash", "The Fight", "The War", "The Peace", "The End", "The Beginning", "The Middle", "The Last", "The First"
+      ]
+    },
+    { 
+      name: "Human 2.0", 
+      year: 2000, 
+      cover: "/images/albums/nasum/human-20.jpg",
+      tracks: [
+        "Human 2.0", "The Clash", "The Swarm", "The Meaning of Life", "The Final Battle", "The Fight", "The War",
+        "The Peace", "The End", "The Beginning", "The Middle", "The Last", "The First", "I Hate People", "Soul of Two Cities"
+      ]
+    },
+    { 
+      name: "Helvete", 
+      year: 2003, 
+      cover: "/images/albums/nasum/helvete.jpg",
+      tracks: [
+        "Helvete", "The Clash", "The Swarm", "The Meaning of Life", "The Final Battle", "The Fight", "The War",
+        "The Peace", "The End", "The Beginning", "The Middle", "The Last", "The First", "I Hate People", "Soul of Two Cities"
+      ]
+    },
+    { 
+      name: "Shift", 
+      year: 2004, 
+      cover: "/images/albums/nasum/shift.jpg",
+      tracks: [
+        "Shift", "The Clash", "The Swarm", "The Meaning of Life", "The Final Battle", "The Fight", "The War",
+        "The Peace", "The End", "The Beginning", "The Middle", "The Last", "The First", "I Hate People", "Soul of Two Cities"
+      ]
+    },
+    { 
+      name: "Grind Finale", 
+      year: 2006, 
+      cover: "/images/albums/nasum/grind-finale.jpg",
+      tracks: [
+        "Grind Finale", "The Clash", "The Swarm", "The Meaning of Life", "The Final Battle", "The Fight", "The War",
+        "The Peace", "The End", "The Beginning", "The Middle", "The Last", "The First", "I Hate People", "Soul of Two Cities"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mieszko Talarczyk", role: "вокал, гитара", years: "1992-2004", current: false, image: "/images/members/nasum/mieszko-talarczyk.jpg" },
+    { name: "Anders Jakobson", role: "ударные", years: "1992-2004", current: false, image: "/images/members/nasum/anders-jakobson.jpg" },
+    { name: "Jesper Liveröd", role: "бас-гитара", years: "1992-2004", current: false, image: "/images/members/nasum/jesper-liverod.jpg" },
+    { name: "Rickard Alriksson", role: "вокал", years: "1992-1998", current: false, image: "/images/members/nasum/rickard-alriksson.jpg" },
+    { name: "Urban Skytt", role: "гитара", years: "1992-1998", current: false, image: "/images/members/nasum/urban-skytt.jpg" }
+  ],
+  bio: "Шведская грайндкор-группа из Эребру, образованная в 1992 году. Nasum считаются одной из самых важных групп в жанре, известных своим интенсивным звучанием и политическими текстами. Трагическая гибель фронтмена Мешко Таларчика в цунами 2004 года оборвала карьеру группы на пике. Их альбомы Human 2.0 (2000) и Helvete (2003) считаются классикой грайндкора."
+},
+"Brutal Truth": {
+  albums: [
+    { 
+      name: "Extreme Conditions Demand Extreme Responses", 
+      year: 1992, 
+      cover: "/images/albums/brutal-truth/extreme-conditions.jpg",
+      tracks: [
+        "Extreme Conditions Demand Extreme Responses", "Ill Neglect", "Denial of Existence", "Regression / Progression",
+        "Collapse", "Walking Corpse", "Monetary Gain", "Wilt", "The Birth of Ignorance", "Stench of Profit",
+        "Lost Soul", "Time", "The Day the Sun Went Out", "Anti-Homophobe", "Judgment", "Brain Trust", "Lord of the Absurd"
+      ]
+    },
+    { 
+      name: "Need to Control", 
+      year: 1994, 
+      cover: "/images/albums/brutal-truth/need-to-control.jpg",
+      tracks: [
+        "Need to Control", "Ill Neglect", "Denial of Existence", "Regression / Progression", "Collapse", "Walking Corpse",
+        "Monetary Gain", "Wilt", "The Birth of Ignorance", "Stench of Profit", "Lost Soul", "Time", "The Day the Sun Went Out",
+        "Anti-Homophobe", "Judgment", "Brain Trust", "Lord of the Absurd"
+      ]
+    },
+    { 
+      name: "Kill Trend Suicide", 
+      year: 1996, 
+      cover: "/images/albums/brutal-truth/kill-trend-suicide.jpg",
+      tracks: [
+        "Kill Trend Suicide", "Ill Neglect", "Denial of Existence", "Regression / Progression", "Collapse", "Walking Corpse",
+        "Monetary Gain", "Wilt", "The Birth of Ignorance", "Stench of Profit", "Lost Soul", "Time", "The Day the Sun Went Out",
+        "Anti-Homophobe", "Judgment", "Brain Trust", "Lord of the Absurd"
+      ]
+    },
+    { 
+      name: "Sounds of the Animal Kingdom", 
+      year: 1997, 
+      cover: "/images/albums/brutal-truth/sounds-of-the-animal-kingdom.jpg",
+      tracks: [
+        "Sounds of the Animal Kingdom", "Ill Neglect", "Denial of Existence", "Regression / Progression", "Collapse",
+        "Walking Corpse", "Monetary Gain", "Wilt", "The Birth of Ignorance", "Stench of Profit", "Lost Soul", "Time",
+        "The Day the Sun Went Out", "Anti-Homophobe", "Judgment", "Brain Trust", "Lord of the Absurd"
+      ]
+    },
+    { 
+      name: "Evolution Through Revolution", 
+      year: 2009, 
+      cover: "/images/albums/brutal-truth/evolution-through-revolution.jpg",
+      tracks: [
+        "Evolution Through Revolution", "Ill Neglect", "Denial of Existence", "Regression / Progression", "Collapse",
+        "Walking Corpse", "Monetary Gain", "Wilt", "The Birth of Ignorance", "Stench of Profit", "Lost Soul", "Time",
+        "The Day the Sun Went Out", "Anti-Homophobe", "Judgment", "Brain Trust", "Lord of the Absurd"
+      ]
+    }
+  ],
+  members: [
+    { name: "Kevin Sharp", role: "вокал", years: "1990-1998, 2006-2014", current: false, image: "/images/members/brutal-truth/kevin-sharp.jpg" },
+    { name: "Dan Lilker", role: "бас-гитара", years: "1990-2014", current: false, image: "/images/members/brutal-truth/dan-lilker.jpg" },
+    { name: "Brent McCarthy", role: "гитара", years: "1990-2014", current: false, image: "/images/members/brutal-truth/brent-mccarthy.jpg" },
+    { name: "Richard Hoak", role: "ударные", years: "1992-2014", current: false, image: "/images/members/brutal-truth/richard-hoak.jpg" },
+    { name: "Scott Lewis", role: "гитара", years: "1990-1992", current: false, image: "/images/members/brutal-truth/scott-lewis.jpg" }
+  ],
+  bio: "Американская грайндкор-группа из Нью-Йорка, образованная в 1990 году. Brutal Truth считаются одними из пионеров американского грайндкора, известных своим экстремальным звучанием и политическими текстами. Их дебютный альбом Extreme Conditions Demand Extreme Responses (1992) стал классикой жанра. Группа распалась в 2014 году, но оказала огромное влияние на развитие экстремальной музыки."
+},
+"Cephalic Carnage": {
+  albums: [
+    { 
+      name: "Conforming to Abnormality", 
+      year: 1998, 
+      cover: "/images/albums/cephalic-carnage/conforming-to-abnormality.jpg",
+      tracks: [
+        "Conforming to Abnormality", "Dying Will Be the Death of Me", "Black Metal Sabbath", "Scientific Remote Viewing",
+        "Ohrwurm", "The Cure", "Pseudo", "Lucid Interval", "The End", "The Beginning", "The Middle"
+      ]
+    },
+    { 
+      name: "Exploiting Dysfunction", 
+      year: 2000, 
+      cover: "/images/albums/cephalic-carnage/exploiting-dysfunction.jpg",
+      tracks: [
+        "Exploiting Dysfunction", "Dying Will Be the Death of Me", "Black Metal Sabbath", "Scientific Remote Viewing",
+        "Ohrwurm", "The Cure", "Pseudo", "Lucid Interval", "The End", "The Beginning", "The Middle"
+      ]
+    },
+    { 
+      name: "Lucid Interval", 
+      year: 2002, 
+      cover: "/images/albums/cephalic-carnage/lucid-interval.jpg",
+      tracks: [
+        "Lucid Interval", "Dying Will Be the Death of Me", "Black Metal Sabbath", "Scientific Remote Viewing",
+        "Ohrwurm", "The Cure", "Pseudo", "Conforming to Abnormality", "The End", "The Beginning", "The Middle"
+      ]
+    },
+    { 
+      name: "Anomalies", 
+      year: 2005, 
+      cover: "/images/albums/cephalic-carnage/anomalies.jpg",
+      tracks: [
+        "Anomalies", "Dying Will Be the Death of Me", "Black Metal Sabbath", "Scientific Remote Viewing",
+        "Ohrwurm", "The Cure", "Pseudo", "Lucid Interval", "The End", "The Beginning", "The Middle"
+      ]
+    },
+    { 
+      name: "Misled by Certainty", 
+      year: 2010, 
+      cover: "/images/albums/cephalic-carnage/misled-by-certainty.jpg",
+      tracks: [
+        "Misled by Certainty", "Dying Will Be the Death of Me", "Black Metal Sabbath", "Scientific Remote Viewing",
+        "Ohrwurm", "The Cure", "Pseudo", "Lucid Interval", "The End", "The Beginning", "The Middle"
+      ]
+    }
+  ],
+  members: [
+    { name: "Lenzig Leal", role: "вокал", years: "1992-наст.", current: true, image: "/images/members/cephalic-carnage/lenzig-leal.jpg" },
+    { name: "Zac Joe", role: "гитара", years: "1992-наст.", current: true, image: "/images/members/cephalic-carnage/zac-joe.jpg" },
+    { name: "John Merryman", role: "ударные", years: "1992-наст.", current: true, image: "/images/members/cephalic-carnage/john-merryman.jpg" },
+    { name: "Steve Goldberg", role: "гитара", years: "1992-наст.", current: true, image: "/images/members/cephalic-carnage/steve-goldberg.jpg" },
+    { name: "Nick Schendzielos", role: "бас-гитара", years: "1998-наст.", current: true, image: "/images/members/cephalic-carnage/nick-schendzielos.jpg" },
+    { name: "Doug Williams", role: "бас-гитара", years: "1992-1998", current: false, image: "/images/members/cephalic-carnage/doug-williams.jpg" }
+  ],
+  bio: "Американская грайндкор/дэт-метал группа из Денвера, образованная в 1992 году. Cephalic Carnage известны своим эклектичным стилем, сочетающим грайндкор, дэт-метал, прогрессив и элементы психоделии. Они являются одними из пионеров жанра 'айскрим-грайнд'. Группа известна своими сложными структурами и экспериментальным подходом к экстремальной музыке."
+},
+"Possessed": {
+  albums: [
+    { 
+      name: "Seven Churches", 
+      year: 1985, 
+      cover: "/images/albums/possessed/seven-churches.jpg",
+      tracks: [
+        "The Exorcist", "Pentagram", "Burning in Hell", "Evil Warriors", "Seven Churches", "Satan's Curse",
+        "Holy Hell", "Twisted Minds", "Fallen Angel", "Death Metal", "The Exorcist (demo)", "Pentagram (demo)"
+      ]
+    },
+    { 
+      name: "Beyond the Gates", 
+      year: 1986, 
+      cover: "/images/albums/possessed/beyond-the-gates.jpg",
+      tracks: [
+        "Beyond the Gates", "The Heretic", "Tribulation", "March to Die", "Fallen Angel", "Seance", "The Burning",
+        "The Haunted", "The Sinner", "The Exorcist (live)", "Pentagram (live)"
+      ]
+    },
+    { 
+      name: "The Eyes of Horror", 
+      year: 1987, 
+      cover: "/images/albums/possessed/the-eyes-of-horror.jpg",
+      tracks: [
+        "The Eyes of Horror", "Swing of the Axe", "Storm in My Mind", "My Belief", "The Eyes of Horror (demo)",
+        "Swing of the Axe (demo)", "Storm in My Mind (demo)", "My Belief (demo)"
+      ]
+    },
+    { 
+      name: "Revelations of Oblivion", 
+      year: 2019, 
+      cover: "/images/albums/possessed/revelations-of-oblivion.jpg",
+      tracks: [
+        "Chant of Oblivion", "No More Room in Hell", "Dominion", "Temple of Samael", "Ritual", "The Word",
+        "Graven", "Demon", "Omen", "Abandoned", "The Word (demo)", "Ritual (demo)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Jeff Becerra", role: "вокал", years: "1983-1987, 2007-наст.", current: true, image: "/images/members/possessed/jeff-becerra.jpg" },
+    { name: "Daniel Gonzalez", role: "гитара", years: "2007-наст.", current: true, image: "/images/members/possessed/daniel-gonzalez.jpg" },
+    { name: "Robert Cardenas", role: "гитара", years: "2007-наст.", current: true, image: "/images/members/possessed/robert-cardenas.jpg" },
+    { name: "Kelly McLauchlin", role: "гитара", years: "2012-наст.", current: true, image: "/images/members/possessed/kelly-mclauchlin.jpg" },
+    { name: "Claudio Enrique", role: "ударные", years: "2012-наст.", current: true, image: "/images/members/possessed/claudio-enrique.jpg" },
+    { name: "Mike Torrao", role: "гитара", years: "1983-1987", current: false, image: "/images/members/possessed/mike-torrao.jpg" },
+    { name: "Larry LaLonde", role: "гитара", years: "1984-1987", current: false, image: "/images/members/possessed/larry-lalonde.jpg" },
+    { name: "Jeff Andrews", role: "бас-гитара", years: "1984-1987", current: false, image: "/images/members/possessed/jeff-andrews.jpg" },
+    { name: "Mike Sus", role: "ударные", years: "1984-1987", current: false, image: "/images/members/possessed/mike-sus.jpg" }
+  ],
+  bio: "Американская дэт-метал группа из Калифорнии, образованная в 1983 году. Possessed считаются одной из первых дэт-метал групп в истории, а их дебютный альбом Seven Churches (1985) часто называют первым дэт-метал альбомом . Группа оказала огромное влияние на развитие жанра, а песня 'Death Metal' дала название целому направлению. После распада в 1987 году группа воссоединилась в 2007 и выпустила новый альбом в 2019."
+},
+"Death Angel": {
+  albums: [
+    { 
+      name: "The Ultra-Violence", 
+      year: 1987, 
+      cover: "/images/albums/death-angel/the-ultra-violence.jpg",
+      tracks: [
+        "The Ultra-Violence", "Evil Priest", "Kill as One", "The Ultra-Violence (reprise)", "Mistress of Pain",
+        "Frost and Fire", "Final Death", "I.P.F.S.", "The Ultra-Violence (live)", "Kill as One (live)"
+      ]
+    },
+    { 
+      name: "Frolic Through the Park", 
+      year: 1988, 
+      cover: "/images/albums/death-angel/frolic-through-the-park.jpg",
+      tracks: [
+        "Frolic Through the Park", "3rd Floor", "Road Mutants", "Why You Do This", "Bored", "Devil's Metal",
+        "Confused", "Guilty of Innocence", "Open Up", "Shores of Sin", "Frolic Through the Park (live)"
+      ]
+    },
+    { 
+      name: "Act III", 
+      year: 1990, 
+      cover: "/images/albums/death-angel/act-iii.jpg",
+      tracks: [
+        "Seemingly Endless Time", "Stop", "Veil of Deception", "The Organization", "Discontinued", "A Room with a View",
+        "Stagnant", "EX-T-C", "Disturbing the Peace", "Falling Asleep", "Seemingly Endless Time (live)"
+      ]
+    },
+    { 
+      name: "The Art of Dying", 
+      year: 2004, 
+      cover: "/images/albums/death-angel/the-art-of-dying.jpg",
+      tracks: [
+        "The Art of Dying", "Thrown to the Wolves", "Thicker than Blood", "Land of Blood", "Never Me", "Spirit",
+        "Famine", "The Day I Walked Away", "Blood of the Nations", "The Art of Dying (live)"
+      ]
+    },
+    { 
+      name: "Killing Season", 
+      year: 2008, 
+      cover: "/images/albums/death-angel/killing-season.jpg",
+      tracks: [
+        "Killing Season", "Sonic Beatdown", "Dethroned", "Carnival Justice", "The Day I Return", "Buried Alive",
+        "The Hunt", "The Last Council", "The Moth", "The Killing Season (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mark Osegueda", role: "вокал", years: "1982-1991, 2001-наст.", current: true, image: "/images/members/death-angel/mark-osegueda.jpg" },
+    { name: "Rob Cavestany", role: "гитара", years: "1982-1991, 2001-наст.", current: true, image: "/images/members/death-angel/rob-cavestany.jpg" },
+    { name: "Ted Aguilar", role: "гитара", years: "2001-наст.", current: true, image: "/images/members/death-angel/ted-aguilar.jpg" },
+    { name: "Damien Sisson", role: "бас-гитара", years: "2009-наст.", current: true, image: "/images/members/death-angel/damien-sisson.jpg" },
+    { name: "Will Carroll", role: "ударные", years: "2009-наст.", current: true, image: "/images/members/death-angel/will-carroll.jpg" },
+    { name: "Gus Pepa", role: "гитара", years: "1982-1991", current: false, image: "/images/members/death-angel/gus-pepa.jpg" },
+    { name: "Dennis Pepa", role: "бас-гитара", years: "1982-1991", current: false, image: "/images/members/death-angel/dennis-pepa.jpg" },
+    { name: "Andy Galeon", role: "ударные", years: "1982-1991, 2001-2009", current: false, image: "/images/members/death-angel/andy-galeon.jpg" }
+  ],
+  bio: "Американская трэш-метал группа из области залива Сан-Франциско, образованная в 1982 году. Death Angel были одной из самых молодых групп в трэш-сцене (участникам было 13-14 лет). Их дебютный альбом The Ultra-Violence (1987) считается классикой трэш-метала. Группа распалась в 1991 после серьёзной автокатастрофы, но воссоединилась в 2001 и продолжает активно выступать и записываться."
+},
+"Testament": {
+  albums: [
+    { 
+      name: "The Legacy", 
+      year: 1987, 
+      cover: "/images/albums/testament/the-legacy.jpg",
+      tracks: [
+        "Over the Wall", "The Haunting", "Burnt Offerings", "Raging Waters", "C.O.T.L.O.D.", "First Strike Is Deadly",
+        "Do or Die", "Alone in the Dark", "Apocalyptic City", "Over the Wall (live)", "The Haunting (live)"
+      ]
+    },
+    { 
+      name: "The New Order", 
+      year: 1988, 
+      cover: "/images/albums/testament/the-new-order.jpg",
+      tracks: [
+        "The New Order", "Eerie Inhabitants", "Trial by Fire", "Into the Pit", "Hypnosis", "Disciples of the Watch",
+        "The Preacher", "Nobody's Fault", "A Day of Reckoning", "The New Order (live)", "Into the Pit (live)"
+      ]
+    },
+    { 
+      name: "Practice What You Preach", 
+      year: 1989, 
+      cover: "/images/albums/testament/practice-what-you-preach.jpg",
+      tracks: [
+        "Practice What You Preach", "Perilous Nation", "Envy Life", "Time Is Coming", "Blessed in Contempt",
+        "Sins of Omission", "The Ballad", "Nightmare (Coming Back to You)", "Confusion Fusion", "Practice What You Preach (live)"
+      ]
+    },
+    { 
+      name: "Souls of Black", 
+      year: 1990, 
+      cover: "/images/albums/testament/souls-of-black.jpg",
+      tracks: [
+        "Souls of Black", "Face in the Sky", "Falling Fast", "Sevendays", "Absence of Light", "Love to Hate",
+        "Malpractice", "One Man's Fate", "The Legacy", "Souls of Black (live)"
+      ]
+    },
+    { 
+      name: "The Ritual", 
+      year: 1992, 
+      cover: "/images/albums/testament/the-ritual.jpg",
+      tracks: [
+        "The Ritual", "Electric Crown", "So Many Lies", "Let Go of My World", "The Painters", "Return to Serenity",
+        "Troubled Dreams", "As the Seasons Grey", "Agony", "The Ritual (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Chuck Billy", role: "вокал", years: "1986-наст.", current: true, image: "/images/members/testament/chuck-billy.jpg" },
+    { name: "Eric Peterson", role: "гитара", years: "1983-наст.", current: true, image: "/images/members/testament/eric-peterson.jpg" },
+    { name: "Alex Skolnick", role: "гитара", years: "1983-1992, 2005-наст.", current: true, image: "/images/members/testament/alex-skolnick.jpg" },
+    { name: "Steve DiGiorgio", role: "бас-гитара", years: "1998-2004, 2014-наст.", current: true, image: "/images/members/testament/steve-digiorgio.jpg" },
+    { name: "Chris Dovas", role: "ударные", years: "2022-наст.", current: true, image: "/images/members/testament/chris-dovas.jpg" },
+    { name: "Greg Christian", role: "бас-гитара", years: "1983-1996, 2004-2014", current: false, image: "/images/members/testament/greg-christian.jpg" },
+    { name: "Louie Clemente", role: "ударные", years: "1983-1992", current: false, image: "/images/members/testament/louie-cemente.jpg" },
+    { name: "Jon Dette", role: "ударные", years: "1992-1994, 2011-2012", current: false, image: "/images/members/testament/jon-dette.jpg" },
+    { name: "John Tempesta", role: "ударные", years: "1994-2000", current: false, image: "/images/members/testament/john-tempesta.jpg" },
+    { name: "Dave Lombardo", role: "ударные", years: "1998-1999", current: false, image: "/images/members/testament/dave-lombardo.jpg" },
+    { name: "Gene Hoglan", role: "ударные", years: "2011-2012", current: false, image: "/images/members/testament/gene-hoglan.jpg" }
+  ],
+  bio: "Американская трэш-метал группа из Беркли, образованная в 1983 году. Testament считаются одной из ключевых групп трэш-метала, входящих в 'большую четвёрку' Bay Area thrash наряду с Metallica, Megadeth, Slayer и Anthrax . Их альбомы The Legacy (1987) и Practice What You Preach (1989) стали классикой жанра. Группа продолжает активно выступать и записываться, несмотря на изменения состава."
+},
+"Exodus": {
+  albums: [
+    { 
+      name: "Bonded by Blood", 
+      year: 1985, 
+      cover: "/images/albums/exodus/bonded-by-blood.jpg",
+      tracks: [
+        "Bonded by Blood", "Exodus", "And Then There Were None", "A Lesson in Violence", "Metal Command",
+        "Piranha", "No Love", "Deliver Us to Evil", "Strike of the Beast", "Bonded by Blood (live)"
+      ]
+    },
+    { 
+      name: "Pleasures of the Flesh", 
+      year: 1987, 
+      cover: "/images/albums/exodus/pleasures-of-the-flesh.jpg",
+      tracks: [
+        "Pleasures of the Flesh", "Chemi-Kill", "Faster Than You'll Ever Live to Be", "Brain Dead", "Seeds of Hate",
+        "The Toxic Waltz", "Parasite", "Sodomize the Dead", "The Lunatic Parade", "Fatal Impact"
+      ]
+    },
+    { 
+      name: "Fabulous Disaster", 
+      year: 1989, 
+      cover: "/images/albums/exodus/fabulous-disaster.jpg",
+      tracks: [
+        "Fabulous Disaster", "The Toxic Waltz", "Low Rider", "Cajun Hell", "Like Father, Like Son", "Corruption",
+        "Verbal Razors", "Open Season", "Overdose", "Fabulous Disaster (live)"
+      ]
+    },
+    { 
+      name: "Tempo of the Damned", 
+      year: 2004, 
+      cover: "/images/albums/exodus/tempo-of-the-damned.jpg",
+      tracks: [
+        "Tempo of the Damned", "Thorn in My Side", "War", "Scar Spangled Banner", "Forward March", "Culling the Weak",
+        "Sealed with a Fist", "Impaler", "Shroud of Urine", "Nothing to Fear", "Lunatic Parade", "Eyes of the Dead"
+      ]
+    },
+    { 
+      name: "Shovel Headed Kill Machine", 
+      year: 2005, 
+      cover: "/images/albums/exodus/shovel-headed-kill-machine.jpg",
+      tracks: [
+        "Shovel Headed Kill Machine", "Raze", "Deathamphetamine", "Karma's Messenger", "The Class of 1999", "Devil's Teeth",
+        "Altered Boy", "Spiritual Warfare", "Shudder to Think", "Dr. Feelgood", "Shovel Headed Kill Machine (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Steve 'Zetro' Souza", role: "вокал", years: "1986-1993, 2002-2004, 2014-наст.", current: true, image: "/images/members/exodus/zetro-souza.jpg" },
+    { name: "Gary Holt", role: "гитара", years: "1980-наст.", current: true, image: "/images/members/exodus/gary-holt.jpg" },
+    { name: "Lee Altus", role: "гитара", years: "2005-наст.", current: true, image: "/images/members/exodus/lee-altus.jpg" },
+    { name: "Jack Gibson", role: "бас-гитара", years: "1997-наст.", current: true, image: "/images/members/exodus/jack-gibson.jpg" },
+    { name: "Tom Hunting", role: "ударные", years: "1980-1989, 1997-2005, 2007-наст.", current: true, image: "/images/members/exodus/tom-hunting.jpg" },
+    { name: "Paul Baloff", role: "вокал", years: "1980-1986, 1997-2002", current: false, image: "/images/members/exodus/paul-baloff.jpg" },
+    { name: "Kirk Hammett", role: "гитара", years: "1980-1983", current: false, image: "/images/members/exodus/kirk-hammett.jpg" },
+    { name: "Rick Hunolt", role: "гитара", years: "1983-1993, 1997-2005", current: false, image: "/images/members/exodus/rick-hunolt.jpg" },
+    { name: "Rob McKillop", role: "бас-гитара", years: "1983-1991", current: false, image: "/images/members/exodus/rob-mckillop.jpg" },
+    { name: "Michael Butler", role: "бас-гитара", years: "1991-1997", current: false, image: "/images/members/exodus/michael-butler.jpg" },
+    { name: "John Tempesta", role: "ударные", years: "1989-1993", current: false, image: "/images/members/exodus/john-tempesta.jpg" }
+  ],
+  bio: "Американская трэш-метал группа из Ричмонда, образованная в 1980 году. Exodus считаются одними из пионеров трэш-метала и ключевой группой Bay Area thrash сцены . Их дебютный альбом Bonded by Blood (1985) признан классикой жанра. Гитарист Гэри Холт также играет в Slayer с 2011 года. Группа пережила множество изменений состава, включая трагическую смерть вокалиста Пола Балоффа в 2002, но продолжает активно выступать и записываться."
+},
+"Overkill": {
+  albums: [
+    { 
+      name: "Feel the Fire", 
+      year: 1985, 
+      cover: "/images/albums/overkill/feel-the-fire.jpg",
+      tracks: [
+        "Feel the Fire", "Rotten to the Core", "The Answer", "There's No Tomorrow", "Hammerhead", "Death Rider",
+        "Blood and Iron", "Kill at Command", "Overkill", "Feel the Fire (live)"
+      ]
+    },
+    { 
+      name: "Taking Over", 
+      year: 1987, 
+      cover: "/images/albums/overkill/taking-over.jpg",
+      tracks: [
+        "Taking Over", "Wrecking Crew", "Use Your Head", "Fatal if Swallowed", "Powersurge", "In Union We Stand",
+        "Electro-Violence", "Overkill II (The Nightmare Continues)", "Fear of the Unknown", "Taking Over (live)"
+      ]
+    },
+    { 
+      name: "Under the Influence", 
+      year: 1988, 
+      cover: "/images/albums/overkill/under-the-influence.jpg",
+      tracks: [
+        "Under the Influence", "Shred", "Never Say Die", "The Grind", "Brainfade", "Drunken Wisdom", "End of the Line",
+        "Hello from the Gutter", "Mad Gone World", "Overkill III (Under the Influence)", "Under the Influence (live)"
+      ]
+    },
+    { 
+      name: "The Years of Decay", 
+      year: 1989, 
+      cover: "/images/albums/overkill/the-years-of-decay.jpg",
+      tracks: [
+        "The Years of Decay", "Time to Kill", "Elimination", "I Hate", "Nothing to Die For", "Playing with Spiders / Skullkrusher",
+        "Birth of Tension", "Who Tends the Fire", "The Years of Decay (live)", "Elimination (live)"
+      ]
+    },
+    { 
+      name: "Horrorscope", 
+      year: 1991, 
+      cover: "/images/albums/overkill/horrorscope.jpg",
+      tracks: [
+        "Horrorscope", "Thanx for Nothin'", "Ship of Fools", "Unholy", "New Machine", "Nice Day... for a Funeral",
+        "Soulitude", "Infectious", "Blood Money", "Horrorscope (live)", "Thanx for Nothin' (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Bobby 'Blitz' Ellsworth", role: "вокал", years: "1980-наст.", current: true, image: "/images/members/overkill/bobby-blitz.jpg" },
+    { name: "D.D. Verni", role: "бас-гитара", years: "1980-наст.", current: true, image: "/images/members/overkill/dd-verni.jpg" },
+    { name: "Dave Linsk", role: "гитара", years: "1999-наст.", current: true, image: "/images/members/overkill/dave-linsk.jpg" },
+    { name: "Derek Tailer", role: "гитара", years: "2002-наст.", current: true, image: "/images/members/overkill/derek-tailer.jpg" },
+    { name: "Jason Bittner", role: "ударные", years: "2017-наст.", current: true, image: "/images/members/overkill/jason-bittner.jpg" },
+    { name: "Rat Skates", role: "ударные", years: "1980-1987", current: false, image: "/images/members/overkill/rat-skates.jpg" },
+    { name: "Bobby Gustafson", role: "гитара", years: "1982-1990", current: false, image: "/images/members/overkill/bobby-gustafson.jpg" },
+    { name: "Sid Falck", role: "ударные", years: "1987-1991", current: false, image: "/images/members/overkill/sid-falck.jpg" },
+    { name: "Rob Cannavino", role: "гитара", years: "1990-1994", current: false, image: "/images/members/overkill/rob-cannavino.jpg" },
+    { name: "Tim Mallare", role: "ударные", years: "1991-2005", current: false, image: "/images/members/overkill/tim-mallare.jpg" },
+    { name: "Joe Comeau", role: "гитара", years: "1995-1999", current: false, image: "/images/members/overkill/joe-comeau.jpg" },
+    { name: "Sebastian Marino", role: "гитара", years: "1999-2002", current: false, image: "/images/members/overkill/sebastian-marino.jpg" },
+    { name: "Ron Lipnicki", role: "ударные", years: "2005-2017", current: false, image: "/images/members/overkill/ron-lipnicki.jpg" }
+  ],
+  bio: "Американская трэш-метал группа из Нью-Джерси, образованная в 1980 году. Overkill являются одной из старейших трэш-метал групп, продолжающих выступать и записываться с момента основания. Их название стало синонимом трэш-метала, а агрессивный стиль и характерный вокал Бобби 'Блица' Эллсворта сделали их легендами жанра. Группа выпустила 20 студийных альбомов и остаётся одной из самых последовательных в жанре."
+},
+"Sepultura": {
+  albums: [
+    { 
+      name: "Beneath the Remains", 
+      year: 1989, 
+      cover: "/images/albums/sepultura/beneath-the-remains.jpg",
+      tracks: [
+        "Beneath the Remains", "Inner Self", "Mass Hypnosis", "Sarcastic Existence", "Slaves of Pain", "Lobotomy",
+        "Hungry", "Primitive Future", "A Hora e a Vez do Cabelo Nascer", "Inner Self (live)"
+      ]
+    },
+    { 
+      name: "Arise", 
+      year: 1991, 
+      cover: "/images/albums/sepultura/arise.jpg",
+      tracks: [
+        "Arise", "Dead Embryonic Cells", "Desperate Cry", "Murder", "Subtraction", "Altered State", "Under Siege (Regnum Irae)",
+        "Meaningless Movements", "Infected Voice", "Orgasmatron", "Arise (live)"
+      ]
+    },
+    { 
+      name: "Chaos A.D.", 
+      year: 1993, 
+      cover: "/images/albums/sepultura/chaos-ad.jpg",
+      tracks: [
+        "Refuse/Resist", "Territory", "Slave New World", "Amen", "Kaiowas", "Propaganda", "Biotech Is Godzilla",
+        "Nomad", "We Who Are Not as Others", "Manifest", "The Hunt", "Clenched Fist", "Chaos B.C.", "Kaiowas (live)"
+      ]
+    },
+    { 
+      name: "Roots", 
+      year: 1996, 
+      cover: "/images/albums/sepultura/roots.jpg",
+      tracks: [
+        "Roots Bloody Roots", "Attitude", "Ratamahatta", "Breed Apart", "Straighthate", "Spit", "Lookaway",
+        "Dusted", "Born Stubborn", "Jasco", "Itsári", "Ambush", "Endangered Species", "Dictatorshit", "Roots Bloody Roots (live)"
+      ]
+    },
+    { 
+      name: "Against", 
+      year: 1998, 
+      cover: "/images/albums/sepultura/against.jpg",
+      tracks: [
+        "Against", "Choke", "Rumors", "Old Earth", "Floe", "Boycott", "Tribus", "Common Bonds", "Vox Populi",
+        "The Waste", "Unconscious", "Kamaitachi", "Reject", "Water", "Against (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Derrick Green", role: "вокал", years: "1997-наст.", current: true, image: "/images/members/sepultura/derrick-green.jpg" },
+    { name: "Andreas Kisser", role: "гитара", years: "1987-наст.", current: true, image: "/images/members/sepultura/andreas-kisser.jpg" },
+    { name: "Paulo Jr.", role: "бас-гитара", years: "1984-наст.", current: true, image: "/images/members/sepultura/paulo-jr.jpg" },
+    { name: "Greyson Nekrutman", role: "ударные", years: "2024-наст.", current: true, image: "/images/members/sepultura/greyson-nekrutman.jpg" },
+    { name: "Max Cavalera", role: "вокал, гитара", years: "1984-1996", current: false, image: "/images/members/sepultura/max-cavalera.jpg" },
+    { name: "Igor Cavalera", role: "ударные", years: "1984-2006", current: false, image: "/images/members/sepultura/igor-cavalera.jpg" },
+    { name: "Jairo Guedz", role: "гитара", years: "1985-1987", current: false, image: "/images/members/sepultura/jairo-guedz.jpg" },
+    { name: "Wagner Lamounier", role: "вокал", years: "1984", current: false, image: "/images/members/sepultura/wagner-lamounier.jpg" },
+    { name: "Jean Dolabella", role: "ударные", years: "2006-2011", current: false, image: "/images/members/sepultura/jean-dolabella.jpg" },
+    { name: "Eloy Casagrande", role: "ударные", years: "2011-2024", current: false, image: "/images/members/sepultura/eloy-casagrande.jpg" }
+  ],
+  bio: "Бразильская метал-группа из Белу-Оризонти, образованная в 1984 году. Sepultura (порт. 'могила') стали самой успешной бразильской метал-группой в истории, пройдя путь от дэт-трэша до грув-метала и экспериментов с бразильской музыкой . Альбомы Beneath the Remains (1989) и Arise (1991) считаются классикой трэш-метала, а Roots (1996) стал landmark-альбомом, смешивающим метал с бразильскими tribal-ритмами. После ухода братьев Кавалера в 1996-1997 группа продолжила с новым вокалистом Дерриком Грином."
+},
+"At The Gates": {
+  albums: [
+    { 
+      name: "Slaughter of the Soul", 
+      year: 1995, 
+      cover: "/images/albums/at-the-gates/slaughter-of-the-soul.jpg",
+      tracks: [
+        "Blinded by Fear", "Slaughter of the Soul", "Cold", "Under a Serpent Sun", "Into the Dead Sky",
+        "Suicide Nation", "World of Lies", "Unto Others", "Nausea", "Need", "The Flames of the End"
+      ]
+    },
+    { 
+      name: "The Red in the Sky Is Ours", 
+      year: 1992, 
+      cover: "/images/albums/at-the-gates/the-red-in-the-sky-is-ours.jpg",
+      tracks: [
+        "The Red in the Sky Is Ours", "Kingdom Gone", "Through the Garden of Grief", "Neverwhere", "Within",
+        "The Architects", "Staring into the Sky", "The Season to Come", "The Breach", "The Red in the Sky Is Ours (reprise)"
+      ]
+    },
+    { 
+      name: "With Fear I Kiss the Burning Darkness", 
+      year: 1993, 
+      cover: "/images/albums/at-the-gates/with-fear-i-kiss-the-burning-darkness.jpg",
+      tracks: [
+        "With Fear I Kiss the Burning Darkness", "The Burning Darkness", "The Chasm", "The Circle", "The Darkened Waltz",
+        "The Red in the Sky Is Ours", "The Season to Come", "The Breach", "The Architects", "The Kingdom Gone"
+      ]
+    },
+    { 
+      name: "Terminal Spirit Disease", 
+      year: 1994, 
+      cover: "/images/albums/at-the-gates/terminal-spirit-disease.jpg",
+      tracks: [
+        "Terminal Spirit Disease", "The Swarm", "The Burning Darkness", "The Circle", "The Darkened Waltz",
+        "The Red in the Sky Is Ours", "The Season to Come", "The Breach", "The Architects", "The Kingdom Gone"
+      ]
+    },
+    { 
+      name: "At War with Reality", 
+      year: 2014, 
+      cover: "/images/albums/at-the-gates/at-war-with-reality.jpg",
+      tracks: [
+        "At War with Reality", "The Circular Ruins", "The Death of the Sun", "The Conspiracy of the Blind", "The Book of Sand",
+        "The Day of Great Victory", "The Night Eternal", "The Never-Ending", "The City of Mirrors", "The Language of the Dead",
+        "The Labyrinth", "The Seventh Circle", "The Eighth Circle", "The Ninth Circle"
+      ]
+    }
+  ],
+  members: [
+    { name: "Tomas Lindberg", role: "вокал", years: "1990-1996, 2007-наст.", current: true, image: "/images/members/at-the-gates/tomas-lindberg.jpg" },
+    { name: "Anders Björler", role: "гитара", years: "1990-1996, 2007-2017, 2023-наст.", current: true, image: "/images/members/at-the-gates/anders-bjorler.jpg" },
+    { name: "Martin Larsson", role: "гитара", years: "1993-1996, 2007-наст.", current: true, image: "/images/members/at-the-gates/martin-larsson.jpg" },
+    { name: "Jonas Björler", role: "бас-гитара", years: "1990-1996, 2007-наст.", current: true, image: "/images/members/at-the-gates/jonas-bjorler.jpg" },
+    { name: "Adrian Erlandsson", role: "ударные", years: "1990-1996, 2007-2017, 2023-наст.", current: true, image: "/images/members/at-the-gates/adrian-erlandsson.jpg" },
+    { name: "Alf Svensson", role: "гитара", years: "1990-1993", current: false, image: "/images/members/at-the-gates/alf-svensson.jpg" },
+    { name: "Björn Larsson", role: "ударные", years: "1990", current: false, image: "/images/members/at-the-gates/bjorn-larsson.jpg" }
+  ],
+  bio: "Шведская мелодик-дэт-метал группа из Гётеборга, образованная в 1990 году. At The Gates считаются одними из основателей Гётеборгской сцены мелодик-дэт-метала наряду с In Flames и Dark Tranquillity. Их альбом Slaughter of the Soul (1995) признан классикой жанра и оказал огромное влияние на развитие металкора. Группа распалась в 1996 году, но воссоединилась в 2007 и продолжает выступать и записываться. Томас Линдберг также известен участием в The Great Deceiver, Lock Up и Disfear."
+},
+"In Flames": {
+  albums: [
+    { 
+      name: "The Jester Race", 
+      year: 1996, 
+      cover: "/images/albums/in-flames/the-jester-race.jpg",
+      tracks: [
+        "Moonshield", "The Jester's Dance", "Artifacts of the Black Rain", "Graveland", "Lord Hypnos", "Dead Eternity",
+        "The Jester Race", "December Flower", "The Way", "The Jester's Dance (reprise)", "Moonshield (live)"
+      ]
+    },
+    { 
+      name: "Whoracle", 
+      year: 1997, 
+      cover: "/images/albums/in-flames/whoracle.jpg",
+      tracks: [
+        "Jotun", "Food for the Gods", "Gyroscope", "Dialogue with the Stars", "The Hive", "Jester Script Transfigured",
+        "Morphing into Primal", "Worlds Within the Margin", "Episode 666", "Everything Counts", "Whoracle"
+      ]
+    },
+    { 
+      name: "Colony", 
+      year: 1999, 
+      cover: "/images/albums/in-flames/colony.jpg",
+      tracks: [
+        "Colony", "Ordinary Story", "Scorn", "Coerced Coexistence", "Resin", "Behind Space '99", "Insipid 2000",
+        "The New Word", "Pallar Anders Visa", "Zombie Inc.", "Colony (live)"
+      ]
+    },
+    { 
+      name: "Clayman", 
+      year: 2000, 
+      cover: "/images/albums/in-flames/clayman.jpg",
+      tracks: [
+        "Bullet Ride", "Pinball Map", "Only for the Weak", "Whoracle", "Clayman", "Square Nothing", "Satellites and Astronauts",
+        "Brush the Dust Away", "Swim", "Suburban Me", "Another Day in Quicksand", "Clayman (live)"
+      ]
+    },
+    { 
+      name: "Reroute to Remain", 
+      year: 2002, 
+      cover: "/images/albums/in-flames/reroute-to-remain.jpg",
+      tracks: [
+        "Reroute to Remain", "System", "Drifter", "Trigger", "Cloud Connected", "Transparent", "Dawn of a New Day",
+        "Egonomic", "Minus", "Behind Space", "Reroute to Remain (live)", "Trigger (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Anders Fridén", role: "вокал", years: "1995-наст.", current: true, image: "/images/members/in-flames/anders-friden.jpg" },
+    { name: "Björn Gelotte", role: "гитара", years: "1995-наст.", current: true, image: "/images/members/in-flames/bjorn-gelotte.jpg" },
+    { name: "Tanner Wayne", role: "ударные", years: "2018-наст.", current: true, image: "/images/members/in-flames/tanner-wayne.jpg" },
+    { name: "Chris Broderick", role: "гитара", years: "2022-наст.", current: true, image: "/images/members/in-flames/chris-broderick.jpg" },
+    { name: "Liam Wilson", role: "бас-гитара", years: "2023-наст.", current: true, image: "/images/members/in-flames/liam-wilson.jpg" },
+    { name: "Jesper Strömblad", role: "гитара", years: "1990-2010", current: false, image: "/images/members/in-flames/jesper-stromblad.jpg" },
+    { name: "Glenn Ljungström", role: "гитара", years: "1990-1997", current: false, image: "/images/members/in-flames/glenn-ljungstrom.jpg" },
+    { name: "Johan Larsson", role: "бас-гитара", years: "1990-1997", current: false, image: "/images/members/in-flames/johan-larsson.jpg" },
+    { name: "Peter Iwers", role: "бас-гитара", years: "1997-2016", current: false, image: "/images/members/in-flames/peter-iwers.jpg" },
+    { name: "Daniel Svensson", role: "ударные", years: "1998-2015", current: false, image: "/images/members/in-flames/daniel-svensson.jpg" },
+    { name: "Niclas Engelin", role: "гитара", years: "2011-2022", current: false, image: "/images/members/in-flames/niclas-engelin.jpg" },
+    { name: "Joe Rickard", role: "ударные", years: "2016-2018", current: false, image: "/images/members/in-flames/joe-rickard.jpg" },
+    { name: "Bryce Paul", role: "бас-гитара", years: "2017-2018", current: false, image: "/images/members/in-flames/bryce-paul.jpg" }
+  ],
+  bio: "Шведская мелодик-дэт-метал группа из Гётеборга, образованная в 1990 году. In Flames считаются одними из основателей Гётеборгской сцены и самой коммерчески успешной группой этого жанра. Их ранние альбомы The Jester Race (1996) и Whoracle (1997) стали классикой мелодик-дэта. Позже группа эволюционировала к более альтернативному звучанию, особенно начиная с альбома Reroute to Remain (2002). In Flames продали более 2 миллионов альбомов по всему миру и продолжают активно выступать."
+},
+"Dark Tranquillity": {
+  albums: [
+    { 
+      name: "The Gallery", 
+      year: 1995, 
+      cover: "/images/albums/dark-tranquillity/the-gallery.jpg",
+      tracks: [
+        "Punish My Heaven", "Silence, and the Firmament Withdrew", "Edenspring", "The Dividing Line", "The Gallery",
+        "The One Brooding Warning", "Midway Through Infinity", "Lethe", "The Emptiness from Which I Fed", "Mine Is the Grandeur...",
+        "Of Melancholy Burning", "The Gallery (live)"
+      ]
+    },
+    { 
+      name: "The Mind's I", 
+      year: 1997, 
+      cover: "/images/albums/dark-tranquillity/the-minds-i.jpg",
+      tracks: [
+        "The Mind's I", "Hedon", "Scythe, Rage and Roses", "Constant", "Dissolution Factor Red", "Insanity's Crescendo",
+        "Still Moving Sinews", "Atom Heart 243.5", "Tidal Tantrum", "Tongues", "The Mind's Eye", "The Mind's I (live)"
+      ]
+    },
+    { 
+      name: "Projector", 
+      year: 1999, 
+      cover: "/images/albums/dark-tranquillity/projector.jpg",
+      tracks: [
+        "Projector", "FreeCard", "ThereIn", "Undo Control", "Auctioned", "To a Bitter Halt", "The Sun Fired Blanks",
+        "Nether Novas", "Day to End", "Dobermann", "The Sun Fired Blanks (live)"
+      ]
+    },
+    { 
+      name: "Haven", 
+      year: 2000, 
+      cover: "/images/albums/dark-tranquillity/haven.jpg",
+      tracks: [
+        "Haven", "The Wonders at Your Feet", "The Same", "The New Build", "Fabric", "Indifferent Suns", "Emptier Still",
+        "At Loss for Words", "Rundown", "Silence in the House of Tongues", "Haven (live)"
+      ]
+    },
+    { 
+      name: "Damage Done", 
+      year: 2002, 
+      cover: "/images/albums/dark-tranquillity/damage-done.jpg",
+      tracks: [
+        "Damage Done", "The Treason Wall", "Format C: For Cortex", "Cathode Ray Sunshine", "The Enemy", "The Mind's I",
+        "The Sun Fired Blanks", "ThereIn", "Haven", "The Wonders at Your Feet", "Damage Done (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mikael Stanne", role: "вокал", years: "1993-наст.", current: true, image: "/images/members/dark-tranquillity/mikael-stanne.jpg" },
+    { name: "Niklas Sundin", role: "гитара", years: "1989-2020", current: false, image: "/images/members/dark-tranquillity/niklas-sundin.jpg" },
+    { name: "Martin Henriksson", role: "бас-гитара", years: "1989-2016", current: false, image: "/images/members/dark-tranquillity/martin-henriksson.jpg" },
+    { name: "Anders Jivarp", role: "ударные", years: "1989-2021", current: false, image: "/images/members/dark-tranquillity/anders-jivarp.jpg" },
+    { name: "Fredrik Johansson", role: "гитара", years: "1993-1998", current: false, image: "/images/members/dark-tranquillity/fredrik-johansson.jpg" },
+    { name: "Michael Nicklasson", role: "гитара", years: "1998-2008", current: false, image: "/images/members/dark-tranquillity/michael-nicklasson.jpg" },
+    { name: "Daniel Antonsson", role: "гитара", years: "2008-2013", current: false, image: "/images/members/dark-tranquillity/daniel-antonsson.jpg" },
+    { name: "Christopher Amott", role: "гитара", years: "2013-2015", current: false, image: "/images/members/dark-tranquillity/christopher-amott.jpg" },
+    { name: "Johan Reinholdz", role: "гитара", years: "2017-наст.", current: true, image: "/images/members/dark-tranquillity/johan-reinholdz.jpg" },
+    { name: "Christian Jansson", role: "бас-гитара", years: "2021-наст.", current: true, image: "/images/members/dark-tranquillity/christian-jansson.jpg" },
+    { name: "Joakim Strandberg Nilsson", role: "ударные", years: "2021-наст.", current: true, image: "/images/members/dark-tranquillity/joakim-strandberg-nilsson.jpg" }
+  ],
+  bio: "Шведская мелодик-дэт-метал группа из Гётеборга, образованная в 1989 году. Dark Tranquillity считаются одними из основателей Гётеборгской сцены наряду с In Flames и At The Gates. Их музыка отличается мелодичностью, сложными структурами и использованием чистого вокала наряду с гроулингом. Альбомы The Gallery (1995) и Projector (1999) стали классикой жанра. Группа пережила множество изменений состава, но продолжает активно выступать и записываться."
+},
+"Arch Enemy": {
+  albums: [
+    { 
+      name: "Wages of Sin", 
+      year: 2001, 
+      cover: "/images/albums/arch-enemy/wages-of-sin.jpg",
+      tracks: [
+        "Tear Down the Walls / Enemy Within", "Burning Angel", "We Will Rise", "Dead Bury Their Dead", "Wages of Sin",
+        "Ravenous", "Heaven Is a Lie", "The Ides of March", "The Day You Died", "Aces High", "The Wars",
+        "Burning Angel (live)", "Ravenous (live)"
+      ]
+    },
+    { 
+      name: "Anthems of Rebellion", 
+      year: 2003, 
+      cover: "/images/albums/arch-enemy/anthems-of-rebellion.jpg",
+      tracks: [
+        "Tear Down the Walls", "Silent Wars", "We Will Rise", "Dead Eyes See No Future", "Instinct", "The Immortal",
+        "The Ides of March", "The Day You Died", "Aces High", "The Wars", "Burning Angel", "Ravenous", "Anthems of Rebellion"
+      ]
+    },
+    { 
+      name: "Doomsday Machine", 
+      year: 2005, 
+      cover: "/images/albums/arch-enemy/doomsday-machine.jpg",
+      tracks: [
+        "Doomsday Machine", "Taking Back My Soul", "Nemesis", "My Apocalypse", "Carry the Cross", "I Am Legend / Out for Blood",
+        "Skeleton Dance", "Hybrids of Steel", "Machines of War", "The Last Enemy", "Doomsday Machine (live)"
+      ]
+    },
+    { 
+      name: "Rise of the Tyrant", 
+      year: 2007, 
+      cover: "/images/albums/arch-enemy/rise-of-the-tyrant.jpg",
+      tracks: [
+        "Rise of the Tyrant", "The Day You Died", "The Ides of March", "Aces High", "The Wars", "Burning Angel",
+        "Ravenous", "Nemesis", "My Apocalypse", "Carry the Cross", "I Am Legend / Out for Blood", "Skeleton Dance"
+      ]
+    },
+    { 
+      name: "Khaos Legions", 
+      year: 2011, 
+      cover: "/images/albums/arch-enemy/khaos-legions.jpg",
+      tracks: [
+        "Khaos Legions", "Yesterday Is Dead and Gone", "Bloodstained Cross", "Under Black Flags We March", "No Gods, No Masters",
+        "City of the Dead", "Through the Gates of Hell", "The Ides of March", "Aces High", "The Wars", "Burning Angel",
+        "Ravenous", "Nemesis", "My Apocalypse", "Carry the Cross", "I Am Legend / Out for Blood"
+      ]
+    }
+  ],
+  members: [
+    { name: "Alissa White-Gluz", role: "вокал", years: "2014-наст.", current: true, image: "/images/members/arch-enemy/alissa-white-gluz.jpg" },
+    { name: "Michael Amott", role: "гитара", years: "1995-наст.", current: true, image: "/images/members/arch-enemy/michael-amott.jpg" },
+    { name: "Jeff Loomis", role: "гитара", years: "2014-наст.", current: true, image: "/images/members/arch-enemy/jeff-loomis.jpg" },
+    { name: "Sharlee D'Angelo", role: "бас-гитара", years: "1999-наст.", current: true, image: "/images/members/arch-enemy/sharlee-dangelo.jpg" },
+    { name: "Daniel Erlandsson", role: "ударные", years: "1995-наст.", current: true, image: "/images/members/arch-enemy/daniel-erlandsson.jpg" },
+    { name: "Angela Gossow", role: "вокал", years: "2000-2014", current: false, image: "/images/members/arch-enemy/angela-gossow.jpg" },
+    { name: "Johan Liiva", role: "вокал", years: "1995-2000", current: false, image: "/images/members/arch-enemy/johan-liiva.jpg" },
+    { name: "Christopher Amott", role: "гитара", years: "1995-2005, 2007-2012", current: false, image: "/images/members/arch-enemy/christopher-amott.jpg" },
+    { name: "Martin Bengtsson", role: "бас-гитара", years: "1997-1998", current: false, image: "/images/members/arch-enemy/martin-bengtsson.jpg" },
+    { name: "Peter Wildoer", role: "ударные", years: "1997", current: false, image: "/images/members/arch-enemy/peter-wildoer.jpg" },
+    { name: "Fredrik Nordström", role: "ударные", years: "1995-1997", current: false, image: "/images/members/arch-enemy/fredrik-nordstrom.jpg" },
+    { name: "Nick Cordle", role: "гитара", years: "2012-2014", current: false, image: "/images/members/arch-enemy/nick-cordle.jpg" }
+  ],
+  bio: "Шведская мелодик-дэт-метал группа, образованная в 1995 году гитаристом Майклом Амоттом (экс-Carcass). Arch Enemy стали одной из самых успешных групп жанра, известных своим техничным звучанием и харизматичными вокалистками. Анжела Госсоу стала первой женщиной-вокалисткой, добившейся широкого признания в экстремальном метале. После её ухода в 2014 место заняла Алисса Уайт-Глаз. Группа продолжает активно выступать и записываться."
+},
+"Opeth": {
+  albums: [
+    { 
+      name: "Blackwater Park", 
+      year: 2001, 
+      cover: "/images/albums/opeth/blackwater-park.jpg",
+      tracks: [
+        "The Leper Affinity", "Bleak", "Harlequin Forest", "The Drapery Falls", "Dirge for November", "The Funeral Portrait",
+        "Patterns in the Ivy", "Blackwater Park", "The Twilight Is My Robe", "The Leper Affinity (live)"
+      ]
+    },
+    { 
+      name: "Ghost Reveries", 
+      year: 2005, 
+      cover: "/images/albums/opeth/ghost-reveries.jpg",
+      tracks: [
+        "Ghost of Perdition", "The Baying of the Hounds", "Beneath the Mire", "Atonement", "Reverie / Harlequin Forest",
+        "Hours of Wealth", "The Grand Conjuration", "Isolation Years", "Ghost of Perdition (live)"
+      ]
+    },
+    { 
+      name: "Watershed", 
+      year: 2008, 
+      cover: "/images/albums/opeth/watershed.jpg",
+      tracks: [
+        "Watershed", "Heir Apparent", "The Lotus Eater", "Burden", "Porcelain Heart", "Hessian Peel", "Hex Omega",
+        "Watershed (live)", "Heir Apparent (live)"
+      ]
+    },
+    { 
+      name: "Heritage", 
+      year: 2011, 
+      cover: "/images/albums/opeth/heritage.jpg",
+      tracks: [
+        "Heritage", "The Devil's Orchard", "I Feel the Dark", "Slither", "Nepenthe", "Häxprocess", "Famine",
+        "The Lines in My Hand", "Folklore", "Marrow of the Earth", "Pyre", "Face in the Snow"
+      ]
+    },
+    { 
+      name: "Pale Communion", 
+      year: 2014, 
+      cover: "/images/albums/opeth/pale-communion.jpg",
+      tracks: [
+        "Pale Communion", "Eternal Rains Will Come", "Cusp of Eternity", "Moon Above, Sun Below", "Elysian Woes",
+        "Goblin", "River", "Voice of Treason", "Faith in Others"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mikael Åkerfeldt", role: "вокал, гитара", years: "1990-наст.", current: true, image: "/images/members/opeth/mikael-akerfeldt.jpg" },
+    { name: "Fredrik Åkesson", role: "гитара", years: "2007-наст.", current: true, image: "/images/members/opeth/fredrik-akesson.jpg" },
+    { name: "Martín Méndez", role: "бас-гитара", years: "1997-наст.", current: true, image: "/images/members/opeth/martin-mendez.jpg" },
+    { name: "Joakim Svalberg", role: "клавишные", years: "2011-наст.", current: true, image: "/images/members/opeth/joakim-svalberg.jpg" },
+    { name: "Waltteri Väyrynen", role: "ударные", years: "2022-наст.", current: true, image: "/images/members/opeth/waltteri-vayrynen.jpg" },
+    { name: "Peter Lindgren", role: "гитара", years: "1991-2007", current: false, image: "/images/members/opeth/peter-lindgren.jpg" },
+    { name: "Anders Nordin", role: "ударные", years: "1990-1997", current: false, image: "/images/members/opeth/anders-nordin.jpg" },
+    { name: "Martin Lopez", role: "ударные", years: "1997-2006", current: false, image: "/images/members/opeth/martin-lopez.jpg" },
+    { name: "Per Wiberg", role: "клавишные", years: "2003-2009", current: false, image: "/images/members/opeth/per-wiberg.jpg" },
+    { name: "Axel Pettersson", role: "ударные", years: "2006-2007", current: false, image: "/images/members/opeth/axel-pettersson.jpg" },
+    { name: "Sami Karppinen", role: "ударные", years: "2007", current: false, image: "/images/members/opeth/sami-karppinen.jpg" }
+  ],
+  bio: "Шведская прогрессив-дэт-метал группа из Стокгольма, образованная в 1990 году. Opeth считаются одними из самых инновационных групп в метале, сочетая брутальный дэт-метал с прогрессивными структурами, акустическими пассажами и чистым вокалом. Их альбомы Blackwater Park (2001) и Ghost Reveries (2005) признаны шедеврами. Начиная с Heritage (2011), группа полностью отказалась от экстремального вокала, перейдя к прогрессив-року. Микаэль Окерфельдт также участвует в проектах Bloodbath и Storm Corrosion."
+},
+"Gojira": {
+  albums: [
+    { 
+      name: "From Mars to Sirius", 
+      year: 2005, 
+      cover: "/images/albums/gojira/from-mars-to-sirius.jpg",
+      tracks: [
+        "From Mars", "To Sirius", "Ocean Planet", "Backbone", "From the Sky", "Unicorn", "Where Dragons Dwell",
+        "The Heaviest Matter of the Universe", "Terra Incognita", "In the Forest", "The Way of All Flesh", "From Mars (reprise)"
+      ]
+    },
+    { 
+      name: "The Way of All Flesh", 
+      year: 2008, 
+      cover: "/images/albums/gojira/the-way-of-all-flesh.jpg",
+      tracks: [
+        "The Way of All Flesh", "Oroborus", "Toxic Garbage Island", "A Sight to Behold", "Yama's Messengers",
+        "The Silver Cord", "All the Tears", "Adoration for None", "The Art of Dying", "Esoteric Surgery", "Vacuity",
+        "Wolf Down the Earth", "The Way of All Flesh (live)"
+      ]
+    },
+    { 
+      name: "L'Enfant Sauvage", 
+      year: 2012, 
+      cover: "/images/albums/gojira/lenfant-sauvage.jpg",
+      tracks: [
+        "L'Enfant Sauvage", "The Axe", "Liquid Fire", "Wild Healer", "Planned Obsolescence", "Mouth of Kala",
+        "The Gift of Guilt", "Pain Is a Master", "Born in Winter", "The Fall", "L'Enfant Sauvage (live)"
+      ]
+    },
+    { 
+      name: "Magma", 
+      year: 2016, 
+      cover: "/images/albums/gojira/magma.jpg",
+      tracks: [
+        "Magma", "Silvera", "The Cell", "Stranded", "Yellow Stone", "Magma (reprise)", "Pray", "Only Pain",
+        "Low Lands", "Liberation", "Magma (live)", "Silvera (live)"
+      ]
+    },
+    { 
+      name: "Fortitude", 
+      year: 2021, 
+      cover: "/images/albums/gojira/fortitude.jpg",
+      tracks: [
+        "Fortitude", "Born for One Thing", "Amazonia", "Another World", "Hold On", "New Found", "Fortitude (reprise)",
+        "The Chant", "Sphinx", "Into the Storm", "The Trails", "Grind", "Fortitude (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Joe Duplantier", role: "вокал, гитара", years: "1996-наст.", current: true, image: "/images/members/gojira/joe-duplantier.jpg" },
+    { name: "Mario Duplantier", role: "ударные", years: "1996-наст.", current: true, image: "/images/members/gojira/mario-duplantier.jpg" },
+    { name: "Christian Andreu", role: "гитара", years: "1996-наст.", current: true, image: "/images/members/gojira/christian-andreu.jpg" },
+    { name: "Jean-Michel Labadie", role: "бас-гитара", years: "1998-наст.", current: true, image: "/images/members/gojira/jean-michel-labadie.jpg" },
+    { name: "Alexandre Cornillon", role: "бас-гитара", years: "1996-1998", current: false, image: "/images/members/gojira/alexandre-cornillon.jpg" }
+  ],
+  bio: "Французская прогрессив-дэт-метал группа из Ондура, образованная в 1996 году под названием Godzilla. Gojira стали одной из самых успешных метал-групп 21 века, известных своим уникальным звучанием, сочетающим брутальный дэт-метал с прогрессивными элементами и текстами на экологическую тематику. Их прорывной альбом From Mars to Sirius (2005) считается классикой. Группа получила несколько номинаций на Грэмми и выступает на крупнейших фестивалях мира. Марио Дюплантье признан одним из лучших барабанщиков современности."
+},
+"Behemoth": {
+  albums: [
+    { 
+      name: "The Satanist", 
+      year: 2014, 
+      cover: "/images/albums/behemoth/the-satanist.jpg",
+      tracks: [
+        "Blow Your Trumpets Gabriel", "Ora Pro Nobis Lucifer", "Amen", "The Satanist", "Ben Sahar", "In the Absence ov Light",
+        "O Father O Satan O Sun!", "The Seed ov I", "The Satanist (live)", "Blow Your Trumpets Gabriel (live)"
+      ]
+    },
+    { 
+      name: "Evangelion", 
+      year: 2009, 
+      cover: "/images/albums/behemoth/evangelion.jpg",
+      tracks: [
+        "Daimonos", "Shemhamforash", "Ov Fire and the Void", "Transmigrating Beyond Realms ov Amenti", "He Who Breeds Pestilence",
+        "The Seed ov I", "Alas, Lord Is Upon Me", "Defiling Morality ov Black God", "Lucifer", "Evangelion", "The Satanist"
+      ]
+    },
+    { 
+      name: "Demigod", 
+      year: 2004, 
+      cover: "/images/albums/behemoth/demigod.jpg",
+      tracks: [
+        "Demigod", "Conquer All", "The Nephilim Rising", "The Reign ov Shemsu-Hor", "Slaves Shall Serve", "The Reign ov Shemsu-Hor (reprise)",
+        "XUL", "Libertheme", "The Satanist", "The Seed ov I", "Demigod (live)"
+      ]
+    },
+    { 
+      name: "The Apostasy", 
+      year: 2007, 
+      cover: "/images/albums/behemoth/the-apostasy.jpg",
+      tracks: [
+        "The Apostasy", "Slaying the Prophets ov Isa", "Prometherion", "At the Left Hand ov God", "Kriegsphilosophie",
+        "Be Without Fear", "Arcana Hereticae", "Libertheme", "Inner Sanctum", "The Satanist", "The Seed ov I"
+      ]
+    },
+    { 
+      name: "I Loved You at Your Darkest", 
+      year: 2018, 
+      cover: "/images/albums/behemoth/i-loved-you-at-your-darkest.jpg",
+      tracks: [
+        "Solve", "Wolves ov Siberia", "God = Dog", "Ecclesia Diabolica Catholica", "Bartzabel", "If Crucifixion Was Not Enough",
+        "Angelvs XIII", "Sabbath Mater", "Havohej (Pantocrator)", "Rom 5:8", "We Are the Next 1000 Years", "Coagvla"
+      ]
+    }
+  ],
+  members: [
+    { name: "Adam 'Nergal' Darski", role: "вокал, гитара", years: "1991-наст.", current: true, image: "/images/members/behemoth/nergal.jpg" },
+    { name: "Zbigniew 'Inferno' Promiński", role: "ударные", years: "1997-наст.", current: true, image: "/images/members/behemoth/inferno.jpg" },
+    { name: "Tomasz 'Orion' Wróblewski", role: "бас-гитара", years: "2003-наст.", current: true, image: "/images/members/behemoth/orion.jpg" },
+    { name: "Patryk 'Seth' Sztyber", role: "гитара", years: "2004-наст.", current: true, image: "/images/members/behemoth/seth.jpg" },
+    { name: "Adam 'Desecrator' Malinowski", role: "гитара", years: "1991-1992", current: false, image: "/images/members/behemoth/desecrator.jpg" },
+    { name: "Adam 'Baal' Muraszko", role: "ударные", years: "1991-1992", current: false, image: "/images/members/behemoth/baal.jpg" },
+    { name: "Rafał 'Frost' Brauer", role: "гитара", years: "1992-1993", current: false, image: "/images/members/behemoth/frost.jpg" },
+    { name: "Leszek 'L. Kaos' Dziegielewski", role: "гитара", years: "1993-1994", current: false, image: "/images/members/behemoth/l-kaos.jpg" },
+    { name: "Marcin 'Novy' Nowak", role: "бас-гитара", years: "1995-1999", current: false, image: "/images/members/behemoth/novy.jpg" },
+    { name: "Mateusz 'Havoc' Smerek", role: "гитара", years: "1995-1996", current: false, image: "/images/members/behemoth/havoc.jpg" },
+    { name: "Marcin 'Martin' Przybyłowicz", role: "гитара", years: "1996-1997", current: false, image: "/images/members/behemoth/martin.jpg" }
+  ],
+  bio: "Польская блэк-дэт-метал группа из Гданьска, образованная в 1991 году. Behemoth считаются одной из самых успешных экстремальных метал-групп Европы, известных своим техничным звучанием, оккультными текстами и театральными выступлениями. Лидер группы Адам 'Нергал' Дарски также известен своей работой на польском телевидении и борьбой с лейкемией. Их альбом The Satanist (2014) получил широкое признание критиков и считается одним из лучших метал-альбомов десятилетия."
+},
+"Marduk": {
+  albums: [
+    { 
+      name: "Panzer Division Marduk", 
+      year: 1999, 
+      cover: "/images/albums/marduk/panzer-division-marduk.jpg",
+      tracks: [
+        "Panzer Division Marduk", "The Blond Beast", "Christraping Pagan Metal", "Warschau", "Coram Deo", "The Hangman of Prague",
+        "Obedience unto Death", "The Wretched… the Ruinous… the Fierce… the Enduring", "The Blond Beast (live)", "Christraping Pagan Metal (live)"
+      ]
+    },
+    { 
+      name: "Nightwing", 
+      year: 1998, 
+      cover: "/images/albums/marduk/nightwing.jpg",
+      tracks: [
+        "Nightwing", "The Blond Beast", "Christraping Pagan Metal", "Warschau", "Coram Deo", "The Hangman of Prague",
+        "Obedience unto Death", "The Wretched… the Ruinous… the Fierce… the Enduring", "Nightwing (live)"
+      ]
+    },
+    { 
+      name: "Opus Nocturne", 
+      year: 1994, 
+      cover: "/images/albums/marduk/opus-nocturne.jpg",
+      tracks: [
+        "Opus Nocturne", "The Blond Beast", "Christraping Pagan Metal", "Warschau", "Coram Deo", "The Hangman of Prague",
+        "Obedience unto Death", "The Wretched… the Ruinous… the Fierce… the Enduring", "Opus Nocturne (live)"
+      ]
+    },
+    { 
+      name: "Those of the Unlight", 
+      year: 1993, 
+      cover: "/images/albums/marduk/those-of-the-unlight.jpg",
+      tracks: [
+        "Those of the Unlight", "The Blond Beast", "Christraping Pagan Metal", "Warschau", "Coram Deo", "The Hangman of Prague",
+        "Obedience unto Death", "The Wretched… the Ruinous… the Fierce… the Enduring", "Those of the Unlight (live)"
+      ]
+    },
+    { 
+      name: "Rom 5:12", 
+      year: 2007, 
+      cover: "/images/albums/marduk/rom-5-12.jpg",
+      tracks: [
+        "Rom 5:12", "The Blond Beast", "Christraping Pagan Metal", "Warschau", "Coram Deo", "The Hangman of Prague",
+        "Obedience unto Death", "The Wretched… the Ruinous… the Fierce… the Enduring", "Rom 5:12 (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Daniel 'Mortuus' Rostén", role: "вокал", years: "2004-наст.", current: true, image: "/images/members/marduk/mortuus.jpg" },
+    { name: "Morgan Steinmeyer Håkansson", role: "гитара", years: "1990-наст.", current: true, image: "/images/members/marduk/morgan-hakansson.jpg" },
+    { name: "Magnus 'Devo' Andersson", role: "бас-гитара", years: "2004-наст.", current: true, image: "/images/members/marduk/magnus-andersson.jpg" },
+    { name: "Fredrik Widigs", role: "ударные", years: "2013-наст.", current: true, image: "/images/members/marduk/fredrik-widigs.jpg" },
+    { name: "Andreas Axelsson", role: "вокал", years: "1990-1995", current: false, image: "/images/members/marduk/andreas-axelsson.jpg" },
+    { name: "Joakim Göthberg", role: "вокал, ударные", years: "1990-1995", current: false, image: "/images/members/marduk/joakim-gothberg.jpg" },
+    { name: "Kim Osara", role: "гитара", years: "1995-1998", current: false, image: "/images/members/marduk/kim-osara.jpg" },
+    { name: "Peter Tägtgren", role: "ударные", years: "1995", current: false, image: "/images/members/marduk/peter-tagtgren.jpg" },
+    { name: "B. War", role: "бас-гитара", years: "1995-2004", current: false, image: "/images/members/marduk/b-war.jpg" },
+    { name: "Emil Dragutinovic", role: "ударные", years: "1995-2004", current: false, image: "/images/members/marduk/emil-dragutinovic.jpg" },
+    { name: "Fredrik Andersson", role: "ударные", years: "2004-2006", current: false, image: "/images/members/marduk/fredrik-andersson.jpg" },
+    { name: "Lars Broddesson", role: "ударные", years: "2006-2013", current: false, image: "/images/members/marduk/lars-broddesson.jpg" }
+  ],
+  bio: "Шведская блэк-метал группа из Норрчёпинга, образованная в 1990 году. Marduk известны своим экстремально быстрым и агрессивным стилем, а также текстами на военную и сатанинскую тематику. Их альбом Panzer Division Marduk (1999) стал landmark-альбомом в жанре блэк-метала. Группа пережила множество изменений состава, но гитарист Морган Хоканссон остаётся единственным постоянным участником. Marduk считаются одной из самых важных групп второй волны шведского блэк-метала."
+},
+"Watain": {
+  albums: [
+    { 
+      name: "Sworn to the Dark", 
+      year: 2007, 
+      cover: "/images/albums/watain/sworn-to-the-dark.jpg",
+      tracks: [
+        "Sworn to the Dark", "Malfeitor", "The Devil's Blood", "Stellarvore", "The Serpent's Chalice", "The Horn of the Evenstar",
+        "The Light That Burns the Sun", "The Serpent's Chalice (reprise)", "Sworn to the Dark (live)"
+      ]
+    },
+    { 
+      name: "Lawless Darkness", 
+      year: 2010, 
+      cover: "/images/albums/watain/lawless-darkness.jpg",
+      tracks: [
+        "Lawless Darkness", "Malfeitor", "The Devil's Blood", "Stellarvore", "The Serpent's Chalice", "The Horn of the Evenstar",
+        "The Light That Burns the Sun", "The Serpent's Chalice (reprise)", "Lawless Darkness (live)"
+      ]
+    },
+    { 
+      name: "The Wild Hunt", 
+      year: 2013, 
+      cover: "/images/albums/watain/the-wild-hunt.jpg",
+      tracks: [
+        "The Wild Hunt", "Malfeitor", "The Devil's Blood", "Stellarvore", "The Serpent's Chalice", "The Horn of the Evenstar",
+        "The Light That Burns the Sun", "The Serpent's Chalice (reprise)", "The Wild Hunt (live)"
+      ]
+    },
+    { 
+      name: "Trident of Eclipse", 
+      year: 2015, 
+      cover: "/images/albums/watain/trident-of-eclipse.jpg",
+      tracks: [
+        "Trident of Eclipse", "Malfeitor", "The Devil's Blood", "Stellarvore", "The Serpent's Chalice", "The Horn of the Evenstar",
+        "The Light That Burns the Sun", "The Serpent's Chalice (reprise)", "Trident of Eclipse (live)"
+      ]
+    },
+    { 
+      name: "The Agony & Ecstasy of Watain", 
+      year: 2022, 
+      cover: "/images/albums/watain/the-agony-and-ecstasy-of-watain.jpg",
+      tracks: [
+        "The Agony & Ecstasy of Watain", "Malfeitor", "The Devil's Blood", "Stellarvore", "The Serpent's Chalice",
+        "The Horn of the Evenstar", "The Light That Burns the Sun", "The Serpent's Chalice (reprise)", "The Agony & Ecstasy of Watain (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Erik Danielsson", role: "вокал", years: "1998-наст.", current: true, image: "/images/members/watain/erik-danielsson.jpg" },
+    { name: "Pelle Forsberg", role: "гитара", years: "1998-наст.", current: true, image: "/images/members/watain/pelle-forsberg.jpg" },
+    { name: "Håkan Jonsson", role: "ударные", years: "1998-наст.", current: true, image: "/images/members/watain/hakan-jonsson.jpg" },
+    { name: "Alvaro Lillo", role: "бас-гитара", years: "2013-наст.", current: true, image: "/images/members/watain/alvaro-lillo.jpg" },
+    { name: "C. Mortuus", role: "бас-гитара", years: "1998-2013", current: false, image: "/images/members/watain/c-mortuus.jpg" }
+  ],
+  bio: "Шведская блэк-метал группа из Уппсалы, образованная в 1998 году. Watain считаются одной из самых важных современных блэк-метал групп, известных своим сырым звучанием, сатанинскими текстами и ритуальными концертами с использованием крови и животных туш. Они продолжают традиции старой шведской блэк-метал сцены, сохраняя верность классическому звучанию. Их альбомы Sworn to the Dark (2007) и Lawless Darkness (2010) получили высокие оценки критиков."
+},
+"Dissection": {
+  albums: [
+    { 
+      name: "Storm of the Light's Bane", 
+      year: 1995, 
+      cover: "/images/albums/dissection/storm-of-the-lights-bane.jpg",
+      tracks: [
+        "Storm of the Light's Bane", "The Somberlain", "The Grief of the Ages", "Mistress of the Bleeding Sorrow",
+        "The Call of the Mist", "Where Dead Angels Lie", "The Blond Beast", "The Wreckage of the Storm", "The Somberlain (live)"
+      ]
+    },
+    { 
+      name: "The Somberlain", 
+      year: 1993, 
+      cover: "/images/albums/dissection/the-somberlain.jpg",
+      tracks: [
+        "The Somberlain", "The Grief of the Ages", "Mistress of the Bleeding Sorrow", "The Call of the Mist", "Where Dead Angels Lie",
+        "The Blond Beast", "The Wreckage of the Storm", "The Somberlain (live)", "Storm of the Light's Bane"
+      ]
+    },
+    { 
+      name: "Reinkaos", 
+      year: 2006, 
+      cover: "/images/albums/dissection/reinkaos.jpg",
+      tracks: [
+        "Reinkaos", "The Somberlain", "Storm of the Light's Bane", "Where Dead Angels Lie", "The Grief of the Ages",
+        "Mistress of the Bleeding Sorrow", "The Call of the Mist", "The Blond Beast", "The Wreckage of the Storm"
+      ]
+    }
+  ],
+  members: [
+    { name: "Jon Nödtveidt", role: "вокал, гитара", years: "1989-1997, 2004-2006", current: false, image: "/images/members/dissection/jon-nodtveidt.jpg" },
+    { name: "Ole Öhman", role: "ударные", years: "1989-1997", current: false, image: "/images/members/dissection/ole-ohman.jpg" },
+    { name: "Peter Palmdahl", role: "бас-гитара", years: "1989-1997", current: false, image: "/images/members/dissection/peter-palmdahl.jpg" },
+    { name: "John Zwetsloot", role: "гитара", years: "1992-1994", current: false, image: "/images/members/dissection/john-zwetsloot.jpg" },
+    { name: "Johan Norman", role: "гитара", years: "1994-1997", current: false, image: "/images/members/dissection/johan-norman.jpg" },
+    { name: "Tomas Asklund", role: "ударные", years: "2004-2006", current: false, image: "/images/members/dissection/tomas-asklund.jpg" },
+    { name: "Brune", role: "бас-гитара", years: "2004-2006", current: false, image: "/images/members/dissection/brune.jpg" },
+    { name: "Matti Mäkelä", role: "гитара", years: "2004-2006", current: false, image: "/images/members/dissection/matti-makela.jpg" }
+  ],
+  bio: "Шведская мелодик-блэк-метал группа из Стренгнеса, образованная в 1989 году. Dissection считаются одними из самых влиятельных групп в жанре, сочетая мелодичный блэк-метал с элементами дэт-метала и классической музыки. Их альбомы The Somberlain (1993) и Storm of the Light's Bane (1995) признаны классикой. Лидер группы Йон Нётвейдт был осуждён за соучастие в убийстве в 1997 году, отбыл срок и восстановил группу в 2004, выпустив альбом Reinkaos (2006) перед самоубийством в 2006."
+},
+"Samael": {
+  albums: [
+    { 
+      name: "Ceremony of Opposites", 
+      year: 1994, 
+      cover: "/images/albums/samael/ceremony-of-opposites.jpg",
+      tracks: [
+        "Ceremony of Opposites", "Baphomet's Throne", "The Invocation", "The Conjuration", "The Curse", "The Spell",
+        "The Ritual", "The Sacrifice", "The Offering", "Ceremony of Opposites (live)"
+      ]
+    },
+    { 
+      name: "Passage", 
+      year: 1996, 
+      cover: "/images/albums/samael/passage.jpg",
+      tracks: [
+        "Passage", "The Invocation", "The Conjuration", "The Curse", "The Spell", "The Ritual", "The Sacrifice",
+        "The Offering", "Passage (live)", "The Invocation (live)"
+      ]
+    },
+    { 
+      name: "Eternal", 
+      year: 1999, 
+      cover: "/images/albums/samael/eternal.jpg",
+      tracks: [
+        "Eternal", "The Invocation", "The Conjuration", "The Curse", "The Spell", "The Ritual", "The Sacrifice",
+        "The Offering", "Eternal (live)", "The Invocation (live)"
+      ]
+    },
+    { 
+      name: "Reign of Light", 
+      year: 2004, 
+      cover: "/images/albums/samael/reign-of-light.jpg",
+      tracks: [
+        "Reign of Light", "The Invocation", "The Conjuration", "The Curse", "The Spell", "The Ritual", "The Sacrifice",
+        "The Offering", "Reign of Light (live)", "The Invocation (live)"
+      ]
+    },
+    { 
+      name: "Solar Soul", 
+      year: 2007, 
+      cover: "/images/albums/samael/solar-soul.jpg",
+      tracks: [
+        "Solar Soul", "The Invocation", "The Conjuration", "The Curse", "The Spell", "The Ritual", "The Sacrifice",
+        "The Offering", "Solar Soul (live)", "The Invocation (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Vorph", role: "вокал, гитара", years: "1987-наст.", current: true, image: "/images/members/samael/vorph.jpg" },
+    { name: "Xy", role: "клавишные, ударные", years: "1987-наст.", current: true, image: "/images/members/samael/xy.jpg" },
+    { name: "Makro", role: "гитара", years: "1987-наст.", current: true, image: "/images/members/samael/makro.jpg" },
+    { name: "Drop", role: "бас-гитара", years: "1996-наст.", current: true, image: "/images/members/samael/drop.jpg" },
+    { name: "Pat Charvet", role: "ударные", years: "1987-1996", current: false, image: "/images/members/samael/pat-charvet.jpg" },
+    { name: "Rodolphe H.", role: "бас-гитара", years: "1987-1996", current: false, image: "/images/members/samael/rodolphe-h.jpg" },
+    { name: "Kaos", role: "гитара", years: "1996-2000", current: false, image: "/images/members/samael/kaos.jpg" }
+  ],
+  bio: "Швейцарская метал-группа из Сьона, образованная в 1987 году. Samael начали как блэк-метал группа, но позже эволюционировали в сторону индастриал-метала и электронного звучания. Их ранние альбомы, особенно Ceremony of Opposites (1994), считаются классикой блэк-метала. Группа известна своим инновационным подходом к звуку и использованием электронных элементов, что повлияло на развитие индастриал-метала. Samael остаются активными и продолжают экспериментировать со звучанием."
+},
+"Rotting Christ": {
+  albums: [
+    { 
+      name: "Thy Mighty Contract", 
+      year: 1993, 
+      cover: "/images/albums/rotting-christ/thy-mighty-contract.jpg",
+      tracks: [
+        "Thy Mighty Contract", "The Sign of Evil Existence", "The Fourth Knight of Revelation", "The Nereid of Esgalduin",
+        "The Forest of N'Gai", "The Witch", "The Old Coffin Spirit", "The Feast of the Dead", "The Mighty Contract (live)"
+      ]
+    },
+    { 
+      name: "Non Serviam", 
+      year: 1994, 
+      cover: "/images/albums/rotting-christ/non-serviam.jpg",
+      tracks: [
+        "Non Serviam", "The Sign of Evil Existence", "The Fourth Knight of Revelation", "The Nereid of Esgalduin",
+        "The Forest of N'Gai", "The Witch", "The Old Coffin Spirit", "The Feast of the Dead", "Non Serviam (live)"
+      ]
+    },
+    { 
+      name: "Triarchy of the Lost Lovers", 
+      year: 1996, 
+      cover: "/images/albums/rotting-christ/triarchy-of-the-lost-lovers.jpg",
+      tracks: [
+        "Triarchy of the Lost Lovers", "The Sign of Evil Existence", "The Fourth Knight of Revelation", "The Nereid of Esgalduin",
+        "The Forest of N'Gai", "The Witch", "The Old Coffin Spirit", "The Feast of the Dead", "Triarchy of the Lost Lovers (live)"
+      ]
+    },
+    { 
+      name: "A Dead Poem", 
+      year: 1997, 
+      cover: "/images/albums/rotting-christ/a-dead-poem.jpg",
+      tracks: [
+        "A Dead Poem", "The Sign of Evil Existence", "The Fourth Knight of Revelation", "The Nereid of Esgalduin",
+        "The Forest of N'Gai", "The Witch", "The Old Coffin Spirit", "The Feast of the Dead", "A Dead Poem (live)"
+      ]
+    },
+    { 
+      name: "Sleep of the Angels", 
+      year: 1999, 
+      cover: "/images/albums/rotting-christ/sleep-of-the-angels.jpg",
+      tracks: [
+        "Sleep of the Angels", "The Sign of Evil Existence", "The Fourth Knight of Revelation", "The Nereid of Esgalduin",
+        "The Forest of N'Gai", "The Witch", "The Old Coffin Spirit", "The Feast of the Dead", "Sleep of the Angels (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Sakis Tolis", role: "вокал, гитара", years: "1987-наст.", current: true, image: "/images/members/rotting-christ/sakis-tolis.jpg" },
+    { name: "Themis Tolis", role: "ударные", years: "1987-наст.", current: true, image: "/images/members/rotting-christ/themis-tolis.jpg" },
+    { name: "George Emmanuel", role: "гитара", years: "2012-наст.", current: true, image: "/images/members/rotting-christ/george-emmanuel.jpg" },
+    { name: "Vagelis Karzis", role: "бас-гитара", years: "2012-наст.", current: true, image: "/images/members/rotting-christ/vagelis-karzis.jpg" },
+    { name: "Jim Mutilator", role: "гитара", years: "1987-1994", current: false, image: "/images/members/rotting-christ/jim-mutilator.jpg" },
+    { name: "Morbid", role: "бас-гитара", years: "1987-1994", current: false, image: "/images/members/rotting-christ/morbid.jpg" },
+    { name: "Andreas Lagios", role: "бас-гитара", years: "1997-2012", current: false, image: "/images/members/rotting-christ/andreas-lagios.jpg" },
+    { name: "Costas Vassilakopoulos", role: "гитара", years: "1997-2012", current: false, image: "/images/members/rotting-christ/costas-vassilakopoulos.jpg" },
+    { name: "George Tolias", role: "клавишные", years: "1997-2012", current: false, image: "/images/members/rotting-christ/george-tolias.jpg" }
+  ],
+  bio: "Греческая блэк-метал группа из Афин, образованная в 1987 году. Rotting Christ считаются одной из самых важных групп в истории блэк-метала, особенно в развитии греческой сцены. Их ранние альбомы, сочетающие блэк-метал с готическими элементами и мелодичностью, стали классикой жанра. Группа прошла эволюцию от сырого блэк-метала к более мелодичному и эпическому звучанию. Братья Сакис и Фемис Толис остаются единственными постоянными участниками."
+},
+"Septicflesh": {
+  albums: [
+    { 
+      name: "The Great Mass", 
+      year: 2011, 
+      cover: "/images/albums/septicflesh/the-great-mass.jpg",
+      tracks: [
+        "The Great Mass", "The Vampire from Nazareth", "A Great Mass of Death", "The Fifth Illusion", "The Offering",
+        "The Scent of Heaven", "The Undertaker's Dream", "The Vampire from Nazareth (reprise)", "The Great Mass (live)"
+      ]
+    },
+    { 
+      name: "Codex Omega", 
+      year: 2017, 
+      cover: "/images/albums/septicflesh/codex-omega.jpg",
+      tracks: [
+        "Codex Omega", "The Vampire from Nazareth", "A Great Mass of Death", "The Fifth Illusion", "The Offering",
+        "The Scent of Heaven", "The Undertaker's Dream", "The Vampire from Nazareth (reprise)", "Codex Omega (live)"
+      ]
+    },
+    { 
+      name: "The Communion", 
+      year: 2008, 
+      cover: "/images/albums/septicflesh/the-communion.jpg",
+      tracks: [
+        "The Communion", "The Vampire from Nazareth", "A Great Mass of Death", "The Fifth Illusion", "The Offering",
+        "The Scent of Heaven", "The Undertaker's Dream", "The Vampire from Nazareth (reprise)", "The Communion (live)"
+      ]
+    },
+    { 
+      name: "Sumerian Daemons", 
+      year: 2003, 
+      cover: "/images/albums/septicflesh/sumerian-daemons.jpg",
+      tracks: [
+        "Sumerian Daemons", "The Vampire from Nazareth", "A Great Mass of Death", "The Fifth Illusion", "The Offering",
+        "The Scent of Heaven", "The Undertaker's Dream", "The Vampire from Nazareth (reprise)", "Sumerian Daemons (live)"
+      ]
+    },
+    { 
+      name: "Esoptron", 
+      year: 1995, 
+      cover: "/images/albums/septicflesh/esoptron.jpg",
+      tracks: [
+        "Esoptron", "The Vampire from Nazareth", "A Great Mass of Death", "The Fifth Illusion", "The Offering",
+        "The Scent of Heaven", "The Undertaker's Dream", "The Vampire from Nazareth (reprise)", "Esoptron (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Spiros Antoniou", role: "вокал, бас-гитара", years: "1990-наст.", current: true, image: "/images/members/septicflesh/spiros-antoniou.jpg" },
+    { name: "Christos Antoniou", role: "гитара, клавишные", years: "1990-наст.", current: true, image: "/images/members/septicflesh/christos-antoniou.jpg" },
+    { name: "Sotiris Vayenas", role: "гитара, вокал", years: "1990-2018", current: false, image: "/images/members/septicflesh/sotiris-vayenas.jpg" },
+    { name: "Fotis Benardo", role: "ударные", years: "2003-наст.", current: true, image: "/images/members/septicflesh/fotis-benardo.jpg" },
+    { name: "George Diamantopoulos", role: "ударные", years: "1990-2003", current: false, image: "/images/members/septicflesh/george-diamantopoulos.jpg" },
+    { name: "Kostas Savvidis", role: "гитара", years: "2018-наст.", current: true, image: "/images/members/septicflesh/kostas-savvidis.jpg" }
+  ],
+  bio: "Греческая симфо-дэт-метал группа из Афин, образованная в 1990 году. Septicflesh известны своим уникальным звучанием, сочетающим брутальный дэт-метал с оркестровыми аранжировками и хорами. Они одними из первых в жанре начали использовать настоящие симфонические оркестры в записи. Их альбомы The Great Mass (2011) и Codex Omega (2017) получили высокие оценки за эпическое звучание. Группа также известна своими концептуальными альбомами на тему древних мифологий."
+},
+"Mgła": {
+  albums: [
+    { 
+      name: "With Hearts Toward None", 
+      year: 2012, 
+      cover: "/images/albums/mgla/with-hearts-toward-none.jpg",
+      tracks: [
+        "With Hearts Toward None", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "With Hearts Toward None (live)"
+      ]
+    },
+    { 
+      name: "Exercises in Futility", 
+      year: 2015, 
+      cover: "/images/albums/mgla/exercises-in-futility.jpg",
+      tracks: [
+        "Exercises in Futility I", "Exercises in Futility II", "Exercises in Futility III", "Exercises in Futility IV",
+        "Exercises in Futility V", "Exercises in Futility VI", "Exercises in Futility (live)"
+      ]
+    },
+    { 
+      name: "Age of Excuse", 
+      year: 2019, 
+      cover: "/images/albums/mgla/age-of-excuse.jpg",
+      tracks: [
+        "Age of Excuse I", "Age of Excuse II", "Age of Excuse III", "Age of Excuse IV", "Age of Excuse V",
+        "Age of Excuse VI", "Age of Excuse VII", "Age of Excuse (live)"
+      ]
+    },
+    { 
+      name: "Mdłości", 
+      year: 2006, 
+      cover: "/images/albums/mgla/mdlosci.jpg",
+      tracks: [
+        "Mdłości I", "Mdłości II", "Mdłości III", "Mdłości IV", "Mdłości V", "Mdłości VI", "Mdłości (live)"
+      ]
+    },
+    { 
+      name: "Groza", 
+      year: 2008, 
+      cover: "/images/albums/mgla/groza.jpg",
+      tracks: [
+        "Groza I", "Groza II", "Groza III", "Groza IV", "Groza V", "Groza VI", "Groza VII", "Groza (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Mikołaj 'M.' Żentara", role: "вокал, гитара, бас", years: "2000-наст.", current: true, image: "/images/members/mgla/m.jpg" },
+    { name: "Maciej 'Darkside' Kowalski", role: "ударные", years: "2000-наст.", current: true, image: "/images/members/mgla/darkside.jpg" }
+  ],
+  bio: "Польская блэк-метал группа из Кракова, образованная в 2000 году. Mgła (пол. 'мгла') считаются одной из самых важных современных блэк-метал групп, известных своим сырым, но мелодичным звучанием и философскими текстами на польском и английском языках. Группа сохраняет анонимность, выступая в балаклавах и избегая интервью. Их альбомы Exercises in Futility (2015) и Age of Excuse (2019) получили широкое признание и считаются современной классикой жанра."
+},
+"Batushka": {
+  albums: [
+    { 
+      name: "Litourgiya", 
+      year: 2015, 
+      cover: "/images/albums/batushka/litourgiya.jpg",
+      tracks: [
+        "Yekteniya I", "Yekteniya II", "Yekteniya III", "Yekteniya IV", "Yekteniya V", "Yekteniya VI",
+        "Yekteniya VII", "Yekteniya VIII", "Yekteniya IX", "Yekteniya X"
+      ]
+    },
+    { 
+      name: "Panihida", 
+      year: 2019, 
+      cover: "/images/albums/batushka/panihida.jpg",
+      tracks: [
+        "Panihida I", "Panihida II", "Panihida III", "Panihida IV", "Panihida V", "Panihida VI",
+        "Panihida VII", "Panihida VIII", "Panihida IX", "Panihida X"
+      ]
+    },
+    { 
+      name: "Raskol", 
+      year: 2020, 
+      cover: "/images/albums/batushka/raskol.jpg",
+      tracks: [
+        "Raskol I", "Raskol II", "Raskol III", "Raskol IV", "Raskol V", "Raskol VI", "Raskol VII"
+      ]
+    }
+  ],
+  members: [
+    { name: "Bartłomiej 'Bart' Krysiuk", role: "вокал", years: "2015-наст.", current: true, image: "/images/members/batushka/bart.jpg" },
+    { name: "Krzysztof 'Derph' Drabikowski", role: "гитара, бас, тексты", years: "2015-2018", current: false, image: "/images/members/batushka/derph.jpg" },
+    { name: "Marcin 'Beny' Bielak", role: "гитара", years: "2015-наст.", current: true, image: "/images/members/batushka/beny.jpg" },
+    { name: "Piotr 'Kaź' Kaźmierczak", role: "бас-гитара", years: "2015-наст.", current: true, image: "/images/members/batushka/kaz.jpg" },
+    { name: "Rafał 'Raf' Piotrowski", role: "ударные", years: "2015-наст.", current: true, image: "/images/members/batushka/raf.jpg" },
+    { name: "Paweł 'P' Jaroszewicz", role: "ударные", years: "2015-2016", current: false, image: "/images/members/batushka/pawel.jpg" }
+  ],
+  bio: "Польская блэк-метал группа из Белостока, образованная в 2015 году. Batushka стали сенсацией благодаря своему дебютному альбому Litourgiya (2015), сочетающему православные церковные песнопения с блэк-металом. Уникальная эстетика, включающая церковные облачения и иконы, сделала группу культовой. В 2018 году группа раскололась на две версии из-за юридических споров между создателем Кшиштофом Драбиковским и вокалистом Бартом Крысюком. Обе версии продолжают выступать и записываться, что привело к путанице среди поклонников."
+},
+"Candlemass": {
+  albums: [
+    { 
+      name: "Epicus Doomicus Metallicus", 
+      year: 1986, 
+      cover: "/images/albums/candlemass/epicus-doomicus-metallicus.jpg",
+      tracks: [
+        "Solitude", "Demon's Gate", "Crystal Ball", "Black Stone", "Under the Oak", "A Sorcerer's Pledge",
+        "Solitude (live)", "Demon's Gate (live)"
+      ]
+    },
+    { 
+      name: "Nightfall", 
+      year: 1987, 
+      cover: "/images/albums/candlemass/nightfall.jpg",
+      tracks: [
+        "The Well of Souls", "Codex Gigas", "At the Gallows End", "Samarithan", "Dark Are the Veils of Death",
+        "Mourners Lament", "Bewitched", "Nightfall", "The Well of Souls (live)"
+      ]
+    },
+    { 
+      name: "Ancient Dreams", 
+      year: 1988, 
+      cover: "/images/albums/candlemass/ancient-dreams.jpg",
+      tracks: [
+        "Mirror Mirror", "A Cry from the Crypt", "Darkness in Paradise", "Incarnation of Evil", "Bearer of Pain",
+        "Ancient Dreams", "The Bells of Acheron", "Epistle No. 81", "Black Sabbath Medley", "Ancient Dreams (live)"
+      ]
+    },
+    { 
+      name: "Tales of Creation", 
+      year: 1989, 
+      cover: "/images/albums/candlemass/tales-of-creation.jpg",
+      tracks: [
+        "Tales of Creation", "The Well of Souls", "Codex Gigas", "At the Gallows End", "Samarithan", "Dark Are the Veils of Death",
+        "Mourners Lament", "Bewitched", "Nightfall", "Tales of Creation (live)"
+      ]
+    },
+    { 
+      name: "Chapter VI", 
+      year: 1992, 
+      cover: "/images/albums/candlemass/chapter-vi.jpg",
+      tracks: [
+        "Chapter VI", "The Well of Souls", "Codex Gigas", "At the Gallows End", "Samarithan", "Dark Are the Veils of Death",
+        "Mourners Lament", "Bewitched", "Nightfall", "Chapter VI (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Leif Edling", role: "бас-гитара", years: "1984-наст.", current: true, image: "/images/members/candlemass/leif-edling.jpg" },
+    { name: "Mats Levén", role: "вокал", years: "2005-2006, 2018-наст.", current: true, image: "/images/members/candlemass/mats-leven.jpg" },
+    { name: "Lars Johansson", role: "гитара", years: "1987-1994, 2002-наст.", current: true, image: "/images/members/candlemass/lars-johansson.jpg" },
+    { name: "Mats Björkman", role: "гитара", years: "1984-2017", current: false, image: "/images/members/candlemass/mats-bjorkman.jpg" },
+    { name: "Jan Lindh", role: "ударные", years: "1987-2015", current: false, image: "/images/members/candlemass/jan-lindh.jpg" },
+    { name: "Messiah Marcolin", role: "вокал", years: "1985-1991, 2002-2006", current: false, image: "/images/members/candlemass/messiah-marcolin.jpg" },
+    { name: "Johan Längquist", role: "вокал", years: "1984-1985, 2018", current: false, image: "/images/members/candlemass/johan-langquist.jpg" },
+    { name: "Thomas Vikström", role: "вокал", years: "1994-1995", current: false, image: "/images/members/candlemass/thomas-vikstrom.jpg" },
+    { name: "Björn Flodkvist", role: "вокал", years: "1995-2002", current: false, image: "/images/members/candlemass/bjorn-flodkvist.jpg" },
+    { name: "Carl Westholm", role: "клавишные", years: "1992-1994", current: false, image: "/images/members/candlemass/carl-westholm.jpg" },
+    { name: "Jejo Perkovic", role: "ударные", years: "2015-2018", current: false, image: "/images/members/candlemass/jejo-perkovic.jpg" }
+  ],
+  bio: "Шведская дум-метал группа из Стокгольма, образованная в 1984 году. Candlemass считаются пионерами эпического дум-метала и одной из самых влиятельных групп в жанре. Их дебютный альбом Epicus Doomicus Metallicus (1986) дал название целому поджанру и стал классикой. Группа известна своими тяжёлыми, медленными риффами, оперным вокалом и эпическими текстами. Candlemass пережили множество изменений состава, но басист Лейф Эдлинг оставался единственным постоянным участником до своей смерти в 2024 году."
+},
+"Saint Vitus": {
+  albums: [
+    { 
+      name: "Saint Vitus", 
+      year: 1984, 
+      cover: "/images/albums/saint-vitus/saint-vitus.jpg",
+      tracks: [
+        "Saint Vitus", "The Psychopath", "White Magic/Black Magic", "Zombie Hunger", "The Lost Feeling", "Look Out for the Sky",
+        "The Psychopath (live)", "Saint Vitus (live)"
+      ]
+    },
+    { 
+      name: "Hallow's Victim", 
+      year: 1985, 
+      cover: "/images/albums/saint-vitus/hallows-victim.jpg",
+      tracks: [
+        "Hallow's Victim", "The Psychopath", "White Magic/Black Magic", "Zombie Hunger", "The Lost Feeling", "Look Out for the Sky",
+        "The Psychopath (live)", "Hallow's Victim (live)"
+      ]
+    },
+    { 
+      name: "Born Too Late", 
+      year: 1986, 
+      cover: "/images/albums/saint-vitus/born-too-late.jpg",
+      tracks: [
+        "Born Too Late", "The Psychopath", "White Magic/Black Magic", "Zombie Hunger", "The Lost Feeling", "Look Out for the Sky",
+        "The Psychopath (live)", "Born Too Late (live)"
+      ]
+    },
+    { 
+      name: "Mournful Cries", 
+      year: 1988, 
+      cover: "/images/albums/saint-vitus/mournful-cries.jpg",
+      tracks: [
+        "Mournful Cries", "The Psychopath", "White Magic/Black Magic", "Zombie Hunger", "The Lost Feeling", "Look Out for the Sky",
+        "The Psychopath (live)", "Mournful Cries (live)"
+      ]
+    },
+    { 
+      name: "V", 
+      year: 1990, 
+      cover: "/images/albums/saint-vitus/v.jpg",
+      tracks: [
+        "V", "The Psychopath", "White Magic/Black Magic", "Zombie Hunger", "The Lost Feeling", "Look Out for the Sky",
+        "The Psychopath (live)", "V (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Scott 'Wino' Weinrich", role: "вокал, гитара", years: "1986-1991, 2003-2008, 2016-наст.", current: true, image: "/images/members/saint-vitus/wino.jpg" },
+    { name: "Dave Chandler", role: "гитара", years: "1978-наст.", current: true, image: "/images/members/saint-vitus/dave-chandler.jpg" },
+    { name: "Mark Adams", role: "бас-гитара", years: "1978-1996, 2003-2008, 2016-наст.", current: true, image: "/images/members/saint-vitus/mark-adams.jpg" },
+    { name: "Henry Vasquez", role: "ударные", years: "2003-2008, 2016-наст.", current: true, image: "/images/members/saint-vitus/henry-vasquez.jpg" },
+    { name: "Scott Reagers", role: "вокал", years: "1978-1986", current: false, image: "/images/members/saint-vitus/scott-reagers.jpg" },
+    { name: "Christian Linderson", role: "ударные", years: "1986-1991", current: false, image: "/images/members/saint-vitus/christian-linderson.jpg" },
+    { name: "Armando Acosta", role: "ударные", years: "1991-1996", current: false, image: "/images/members/saint-vitus/armando-acosta.jpg" }
+  ],
+  bio: "Американская дум-метал группа из Лос-Анджелеса, образованная в 1978 году. Saint Vitus считаются одними из пионеров дум-метала наряду с Black Sabbath и Pentagram. Их музыка характеризуется медленными, тяжёлыми риффами и мрачными текстами. Группа дала название целому жанру — 'витус-дум'. Вокалист Скотт 'Вино' Вайнрих стал легендой жанра, участвуя также в The Obsessed и Spirit Caravan. Saint Vitus оказали огромное влияние на развитие дум-метала и сладж-метала."
+},
+"Pentagram": {
+  albums: [
+    { 
+      name: "Relentless", 
+      year: 1985, 
+      cover: "/images/albums/pentagram/relentless.jpg",
+      tracks: [
+        "Relentless", "The Deist", "The Ghoul", "Burning Rays", "The Eagle", "The Day of Reckoning", "The Swordsman",
+        "The Ghoul (live)", "Relentless (live)"
+      ]
+    },
+    { 
+      name: "Day of Reckoning", 
+      year: 1987, 
+      cover: "/images/albums/pentagram/day-of-reckoning.jpg",
+      tracks: [
+        "Day of Reckoning", "The Deist", "The Ghoul", "Burning Rays", "The Eagle", "Relentless", "The Swordsman",
+        "The Ghoul (live)", "Day of Reckoning (live)"
+      ]
+    },
+    { 
+      name: "Be Forewarned", 
+      year: 1994, 
+      cover: "/images/albums/pentagram/be-forewarned.jpg",
+      tracks: [
+        "Be Forewarned", "The Deist", "The Ghoul", "Burning Rays", "The Eagle", "Relentless", "The Swordsman",
+        "The Ghoul (live)", "Be Forewarned (live)"
+      ]
+    },
+    { 
+      name: "Review Your Choices", 
+      year: 1999, 
+      cover: "/images/albums/pentagram/review-your-choices.jpg",
+      tracks: [
+        "Review Your Choices", "The Deist", "The Ghoul", "Burning Rays", "The Eagle", "Relentless", "The Swordsman",
+        "The Ghoul (live)", "Review Your Choices (live)"
+      ]
+    },
+    { 
+      name: "Sub-Basement", 
+      year: 2001, 
+      cover: "/images/albums/pentagram/sub-basement.jpg",
+      tracks: [
+        "Sub-Basement", "The Deist", "The Ghoul", "Burning Rays", "The Eagle", "Relentless", "The Swordsman",
+        "The Ghoul (live)", "Sub-Basement (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Bobby Liebling", role: "вокал", years: "1971-наст.", current: true, image: "/images/members/pentagram/bobby-liebling.jpg" },
+    { name: "Victor Griffin", role: "гитара", years: "1978-1979, 1983-1986, 1993-1996, 2001-2005, 2008-2012", current: false, image: "/images/members/pentagram/victor-griffin.jpg" },
+    { name: "Greg Turley", role: "бас-гитара", years: "1978-1979, 1983-1986, 1993-1996, 2001-2005", current: false, image: "/images/members/pentagram/greg-turley.jpg" },
+    { name: "Joe Hasselvander", role: "ударные", years: "1983-1986, 1993-1996, 2001-2005, 2008-2012", current: false, image: "/images/members/pentagram/joe-hasselvander.jpg" },
+    { name: "Matt Goldsborough", role: "гитара", years: "1971-1976", current: false, image: "/images/members/pentagram/matt-goldsborough.jpg" },
+    { name: "Geof O'Keefe", role: "ударные", years: "1971-1976", current: false, image: "/images/members/pentagram/geof-okeefe.jpg" },
+    { name: "Marty Iverson", role: "гитара", years: "1976-1978", current: false, image: "/images/members/pentagram/marty-iverson.jpg" },
+    { name: "John Osbourne", role: "ударные", years: "1976-1978", current: false, image: "/images/members/pentagram/john-osbourne.jpg" },
+    { name: "Richard Kueht", role: "гитара", years: "1979-1983", current: false, image: "/images/members/pentagram/richard-kueht.jpg" },
+    { name: "Martin Swaney", role: "бас-гитара", years: "1979-1983", current: false, image: "/images/members/pentagram/martin-swaney.jpg" },
+    { name: "Ted Feldman", role: "ударные", years: "1979-1983", current: false, image: "/images/members/pentagram/ted-feldman.jpg" },
+    { name: "Jon Cook", role: "ударные", years: "1986-1988", current: false, image: "/images/members/pentagram/jon-cook.jpg" }
+  ],
+  bio: "Американская дум-метал группа из Вирджинии, образованная в 1971 году. Pentagram считаются одними из пионеров дум-метала наряду с Black Sabbath, хотя долгое время оставались андеграундными. Лидер группы Бобби Либлинг стал культовой фигурой, известным своими проблемами с наркотиками и тюремными сроками. Документальный фильм Last Days Here (2010) рассказывает о его борьбе за возвращение к музыке. Несмотря на все трудности, Pentagram продолжают выступать и считаются легендами жанра."
+},
+"Sleep": {
+  albums: [
+    { 
+      name: "Sleep's Holy Mountain", 
+      year: 1992, 
+      cover: "/images/albums/sleep/sleeps-holy-mountain.jpg",
+      tracks: [
+        "Dragonaut", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Dragonaut (live)"
+      ]
+    },
+    { 
+      name: "Dopesmoker", 
+      year: 2003, 
+      cover: "/images/albums/sleep/dopesmoker.jpg",
+      tracks: [
+        "Dopesmoker", "Dopesmoker (reprise)", "Dopesmoker (live)", "Dopesmoker (instrumental)"
+      ]
+    },
+    { 
+      name: "The Sciences", 
+      year: 2018, 
+      cover: "/images/albums/sleep/the-sciences.jpg",
+      tracks: [
+        "The Sciences", "Marijuanaut's Theme", "Sonic Titan", "The Clarity", "The Infinite", "The Suffering", "The Sciences (live)"
+      ]
+    },
+    { 
+      name: "Volume One", 
+      year: 1991, 
+      cover: "/images/albums/sleep/volume-one.jpg",
+      tracks: [
+        "Volume One", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Volume One (live)"
+      ]
+    },
+    { 
+      name: "Sleep's Volume Two", 
+      year: 1991, 
+      cover: "/images/albums/sleep/volume-two.jpg",
+      tracks: [
+        "Sleep's Volume Two", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Sleep's Volume Two (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Al Cisneros", role: "вокал, бас-гитара", years: "1990-наст.", current: true, image: "/images/members/sleep/al-cisneros.jpg" },
+    { name: "Matt Pike", role: "гитара", years: "1990-наст.", current: true, image: "/images/members/sleep/matt-pike.jpg" },
+    { name: "Chris Hakius", role: "ударные", years: "1990-2009", current: false, image: "/images/members/sleep/chris-hakius.jpg" },
+    { name: "Jason Roeder", role: "ударные", years: "2009-наст.", current: true, image: "/images/members/sleep/jason-roeder.jpg" },
+    { name: "Justin Marler", role: "гитара", years: "1990-1991", current: false, image: "/images/members/sleep/justin-marler.jpg" }
+  ],
+  bio: "Американская стоунер-дум-метал группа из Сан-Хосе, образованная в 1990 году. Sleep считаются одними из основателей стоунер-метала, сочетая тяжёлые дум-риффы с текстами о каннабисе. Их альбом Dopesmoker (2003) стал легендарным — это одна непрерывная 63-минутная песня, воспевающая 'ритуальное курение'. Группа распалась в 1998 году из-за творческих разногласий, но воссоединилась в 2009. Участники также известны по проектам Om (Сиснерос) и High on Fire (Пайк)."
+},
+"Electric Wizard": {
+  albums: [
+    { 
+      name: "Dopethrone", 
+      year: 2000, 
+      cover: "/images/albums/electric-wizard/dopethrone.jpg",
+      tracks: [
+        "Dopethrone", "Funeralopolis", "Weird Tales / Electric Frost / Golgotha / Altar of Melektaus", "The Hills Have Eyes",
+        "We Hate You", "The Howling", "The Wizard", "Dopethrone (live)"
+      ]
+    },
+    { 
+      name: "Come My Fanatics...", 
+      year: 1997, 
+      cover: "/images/albums/electric-wizard/come-my-fanatics.jpg",
+      tracks: [
+        "Come My Fanatics", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Come My Fanatics (live)"
+      ]
+    },
+    { 
+      name: "Witchcult Today", 
+      year: 2007, 
+      cover: "/images/albums/electric-wizard/witchcult-today.jpg",
+      tracks: [
+        "Witchcult Today", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Witchcult Today (live)"
+      ]
+    },
+    { 
+      name: "Black Masses", 
+      year: 2010, 
+      cover: "/images/albums/electric-wizard/black-masses.jpg",
+      tracks: [
+        "Black Masses", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Black Masses (live)"
+      ]
+    },
+    { 
+      name: "Time to Die", 
+      year: 2014, 
+      cover: "/images/albums/electric-wizard/time-to-die.jpg",
+      tracks: [
+        "Time to Die", "The Druid", "Evil Gypsy/Solomon's Theme", "Some Grass", "Aquarian", "Holy Mountain", "Inside the Sun",
+        "The Suffering", "The Clarity", "The Infinite", "Time to Die (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Jus Oborn", role: "вокал, гитара", years: "1993-наст.", current: true, image: "/images/members/electric-wizard/jus-oborn.jpg" },
+    { name: "Liz Buckingham", role: "гитара", years: "2003-наст.", current: true, image: "/images/members/electric-wizard/liz-buckingham.jpg" },
+    { name: "Clayton Burgess", role: "бас-гитара", years: "2020-наст.", current: true, image: "/images/members/electric-wizard/clayton-burgess.jpg" },
+    { name: "Simon Poole", role: "ударные", years: "2020-наст.", current: true, image: "/images/members/electric-wizard/simon-poole.jpg" },
+    { name: "Tim Bagshaw", role: "бас-гитара", years: "1993-2003", current: false, image: "/images/members/electric-wizard/tim-bagshaw.jpg" },
+    { name: "Mark Greening", role: "ударные", years: "1993-2003, 2012-2014", current: false, image: "/images/members/electric-wizard/mark-greening.jpg" },
+    { name: "Rob Al-Issa", role: "бас-гитара", years: "2003-2012", current: false, image: "/images/members/electric-wizard/rob-al-issa.jpg" },
+    { name: "Justin Greaves", role: "ударные", years: "2003-2006", current: false, image: "/images/members/electric-wizard/justin-greaves.jpg" },
+    { name: "Shaun Rutter", role: "ударные", years: "2006-2012", current: false, image: "/images/members/electric-wizard/shaun-rutter.jpg" },
+    { name: "Glenn Charman", role: "бас-гитара", years: "2012-2020", current: false, image: "/images/members/electric-wizard/glenn-charman.jpg" }
+  ],
+  bio: "Британская стоунер-дум-метал группа из Дорсета, образованная в 1993 году. Electric Wizard известны своим экстремально тяжёлым, искажённым звучанием, текстами о хорроре, оккультизме и каннабисе. Их альбомы Come My Fanatics... (1997) и Dopethrone (2000) считаются классикой жанра и оказали огромное влияние на развитие дум-метала. Группа прошла через множество изменений состава, но гитарист/вокалист Джус Оборн остаётся единственным постоянным участником."
+},
+"Neurosis": {
+  albums: [
+    { 
+      name: "Through Silver in Blood", 
+      year: 1996, 
+      cover: "/images/albums/neurosis/through-silver-in-blood.jpg",
+      tracks: [
+        "Through Silver in Blood", "Rehumanize", "Eye", "Purify", "Locust Star", "Strength of Fates", "Become the Ocean",
+        "Aeon", "Enclosure in Flame", "Through Silver in Blood (live)"
+      ]
+    },
+    { 
+      name: "Times of Grace", 
+      year: 1999, 
+      cover: "/images/albums/neurosis/times-of-grace.jpg",
+      tracks: [
+        "Times of Grace", "The Doorway", "The End of the Harvest", "The Tide", "The Last You'll Know", "A Season in the Sky",
+        "Times of Grace (live)", "The Doorway (live)"
+      ]
+    },
+    { 
+      name: "A Sun That Never Sets", 
+      year: 2001, 
+      cover: "/images/albums/neurosis/a-sun-that-never-sets.jpg",
+      tracks: [
+        "A Sun That Never Sets", "The Doorway", "The End of the Harvest", "The Tide", "The Last You'll Know", "A Season in the Sky",
+        "A Sun That Never Sets (live)", "The Doorway (live)"
+      ]
+    },
+    { 
+      name: "The Eye of Every Storm", 
+      year: 2004, 
+      cover: "/images/albums/neurosis/the-eye-of-every-storm.jpg",
+      tracks: [
+        "The Eye of Every Storm", "The Doorway", "The End of the Harvest", "The Tide", "The Last You'll Know", "A Season in the Sky",
+        "The Eye of Every Storm (live)", "The Doorway (live)"
+      ]
+    },
+    { 
+      name: "Given to the Rising", 
+      year: 2007, 
+      cover: "/images/albums/neurosis/given-to-the-rising.jpg",
+      tracks: [
+        "Given to the Rising", "The Doorway", "The End of the Harvest", "The Tide", "The Last You'll Know", "A Season in the Sky",
+        "Given to the Rising (live)", "The Doorway (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Scott Kelly", role: "вокал, гитара", years: "1985-2019", current: false, image: "/images/members/neurosis/scott-kelly.jpg" },
+    { name: "Steve Von Till", role: "вокал, гитара", years: "1989-наст.", current: true, image: "/images/members/neurosis/steve-von-till.jpg" },
+    { name: "Dave Edwardson", role: "бас-гитара", years: "1985-наст.", current: true, image: "/images/members/neurosis/dave-edwardson.jpg" },
+    { name: "Noah Landis", role: "клавишные", years: "1995-наст.", current: true, image: "/images/members/neurosis/noah-landis.jpg" },
+    { name: "Jason Roeder", role: "ударные", years: "1985-наст.", current: true, image: "/images/members/neurosis/jason-roeder.jpg" },
+    { name: "Pete Inc.", role: "визуальные эффекты", years: "1985-наст.", current: true, image: "/images/members/neurosis/pete-inc.jpg" },
+    { name: "Adam G. Kendall", role: "электроника", years: "1985-1995", current: false, image: "/images/members/neurosis/adam-kendall.jpg" },
+    { name: "Simon McIlroy", role: "клавишные", years: "1995-1998", current: false, image: "/images/members/neurosis/simon-mcilroy.jpg" },
+    { name: "Chad Salter", role: "гитара", years: "1985-1989", current: false, image: "/images/members/neurosis/chad-salter.jpg" }
+  ],
+  bio: "Американская пост-метал группа из Окленда, образованная в 1985 году. Neurosis считаются пионерами и одними из самых влиятельных групп в жанре пост-метала, сочетая хардкор, сладж, индастриал и эмбиент. Их альбом Through Silver in Blood (1996) определил звучание целого жанра. Группа известна своими интенсивными живыми выступлениями с использованием визуальных проекций. В 2019 году вокалист Скотт Келли покинул группу после обвинений в домашнем насилии. Neurosis продолжают выступать с оставшимися участниками."
+},
+"Isis": {
+  albums: [
+    { 
+      name: "Panopticon", 
+      year: 2004, 
+      cover: "/images/albums/isis/panopticon.jpg",
+      tracks: [
+        "Panopticon", "The Beginning and the End", "The Other", "The Collapse", "The End", "The Beginning", "The Other (reprise)",
+        "Panopticon (live)", "The Beginning and the End (live)"
+      ]
+    },
+    { 
+      name: "Oceanic", 
+      year: 2002, 
+      cover: "/images/albums/isis/oceanic.jpg",
+      tracks: [
+        "Oceanic", "The Beginning and the End", "The Other", "The Collapse", "The End", "The Beginning", "The Other (reprise)",
+        "Oceanic (live)", "The Beginning and the End (live)"
+      ]
+    },
+    { 
+      name: "Celestial", 
+      year: 2000, 
+      cover: "/images/albums/isis/celestial.jpg",
+      tracks: [
+        "Celestial", "The Beginning and the End", "The Other", "The Collapse", "The End", "The Beginning", "The Other (reprise)",
+        "Celestial (live)", "The Beginning and the End (live)"
+      ]
+    },
+    { 
+      name: "In the Absence of Truth", 
+      year: 2006, 
+      cover: "/images/albums/isis/in-the-absence-of-truth.jpg",
+      tracks: [
+        "In the Absence of Truth", "The Beginning and the End", "The Other", "The Collapse", "The End", "The Beginning", "The Other (reprise)",
+        "In the Absence of Truth (live)", "The Beginning and the End (live)"
+      ]
+    },
+    { 
+      name: "Wavering Radiant", 
+      year: 2009, 
+      cover: "/images/albums/isis/wavering-radiant.jpg",
+      tracks: [
+        "Wavering Radiant", "The Beginning and the End", "The Other", "The Collapse", "The End", "The Beginning", "The Other (reprise)",
+        "Wavering Radiant (live)", "The Beginning and the End (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Aaron Turner", role: "вокал, гитара", years: "1997-2010", current: false, image: "/images/members/isis/aaron-turner.jpg" },
+    { name: "Jeff Caxide", role: "бас-гитара", years: "1997-2010", current: false, image: "/images/members/isis/jeff-caxide.jpg" },
+    { name: "Michael Gallagher", role: "гитара", years: "1997-2010", current: false, image: "/images/members/isis/michael-gallagher.jpg" },
+    { name: "Aaron Harris", role: "ударные", years: "1997-2010", current: false, image: "/images/members/isis/aaron-harris.jpg" },
+    { name: "Bryant Clifford Meyer", role: "электроника", years: "1999-2010", current: false, image: "/images/members/isis/bryant-meyer.jpg" },
+    { name: "Chris Mereschuk", role: "электроника", years: "1997-1999", current: false, image: "/images/members/isis/chris-mereschuk.jpg" },
+    { name: "Jay Randall", role: "электроника", years: "1999-2000", current: false, image: "/images/members/isis/jay-randall.jpg" }
+  ],
+  bio: "Американская пост-метал группа из Лос-Анджелеса, образованная в 1997 году. Isis (названные в честь египетской богини, а не террористической организации) стали одной из ключевых групп в развитии пост-метала наряду с Neurosis. Их музыка сочетает тяжёлые гитарные риффы с атмосферными, эмбиентными пассажами. Альбомы Oceanic (2002) и Panopticon (2004) считаются классикой жанра. Группа распалась в 2010 году, участники продолжили в проектах SUMAC, Old Man Gloom и др."
+},
+"Cult of Luna": {
+  albums: [
+    { 
+      name: "Somewhere Along the Highway", 
+      year: 2006, 
+      cover: "/images/albums/cult-of-luna/somewhere-along-the-highway.jpg",
+      tracks: [
+        "Somewhere Along the Highway", "The Watchtower", "The Watchtower (reprise)", "The Watchtower (live)", "The Watchtower (instrumental)"
+      ]
+    },
+    { 
+      name: "Eternal Kingdom", 
+      year: 2008, 
+      cover: "/images/albums/cult-of-luna/eternal-kingdom.jpg",
+      tracks: [
+        "Eternal Kingdom", "The Watchtower", "The Watchtower (reprise)", "The Watchtower (live)", "The Watchtower (instrumental)"
+      ]
+    },
+    { 
+      name: "Vertikal", 
+      year: 2013, 
+      cover: "/images/albums/cult-of-luna/vertikal.jpg",
+      tracks: [
+        "Vertikal", "The Watchtower", "The Watchtower (reprise)", "The Watchtower (live)", "The Watchtower (instrumental)"
+      ]
+    },
+    { 
+      name: "Mariner", 
+      year: 2016, 
+      cover: "/images/albums/cult-of-luna/mariner.jpg",
+      tracks: [
+        "Mariner", "The Watchtower", "The Watchtower (reprise)", "The Watchtower (live)", "The Watchtower (instrumental)"
+      ]
+    },
+    { 
+      name: "A Dawn to Fear", 
+      year: 2019, 
+      cover: "/images/albums/cult-of-luna/a-dawn-to-fear.jpg",
+      tracks: [
+        "A Dawn to Fear", "The Watchtower", "The Watchtower (reprise)", "The Watchtower (live)", "The Watchtower (instrumental)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Johannes Persson", role: "вокал, гитара", years: "1998-наст.", current: true, image: "/images/members/cult-of-luna/johannes-persson.jpg" },
+    { name: "Magnus Líndberg", role: "ударные", years: "1998-наст.", current: true, image: "/images/members/cult-of-luna/magnus-lindberg.jpg" },
+    { name: "Fredrik Kihlberg", role: "гитара, вокал", years: "1998-наст.", current: true, image: "/images/members/cult-of-luna/fredrik-kihlberg.jpg" },
+    { name: "Andreas Johansson", role: "бас-гитара", years: "1998-наст.", current: true, image: "/images/members/cult-of-luna/andreas-johansson.jpg" },
+    { name: "Erik Olòfsson", role: "гитара", years: "1998-наст.", current: true, image: "/images/members/cult-of-luna/erik-olofsson.jpg" },
+    { name: "Thomas Hedlund", role: "ударные", years: "2004-наст.", current: true, image: "/images/members/cult-of-luna/thomas-hedlund.jpg" },
+    { name: "Kristian Karlsson", role: "клавишные, вокал", years: "2013-наст.", current: true, image: "/images/members/cult-of-luna/kristian-karlsson.jpg" },
+    { name: "Klas Rydberg", role: "вокал", years: "1998-2008", current: false, image: "/images/members/cult-of-luna/klas-rydberg.jpg" },
+    { name: "Axel Stattin", role: "бас-гитара", years: "1998-2000", current: false, image: "/images/members/cult-of-luna/axel-stattin.jpg" },
+    { name: "Erik Olsson", role: "гитара", years: "1998-2000", current: false, image: "/images/members/cult-of-luna/erik-olsson.jpg" },
+    { name: "Marco Hilden", role: "клавишные", years: "2008-2013", current: false, image: "/images/members/cult-of-luna/marco-hilden.jpg" }
+  ],
+  bio: "Шведская пост-метал группа из Умео, образованная в 1998 году. Cult of Luna считаются одной из ведущих групп современного пост-метала, продолжающих традиции Neurosis и Isis. Их музыка характеризуется эпическими композициями, атмосферными клавишными и тяжёлыми гитарными риффами. Альбомы Somewhere Along the Highway (2006) и Mariner (2016, с вокалисткой Джули Кристи из The Gathering) получили высокие оценки критиков. Группа известна своими концептуальными альбомами и интенсивными живыми выступлениями."
+},
+"Amenra": {
+  albums: [
+    { 
+      name: "Mass III", 
+      year: 2005, 
+      cover: "/images/albums/amenra/mass-iii.jpg",
+      tracks: [
+        "Mass III", "The Way", "The Truth", "The Light", "The Dark", "The End", "The Beginning", "Mass III (live)"
+      ]
+    },
+    { 
+      name: "Mass IIII", 
+      year: 2008, 
+      cover: "/images/albums/amenra/mass-iiii.jpg",
+      tracks: [
+        "Mass IIII", "The Way", "The Truth", "The Light", "The Dark", "The End", "The Beginning", "Mass IIII (live)"
+      ]
+    },
+    { 
+      name: "Mass V", 
+      year: 2011, 
+      cover: "/images/albums/amenra/mass-v.jpg",
+      tracks: [
+        "Mass V", "The Way", "The Truth", "The Light", "The Dark", "The End", "The Beginning", "Mass V (live)"
+      ]
+    },
+    { 
+      name: "Mass VI", 
+      year: 2017, 
+      cover: "/images/albums/amenra/mass-vi.jpg",
+      tracks: [
+        "Mass VI", "The Way", "The Truth", "The Light", "The Dark", "The End", "The Beginning", "Mass VI (live)"
+      ]
+    },
+    { 
+      name: "Mass VII", 
+      year: 2023, 
+      cover: "/images/albums/amenra/mass-vii.jpg",
+      tracks: [
+        "Mass VII", "The Way", "The Truth", "The Light", "The Dark", "The End", "The Beginning", "Mass VII (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Colin H. van Eeckhout", role: "вокал", years: "1999-наст.", current: true, image: "/images/members/amenra/colin-van-eeckhout.jpg" },
+    { name: "Mathieu Vandekerckhove", role: "гитара", years: "2001-наст.", current: true, image: "/images/members/amenra/mathieu-vandekerckhove.jpg" },
+    { name: "Bjorn Lebon", role: "ударные", years: "2009-наст.", current: true, image: "/images/members/amenra/bjorn-lebon.jpg" },
+    { name: "Tim De Gieter", role: "бас-гитара", years: "2017-наст.", current: true, image: "/images/members/amenra/tim-de-gieter.jpg" },
+    { name: "Kristof Mondelaers", role: "гитара", years: "2017-наст.", current: true, image: "/images/members/amenra/kristof-mondelaers.jpg" },
+    { name: "Maarten Kinet", role: "гитара", years: "1999-2001", current: false, image: "/images/members/amenra/maarten-kinet.jpg" },
+    { name: "Maarten Strobbe", role: "бас-гитара", years: "2001-2017", current: false, image: "/images/members/amenra/maarten-strobbe.jpg" },
+    { name: "Kris Villez", role: "ударные", years: "2001-2009", current: false, image: "/images/members/amenra/kris-villez.jpg" },
+    { name: "Vincent Tetaert", role: "гитара", years: "2009-2017", current: false, image: "/images/members/amenra/vincent-tetaert.jpg" }
+  ],
+  bio: "Бельгийская пост-метал группа из Западной Фландрии, образованная в 1999 году. Amenra известны своим эмоционально интенсивным, катарсическим звучанием, сочетающим сладж, дум и хардкор. Все их альбомы имеют названия, начинающиеся с 'Mass', и исследуют темы боли, потери и возрождения. Группа тесно связана с художниками и часто выступает с визуальными инсталляциями. Вокалист Колин ван Эйкхаут также участвует в проектах Oathbreaker и Wiegedood. Amenra считаются одной из самых важных групп современной европейской пост-метал сцены."
+},
+"Coal Chamber": {
+  albums: [
+    { 
+      name: "Coal Chamber", 
+      year: 1997, 
+      cover: "/images/albums/coal-chamber/coal-chamber.jpg",
+      tracks: [
+        "Loco", "Bradley", "Big Truck", "Sway", "First", "Maricon", "I", "Clock", "My Frustration", "Amir of the Desert",
+        "Dreamtime", "Pig", "Bradley (live)", "Loco (live)"
+      ]
+    },
+    { 
+      name: "Chamber Music", 
+      year: 1999, 
+      cover: "/images/albums/coal-chamber/chamber-music.jpg",
+      tracks: [
+        "Misty", "Tragedy", "El Cu Cuy", "Untrue", "Tyler's Song", "What's in Your Mind", "Notion", "Shock the Monkey",
+        "Burgundy", "Entwined", "My Mercy", "No Home", "Shock the Monkey (live)"
+      ]
+    },
+    { 
+      name: "Dark Days", 
+      year: 2002, 
+      cover: "/images/albums/coal-chamber/dark-days.jpg",
+      tracks: [
+        "Fiend", "Glow", "Watershed", "Something Told Me", "Dark Days", "Alienate Me", "One Step", "Friend?", "Rowboat",
+        "Closure", "Empty Jar", "My Love", "Dark Days (live)"
+      ]
+    },
+    { 
+      name: "Rivals", 
+      year: 2015, 
+      cover: "/images/albums/coal-chamber/rivals.jpg",
+      tracks: [
+        "I.O.U. Nothing", "Bad Blood Between Us", "Light in the Shadows", "Suffer in Silence", "The Bridges You Burn",
+        "Orion", "Another Nail in the Coffin", "Rivals", "Wait", "Dumpster Dive", "Empty Handed", "Worst Enemy", "Rivals (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Dez Fafara", role: "вокал", years: "1992-2003, 2011-наст.", current: true, image: "/images/members/coal-chamber/dez-fafara.jpg" },
+    { name: "Miguel 'Meegs' Rascón", role: "гитара", years: "1992-2003, 2011-наст.", current: true, image: "/images/members/coal-chamber/meegs-rascon.jpg" },
+    { name: "Nadja Peulen", role: "бас-гитара", years: "1999-2003, 2011-наст.", current: true, image: "/images/members/coal-chamber/nadja-peulen.jpg" },
+    { name: "Mike 'Bug' Cox", role: "ударные", years: "1992-2003, 2011-наст.", current: true, image: "/images/members/coal-chamber/mike-cox.jpg" },
+    { name: "Rayna Foss", role: "бас-гитара", years: "1992-1999", current: false, image: "/images/members/coal-chamber/rayna-foss.jpg" },
+    { name: "John Thor", role: "гитара", years: "1992", current: false, image: "/images/members/coal-chamber/john-thor.jpg" }
+  ],
+  bio: "Американская ню-метал группа из Лос-Анджелеса, образованная в 1992 году. Coal Chamber стали одной из ключевых групп первой волны ню-метала наряду с Korn, Deftones и Limp Bizkit. Их дебютный альбом Coal Chamber (1997) получил золотой статус. Группа известна своим мрачным, готическим имиджем и агрессивным, но мелодичным звучанием. После распада в 2003 году участники занялись сольными проектами (Dez Fafara в DevilDriver), но воссоединились в 2011 и продолжают выступать."
+},
+"Static-X": {
+  albums: [
+    { 
+      name: "Wisconsin Death Trip", 
+      year: 1999, 
+      cover: "/images/albums/static-x/wisconsin-death-trip.jpg",
+      tracks: [
+        "Push It", "I'm with Stupid", "Bled for Days", "Love Dump", "I Am", "Otsego Placebo", "Reign", "Down",
+        "Burning Inside", "December", "Push It (live)", "Love Dump (live)"
+      ]
+    },
+    { 
+      name: "Machine", 
+      year: 2001, 
+      cover: "/images/albums/static-x/machine.jpg",
+      tracks: [
+        "Machine", "Get to the Gone", "Permanence", "Black and White", "This Is Not", "Otsego Undead", "Cold",
+        "Structural Defect", "...In a Bag", "Burn to Burn", "Machine (live)", "Get to the Gone (live)"
+      ]
+    },
+    { 
+      name: "Shadow Zone", 
+      year: 2003, 
+      cover: "/images/albums/static-x/shadow-zone.jpg",
+      tracks: [
+        "Shadow Zone", "The Only", "Kill Your Idols", "All in Wait", "Otsego Placebo", "Destroy All", "Control It",
+        "New Pain", "Follow", "Dead World", "Shadow Zone (live)"
+      ]
+    },
+    { 
+      name: "Start a War", 
+      year: 2005, 
+      cover: "/images/albums/static-x/start-a-war.jpg",
+      tracks: [
+        "Start a War", "The Enemy", "I'm the One", "Piece of Me", "Regeneration", "My Damnation", "Brainfog",
+        "Otsego Amigo", "So Real", "Start a War (live)"
+      ]
+    },
+    { 
+      name: "Cult of Static", 
+      year: 2009, 
+      cover: "/images/albums/static-x/cult-of-static.jpg",
+      tracks: [
+        "Cult of Static", "Tera-Fied", "Stingwray", "You Are the One", "Cannibal", "Bring You Down", "My Destruction",
+        "Otsego Placebo", "Hypure", "Cult of Static (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Wayne Static", role: "вокал, гитара", years: "1994-2014", current: false, image: "/images/members/static-x/wayne-static.jpg" },
+    { name: "Tony Campos", role: "бас-гитара", years: "1994-2010, 2018-наст.", current: true, image: "/images/members/static-x/tony-campos.jpg" },
+    { name: "Koichi Fukuda", role: "гитара", years: "1994-2000, 2018-наст.", current: true, image: "/images/members/static-x/koichi-fukuda.jpg" },
+    { name: "Ken Jay", role: "ударные", years: "1994-2002, 2018-наст.", current: true, image: "/images/members/static-x/ken-jay.jpg" },
+    { name: "Tripp Eisen", role: "гитара", years: "2001-2003", current: false, image: "/images/members/static-x/tripp-eisen.jpg" },
+    { name: "Nick Oshiro", role: "ударные", years: "2002-2009", current: false, image: "/images/members/static-x/nick-oshiro.jpg" },
+    { name: "Brent Ashley", role: "гитара", years: "2003-2009", current: false, image: "/images/members/static-x/brent-ashley.jpg" },
+    { name: "Diego Ibarra", role: "ударные", years: "2009-2010", current: false, image: "/images/members/static-x/diego-ibarra.jpg" },
+    { name: "Andy Cole", role: "гитара", years: "2010-2013", current: false, image: "/images/members/static-x/andy-cole.jpg" },
+    { name: "Sean Davidson", role: "ударные", years: "2010-2013", current: false, image: "/images/members/static-x/sean-davidson.jpg" }
+  ],
+  bio: "Американская индастриал-метал группа из Лос-Анджелеса, образованная в 1994 году. Static-X стали известны своим уникальным звучанием, сочетающим индастриал, ню-метал и электронику, которое они называли 'evil disco'. Их дебютный альбом Wisconsin Death Trip (1999) стал платиновым. Лидер группы Уэйн Статик умер в 2014 году от передозировки, но оставшиеся участники воссоединились в 2018 с вокалистом Эдом Селом (Dope) для прощального тура."
+},
+"Fear Factory": {
+  albums: [
+    { 
+      name: "Demanufacture", 
+      year: 1995, 
+      cover: "/images/albums/fear-factory/demanufacture.jpg",
+      tracks: [
+        "Demanufacture", "Self Bias Resistor", "Zero Signal", "Replica", "Dog Day Sunrise", "Body Hammer",
+        "Flashpoint", "H-K (Hunter-Killer)", "Pisschrist", "A Therapy for Pain", "Demanufacture (live)"
+      ]
+    },
+    { 
+      name: "Obsolete", 
+      year: 1998, 
+      cover: "/images/albums/fear-factory/obsolete.jpg",
+      tracks: [
+        "Obsolete", "Edgecrusher", "Smasher/Devourer", "Securitron (Police State 2000)", "Moment of Impact", "Descent",
+        "Resurrection", "Hi-Tech Hate", "Freedom or Fire", "Concreto", "Obsolete (live)"
+      ]
+    },
+    { 
+      name: "Soul of a New Machine", 
+      year: 1992, 
+      cover: "/images/albums/fear-factory/soul-of-a-new-machine.jpg",
+      tracks: [
+        "Soul of a New Machine", "Martyr", "Scapegoat", "Scumgrief", "Self Immolation", "Soul of a New Machine (reprise)",
+        "Soul of a New Machine (live)", "Martyr (live)"
+      ]
+    },
+    { 
+      name: "Digimortal", 
+      year: 2001, 
+      cover: "/images/albums/fear-factory/digimortal.jpg",
+      tracks: [
+        "Digimortal", "What Will Become", "Damaged", "Drones", "Linchpin", "Invisible Wounds", "Acres of Skin",
+        "Lurking Fear", "No One", "Digimortal (live)"
+      ]
+    },
+    { 
+      name: "Archetype", 
+      year: 2004, 
+      cover: "/images/albums/fear-factory/archetype.jpg",
+      tracks: [
+        "Archetype", "Slave Labor", "Cyberwaste", "Act of God", "Drones", "Archetype (live)", "Slave Labor (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Dino Cazares", role: "гитара", years: "1989-2002, 2009-наст.", current: true, image: "/images/members/fear-factory/dino-cazares.jpg" },
+    { name: "Burton C. Bell", role: "вокал", years: "1989-2018, 2023-наст.", current: true, image: "/images/members/fear-factory/burton-bell.jpg" },
+    { name: "Mike Heller", role: "ударные", years: "2012-наст.", current: true, image: "/images/members/fear-factory/mike-heller.jpg" },
+    { name: "Tony Campos", role: "бас-гитара", years: "2015-наст.", current: true, image: "/images/members/fear-factory/tony-campos.jpg" },
+    { name: "Raymond Herrera", role: "ударные", years: "1989-2007", current: false, image: "/images/members/fear-factory/raymond-herrera.jpg" },
+    { name: "Christian Olde Wolbers", role: "бас-гитара", years: "1993-2007", current: false, image: "/images/members/fear-factory/christian-olde-wolbers.jpg" },
+    { name: "Andrew Shives", role: "бас-гитара", years: "1989-1993", current: false, image: "/images/members/fear-factory/andrew-shives.jpg" },
+    { name: "Byron Stroud", role: "бас-гитара", years: "2007-2012", current: false, image: "/images/members/fear-factory/byron-stroud.jpg" },
+    { name: "Gene Hoglan", role: "ударные", years: "2007-2012", current: false, image: "/images/members/fear-factory/gene-hoglan.jpg" },
+    { name: "Matt DeVries", role: "гитара", years: "2009-2012", current: false, image: "/images/members/fear-factory/matt-devries.jpg" }
+  ],
+  bio: "Американская индастриал-метал группа из Лос-Анджелеса, образованная в 1989 году. Fear Factory считаются пионерами индастриал-метала, сочетая дэт-метал с электронными элементами и чистыми вокальными партиями. Их концептуальный альбом Demanufacture (1995) стал landmark-альбомом жанра. Группа пережила множество изменений состава и юридических споров, но продолжает выступать и записываться. Гитарный стиль Дино Казареса с использованием ритмичных, синкопированных риффов оказал огромное влияние на развитие ню-метала."
+},
+"Ministry": {
+  albums: [
+    { 
+      name: "The Land of Rape and Honey", 
+      year: 1988, 
+      cover: "/images/albums/ministry/the-land-of-rape-and-honey.jpg",
+      tracks: [
+        "The Land of Rape and Honey", "Stigmata", "The Missing", "Deity", "Golden Dawn", "Destruction", "The Land of Rape and Honey (reprise)",
+        "Stigmata (live)", "The Missing (live)"
+      ]
+    },
+    { 
+      name: "The Mind Is a Terrible Thing to Taste", 
+      year: 1989, 
+      cover: "/images/albums/ministry/the-mind-is-a-terrible-thing-to-taste.jpg",
+      tracks: [
+        "The Mind Is a Terrible Thing to Taste", "Thieves", "Burning Inside", "Never Believe", "Cannibal Song", "Breathe",
+        "So What", "The Land of Rape and Honey", "Thieves (live)"
+      ]
+    },
+    { 
+      name: "Psalm 69: The Way to Succeed and the Way to Suck Eggs", 
+      year: 1992, 
+      cover: "/images/albums/ministry/psalm-69.jpg",
+      tracks: [
+        "Psalm 69", "N.W.O.", "Just One Fix", "Jesus Built My Hotrod", "Scarecrow", "Psalm 69 (reprise)", "Corrosion",
+        "Grace", "The Fall", "Psalm 69 (live)"
+      ]
+    },
+    { 
+      name: "Filth Pig", 
+      year: 1996, 
+      cover: "/images/albums/ministry/filth-pig.jpg",
+      tracks: [
+        "Filth Pig", "Lay Lady Lay", "The Fall", "The Missing", "Deity", "Golden Dawn", "Destruction", "Filth Pig (live)"
+      ]
+    },
+    { 
+      name: "Dark Side of the Spoon", 
+      year: 1999, 
+      cover: "/images/albums/ministry/dark-side-of-the-spoon.jpg",
+      tracks: [
+        "Dark Side of the Spoon", "Supermanic Soul", "Whip and Chain", "Bad Blood", "Kaif", "Eureka Pile", "Step", "Nursing Home",
+        "Stick Figure", "Dark Side of the Spoon (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Al Jourgensen", role: "вокал, гитара, клавишные", years: "1981-наст.", current: true, image: "/images/members/ministry/al-jourgensen.jpg" },
+    { name: "Paul Barker", role: "бас-гитара, клавишные", years: "1986-2003", current: false, image: "/images/members/ministry/paul-barker.jpg" },
+    { name: "Bill Rieflin", role: "ударные", years: "1986-1994, 2003-2005", current: false, image: "/images/members/ministry/bill-rieflin.jpg" },
+    { name: "Chris Connelly", role: "вокал, клавишные", years: "1986-1990", current: false, image: "/images/members/ministry/chris-connelly.jpg" },
+    { name: "Mike Scaccia", role: "гитара", years: "1989-1995, 2003-2012", current: false, image: "/images/members/ministry/mike-scaccia.jpg" },
+    { name: "Rey Washam", role: "ударные", years: "1994-1999", current: false, image: "/images/members/ministry/rey-washam.jpg" },
+    { name: "Louis Svitek", role: "гитара", years: "1995-1999", current: false, image: "/images/members/ministry/louis-svitek.jpg" },
+    { name: "Max Brody", role: "ударные", years: "1999-2003", current: false, image: "/images/members/ministry/max-brody.jpg" },
+    { name: "Tommy Victor", role: "гитара", years: "2003-наст.", current: true, image: "/images/members/ministry/tommy-victor.jpg" },
+    { name: "John Bechdel", role: "клавишные", years: "2003-2006", current: false, image: "/images/members/ministry/john-bechdel.jpg" },
+    { name: "Joey Jordison", role: "ударные", years: "2007-2008", current: false, image: "/images/members/ministry/joey-jordison.jpg" },
+    { name: "Cesar Soto", role: "гитара", years: "2018-наст.", current: true, image: "/images/members/ministry/cesar-soto.jpg" },
+    { name: "Tony Campos", role: "бас-гитара", years: "2019-наст.", current: true, image: "/images/members/ministry/tony-campos.jpg" },
+    { name: "Derek Abrams", role: "ударные", years: "2019-наст.", current: true, image: "/images/members/ministry/derek-abrams.jpg" }
+  ],
+  bio: "Американская индастриал-метал группа из Чикаго, образованная в 1981 году. Ministry начали как синти-поп проект, но в конце 80-х эволюционировали в индастриал-метал, став одними из пионеров жанра. Их альбомы The Land of Rape and Honey (1988) и Psalm 69 (1992) считаются классикой. Группа известна своими агрессивными политическими текстами и экспериментальным звучанием. Лидер Эл Йоргенсен также участвует в многочисленных сайд-проектах (Revolting Cocks, Lard, Buck Satan and the 666 Shooters)."
+},
+"Godflesh": {
+  albums: [
+    { 
+      name: "Streetcleaner", 
+      year: 1989, 
+      cover: "/images/albums/godflesh/streetcleaner.jpg",
+      tracks: [
+        "Streetcleaner", "Like Rats", "Pulp", "Dream Long Dead", "Head Dirt", "Devastator", "Mighty Trust Krusher",
+        "Life Is Easy", "Streetcleaner (live)", "Like Rats (live)"
+      ]
+    },
+    { 
+      name: "Pure", 
+      year: 1992, 
+      cover: "/images/albums/godflesh/pure.jpg",
+      tracks: [
+        "Pure", "Mothra", "I Wasn't Born to Follow", "Predominance", "Spite", "Monotony", "Pure (live)", "Mothra (live)"
+      ]
+    },
+    { 
+      name: "Selfless", 
+      year: 1994, 
+      cover: "/images/albums/godflesh/selfless.jpg",
+      tracks: [
+        "Selfless", "Mantra", "Go Spread Your Wings", "Crush My Soul", "I Never Said I Love You", "Perfect Skin",
+        "Selfless (live)", "Mantra (live)"
+      ]
+    },
+    { 
+      name: "Songs of Love and Hate", 
+      year: 1996, 
+      cover: "/images/albums/godflesh/songs-of-love-and-hate.jpg",
+      tracks: [
+        "Songs of Love and Hate", "Don't Bring Me Flowers", "Frail", "Circle of Shit", "Gift", "Jesu", "Songs of Love and Hate (live)"
+      ]
+    },
+    { 
+      name: "Hymns", 
+      year: 2001, 
+      cover: "/images/albums/godflesh/hymns.jpg",
+      tracks: [
+        "Hymns", "Paralyzed", "Anthem", "Defeated", "Decline & Fall", "The Internal", "Hymns (live)", "Paralyzed (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Justin Broadrick", role: "вокал, гитара, программирование", years: "1988-2002, 2010-наст.", current: true, image: "/images/members/godflesh/justin-broadrick.jpg" },
+    { name: "G. C. Green", role: "бас-гитара", years: "1988-2002, 2010-2017", current: false, image: "/images/members/godflesh/gc-green.jpg" },
+    { name: "Paul Neville", role: "гитара", years: "1988-1989", current: false, image: "/images/members/godflesh/paul-neville.jpg" },
+    { name: "Robert Hampson", role: "гитара", years: "1989-1992", current: false, image: "/images/members/godflesh/robert-hampson.jpg" },
+    { name: "Steve Hough", role: "ударные", years: "1989-1991", current: false, image: "/images/members/godflesh/steve-hough.jpg" },
+    { name: "Machines", role: "ударные", years: "1991-2002", current: false, image: "/images/members/godflesh/machines.jpg" },
+    { name: "Bryan Mantia", role: "ударные", years: "2001", current: false, image: "/images/members/godflesh/bryan-mantia.jpg" },
+    { name: "Ted Parsons", role: "ударные", years: "2010-2012", current: false, image: "/images/members/godflesh/ted-parsons.jpg" }
+  ],
+  bio: "Британская индастриал-метал группа из Бирмингема, образованная в 1988 году Джастином Бродриком (экс-Napalm Death) и Бенни Грином. Godflesh считаются одними из пионеров индастриал-метала, сочетая гитарные риффы с драм-машинами и мрачными текстами. Их дебютный альбом Streetcleaner (1989) признан классикой жанра. Группа распалась в 2002 году, но воссоединилась в 2010. Бродрик также известен по проектам Jesu, Final и Techno Animal."
+},
+"Mudvayne": {
+  albums: [
+    { 
+      name: "L.D. 50", 
+      year: 2000, 
+      cover: "/images/albums/mudvayne/ld-50.jpg",
+      tracks: [
+        "Monolith", "Dig", "Internal Primates Forever", "-1", "Death Blooms", "Golden Ratio", "Cradle", "Nothing to Gein",
+        "Mutatis Mutandis", "Everything and Nothing", "Severed", "Recombinant Resurgence", "Prod", "Pharmaecopia", "Under My Skin", "(k)Now F(orever)"
+      ]
+    },
+    { 
+      name: "The End of All Things to Come", 
+      year: 2002, 
+      cover: "/images/albums/mudvayne/the-end-of-all-things-to-come.jpg",
+      tracks: [
+        "The End of All Things to Come", "Not Falling", "World So Cold", "Dead Inside", "Happy?", "Trapped in the Wake of a Dream",
+        "The Patient Mental", "Beyond the Pale", "All That You Are", "The End of All Things to Come (live)"
+      ]
+    },
+    { 
+      name: "Lost and Found", 
+      year: 2005, 
+      cover: "/images/albums/mudvayne/lost-and-found.jpg",
+      tracks: [
+        "Determined", "Pushing Through", "Happy?", "IMN", "Fall into Sleep", "Lost and Found", "The Way", "Alone", "Rain.Sun.Gone",
+        "Choosing Mental Illness", "A Cinderella Story", "Lost and Found (live)"
+      ]
+    },
+    { 
+      name: "The New Game", 
+      year: 2008, 
+      cover: "/images/albums/mudvayne/the-new-game.jpg",
+      tracks: [
+        "The New Game", "Fish Out of Water", "Do What You Do", "A New Game", "Dull Boy", "The Hate in Me", "Scarlet Letters",
+        "Scream with Me", "A New Game (live)", "Dull Boy (live)"
+      ]
+    },
+    { 
+      name: "Mudvayne", 
+      year: 2009, 
+      cover: "/images/albums/mudvayne/mudvayne.jpg",
+      tracks: [
+        "Mudvayne", "I Can't Wait", "The Edge", "All Talk", "Dull Boy", "The Hate in Me", "Scarlet Letters", "Scream with Me",
+        "Mudvayne (live)", "I Can't Wait (live)"
+      ]
+    }
+  ],
+  members: [
+    { name: "Chad Gray", role: "вокал", years: "1996-2010, 2021-наст.", current: true, image: "/images/members/mudvayne/chad-gray.jpg" },
+    { name: "Greg Tribbett", role: "гитара", years: "1996-2010, 2021-наст.", current: true, image: "/images/members/mudvayne/greg-tribbett.jpg" },
+    { name: "Ryan Martinie", role: "бас-гитара", years: "1998-2010, 2021-наст.", current: true, image: "/images/members/mudvayne/ryan-martinie.jpg" },
+    { name: "Matthew McDonough", role: "ударные", years: "1996-2010, 2021-наст.", current: true, image: "/images/members/mudvayne/matthew-mcdonough.jpg" },
+    { name: "Shawn Barclay", role: "бас-гитара", years: "1996-1998", current: false, image: "/images/members/mudvayne/shawn-barclay.jpg" }
+  ],
+  bio: "Американская ню-метал группа из Пеории, Иллинойс, образованная в 1996 году. Mudvayne известны своим техничным, агрессивным звучанием, сложными ритмами и экстравагантным гримом. Их дебютный альбом L.D. 50 (2000) стал классикой жанра, а синглы Dig и Death Blooms принесли группе популярность. Басист Райан Мартини признан одним из лучших в жанре благодаря своему уникальному слэповому стилю. Группа распалась в 2010 году, но воссоединилась в 2021 и продолжает выступать."
+},
+
+
+
+
+
+
+
+
+
 };
