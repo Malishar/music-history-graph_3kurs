@@ -8,6 +8,8 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [resultImage, setResultImage] = useState(null);
+  const [resultImageError, setResultImageError] = useState(false);
 
   // Все 40 вопросов (база)
   const allPossibleQuestions = [
@@ -262,8 +264,327 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
       correct: "Kid A",
       explanation: "Kid A (2000) ознаменовал поворот Radiohead к электронике",
       category: "Radiohead"
-    }
+    },
+    {
+      question: "Кто убил Евронимуса из Mayhem?",
+      options: ["Varg Vikernes", "Dead", "Fenriz", "Abbath"],
+      correct: "Varg Vikernes",
+      explanation: "Варг Викернес убил Евронимуса в 1993 году",
+      category: "Black Metal"
+    },
+    {
+      question: "Как на самом деле звали Евронимуса?",
+      options: ["Øystein Aarseth", "Kristian Vikernes", "Per Ohlin", "Gylve Nagell"],
+      correct: "Øystein Aarseth",
+      explanation: "Евронимус — это сценический псевдоним Øystein Aarseth",
+      category: "Black Metal"
+    },
+    {
+      question: "Как умер вокалист Dead из Mayhem?",
+      options: ["Самоубийство", "Передозировка", "Авария", "Убийство"],
+      correct: "Самоубийство",
+      explanation: "Dead покончил с собой в 1991 году",
+      category: "Black Metal"
+    },
+    {
+      question: "Что сделал Евронимус после смерти Dead?",
+      options: ["Сфотографировал тело", "Позвонил полиции", "Сжёг дом", "Уехал"],
+      correct: "Сфотографировал тело",
+      explanation: "Евронимус сделал фото, которое позже стало обложкой бутлега",
+      category: "Black Metal"
+    },
+    {
+      question: "Как назывался магазин Евронимуса в Осло?",
+      options: ["Helvete", "Inferno", "Darkness", "Black Flame"],
+      correct: "Helvete",
+      explanation: "Helvete был центром норвежской блэк-метал сцены",
+      category: "Black Metal"
+    },
+    {
+      question: "За что посадили Варга Викернеса?",
+      options: ["Убийство и поджоги церквей", "Только за убийство", "Наркоторговля", "Грабёж"],
+      correct: "Убийство и поджоги церквей",
+      explanation: "Викернес был осуждён за убийство Евронимуса и поджоги церквей",
+      category: "Black Metal"
+    },
+    {
+      question: "Как умер фронтмен Joy Division?",
+      options: ["Самоубийство", "Передозировка", "Авария", "Болезнь"],
+      correct: "Самоубийство",
+      explanation: "Ian Curtis покончил с собой в 1980 году",
+      category: "Post-Punk"
+    },
+    {
+      question: "Какой музыкант откусил голову летучей мыши на сцене?",
+      options: ["Ozzy Osbourne", "Alice Cooper", "Marilyn Manson", "Rob Zombie"],
+      correct: "Ozzy Osbourne",
+      explanation: "Оззи случайно откусил голову летучей мыши во время концерта",
+      category: "Shock Rock"
+    },
+    {
+      question: "Как умер гитарист Pantera Даймбэг Даррелл?",
+      options: ["Застрелен на концерте", "Авария", "Передозировка", "Пожар"],
+      correct: "Застрелен на концерте",
+      explanation: "Dimebag Darrell был убит фанатом во время выступления в 2004 году",
+      category: "Metal"
+    },
+    {
+      question: "Какой вокалист Soundgarden и Audioslave покончил с собой?",
+      options: ["Chris Cornell", "Eddie Vedder", "Scott Weiland", "Layne Staley"],
+      correct: "Chris Cornell",
+      explanation: "Крис Корнелл умер в 2017 году",
+      category: "Grunge"
+    },
+    {
+      question: "Как умер вокалист Alice in Chains Лейн Стэйли?",
+      options: ["Передозировка", "Самоубийство", "Авария", "Болезнь"],
+      correct: "Передозировка",
+      explanation: "Layne Staley умер от передозировки в 2002 году",
+      category: "Grunge"
+    },
+    {
+      question: "Какая группа записала альбом в тюрьме?",
+      options: ["Burzum", "Mayhem", "Darkthrone", "Emperor"],
+      correct: "Burzum",
+      explanation: "Варг Викернес записывал музыку, находясь в заключении",
+      category: "Black Metal"
+    },
+    {
+      question: "Какой музыкант сжёг норвежские церкви?",
+      options: ["Varg Vikernes", "Euronymous", "Dead", "Fenriz"],
+      correct: "Varg Vikernes",
+      explanation: "Он участвовал в серии поджогов церквей в Норвегии",
+      category: "Black Metal"
+    },
+    {
+      question: "Какая группа прославилась псевдонимами вместо настоящих имён?",
+      options: ["Mayhem", "Metallica", "Nirvana", "Queen"],
+      correct: "Mayhem",
+      explanation: "Участники Mayhem использовали сценические имена (Dead, Euronymous и т.д.)",
+      category: "Black Metal"
+    },
+    {
+      question: "Кого называют 'крёстным отцом дэт-метала'?",
+      options: ["Chuck Schuldiner", "Trey Azagthoth", "David Vincent", "Jeff Becerra"],
+      correct: "Chuck Schuldiner",
+      explanation: "Чак Шульдинер из Death считается основателем и главным пионером дэт-метала",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа считается первой дэт-метал группой?",
+      options: ["Possessed", "Death", "Morbid Angel", "Obituary"],
+      correct: "Possessed",
+      explanation: "Possessed с альбомом Seven Churches (1985) часто называют первой дэт-метал группой",
+      category: "Death Metal"
+    },
+    {
+      question: "Какой альбом Death считается одним из самых влиятельных?",
+      options: ["Symbolic", "Leprosy", "Human", "Все перечисленные"],
+      correct: "Все перечисленные",
+      explanation: "Death выпустили несколько культовых альбомов, повлиявших на жанр",
+      category: "Death Metal"
+    },
+    {
+      question: "Как умер Чак Шульдинер?",
+      options: ["Рак мозга", "Передозировка", "Авария", "Сердечный приступ"],
+      correct: "Рак мозга",
+      explanation: "Чак умер в 2001 году после борьбы с раком",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая страна считается родиной дэт-метала?",
+      options: ["США", "Швеция", "Норвегия", "Германия"],
+      correct: "США",
+      explanation: "Флорида (Tampa scene) стала центром зарождения дэт-метала",
+      category: "Death Metal"
+    },
+    {
+      question: "Какой город был центром флоридской дэт-метал сцены?",
+      options: ["Tampa", "Miami", "Orlando", "Jacksonville"],
+      correct: "Tampa",
+      explanation: "Tampa — ключевой город с Morrisound Studios",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая студия записала множество классических дэт-метал альбомов?",
+      options: ["Morrisound Studios", "Abbey Road", "Sunset Sound", "Electric Lady"],
+      correct: "Morrisound Studios",
+      explanation: "Легендарная студия во Флориде",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа записала альбом 'Altars of Madness'?",
+      options: ["Morbid Angel", "Cannibal Corpse", "Deicide", "Obituary"],
+      correct: "Morbid Angel",
+      explanation: "Altars of Madness (1989) — один из важнейших альбомов жанра",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа известна самыми жестокими обложками альбомов?",
+      options: ["Cannibal Corpse", "Death", "Morbid Angel", "Napalm Death"],
+      correct: "Cannibal Corpse",
+      explanation: "Они прославились экстремальным визуалом и лирикой",
+      category: "Death Metal"
+    },
+    {
+      question: "Кто был вокалистом Cannibal Corpse, известным 'вертолётным' хедбэнгингом?",
+      options: ["George Fisher", "Chris Barnes", "Rob Barrett", "Glen Benton"],
+      correct: "George Fisher",
+      explanation: "George 'Corpsegrinder' Fisher известен своим стилем вращения головы",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа использует перевёрнутый крест, выжженный на лбу вокалиста?",
+      options: ["Deicide", "Morbid Angel", "Behemoth", "Slayer"],
+      correct: "Deicide",
+      explanation: "Глен Бентон выжигал перевёрнутый крест на лбу",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа изобрела грайндкор?",
+      options: ["Napalm Death", "Carcass", "Death", "Bolt Thrower"],
+      correct: "Napalm Death",
+      explanation: "Napalm Death — пионеры грайндкора",
+      category: "Extreme Metal"
+    },
+    {
+      question: "Какая группа начала как грайндкор, а потом стала дэт-металом?",
+      options: ["Carcass", "Morbid Angel", "Death", "Obituary"],
+      correct: "Carcass",
+      explanation: "Carcass эволюционировали от грайндкора к мелодик дэт-металу",
+      category: "Extreme Metal"
+    },
+    {
+      question: "Какой поджанр дэт-метала характеризуется мелодичностью и пришёл из Швеции?",
+      options: ["Melodic Death Metal", "Brutal Death Metal", "Technical Death Metal", "Deathcore"],
+      correct: "Melodic Death Metal",
+      explanation: "Шведская сцена (Gothenburg) дала миру melodic death metal",
+      category: "Death Metal"
+    },
+    {
+      question: "Какой жанр известен максимально короткими песнями?",
+      options: ["Grindcore", "Death Metal", "Black Metal", "Doom Metal"],
+      correct: "Grindcore",
+      explanation: "У Napalm Death есть песни длиной в секунды",
+      category: "Extreme Metal"
+    },
+    {
+      question: "Кого чаще всего шутливо называют 'самым плохим вокалистом трэш-метала'?",
+      options: ["Dave Mustaine", "James Hetfield", "Tom Araya", "Joey Belladonna"],
+      correct: "Dave Mustaine",
+      explanation: "Даже фанаты Megadeth признают — вокал не его сильная сторона",
+      category: "Thrash Metal"
+    },
+    {
+      question: "Какая группа известна тем, что фанаты спорят: 'раньше было лучше'?",
+      options: ["Metallica", "Nirvana", "Queen", "AC/DC"],
+      correct: "Metallica",
+      explanation: "Классический спор: до Black Album vs после",
+      category: "Metal"
+    },
+    {
+      question: "Кто чаще всего меняет состав группы?",
+      options: ["Megadeth", "Metallica", "Slayer", "Pantera"],
+      correct: "Megadeth",
+      explanation: "У Мастейна состав менялся чуть ли не каждый альбом",
+      category: "Thrash Metal"
+    },
+    {
+      question: "Какая группа играет в масках и комбинезонах?",
+      options: ["Slipknot", "Metallica", "Slayer", "Megadeth"],
+      correct: "Slipknot",
+      explanation: "Каждый участник имеет уникальную маску",
+      category: "Metal"
+    },
+    {
+      question: "Какой жанр появился раньше остальных?",
+      options: ["Heavy Metal", "Death Metal", "Black Metal", "Metalcore"],
+      correct: "Heavy Metal",
+      explanation: "Хэви-метал появился ещё в 70-х",
+      category: "Metal"
+    },
+    {
+      question: "Какая группа считается частью 'большой четвёрки' трэша?",
+      options: ["Slayer", "Pantera", "Sepultura", "Exodus"],
+      correct: "Slayer",
+      explanation: "Big Four: Metallica, Megadeth, Slayer, Anthrax",
+      category: "Thrash Metal"
+    },
+    {
+      question: "Какая группа известна талисманом по имени Eddie?",
+      options: ["Iron Maiden", "Judas Priest", "Motorhead", "Kiss"],
+      correct: "Iron Maiden",
+      explanation: "Eddie появляется почти на всех обложках",
+      category: "Metal"
+    },
+    {
+      question: "Какая группа записала альбом 'Leprosy'?",
+      options: ["Death", "Obituary", "Morbid Angel", "Deicide"],
+      correct: "Death",
+      explanation: "Leprosy (1988) — один из ключевых ранних дэт-метал альбомов",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа записала 'Slowly We Rot'?",
+      options: ["Obituary", "Death", "Cannibal Corpse", "Deicide"],
+      correct: "Obituary",
+      explanation: "Дебютный альбом Obituary (1989)",
+      category: "Death Metal"
+    },
+    {
+      question: "Какая группа записала альбом 'Vulgar Display of Power'?",
+      options: ["Pantera", "Slayer", "Sepultura", "Machine Head"],
+      correct: "Pantera",
+      explanation: "Культовый альбом грув-метала",
+      category: "Metal"
+    },
+    {
+      question: "Какой жанр часто критикуют за коммерциализацию метала?",
+      options: ["Nu Metal", "Black Metal", "Death Metal", "Doom Metal"],
+      correct: "Nu Metal",
+      explanation: "Nu Metal часто критиковали за упрощённое звучание и популярность в мейнстриме",
+      category: "Metal"
+    },
+    {
+      question: "Как прозвали басиста Megadeth Элэфсона?",
+      options: ["Junior", "The Beast", "Flash", "Doc"],
+      correct: "Junior",
+      explanation: "Прозвище 'Junior' связано с тем, что в группе были два Дэйва: Mustaine и Ellefson",
+      category: "Megadeth"
+    },
+    {
+      question: "Кто считается самым популярным участником группы, но не записал ни одного альбома с ней?",
+      options: ["Sid Vicious", "Dave Mustaine", "Jason Newsted", "Bon Scott"],
+      correct: "Sid Vicious",
+      explanation: "Сид Вишес был басистом Sex Pistols, но официально альбомов не записал",
+      category: "Punk"
+    },
+    {
+      question: "Кто был первым басистом Metallica?",
+      options: ["Ron McGovney", "Cliff Burton", "Jason Newsted", "Robert Trujillo"],
+      correct: "Ron McGovney",
+      explanation: "Рон Макговни был первым басистом группы и играл на ранних демо",
+      category: "Metallica"
+    },
   ];
+
+  // Функция для выбора фото по результату
+  const getResultImage = (score, total) => {
+    const percentage = (score / total) * 100;
+    
+    if (percentage === 100) {
+      return '/images/quiz-results/perfect.jpg'; // Идеально
+    } 
+    else if (percentage >= 70) {
+      return '/images/quiz-results/good.jpg'; // Хорошо
+    }
+    else if (percentage >= 40) {
+      return '/images/quiz-results/average.jpg'; // Средне
+    }
+    else {
+      return '/images/quiz-results/bad.jpg'; // Плохо
+    }
+  };
 
   // Выбираем 20 случайных вопросов при открытии
   useEffect(() => {
@@ -273,12 +594,12 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
     
     // Перемешиваем и берем 20
     const shuffled = [...allPossibleQuestions]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 20)
-    .map(q => ({
-      ...q,
-      options: [...q.options].sort(() => Math.random() - 0.5) // ← ПЕРЕМЕШИВАЕМ ОТВЕТЫ!
-    }));
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 20)
+      .map(q => ({
+        ...q,
+        options: [...q.options].sort(() => Math.random() - 0.5)
+      }));
 
     setQuestions(shuffled);
     setLoading(false);    
@@ -288,7 +609,9 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
     setScore(0);
     setShowResult(false);
     setSelectedAnswer(null);
-    }, [isOpen]);
+    setResultImage(null);
+    setResultImageError(false);
+  }, [isOpen]);
 
   const handleAnswer = (answer) => {
     setSelectedAnswer(answer);
@@ -302,25 +625,31 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
       setCurrentQuestion(currentQuestion + 1);
       setSelectedAnswer(null);
     } else {
+      // При показе результата выбираем фото
+      const finalScore = selectedAnswer === questions[currentQuestion].correct ? score + 1 : score;
+      const image = getResultImage(finalScore, questions.length);
+      setResultImage(image);
       setShowResult(true);
     }
   };
 
-    const handleRestart = () => {
+  const handleRestart = () => {
     // Перемешиваем новые вопросы при перезапуске
     const shuffled = [...allPossibleQuestions]
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 20)
-        .map(q => ({
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 20)
+      .map(q => ({
         ...q,
-        options: [...q.options].sort(() => Math.random() - 0.5) // ← И ЗДЕСЬ!
-        }));
+        options: [...q.options].sort(() => Math.random() - 0.5)
+      }));
     setQuestions(shuffled);
     setCurrentQuestion(0);
     setScore(0);
     setShowResult(false);
     setSelectedAnswer(null);
-    };
+    setResultImage(null);
+    setResultImageError(false);
+  };
 
   if (!isOpen) return null;
 
@@ -376,6 +705,53 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
     background: '#c41e3a',
     borderRadius: '2px',
     transition: 'width 0.3s'
+  };
+
+  // Компонент для фото результата
+  const ResultImage = ({ src, alt }) => {
+    const [imgError, setImgError] = useState(false);
+
+    if (!src || imgError) {
+      return (
+        <div style={{
+          width: '200px',
+          height: '200px',
+          borderRadius: '50%',
+          margin: '0 auto 30px',
+          background: 'linear-gradient(135deg, #ff6b6b, #c41e3a)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          border: '4px solid #c41e3a',
+          boxShadow: '0 10px 25px rgba(196, 30, 58, 0.4)'
+        }}>
+          <span style={{
+            fontSize: '80px',
+            color: 'white',
+            fontWeight: 'bold'
+          }}>
+            {score === questions.length ? '🏆' : score >= questions.length/2 ? '🎸' : '😕'}
+          </span>
+        </div>
+      );
+    }
+
+    return (
+      <img 
+        src={src}
+        alt={alt}
+        style={{
+          width: '200px',
+          height: '200px',
+          borderRadius: '50%',
+          margin: '0 auto 30px',
+          objectFit: 'cover',
+          border: '4px solid #c41e3a',
+          boxShadow: '0 10px 25px rgba(196, 30, 58, 0.4)'
+        }}
+        onError={() => setImgError(true)}
+      />
+    );
   };
 
   if (loading) {
@@ -483,10 +859,9 @@ const QuizDialog = ({ isOpen, onClose, groups }) => {
           </>
         ) : (
           <div>
-            <div style={{ fontSize: '48px', marginBottom: '20px' }}>
-              {score === questions.length ? '🏆' : score >= questions.length/2 ? '👍' : '😐'}
-            </div>
-            
+            {/* Фото результата */}
+            <ResultImage src={resultImage} alt="result" />
+          
             <h3 style={{ fontSize: '24px', marginBottom: '10px', color: '#c41e3a' }}>
               {score} из {questions.length}
             </h3>

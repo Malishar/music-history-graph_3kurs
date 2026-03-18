@@ -6,6 +6,8 @@ import InfoPanel from './InfoPanel';
 import BurgerMenu from './BurgerMenu';
 import SearchDialog from './SearchDialog';
 import QuizDialog from './QuizDialog';
+import PathFinderPanel from './PathFinderPanel';
+import ClustersPanel from './ClustersPanel';
 
 const MusicGraphLocal = () => {
   const [images, setImages] = useState({});
@@ -63,6 +65,7 @@ const MusicGraphLocal = () => {
 
       // ================= 1980-е (20 групп) =================
       { id: "Metallica", name: "Metallica", year: 1981, genre: "Heavy Metal", country: "USA", image: "/images/bands/metallica.jpg" },
+      { id: "Dio", name: "Dio", year: 1982, genre: "Heavy Metal", country: "USA", image: "/images/bands/dio.jpg" },
       { id: "Guns N' Roses", name: "Guns N' Roses", year: 1985, genre: "Hard Rock", country: "USA", image: "/images/bands/guns-n-roses.jpg" },
       { id: "Red Hot Chili Peppers", name: "Red Hot Chili Peppers", year: 1983, genre: "Funk Rock", country: "USA", image: "/images/bands/rhcp.jpg" },
       { id: "Nirvana", name: "Nirvana", year: 1987, genre: "Grunge", country: "USA", image: "/images/bands/nirvana.jpg" },
@@ -780,10 +783,18 @@ const MusicGraphLocal = () => {
 
   const [searchDialogOpen, setSearchDialogOpen] = useState(false);
   const [quizDialogOpen, setQuizDialogOpen] = useState(false);
+  const [pathFinderOpen, setPathFinderOpen] = useState(false);
+  const [clustersOpen, setClustersOpen] = useState(false);
 
   // Функция для фильтрации связей
   const filterLinks = () => {
     return graphData.links.filter(link => activeFilters[link.type]);
+  };
+
+  // Обработчик выбора группы из поиска или кластеров
+  const handleGroupSelect = (group) => {
+    setClickedGroup(group);
+    setDialogOpen(true);
   };
 
   // Функция для раскрытия узла
@@ -847,93 +858,60 @@ const MusicGraphLocal = () => {
   };
 
   // ========== АЛГОРИТМ "ГРУППЫ ПО СТИЛЯМ" ==========
-  const showClusters = () => {
-    // Группируем группы по жанрам
-    const clusters = {};
-    
-    graphData.nodes.forEach(node => {
-      const genre = node.genre.split(' ')[0]; // берем основной жанр
-      if (!clusters[genre]) {
-        clusters[genre] = [];
-      }
-      clusters[genre].push(node.name);
-    });
-    
-    // Формируем сообщение
-    let message = '🎸 ГРУППЫ ПО СТИЛЯМ:\n\n';
-    
-    Object.entries(clusters).forEach(([genre, groups]) => {
-      if (groups.length > 3) {
-        message += `${genre}: ${groups.slice(0, 5).join(', ')}`;
-        if (groups.length > 5) message += ` и ещё ${groups.length - 5}`;
-        message += '\n\n';
-      }
-    });
-    
-    alert(message);
-  };
+  
 
   // ========== АЛГОРИТМ "КАК СВЯЗАНЫ ГРУППЫ" ==========
-  const promptForPath = () => {
-    const start = prompt('Введите название первой группы:');
-    const end = prompt('Введите название второй группы:');
+  const findPathBetweenGroups = (startName, endName) => {
+  // ТВОЙ АЛГОРИТМ BFS
+  const findPath = (startId, endId) => {
+    const queue = [[startId]];
+    const visited = new Set([startId]);
     
-    if (!start || !end) return;
-    
-    // Поиск кратчайшего пути (BFS)
-    const findPath = (startId, endId) => {
-      const queue = [[startId]];
-      const visited = new Set([startId]);
+    while (queue.length > 0) {
+      const path = queue.shift();
+      const node = path[path.length - 1];
       
-      while (queue.length > 0) {
-        const path = queue.shift();
-        const node = path[path.length - 1];
-        
-        const neighbors = graphData.links
-          .filter(link => link.source === node || link.target === node)
-          .map(link => link.source === node ? link.target : link.source);
-        
-        for (const neighbor of neighbors) {
-          if (!visited.has(neighbor)) {
-            visited.add(neighbor);
-            const newPath = [...path, neighbor];
-            
-            if (neighbor === endId) {
-              return newPath;
-            }
-            
-            queue.push(newPath);
+      const activeLinks = graphData.links.filter(link => activeFilters[link.type]);
+      const neighbors = activeLinks 
+        .filter(link => link.source === node || link.target === node)
+        .map(link => link.source === node ? link.target : link.source);
+      
+      for (const neighbor of neighbors) {
+        if (!visited.has(neighbor)) {
+          visited.add(neighbor);
+          const newPath = [...path, neighbor];
+          
+          if (neighbor === endId) {
+            return newPath;
           }
+          
+          queue.push(newPath);
         }
       }
-      
-      return null;
+    }
+    
+    return null;
     };
     
-    const startNode = graphData.nodes.find(n => n.name.toLowerCase() === start.toLowerCase());
-    const endNode = graphData.nodes.find(n => n.name.toLowerCase() === end.toLowerCase());
-    
-    if (!startNode) {
-      alert(`Группа "${start}" не найдена`);
-      return;
-    }
-    
-    if (!endNode) {
-      alert(`Группа "${end}" не найдена`);
-      return;
-    }
-    
+    const startNode = graphData.nodes.find(
+      n => n.name.toLowerCase() === startName.toLowerCase()
+    );
+    const endNode = graphData.nodes.find(
+      n => n.name.toLowerCase() === endName.toLowerCase()
+    );
+
+    if (!startNode || !endNode) return null;
+
     const path = findPath(startNode.id, endNode.id);
-    
+
     if (path) {
-      const pathNames = path.map(id => {
+      return path.map(id => {
         const node = graphData.nodes.find(n => n.id === id);
         return node.name;
       });
-      alert(`🔗 Путь от ${startNode.name} до ${endNode.name}:\n\n${pathNames.join(' → ')}`);
-    } else {
-      alert(`😕 Путь между ${startNode.name} и ${endNode.name} не найден`);
     }
+
+    return null;
   };
 
     // ========== ОБРАБОТЧИК ДЛЯ БУРГЕР-МЕНЮ ==========
@@ -956,12 +934,12 @@ const MusicGraphLocal = () => {
         alert(`🏆 Самая популярная группа: ${mostConnected.name}\nСвязей: ${mostConnected.count}`);
         break;
         
-      case 'shortestPath':   // Как связаны группы
-        promptForPath();
+      case 'shortestPath':
+        setPathFinderOpen(true);  // ← вот это
         break;
         
       case 'clusters':        // Группы по стилям
-        showClusters();
+        setClustersOpen(true);
         break;
         
       case 'about':
@@ -1062,10 +1040,39 @@ const MusicGraphLocal = () => {
     // Рисуем обводку разного цвета в зависимости от страны
     ctx.lineWidth = 2 / globalScale;
     const countryColors = {
-      'UK': '#ff6b6b',
-      'USA': '#4ecdc4',
-      'Australia': '#45b7d1',
-      'Germany': '#ff9ff3'
+      // Основные страны
+      'UK': '#ff6b6b',           // Красный
+      'USA': '#4ecdc4',           // Бирюзовый
+      'Australia': '#45b7d1',     // Синий
+      'Germany': '#ff9ff3',       // Розовый
+      'Sweden': '#feca57',         // Жёлтый
+      'Norway': '#1dd1a1',         // Зелёный
+      'Finland': '#5f27cd',        // Фиолетовый
+      'France': '#ff6b6b',         // Коралловый
+      'Italy': '#00d2d3',          // Голубой
+      'Spain': '#ff9f43',          // Оранжевый
+      'Netherlands': '#f368e0',    // Розово-фиолетовый
+      'Belgium': '#0abde3',        // Светло-синий
+      'Switzerland': '#feca57',    // Жёлтый
+      'Austria': '#ee5a24',        // Красно-оранжевый
+      'Poland': '#ff3f34',         // Ярко-красный
+      'Czech Republic': '#1289A7', // Тёмно-синий
+      'Greece': '#006266',         // Тёмно-зелёный
+      'Portugal': '#ED4C67',       // Розово-красный
+      'Denmark': '#ffb8b8',        // Светло-розовый
+      'Ireland': '#A3CB38',        // Лаймовый
+      'Canada': '#12CBC4',         // Бирюзовый
+      'Brazil': '#ffda79',         // Светло-жёлтый
+      'Japan': '#ffcccc',          // Светло-красный
+      'New Zealand': '#b8e994',    // Салатовый
+      'South Africa': '#f6e58d',   // Бежевый
+      'Russia': '#c44569',         // Бордовый
+      'Georgia': '#786fa6',        // Сиреневый
+      
+      // Специальные случаи
+      'USA/UK': '#4ecdc4',         // Как USA
+      'UK/USA': '#ff6b6b',         // Как UK
+      'International': '#95a5a6',  // Серый для интернациональных
     };
     ctx.strokeStyle = countryColors[node.country] || '#95a5a6';
     ctx.stroke();
@@ -1271,6 +1278,18 @@ const MusicGraphLocal = () => {
         isOpen={quizDialogOpen}
         onClose={() => setQuizDialogOpen(false)}
         groups={graphData.nodes} 
+      />
+      <PathFinderPanel 
+        isOpen={pathFinderOpen}
+        onClose={() => setPathFinderOpen(false)}
+        onFindPath={findPathBetweenGroups}
+        graphData={graphData}
+      />
+      <ClustersPanel 
+        isOpen={clustersOpen}
+        onClose={() => setClustersOpen(false)}
+        graphData={graphData}
+        onGroupSelect={handleGroupSelect}  // ← добавляем
       />
     </div>
   );
