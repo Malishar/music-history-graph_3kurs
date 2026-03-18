@@ -8,6 +8,9 @@ import SearchDialog from './SearchDialog';
 import QuizDialog from './QuizDialog';
 import PathFinderPanel from './PathFinderPanel';
 import ClustersPanel from './ClustersPanel';
+import AboutPanel from './AboutPanel';
+import MostConnectedPanel from './MostConnectedPanel';
+import TopGroupsPanel from './TopGroupsPanel';
 
 const MusicGraphLocal = () => {
   const [images, setImages] = useState({});
@@ -785,6 +788,9 @@ const MusicGraphLocal = () => {
   const [quizDialogOpen, setQuizDialogOpen] = useState(false);
   const [pathFinderOpen, setPathFinderOpen] = useState(false);
   const [clustersOpen, setClustersOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
+  const [mostConnectedOpen, setMostConnectedOpen] = useState(false);
+  const [topGroupsOpen, setTopGroupsOpen] = useState(false);
 
   // Функция для фильтрации связей
   const filterLinks = () => {
@@ -829,7 +835,7 @@ const MusicGraphLocal = () => {
     }
   };
 
-    // ========== АЛГОРИТМ "КТО ВСЕХ ПОПУЛЯРНЕЕ" ==========
+  // ========== АЛГОРИТМ "КТО ВСЕХ ПОПУЛЯРНЕЕ" ==========
   const findMostConnectedGroup = () => {
     // Считаем связи для каждой группы
     const connectionCount = {};
@@ -838,7 +844,10 @@ const MusicGraphLocal = () => {
       connectionCount[node.id] = 0;
     });
     
-    graphData.links.forEach(link => {
+    // Используем ТОЛЬКО активные связи (с учетом фильтров)
+    const activeLinks = graphData.links.filter(link => activeFilters[link.type]);
+    
+    activeLinks.forEach(link => {
       connectionCount[link.source] = (connectionCount[link.source] || 0) + 1;
       connectionCount[link.target] = (connectionCount[link.target] || 0) + 1;
     });
@@ -855,10 +864,7 @@ const MusicGraphLocal = () => {
     });
     
     return { name: mostConnected?.name, count: maxCount };
-  };
-
-  // ========== АЛГОРИТМ "ГРУППЫ ПО СТИЛЯМ" ==========
-  
+  }; 
 
   // ========== АЛГОРИТМ "КАК СВЯЗАНЫ ГРУППЫ" ==========
   const findPathBetweenGroups = (startName, endName) => {
@@ -918,7 +924,7 @@ const MusicGraphLocal = () => {
   const handleMenuItemClick = (item) => {
     switch(item) {
       case 'top10':
-        alert('Топ-10 групп:\n1. The Beatles\n2. Led Zeppelin\n3. Pink Floyd\n4. Queen\n5. Metallica\n6. The Rolling Stones\n7. Black Sabbath\n8. Nirvana\n9. AC/DC\n10. Radiohead');
+        setTopGroupsOpen(true);
         break;
         
       case 'search':
@@ -929,9 +935,8 @@ const MusicGraphLocal = () => {
         setQuizDialogOpen(true);
         break;
         
-      case 'mostConnected':  // Кто всех популярнее
-        const mostConnected = findMostConnectedGroup();
-        alert(`🏆 Самая популярная группа: ${mostConnected.name}\nСвязей: ${mostConnected.count}`);
+      case 'mostConnected':
+        setMostConnectedOpen(true);
         break;
         
       case 'shortestPath':
@@ -943,7 +948,7 @@ const MusicGraphLocal = () => {
         break;
         
       case 'about':
-        alert('🎸 ГРАФ МУЗЫКАЛЬНЫХ ГРУПП\n\nВерсия: 2.0\nГрупп: 100+\nДесятилетий: 5\n\n© 2026');
+        setAboutOpen(true);
         break;
         
       default:
@@ -1290,6 +1295,23 @@ const MusicGraphLocal = () => {
         onClose={() => setClustersOpen(false)}
         graphData={graphData}
         onGroupSelect={handleGroupSelect}  // ← добавляем
+      />
+      <AboutPanel 
+        isOpen={aboutOpen}
+        onClose={() => setAboutOpen(false)}
+        graphData={graphData}  // ← это обязательно должно быть
+      />
+      <MostConnectedPanel 
+        isOpen={mostConnectedOpen}
+        onClose={() => setMostConnectedOpen(false)}
+        graphData={graphData}
+        onFindMostConnected={findMostConnectedGroup}
+      />
+      <TopGroupsPanel 
+        isOpen={topGroupsOpen}
+        onClose={() => setTopGroupsOpen(false)}
+        graphData={graphData}
+        onGroupSelect={handleGroupSelect}
       />
     </div>
   );
