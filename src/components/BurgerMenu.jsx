@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const BurgerMenu = ({ topGroups, onMenuItemClick }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState(null);
 
   const menuStyle = {
     position: 'absolute',
@@ -54,7 +55,7 @@ const BurgerMenu = ({ topGroups, onMenuItemClick }) => {
     alignItems: 'center',
     gap: '12px',
     fontSize: '15px',
-    color: '#333'  // ← тёмно-серый
+    color: '#333'
   };
 
   const subMenuItemStyle = {
@@ -65,8 +66,6 @@ const BurgerMenu = ({ topGroups, onMenuItemClick }) => {
     fontSize: '14px',
     color: '#555'
   };
-
-  const [openSubmenu, setOpenSubmenu] = useState(null);
 
   return (
     <div style={menuStyle}>
@@ -92,25 +91,68 @@ const BurgerMenu = ({ topGroups, onMenuItemClick }) => {
             <span style={{ fontWeight: 'bold' }}>Топ-10 групп</span>
           </div>
         
-            {/* Викторина */}
+          {/* МИНИ-ИГРЫ (с подменю) */}
+          <div>
             <div 
-            style={menuItemStyle}
-            onClick={() => {
-                onMenuItemClick('quiz');
-                setIsOpen(false);
-            }}
-            onMouseEnter={(e) => {
-                e.currentTarget.style.background = '#f5f5f5';
-                e.currentTarget.style.color = '#222';
-            }}
-            onMouseLeave={(e) => {
-                e.currentTarget.style.background = 'white';
-                e.currentTarget.style.color = '#333';
-            }}
+              style={menuItemStyle}
+              onClick={() => setOpenSubmenu(openSubmenu === 'games' ? null : 'games')}
+              onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+              onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
             >
-            <span style={{ fontSize: '20px' }}>🎮</span>
-            <span style={{ fontWeight: 'bold' }}>Викторина</span>
+              <span style={{ fontSize: '20px' }}>🎮</span>
+              <span style={{ fontWeight: 'bold', flex: 1 }}>Мини-игры</span>
+              <span>{openSubmenu === 'games' ? '▼' : '▶'}</span>
             </div>
+            
+            {openSubmenu === 'games' && (
+              <div>
+                <div 
+                  style={subMenuItemStyle}
+                  onClick={() => {
+                    onMenuItemClick('quiz');
+                    setIsOpen(false);
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+                  onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
+                >
+                  🎯 Викторина
+                </div>
+                <div 
+                  style={subMenuItemStyle}
+                  onClick={() => {
+                    onMenuItemClick('guessGroup');
+                    setIsOpen(false);
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+                  onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
+                >
+                  📸 Угадай группу по фото
+                </div>
+                <div 
+                  style={subMenuItemStyle}
+                  onClick={() => {
+                    onMenuItemClick('albumGame');
+                    setIsOpen(false);
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+                  onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
+                >
+                  ⏳ Расставь альбомы
+                </div>
+                <div 
+                  style={subMenuItemStyle}
+                  onClick={() => {
+                    onMenuItemClick('genreGame');
+                    setIsOpen(false);
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+                  onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
+                >
+                  🎭 В какую сторону? (жанры)
+                </div>
+              </div>
+            )}
+          </div>
 
           {/* Поиск групп */}
           <div 
@@ -173,6 +215,36 @@ const BurgerMenu = ({ topGroups, onMenuItemClick }) => {
                   onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
                 >
                   🎯 Кластеры по жанрам
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* СПРАВОЧНИКИ (новый раздел) */}
+          <div>
+            <div 
+              style={menuItemStyle}
+              onClick={() => setOpenSubmenu(openSubmenu === 'reference' ? null : 'reference')}
+              onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+              onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
+            >
+              <span style={{ fontSize: '20px' }}>📚</span>
+              <span style={{ fontWeight: 'bold', flex: 1 }}>Справочники</span>
+              <span>{openSubmenu === 'reference' ? '▼' : '▶'}</span>
+            </div>
+            
+            {openSubmenu === 'reference' && (
+              <div>
+                <div 
+                  style={subMenuItemStyle}
+                  onClick={() => {
+                    onMenuItemClick('timeline');
+                    setIsOpen(false);
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+                  onMouseLeave={(e) => e.currentTarget.style.background = 'white'}
+                >
+                  ⏳ Хронология альбомов
                 </div>
               </div>
             )}

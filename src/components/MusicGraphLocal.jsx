@@ -11,6 +11,12 @@ import ClustersPanel from './ClustersPanel';
 import AboutPanel from './AboutPanel';
 import MostConnectedPanel from './MostConnectedPanel';
 import TopGroupsPanel from './TopGroupsPanel';
+import GuessGroupPanel from './GuessGroupPanel';
+import TimelinePanel from './TimelinePanel';
+import AlbumTimelineGame from './AlbumTimelineGame';
+import GenreDirectionGame from './GenreDirectionGame';
+import CountryFilterPanel from './CountryFilterPanel';
+import CountFilterPanel from './CountFilterPanel';
 
 const MusicGraphLocal = () => {
   const [images, setImages] = useState({});
@@ -791,7 +797,15 @@ const MusicGraphLocal = () => {
   const [aboutOpen, setAboutOpen] = useState(false);
   const [mostConnectedOpen, setMostConnectedOpen] = useState(false);
   const [topGroupsOpen, setTopGroupsOpen] = useState(false);
-
+  const [guessGroupOpen, setGuessGroupOpen] = useState(false);
+  const [timelineOpen, setTimelineOpen] = useState(false);
+  const [albumGameOpen, setAlbumGameOpen] = useState(false);
+  const [genreGameOpen, setGenreGameOpen] = useState(false);
+  const [activeCountries, setActiveCountries] = useState({}); // для фильтра по странам
+  const [countFilterOpen, setCountFilterOpen] = useState(true); // или false, если хочешь свернутым
+  const [minConnections, setMinConnections] = useState(0);
+  const [maxConnections, setMaxConnections] = useState(20);
+  
   // Функция для фильтрации связей
   const filterLinks = () => {
     return graphData.links.filter(link => activeFilters[link.type]);
@@ -934,7 +948,20 @@ const MusicGraphLocal = () => {
       case 'quiz':
         setQuizDialogOpen(true);
         break;
-        
+      case 'guessGroup':
+        setGuessGroupOpen(true);
+        break;
+      case 'albumGame':
+        setAlbumGameOpen(true);
+        break;
+      case 'genreGame':
+        setGenreGameOpen(true);
+        break;
+
+      case 'timeline':
+        setTimelineOpen(true);
+        break;
+
       case 'mostConnected':
         setMostConnectedOpen(true);
         break;
@@ -1149,7 +1176,27 @@ const MusicGraphLocal = () => {
         }
         onReset={resetFilters}
       />
-      
+      {/* Фильтр по странам (справа) - ДОБАВЬ ЭТО */}
+      <CountryFilterPanel 
+        activeCountries={activeCountries}
+        onCountryChange={(countryId, value) => {
+          console.log('Фильтр по странам (заглушка)');
+        }}
+        onClearAll={() => {
+          console.log('Сброс фильтра стран');
+        }}
+        graphData={graphData}
+      />
+      {/* Фильтр по количеству связей (по центру справа) */}
+      <CountFilterPanel 
+        minConnections={minConnections}
+        maxConnections={maxConnections}
+        onFilterChange={(min, max) => {
+          console.log('Фильтр по количеству (заглушка)', min, max);
+        }}
+        graphData={graphData}
+      />
+            
       {expandedNode && (
         <div style={{
           position: 'absolute',
@@ -1312,6 +1359,26 @@ const MusicGraphLocal = () => {
         onClose={() => setTopGroupsOpen(false)}
         graphData={graphData}
         onGroupSelect={handleGroupSelect}
+      />
+      <GuessGroupPanel 
+        isOpen={guessGroupOpen}
+        onClose={() => setGuessGroupOpen(false)}
+        graphData={graphData}
+      />
+      <TimelinePanel 
+        isOpen={timelineOpen}
+        onClose={() => setTimelineOpen(false)}
+        graphData={graphData}
+      />
+      <AlbumTimelineGame
+        isOpen={albumGameOpen}
+        onClose={() => setAlbumGameOpen(false)}
+        graphData={graphData}
+      />
+      <GenreDirectionGame 
+        isOpen={genreGameOpen}
+        onClose={() => setGenreGameOpen(false)}
+        graphData={graphData}
       />
     </div>
   );
